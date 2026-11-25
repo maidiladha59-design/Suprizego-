@@ -138,6 +138,72 @@
   display: none;
 }
 
+.brand-mark {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.brand-mark__mascot {
+  animation: brand-bob 4s ease-in-out infinite;
+}
+
+.brand-mark__flap {
+  transform-box: view-box;
+  transform-origin: 24px 20px;
+  transition: transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.brand-mark__eye-blink {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: brand-blink 4s ease-in-out infinite;
+}
+
+.brand-mark__eye {
+  transform-box: fill-box;
+  transform-origin: center;
+  transition: transform 180ms ease;
+}
+
+@media (hover: hover) {
+  .brand-lockup:hover .brand-mark__flap {
+    transform: rotate(180deg);
+  }
+
+  .brand-lockup:hover .brand-mark__eye {
+    transform: scale(1.24);
+  }
+}
+
+.brand-mark[data-open="true"] .brand-mark__flap {
+  transform: rotate(180deg);
+}
+
+.brand-mark[data-open="true"] .brand-mark__eye {
+  transform: scale(1.24);
+}
+
+@keyframes brand-bob {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-1.5px);
+  }
+}
+
+@keyframes brand-blink {
+  0%,
+  90%,
+  96%,
+  100% {
+    transform: scaleY(1);
+  }
+  93% {
+    transform: scaleY(0.08);
+  }
+}
+
 .bg-dots-dark {
   background-image: radial-gradient(rgb(251 246 238 / 0.09) 1px, transparent 1px);
   background-size: 24px 24px;
@@ -217,7 +283,9 @@
   .animate-rise-late,
   .animate-pop-in,
   .animate-float-soft,
-  .animate-marquee {
+  .animate-marquee,
+  .brand-mark__mascot,
+  .brand-mark__eye-blink {
     animation: none;
   }
 
