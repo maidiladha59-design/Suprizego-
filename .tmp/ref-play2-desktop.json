@@ -1,0 +1,1204 @@
+[
+  {
+    "name": "00",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 290.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "ADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.",
+    "buttons": [
+      {
+        "text": "",
+        "x": 886.6875,
+        "y": 562.09375,
+        "w": 287.984375,
+        "h": 197.03125,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "01-greeting",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nHAI, DINDA!\n\nRaka punya sesuatu buat kamu.\n\nBUKA →"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nHAI, DINDA!\n\nRaka punya sesuatu buat kamu.\n\nBUKA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "BUKA →",
+        "x": 964.046875,
+        "y": 749.828125,
+        "w": 133.265625,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "02-story1",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nLANJUT BACA →"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nLANJUT BACA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT BACA →",
+        "x": 925.78125,
+        "y": 650.078125,
+        "w": 209.8125,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "03-story2",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nLANJUT BACA →"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT BACA →",
+        "x": 925.78125,
+        "y": 705.078125,
+        "w": 209.8125,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "04-story3",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\n\nLANJUT BACA →"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT BACA →",
+        "x": 925.78125,
+        "y": 760.078125,
+        "w": 209.8125,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "05-story4",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\n\nJadi... ada satu pertanyaan buat kamu.\n\nSELESAI BACA →"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "SELESAI BACA →",
+        "x": 923.921875,
+        "y": 805.921875,
+        "w": 213.53125,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "06-photo",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nKENANGAN\n\nSore itu di bukit\nBakso langganan\nFOTO LAIN\nLANJUT →\n\nketuk foto untuk menggeser"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nKENANGAN\n\nSore itu di bukit\nBakso langganan\nFOTO LAIN\nLANJUT →\n\nketuk foto untuk menggeser\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "FOTO LAIN",
+        "x": 907.453125,
+        "y": 777.46875,
+        "w": 112.765625,
+        "h": 42.390625,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT →",
+        "x": 1032.21875,
+        "y": 777.46875,
+        "w": 121.6875,
+        "h": 42.390625,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "06b-photo2",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nKENANGAN\n\nBakso langganan\nSore itu di bukit\nFOTO LAIN\nLANJUT →\n\nketuk foto untuk menggeser"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nKENANGAN\n\nBakso langganan\nSore itu di bukit\nFOTO LAIN\nLANJUT →\n\nketuk foto untuk menggeser\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "FOTO LAIN",
+        "x": 905.453125,
+        "y": 775.46875,
+        "w": 112.765625,
+        "h": 42.390625,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT →",
+        "x": 1032.21875,
+        "y": 777.46875,
+        "w": 121.6875,
+        "h": 42.390625,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "06c-after-drag",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nKENANGAN\n\nSore itu di bukit\nBakso langganan\nFOTO LAIN\nLANJUT →\n\nketuk foto untuk menggeser"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nKENANGAN\n\nSore itu di bukit\nBakso langganan\nFOTO LAIN\nLANJUT →\n\nketuk foto untuk menggeser\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "FOTO LAIN",
+        "x": 907.453125,
+        "y": 777.46875,
+        "w": 112.765625,
+        "h": 42.390625,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT →",
+        "x": 1032.21875,
+        "y": 777.46875,
+        "w": 121.6875,
+        "h": 42.390625,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "07-quiz1",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "Es teh",
+        "x": 906.6875,
+        "y": 585.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "Kopi susu",
+        "x": 906.6875,
+        "y": 653.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "Matcha",
+        "x": 906.6875,
+        "y": 721.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957.234375,
+        "y": 831.859375,
+        "w": 146.890625,
+        "h": 16,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "07b-quiz1-answered",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\n✓\nMatcha\n\nBener! 🎉\n\nSOAL BERIKUTNYA →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Es teh",
+        "x": 906.6875,
+        "y": 478.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "Kopi susu ✓",
+        "x": 906.6875,
+        "y": 546.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "Matcha",
+        "x": 906.6875,
+        "y": 614.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "SOAL BERIKUTNYA →",
+        "x": 903.53125,
+        "y": 754.296875,
+        "w": 254.296875,
+        "h": 59.1875,
+        "disabled": false
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957.234375,
+        "y": 843.484375,
+        "w": 146.890625,
+        "h": 16,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "08-quiz2",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\nGrup kelas\nPerpus\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "Kantin",
+        "x": 906.6875,
+        "y": 585.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "Grup kelas",
+        "x": 906.6875,
+        "y": 653.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "Perpus",
+        "x": 906.6875,
+        "y": 721.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957.234375,
+        "y": 831.859375,
+        "w": 146.890625,
+        "h": 16,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "08b-quiz2-answered",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\nGrup kelas\n✓\nPerpus\n\nBener! 🎉\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin",
+        "x": 906.6875,
+        "y": 478.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 906.6875,
+        "y": 546.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "Perpus",
+        "x": 906.6875,
+        "y": 614.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 934.84375,
+        "y": 754.296875,
+        "w": 191.671875,
+        "h": 59.1875,
+        "disabled": false
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957.234375,
+        "y": 843.484375,
+        "w": 146.890625,
+        "h": 16,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "09-score",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 292.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nSkor kamu\n\n2/2\n\nKAMU KENAL BANGET!\n\nSkor ini dikirim ke Raka. Siap-siap dibanggain.\n\nGAME BERIKUTNYA →"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 318.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "GAME BERIKUTNYA →",
+        "x": 901.0625,
+        "y": 757.265625,
+        "w": 259.25,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "10",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 292.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 2/2\n\nRENCANA BARENG\n\nPilih satu. Pilihanmu jadi tiket janji dari Raka.\n\nKalau jawabanmu mau, kencan pertama kita:\n\nMAKAN BAKSO\nNONTON\nKELILING KOTA NAIK MOTOR\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 318.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAKAN BAKSO",
+        "x": 906.6875,
+        "y": 659.296875,
+        "w": 248,
+        "h": 59.1875,
+        "disabled": false
+      },
+      {
+        "text": "NONTON",
+        "x": 904.6875,
+        "y": 728.484375,
+        "w": 248,
+        "h": 59.1875,
+        "disabled": false
+      },
+      {
+        "text": "KELILING KOTA NAIK MOTOR",
+        "x": 906.6875,
+        "y": 801.671875,
+        "w": 248,
+        "h": 83.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "11",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 292.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAIN BERDUA · 2/2\n\nRENCANA BARENG\n\nPilih satu. Pilihanmu jadi tiket janji dari Raka.\n\nKalau jawabanmu mau, kencan pertama kita:\n\nMAKAN BAKSO\nNONTON\nKELILING KOTA NAIK MOTOR\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 318.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAKAN BAKSO",
+        "x": 906.6875,
+        "y": 659.296875,
+        "w": 248,
+        "h": 59.1875,
+        "disabled": false
+      },
+      {
+        "text": "NONTON",
+        "x": 906.6875,
+        "y": 730.484375,
+        "w": 248,
+        "h": 59.1875,
+        "disabled": false
+      },
+      {
+        "text": "KELILING KOTA NAIK MOTOR",
+        "x": 906.6875,
+        "y": 801.671875,
+        "w": 248,
+        "h": 83.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "12",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAIN BERDUA · 2/2\n\nTIKET JANJI · BERLAKU 1X\n\nKELILING KOTA NAIK MOTOR\n\nDinda + Raka\n\ntidak bisa dibatalkan, cuma bisa dijadwalkan 😌\n\nRaka langsung dikabari pilihanmu. Tinggal tagih.\n\nLANJUT →"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT →",
+        "x": 953.453125,
+        "y": 837.265625,
+        "w": 154.453125,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "13",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAU JADI PACARKU?\n\nMAU\nNGGAK"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 724.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "NGGAK",
+        "x": 1036.6875,
+        "y": 724.171875,
+        "w": 130.890625,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "nggak-escape",
+    "moves": [
+      {
+        "attempt": 0,
+        "moved": false,
+        "to": null
+      },
+      {
+        "attempt": 1,
+        "moved": false,
+        "to": null
+      },
+      {
+        "attempt": 2,
+        "moved": false,
+        "to": null
+      },
+      {
+        "attempt": 3,
+        "moved": false,
+        "to": null
+      },
+      {
+        "attempt": 4,
+        "moved": false,
+        "to": null
+      },
+      {
+        "attempt": 5,
+        "moved": false,
+        "to": null
+      },
+      {
+        "attempt": 6,
+        "moved": false,
+        "to": null
+      },
+      {
+        "attempt": 7,
+        "moved": false,
+        "to": null
+      }
+    ]
+  },
+  {
+    "name": "14",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAU JADI PACARKU?\n\nMAU\nYAKIN?"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 724.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "YAKIN?",
+        "x": 996.96875,
+        "y": 796.546875,
+        "w": 131.390625,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "15",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAU JADI PACARKU?\n\nMAU\nAWAS!"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 724.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "AWAS!",
+        "x": 908.734375,
+        "y": 812.5,
+        "w": 122.046875,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "16",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAU JADI PACARKU?\n\nMAU\nNGGAK"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 724.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "NGGAK",
+        "x": 968.046875,
+        "y": 794.28125,
+        "w": 130.890625,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "nggak-escape",
+    "moves": [
+      {
+        "attempt": 0,
+        "moved": false,
+        "to": {
+          "x": 968,
+          "y": 794
+        }
+      },
+      {
+        "attempt": 1,
+        "moved": false,
+        "to": {
+          "x": 968,
+          "y": 794
+        }
+      },
+      {
+        "attempt": 2,
+        "moved": false,
+        "to": {
+          "x": 968,
+          "y": 794
+        }
+      },
+      {
+        "attempt": 3,
+        "moved": false,
+        "to": {
+          "x": 968,
+          "y": 794
+        }
+      },
+      {
+        "attempt": 4,
+        "moved": false,
+        "to": {
+          "x": 968,
+          "y": 794
+        }
+      },
+      {
+        "attempt": 5,
+        "moved": false,
+        "to": {
+          "x": 968,
+          "y": 794
+        }
+      },
+      {
+        "attempt": 6,
+        "moved": false,
+        "to": {
+          "x": 968,
+          "y": 794
+        }
+      },
+      {
+        "attempt": 7,
+        "moved": false,
+        "to": {
+          "x": 968,
+          "y": 794
+        }
+      }
+    ]
+  },
+  {
+    "name": "17",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAU JADI PACARKU?\n\nMAU\nCOBA LAGI"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 724.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "COBA LAGI",
+        "x": 965.875,
+        "y": 807.609375,
+        "w": 168,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "18",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAU JADI PACARKU?\n\nMAU\nAWAS!"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 724.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "AWAS!",
+        "x": 953.46875,
+        "y": 803.125,
+        "w": 122.046875,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "19",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAU JADI PACARKU?\n\nMAU\nMENYERAH?"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 724.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "MENYERAH?",
+        "x": 992.140625,
+        "y": 805.875,
+        "w": 183.609375,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "20",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAU JADI PACARKU?\n\nMAU\nYAKIN?"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 724.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "YAKIN?",
+        "x": 941.234375,
+        "y": 797.078125,
+        "w": 131.390625,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "21",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAU JADI PACARKU?\n\nMAU\nAWAS!"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 724.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "AWAS!",
+        "x": 909.296875,
+        "y": 810.640625,
+        "w": 122.046875,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  },
+  {
+    "name": "22",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 327.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪MATI\n\nMAU JADI PACARKU?\n\nMAU\nMENYERAH?"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Keliling kota naik motor",
+    "buttons": [
+      {
+        "text": "♪MATI",
+        "x": 1115.453125,
+        "y": 353.421875,
+        "w": 63.234375,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 724.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "MENYERAH?",
+        "x": 953.75,
+        "y": 801.421875,
+        "w": 183.609375,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ],
+    "dots": []
+  }
+]

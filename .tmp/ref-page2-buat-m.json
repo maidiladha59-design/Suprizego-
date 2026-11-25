@@ -1,0 +1,246 @@
+{
+  "url": "https://proposigo.app/buat",
+  "title": "Pilih momen · Proposigo",
+  "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.",
+  "robots": "noindex",
+  "canonical": "https://proposigo.app/buat",
+  "og": {
+    "image": "https://proposigo.app/og/buat-id.png?v=3",
+    "title": "Proposigo",
+    "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "MOMEN APA KALI INI?",
+      "size": "36px",
+      "lh": "40px"
+    }
+  ],
+  "h2": [
+    "CONFESS →",
+    "ULANG TAHUN →",
+    "ANNIVERSARY →",
+    "MINTA MAAF →",
+    "WISUDA →",
+    "HARI SPESIAL"
+  ],
+  "h3": [
+    "HARI GURU",
+    "HARI IBU",
+    "NATAL",
+    "TAHUN BARU",
+    "IMLEK",
+    "VALENTINE",
+    "MOMEN",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "h1",
+      "id": null,
+      "cls": "font-display text-4xl sm:text-5xl",
+      "h": 80,
+      "text": "MOMEN APA KALI INI?"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": "mt-3 font-bold",
+      "h": 48,
+      "text": "Pilih satu. Pratinjau dan drafnya gratis, bayar baru di akhir."
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3",
+      "h": 1958,
+      "text": "CONFESS → Berani bilang suka, tombol Nggak-nya kabur. ✦ tombol Nggak-nya kabur PALING DICA"
+    },
+    {
+      "tag": "section",
+      "id": "hari-spesial",
+      "cls": "scroll-mt-24 mt-20",
+      "h": 2016,
+      "text": "HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang, atau paka"
+    }
+  ],
+  "text": "MOMEN APA KALI INI? Pilih satu. Pratinjau dan drafnya gratis, bayar baru di akhir. CONFESS → Berani bilang suka, tombol Nggak-nya kabur. ✦ tombol Nggak-nya kabur PALING DICARI ULANG TAHUN → Tiup lilin virtual, kejutan ceria. ✦ lilin ditiup pakai mik ANNIVERSARY → Hitung hari bareng, tahan hati sampai penuh. ✦ tahan hatinya sampai penuh MINTA MAAF → Maaf yang tulus, jawabannya langsung sampai. ✦ dijawab: dimaafkan / belum WISUDA → Lempar toga, buka gulungan ijazah. ✦ toganya dilempar HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang, atau pakai momennya buat minta maaf. 📚 ●hari ini! HARI GURU Contoh ucapannya → 🎉 Rayakan Terima kasih, Bu/Pak Guru → 🙏 Minta maaf Maaf dulu suka bandel di kelas → 🔒 22 Des · dibuka 1 Des HARI IBU Contoh ucapannya → 🎉 Rayakan Terima kasih buat Ibu 🙏 Minta maaf Maaf sering bikin Ibu khawatir 🔒 25 Des · dibuka 4 Des NATAL Contoh ucapannya → 🎉 Rayakan Ucapan Natal yang hangat 🙏 Minta maaf Damai di hari Natal 🔒 1 Jan · dibuka 11 Des TAHUN BARU Contoh ucapannya → 🎉 Rayakan Rayakan setahun bareng 🙏 Minta maaf Tutup tahun tanpa utang maaf 🔒 6 Feb · dibuka 16 Jan IMLEK Contoh ucapannya → 🎉 Rayakan Kirim angpao ucapan 🙏 Minta maaf Mulai tahun baru tanpa ganjalan 🔒 14 Feb · dibuka 24 Jan VALENTINE Contoh ucapannya → 🎉 Rayakan Bilang sayang di hari kasih sayang 🙏 Minta maaf Baikan sebelum Valentine",
+  "buttons": [
+    "Pengaturan cookie",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Momen",
+      "h": "/#momen"
+    },
+    {
+      "t": "Cara kerja",
+      "h": "/#cara-kerja"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Masuk",
+      "h": "/masuk"
+    },
+    {
+      "t": "BIKIN SEKARANG",
+      "h": "/buat"
+    },
+    {
+      "t": "CONFESS → Berani bilang suka, tombol Nggak-nya kabur. ✦ tomb",
+      "h": "/buat/confess"
+    },
+    {
+      "t": "ULANG TAHUN → Tiup lilin virtual, kejutan ceria. ✦ lilin dit",
+      "h": "/buat/ultah"
+    },
+    {
+      "t": "ANNIVERSARY → Hitung hari bareng, tahan hati sampai penuh. ✦",
+      "h": "/buat/anniv"
+    },
+    {
+      "t": "MINTA MAAF → Maaf yang tulus, jawabannya langsung sampai. ✦ ",
+      "h": "/buat/maaf"
+    },
+    {
+      "t": "WISUDA → Lempar toga, buka gulungan ijazah. ✦ toganya dilemp",
+      "h": "/buat/wisuda"
+    },
+    {
+      "t": "HARI GURU",
+      "h": "/hari/hari-guru"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/hari-guru"
+    },
+    {
+      "t": "🎉 Rayakan Terima kasih, Bu/Pak Guru →",
+      "h": "/buat/rayakan?hari=hariguru"
+    },
+    {
+      "t": "🙏 Minta maaf Maaf dulu suka bandel di kelas →",
+      "h": "/buat/maaf?hari=hariguru"
+    },
+    {
+      "t": "HARI IBU",
+      "h": "/hari/hari-ibu"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/hari-ibu"
+    },
+    {
+      "t": "NATAL",
+      "h": "/hari/natal"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/natal"
+    },
+    {
+      "t": "TAHUN BARU",
+      "h": "/hari/tahun-baru"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/tahun-baru"
+    },
+    {
+      "t": "IMLEK",
+      "h": "/hari/imlek"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/imlek"
+    },
+    {
+      "t": "VALENTINE",
+      "h": "/hari/valentine"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/valentine"
+    },
+    {
+      "t": "Confess",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "Ulang Tahun",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "Minta Maaf",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "Wisuda",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "Hari Spesial",
+      "h": "/hari"
+    },
+    {
+      "t": "Bikin halaman",
+      "h": "/buat"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide kata-kata & kejutan",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Dasbor",
+      "h": "/dasbor"
+    },
+    {
+      "t": "Syarat & Ketentuan",
+      "h": "/terms"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    }
+  ],
+  "jsonld": [],
+  "scrollH": 5366
+}

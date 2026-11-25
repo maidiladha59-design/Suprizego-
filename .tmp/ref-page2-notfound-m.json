@@ -1,0 +1,50 @@
+{
+  "url": "https://proposigo.app/halaman-yang-tidak-ada-xyz",
+  "title": "Proposigo · Halaman ucapan digital interaktif",
+  "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.",
+  "robots": "noindex",
+  "canonical": "https://proposigo.app/halaman-yang-tidak-ada-xyz",
+  "og": {
+    "image": "https://proposigo.app/og/home-id.png?v=3",
+    "title": "Proposigo",
+    "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "HILANG...",
+      "size": "36px",
+      "lh": "40px"
+    }
+  ],
+  "h2": [],
+  "h3": [],
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "nb-card max-w-md bg-cream p-8 text-center",
+      "h": 427,
+      "text": "HILANG... Halaman ini nggak ada, atau sudah lewat masanya. PULANG"
+    }
+  ],
+  "text": "HILANG... Halaman ini nggak ada, atau sudah lewat masanya. PULANG",
+  "buttons": [
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "PULANG",
+      "h": "/"
+    }
+  ],
+  "jsonld": [],
+  "scrollH": 844
+}

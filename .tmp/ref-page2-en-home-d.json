@@ -1,0 +1,337 @@
+{
+  "url": "https://proposigo.app/en",
+  "title": "Proposigo · Interactive digital greeting pages",
+  "desc": "Say it bravely, we make the moment. Build an interactive surprise page (story, photos, music, voice) in 5 minutes and send one link.",
+  "robots": null,
+  "canonical": "https://proposigo.app/en",
+  "og": {
+    "image": "https://proposigo.app/og/home-en.png?v=3",
+    "title": "Proposigo",
+    "desc": "Say it bravely, we make the moment. Build an interactive surprise page in 5 minutes and send one link.",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "en",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "SAY IT BRAVELY. WE MAKE THE MOMENT.",
+      "size": "72px",
+      "lh": "68.4px"
+    }
+  ],
+  "h2": [
+    "WHAT MOMENT?",
+    "SPECIAL DAYS",
+    "3 STEPS, DONE.",
+    "NOT JUST A LINK.",
+    "FRIENDLY PRICES.",
+    "STILL CURIOUS?",
+    "READY TO SAY IT?"
+  ],
+  "h3": [
+    "CONFESSION →",
+    "BIRTHDAY →",
+    "ANNIVERSARY →",
+    "APOLOGY →",
+    "GRADUATION →",
+    "TEACHERS' DAY",
+    "MOTHER'S DAY",
+    "CHRISTMAS",
+    "NEW YEAR",
+    "LUNAR NEW YEAR",
+    "VALENTINE'S DAY",
+    "PICK A MOMENT",
+    "TELL YOUR STORY",
+    "PAY & SEND",
+    "GET NOTIFIED",
+    "EVERYTHING MOVES",
+    "SAVE AS IMAGE",
+    "NO HASSLE",
+    "BASIC",
+    "PLUS",
+    "FOREVER",
+    "MOMENTS",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "a",
+      "id": null,
+      "cls": "block border-b-4 border-ink px-4 py-2.5 text-center text-sm font-bold",
+      "h": 44,
+      "text": "📚 Teachers' Day is coming! Make a Teachers' Day page now →"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "bg-lime bg-stripes border-b-4 border-ink",
+      "h": 1065,
+      "text": "INTERACTIVE GREETING PAGES SAY IT BRAVELY. WE MAKE THE MOMENT. Build a surprise page (stor"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "overflow-hidden border-b-4 border-ink bg-ink py-3 text-lime",
+      "h": 56,
+      "text": "CONFESSION ✦ BIRTHDAY ✦ ANNIVERSARY ✦ APOLOGY ✦ GRADUATION ✦ CONFESSION ✦ BIRTHDAY ✦ ANNIV"
+    },
+    {
+      "tag": "section",
+      "id": "momen",
+      "cls": "mx-auto max-w-6xl scroll-mt-24 px-4 py-20",
+      "h": 1064,
+      "text": "WHAT MOMENT? Five moments, each with its own interactive surprise. CONFESSION → Say you li"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "border-t-4 border-ink bg-cream bg-grid py-20",
+      "h": 924,
+      "text": "SPECIAL DAYS Indonesian national days & celebrations. Celebrate someone you love, or use t"
+    },
+    {
+      "tag": "section",
+      "id": "cara-kerja",
+      "cls": "scroll-mt-24 border-y-4 border-ink bg-pink bg-dots py-20",
+      "h": 492,
+      "text": "3 STEPS, DONE. 1 PICK A MOMENT Choose a moment and a design. The preview comes with sample"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mx-auto max-w-6xl px-4 py-20",
+      "h": 420,
+      "text": "NOT JUST A LINK. GET NOTIFIED An email lands when your page is opened and when they answer"
+    },
+    {
+      "tag": "section",
+      "id": "harga",
+      "cls": "scroll-mt-24 border-y-4 border-ink bg-lime bg-stripes py-20",
+      "h": 835,
+      "text": "FRIENDLY PRICES. Pay once. Each plan stays live for a different length of time. Prices in "
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mx-auto max-w-3xl px-4 py-20",
+      "h": 684,
+      "text": "STILL CURIOUS? Does the recipient need an account or an app? How long does it take? Will I"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mx-auto max-w-5xl px-4",
+      "h": 248,
+      "text": "READY TO SAY IT? Previews are free. Only pay when you love it. CREATE A PAGE"
+    }
+  ],
+  "text": "📚 Teachers' Day is coming! Make a Teachers' Day page now → INTERACTIVE GREETING PAGES SAY IT BRAVELY. WE MAKE THE MOMENT. Build a surprise page (story, photos, music, voice) in 5 minutes, then send one link. They just tap the envelope, and you hear about everything they do. CREATE A PAGE SEE MOMENTS FROM RP5.000 GO AHEAD, IT'S PLAYABLE 👇 SOMETHING FOR… DINDA (tap the envelope) CANDY PINK NIGHT CHAT ↺ RESTART WHAT RAKA GETS SENDER Play the sample page. Everything Dinda does shows up here, exactly like what you'll receive. CONFESSION ✦ BIRTHDAY ✦ ANNIVERSARY ✦ APOLOGY ✦ GRADUATION ✦ CONFESSION ✦ BIRTHDAY ✦ ANNIVERSARY ✦ APOLOGY ✦ GRADUATION ✦ WHAT MOMENT? Five moments, each with its own interactive surprise. CONFESSION → Say you like them. The “No” button runs away. ✦ the No button runs away MOST LOVED BIRTHDAY → Blow out virtual candles, a cheerful surprise. ✦ blow out candles with your mic ANNIVERSARY → Count your days together, hold the heart until it's full. ✦ hold the heart until it fills APOLOGY → A sincere apology, the answer arrives instantly. ✦ answered: forgiven / not yet GRADUATION → Toss the cap, unroll the diploma. ✦ toss the graduation cap SPECIAL DAYS Indonesian national days & celebrations. Celebrate someone you love, or use the day to say sorry. 📚 ●today! TEACHERS' DAY Sample messages → 🎉 Celebrate Thank you, teacher → 🙏 Say sorry Sorry for being a handful in class → 🔒 22 Dec · opens 1 Dec MOTHER'S DAY Sample messages → 🎉 Celebrate Thank you, Mom 🙏 Say sorry Sorry for making Mom worry 🔒 25 Dec · opens 4 Dec CHRISTMAS Sample messages → 🎉 Celebrate A warm Christmas greeting 🙏 Say sorry Make peace this Christmas 🔒 1 Jan · opens 11 Dec NEW YEAR Sample messages → 🎉 Celebrate Celebrate a year together 🙏 Say sorry Close the year with no grudges 🔒 6 Feb · opens 16 Jan LUNAR NEW YEAR Sample messages → 🎉 Celebrate Send a lucky greeting 🙏 Say sorry Start the new year clean 🔒 14 Feb · opens 24 Jan VALENTINE'S DAY Sample messages → 🎉 Celebrate Say you care on Valentine's 🙏 Say sorry Make up before Valentine's 3 STEPS, DONE. 1 PICK A MOMENT Choose a moment and a design. The preview comes with sample content so you can picture it right away. 2 TELL YOUR STORY Write a short story, upload photos, pick music, add a letter. Just edit the samples. 3 PAY & SEND Pay once, then send them one link. You get notified when they open it. NOT JUST A LINK. GET NOTIFIED An email lands when your page is opened and when they answer. EVERYTHING MOVES Cards appear one by one, polaroids swipe, the No button runs away. SAVE AS IMAGE They can save it as an image for their story. NO HASSLE No account, no app. Opens from any chat or social app. FRIENDLY PRICES. Pay once. Each plan stays live for a different length of time. Prices in Indonesian Rupiah (IDR). BASIC A quick surprise Rp5.000 active 3 days ✦ All designs ✦ Built-in music ✦ Play Together (1 game) ✦ QR card ✦ Save as image ✦ Group wishes (10 friends) ✦ Time capsule (≤ 30 days) ✦ Active 3 days CHOOSE BASIC MOST POPULAR PLUS Most popular Rp10.000 active 14 days ✦ Everything in Basic ✦ Play Together (2 games) ✦ Edit anytime ✦ Voice note ≤ 1 minute ✦ Your own song (Spotify) ✦ Custom link ✦ Group wishes (50 friends) ✦ Time capsule (≤ 90 days) ✦ Active 14 days CHOOSE PLUS FOREVER A memory that lasts Rp20.000 Rp15.000 SAVE 25% active forever ✦ Everything in Plus ✦ Active forever ✦ Play Together (3 games) ✦ Featured on the Forever Wall (optional) ✦ Exclusive marked design ✦ Group wishes (100 friends) ✦ Time capsule up to 10 years CHOOSE FOREVER STILL CURIOUS? Does the recipient need an account or an app? How long does it take? Will I know when they open it? Are my photos safe? How do I pay? READY TO SAY IT? Previews are free. Only pay when you love it. CREATE A PAGE",
+  "buttons": [
+    "CANDY PINK",
+    "NIGHT CHAT",
+    "↺ RESTART",
+    "Cookie settings",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/en"
+    },
+    {
+      "t": "Moments",
+      "h": "/en#momen"
+    },
+    {
+      "t": "How it works",
+      "h": "/en#cara-kerja"
+    },
+    {
+      "t": "Pricing",
+      "h": "/en#harga"
+    },
+    {
+      "t": "Ideas",
+      "h": "/en/ide"
+    },
+    {
+      "t": "Forever Wall",
+      "h": "/en/papan"
+    },
+    {
+      "t": "Sign in",
+      "h": "/en/masuk"
+    },
+    {
+      "t": "CREATE NOW",
+      "h": "/en/buat"
+    },
+    {
+      "t": "📚 Teachers' Day is coming! Make a Teachers' Day page now →",
+      "h": "/en/buat/rayakan?hari=hariguru"
+    },
+    {
+      "t": "CREATE A PAGE",
+      "h": "/en/buat"
+    },
+    {
+      "t": "SEE MOMENTS",
+      "h": "#momen"
+    },
+    {
+      "t": "CONFESSION → Say you like them. The “No” button runs away. ✦",
+      "h": "/en/momen/confess"
+    },
+    {
+      "t": "BIRTHDAY → Blow out virtual candles, a cheerful surprise. ✦ ",
+      "h": "/en/momen/ultah"
+    },
+    {
+      "t": "ANNIVERSARY → Count your days together, hold the heart until",
+      "h": "/en/momen/anniv"
+    },
+    {
+      "t": "APOLOGY → A sincere apology, the answer arrives instantly. ✦",
+      "h": "/en/momen/maaf"
+    },
+    {
+      "t": "GRADUATION → Toss the cap, unroll the diploma. ✦ toss the gr",
+      "h": "/en/momen/wisuda"
+    },
+    {
+      "t": "TEACHERS' DAY",
+      "h": "/en/hari/hari-guru"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/hari-guru"
+    },
+    {
+      "t": "🎉 Celebrate Thank you, teacher →",
+      "h": "/en/buat/rayakan?hari=hariguru"
+    },
+    {
+      "t": "🙏 Say sorry Sorry for being a handful in class →",
+      "h": "/en/buat/maaf?hari=hariguru"
+    },
+    {
+      "t": "MOTHER'S DAY",
+      "h": "/en/hari/hari-ibu"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/hari-ibu"
+    },
+    {
+      "t": "CHRISTMAS",
+      "h": "/en/hari/natal"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/natal"
+    },
+    {
+      "t": "NEW YEAR",
+      "h": "/en/hari/tahun-baru"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/tahun-baru"
+    },
+    {
+      "t": "LUNAR NEW YEAR",
+      "h": "/en/hari/imlek"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/imlek"
+    },
+    {
+      "t": "VALENTINE'S DAY",
+      "h": "/en/hari/valentine"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/valentine"
+    },
+    {
+      "t": "CHOOSE BASIC",
+      "h": "/en/buat"
+    },
+    {
+      "t": "CHOOSE PLUS",
+      "h": "/en/buat"
+    },
+    {
+      "t": "CHOOSE FOREVER",
+      "h": "/en/buat"
+    },
+    {
+      "t": "CREATE A PAGE",
+      "h": "/en/buat"
+    },
+    {
+      "t": "Confession",
+      "h": "/en/momen/confess"
+    },
+    {
+      "t": "Birthday",
+      "h": "/en/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/en/momen/anniv"
+    },
+    {
+      "t": "Apology",
+      "h": "/en/momen/maaf"
+    },
+    {
+      "t": "Graduation",
+      "h": "/en/momen/wisuda"
+    },
+    {
+      "t": "Special days",
+      "h": "/en/hari"
+    },
+    {
+      "t": "Create a page",
+      "h": "/en/buat"
+    },
+    {
+      "t": "Pricing",
+      "h": "/en#harga"
+    },
+    {
+      "t": "Message & surprise ideas",
+      "h": "/en/ide"
+    },
+    {
+      "t": "Forever Wall",
+      "h": "/en/papan"
+    },
+    {
+      "t": "Dashboard",
+      "h": "/en/dasbor"
+    },
+    {
+      "t": "Terms of Service",
+      "h": "/en/terms"
+    },
+    {
+      "t": "Privacy Policy",
+      "h": "/en/privacy"
+    }
+  ],
+  "jsonld": [
+    "[{\"@context\":\"https://schema.org\",\"@type\":\"Organization\",\"@id\":\"https://proposigo.app/#org\",\"name\":\"Proposigo\",\"url\":\"https://proposigo.app\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https://proposigo.app/icon.png\",\"width\":512,\"height\":512},\"description\":\"Interactive digital greeting pages: confessions, birthdays, anniversaries, apologies, and graduations.\",\"email\":\"hello@proposigo.app\",\"parentOrganization\":{\"@type\":\"Organization\",\"name\":\"Codevision\"},\"contactPoint\":{\"@type\":\"ContactPoint\",\"contactType\":\"customer support\",\"email\":\"hello@proposigo.app\",\"availableLanguage\":[\"Indonesian\",\"English\"]}},{\"@context\":\"https://schema.org\",\"@type\":\"WebSite\",\"@id\":\"https://proposigo.app/#site\",\"name\":\"Proposigo\",\"url\":\"https://proposigo.app/en\",\"inLanguage\":\"en\",\"publisher\":{\"@id\":\"https://proposigo.app/#org\"}},{\"@context\":\"https://schema.org\",\"@type\":[\"WebApplication\",\"Product\"],\"name\":\"Proposigo\",\"url\":\"https://proposigo.app/en\",\"image\":\"https://proposigo.app/icon.png\",\"brand\":{\"@id\":\"https://proposigo.app/#org\"},\"applicationCategory\":\"LifestyleApplication\",\"operatingSystem\":\"Any (web browser)\",\"description\":\"Build an interactive digital greeting page (story, photos, music, voice, mini games) in 5 minutes and send it as one link.\",\"offers\":{\"@type\":\"AggregateOffer\",\"priceCurrency\":\"IDR\",\"lowPrice\":5000,\"highPrice\":15000,\"offerCount\":3},\"publisher\":{\"@id\":\"https://proposigo.app/#org\"}},{\"@context\":\"https://schema.org\",\"@type\":\"FAQPage\",\"mainEntity\":[{\"@type\":\"Question\",\"name\":\"Does the reci"
+  ],
+  "scrollH": 6423
+}

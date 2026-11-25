@@ -1,0 +1,532 @@
+{
+  "editorInitial": {
+    "number": "5",
+    "cards": [],
+    "tiles": [
+      {
+        "text": "+ KUIS KENAL AKU Pertanyaan receh soal kamu, dia yang jawab.",
+        "disabled": false
+      },
+      {
+        "text": "+ DUA JUJUR SATU BOHONG Dua fakta, satu karangan. Dia harus jeli.",
+        "disabled": false
+      },
+      {
+        "text": "+ SUSUN FOTO Tambah foto dulu di bagian Foto.",
+        "disabled": true
+      },
+      {
+        "text": "+ RENCANA BARENG Dia pilih satu rencana, jadinya tiket janji.",
+        "disabled": false
+      }
+    ],
+    "questionFields": 0,
+    "firstQuestion": null,
+    "choicesInFirstQuestion": null,
+    "radioCount": 0,
+    "musicNumber": "6",
+    "letterNumber": "7",
+    "notice": null,
+    "overflow": -15
+  },
+  "addQuiz": "+ KUIS KENAL AKU Pertanyaan receh soal kamu, dia yang jawab.",
+  "quizFilled": {
+    "number": "5",
+    "cards": [
+      {
+        "title": "1. Kuis Kenal Aku",
+        "text": "1. KUIS KENAL AKU Kamu yang nulis pertanyaan soal dirimu. Dia yang nebak, skornya balik ke kamu. HAPUS SOAL 1 Pilihan jawaban. Tandai yang benar. × × × + PILIHAN + TAMBAH SOAL"
+      }
+    ],
+    "tiles": [
+      {
+        "text": "+ DUA JUJUR SATU BOHONG Dua fakta, satu karangan. Dia harus jeli.",
+        "disabled": false
+      },
+      {
+        "text": "+ SUSUN FOTO Tambah foto dulu di bagian Foto.",
+        "disabled": true
+      },
+      {
+        "text": "+ RENCANA BARENG Dia pilih satu rencana, jadinya tiket janji.",
+        "disabled": false
+      }
+    ],
+    "questionFields": 1,
+    "firstQuestion": "Apa lagu yang paling sering aku nyanyi?",
+    "choicesInFirstQuestion": "Lagu favoritku",
+    "radioCount": 3,
+    "musicNumber": "6",
+    "letterNumber": "7",
+    "notice": null,
+    "overflow": -15
+  },
+  "addQuestion": "+ TAMBAH SOAL",
+  "addChoice": "+ PILIHAN",
+  "afterQuestionEdits": {
+    "number": "5",
+    "cards": [
+      {
+        "title": "1. Kuis Kenal Aku",
+        "text": "1. KUIS KENAL AKU Kamu yang nulis pertanyaan soal dirimu. Dia yang nebak, skornya balik ke kamu. HAPUS SOAL 1 Pilihan jawaban. Tandai yang benar. × × × + PILIHAN + TAMBAH SOAL Lengkapi isian di atas supaya bisa dimainkan."
+      }
+    ],
+    "tiles": [
+      {
+        "text": "+ DUA JUJUR SATU BOHONG Dua fakta, satu karangan. Dia harus jeli.",
+        "disabled": false
+      },
+      {
+        "text": "+ SUSUN FOTO Tambah foto dulu di bagian Foto.",
+        "disabled": true
+      },
+      {
+        "text": "+ RENCANA BARENG Dia pilih satu rencana, jadinya tiket janji.",
+        "disabled": false
+      }
+    ],
+    "questionFields": 1,
+    "firstQuestion": "",
+    "choicesInFirstQuestion": "",
+    "radioCount": 3,
+    "musicNumber": "6",
+    "letterNumber": "7",
+    "notice": null,
+    "overflow": -15
+  },
+  "addTruth": "+ DUA JUJUR SATU BOHONG Dua fakta, satu karangan. Dia harus jeli.",
+  "plusLimit": {
+    "number": "5",
+    "cards": [
+      {
+        "title": "1. Kuis Kenal Aku",
+        "text": "1. KUIS KENAL AKU Kamu yang nulis pertanyaan soal dirimu. Dia yang nebak, skornya balik ke kamu. HAPUS SOAL 1 Pilihan jawaban. Tandai yang benar. × × × + PILIHAN + TAMBAH SOAL Lengkapi isian di atas supaya bisa dimainkan."
+      },
+      {
+        "title": "2. Dua Jujur Satu Bohong",
+        "text": "2. DUA JUJUR SATU BOHONG Tiga cerita tentang kalian. Satu cuma karangan, dia harus bisa ngebedain. HAPUS PERTANYAAN Tiga pernyataan. Tandai satu yang bohong. Lengkapi isian di atas supaya bisa dimainkan."
+      }
+    ],
+    "tiles": [],
+    "questionFields": 1,
+    "firstQuestion": "",
+    "choicesInFirstQuestion": "",
+    "radioCount": 3,
+    "musicNumber": "6",
+    "letterNumber": "7",
+    "notice": null,
+    "overflow": -15
+  },
+  "persistedEditor": {
+    "number": "5",
+    "cards": [
+      {
+        "title": "1. Kuis Kenal Aku",
+        "text": "1. KUIS KENAL AKU Kamu yang nulis pertanyaan soal dirimu. Dia yang nebak, skornya balik ke kamu. HAPUS SOAL 1 Pilihan jawaban. Tandai yang benar. × × × + PILIHAN + TAMBAH SOAL Lengkapi isian di atas supaya bisa dimainkan."
+      },
+      {
+        "title": "2. Dua Jujur Satu Bohong",
+        "text": "2. DUA JUJUR SATU BOHONG Tiga cerita tentang kalian. Satu cuma karangan, dia harus bisa ngebedain. HAPUS PERTANYAAN Tiga pernyataan. Tandai satu yang bohong. Lengkapi isian di atas supaya bisa dimainkan."
+      }
+    ],
+    "tiles": [],
+    "questionFields": 1,
+    "firstQuestion": "",
+    "choicesInFirstQuestion": "",
+    "radioCount": 3,
+    "musicNumber": "6",
+    "letterNumber": "7",
+    "notice": null,
+    "overflow": -15
+  },
+  "dasarLimit": {
+    "number": "5",
+    "cards": [
+      {
+        "title": "1. Kuis Kenal Aku",
+        "text": "1. KUIS KENAL AKU Kamu yang nulis pertanyaan soal dirimu. Dia yang nebak, skornya balik ke kamu. HAPUS SOAL 1 Pilihan jawaban. Tandai yang benar. × × × + PILIHAN + TAMBAH SOAL Lengkapi isian di atas supaya bisa dimainkan."
+      }
+    ],
+    "tiles": [],
+    "questionFields": 1,
+    "firstQuestion": "",
+    "choicesInFirstQuestion": "",
+    "radioCount": 3,
+    "musicNumber": "6",
+    "letterNumber": "7",
+    "notice": null,
+    "overflow": -15
+  },
+  "abadiLimit": {
+    "number": "5",
+    "cards": [
+      {
+        "title": "1. Kuis Kenal Aku",
+        "text": "1. KUIS KENAL AKU Kamu yang nulis pertanyaan soal dirimu. Dia yang nebak, skornya balik ke kamu. HAPUS SOAL 1 Pilihan jawaban. Tandai yang benar. × × × + PILIHAN + TAMBAH SOAL Lengkapi isian di atas supaya bisa dimainkan."
+      },
+      {
+        "title": "2. Dua Jujur Satu Bohong",
+        "text": "2. DUA JUJUR SATU BOHONG Tiga cerita tentang kalian. Satu cuma karangan, dia harus bisa ngebedain. HAPUS PERTANYAAN Tiga pernyataan. Tandai satu yang bohong. Lengkapi isian di atas supaya bisa dimainkan."
+      },
+      {
+        "title": "3. Rencana Bareng",
+        "text": "3. RENCANA BARENG Siapin beberapa pilihan rencana. Dia pilih satu, pilihan itu jadi tiket janji. HAPUS AJAKAN Dia bakal pilih satu. Pilihan itu jadi tiket janji. × × × + PILIHAN Lengkapi isian di atas supaya bisa dimainkan."
+      }
+    ],
+    "tiles": [],
+    "questionFields": 1,
+    "firstQuestion": "",
+    "choicesInFirstQuestion": "",
+    "radioCount": 3,
+    "musicNumber": "6",
+    "letterNumber": "7",
+    "notice": null,
+    "overflow": -15
+  },
+  "editorMobile": {
+    "number": "5",
+    "cards": [],
+    "tiles": [
+      {
+        "text": "+ KUIS KENAL AKU Pertanyaan receh soal kamu, dia yang jawab.",
+        "disabled": false
+      },
+      {
+        "text": "+ DUA JUJUR SATU BOHONG Dua fakta, satu karangan. Dia harus jeli.",
+        "disabled": false
+      },
+      {
+        "text": "+ SUSUN FOTO Tambah foto dulu di bagian Foto.",
+        "disabled": true
+      },
+      {
+        "text": "+ RENCANA BARENG Dia pilih satu rencana, jadinya tiket janji.",
+        "disabled": false
+      }
+    ],
+    "questionFields": 0,
+    "firstQuestion": null,
+    "choicesInFirstQuestion": null,
+    "radioCount": 0,
+    "musicNumber": "6",
+    "letterNumber": "7",
+    "notice": null,
+    "overflow": 0
+  },
+  "playerInitial": {
+    "badge": "Main Berdua · 1/2",
+    "title": "Kuis Kenal Aku",
+    "subtitle": "Seberapa kenal kamu sama Raka? · 1/2",
+    "text": "MAIN BERDUA · 1/2 KUIS KENAL AKU Seberapa kenal kamu sama Raka? · 1/2 Minuman yang selalu aku pesan kalau kita nongkrong? Es teh manis Kopi susu Matcha latte lewati permainan ini",
+    "buttons": [
+      {
+        "text": "Es teh manis",
+        "disabled": false,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Kopi susu",
+        "disabled": false,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Matcha latte",
+        "disabled": false,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "lewati permainan ini",
+        "disabled": false,
+        "bg": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "overflow": -15,
+    "box": [
+      409,
+      263,
+      608,
+      473
+    ]
+  },
+  "correctAnswer": "Es teh manis",
+  "playerCorrect": {
+    "badge": "Main Berdua · 1/2",
+    "title": "Kuis Kenal Aku",
+    "subtitle": "Seberapa kenal kamu sama Raka? · 1/2",
+    "text": "MAIN BERDUA · 1/2 KUIS KENAL AKU Seberapa kenal kamu sama Raka? · 1/2 Minuman yang selalu aku pesan kalau kita nongkrong? Es teh manis ✓ Kopi susu Matcha latte Tepat! Kamu jago. SOAL BERIKUTNYA → lewati permainan ini",
+    "buttons": [
+      {
+        "text": "Es teh manis ✓",
+        "disabled": true,
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "Kopi susu",
+        "disabled": true,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Matcha latte",
+        "disabled": true,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "SOAL BERIKUTNYA →",
+        "disabled": false,
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "lewati permainan ini",
+        "disabled": false,
+        "bg": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "overflow": -15,
+    "box": [
+      409,
+      263,
+      608,
+      577
+    ]
+  },
+  "playerSecondQuestion": {
+    "badge": "Main Berdua · 1/2",
+    "title": "Kuis Kenal Aku",
+    "subtitle": "Seberapa kenal kamu sama Raka? · 2/2",
+    "text": "MAIN BERDUA · 1/2 KUIS KENAL AKU Seberapa kenal kamu sama Raka? · 2/2 Pertama kali kita ngobrol lama, tempatnya di mana? Di kantin Di grup kelas Di perpustakaan lewati permainan ini",
+    "buttons": [
+      {
+        "text": "Di kantin",
+        "disabled": false,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Di grup kelas",
+        "disabled": false,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Di perpustakaan",
+        "disabled": false,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "lewati permainan ini",
+        "disabled": false,
+        "bg": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "overflow": -15,
+    "box": [
+      409,
+      263,
+      608,
+      473
+    ]
+  },
+  "playerWrong": {
+    "badge": "Main Berdua · 1/2",
+    "title": "Kuis Kenal Aku",
+    "subtitle": "Seberapa kenal kamu sama Raka? · 2/2",
+    "text": "MAIN BERDUA · 1/2 KUIS KENAL AKU Seberapa kenal kamu sama Raka? · 2/2 Pertama kali kita ngobrol lama, tempatnya di mana? Di kantin ✕ Di grup kelas ✓ Di perpustakaan Belum tepat. Yang bener: “Di grup kelas”. LIHAT SKOR → lewati permainan ini",
+    "buttons": [
+      {
+        "text": "Di kantin ✕",
+        "disabled": true,
+        "bg": "rgb(255, 106, 61)"
+      },
+      {
+        "text": "Di grup kelas ✓",
+        "disabled": true,
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "Di perpustakaan",
+        "disabled": true,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "disabled": false,
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "lewati permainan ini",
+        "disabled": false,
+        "bg": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "overflow": -15,
+    "box": [
+      409,
+      263,
+      608,
+      577
+    ]
+  },
+  "playerScore": {
+    "badge": "Main Berdua · 1/2",
+    "title": "Kuis Kenal Aku",
+    "subtitle": "Semua soal sudah dijawab.",
+    "text": "MAIN BERDUA · 1/2 KUIS KENAL AKU Semua soal sudah dijawab. SKOR KAMU 1/2 LUMAYAN KENAL! Skor ini bakal dikirim ke Raka. Waktunya pamer. GAME BERIKUTNYA →",
+    "buttons": [
+      {
+        "text": "GAME BERIKUTNYA →",
+        "disabled": false,
+        "bg": "rgb(17, 17, 17)"
+      }
+    ],
+    "overflow": -15,
+    "box": [
+      409,
+      263,
+      608,
+      431
+    ]
+  },
+  "playerPlan": {
+    "badge": "Main Berdua · 2/2",
+    "title": "Rencana Bareng",
+    "subtitle": "Pilih satu. Pilihanmu jadi tiket janji dari Raka.",
+    "text": "MAIN BERDUA · 2/2 RENCANA BARENG Pilih satu. Pilihanmu jadi tiket janji dari Raka. Kalau kamu setuju, kencan pertama kita: BELANJA DI MINIMARKET TENGAH MALAM NONTON FILM PILIHANMU JALAN PAGI CARI SARAPAN lewati permainan ini",
+    "buttons": [
+      {
+        "text": "BELANJA DI MINIMARKET TENGAH MALAM",
+        "disabled": false,
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "NONTON FILM PILIHANMU",
+        "disabled": false,
+        "bg": "rgb(255, 106, 61)"
+      },
+      {
+        "text": "JALAN PAGI CARI SARAPAN",
+        "disabled": false,
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "lewati permainan ini",
+        "disabled": false,
+        "bg": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "overflow": -15,
+    "box": [
+      409,
+      263,
+      608,
+      463
+    ]
+  },
+  "playerTicket": {
+    "badge": "Main Berdua · 2/2",
+    "title": "Rencana Bareng",
+    "subtitle": "Pilih satu. Pilihanmu jadi tiket janji dari Raka.",
+    "text": "MAIN BERDUA · 2/2 RENCANA BARENG Pilih satu. Pilihanmu jadi tiket janji dari Raka. TIKET JANJI · SATU KALI PAKAI NONTON FILM PILIHANMU Nadia + Raka Nggak bisa dibatalkan, tapi bebas dijadwalkan. Raka bakal dapat kabar pilihanmu. Tinggal ditaguh. LANJUT →",
+    "buttons": [
+      {
+        "text": "LANJUT →",
+        "disabled": false,
+        "bg": "rgb(17, 17, 17)"
+      }
+    ],
+    "overflow": -15,
+    "box": [
+      409,
+      263,
+      608,
+      441
+    ]
+  },
+  "playerFinished": {
+    "badge": "Main Berdua · selesai",
+    "title": "Permainan selesai!",
+    "subtitle": "Skor dan pilihanmu siap dikirim ke pembuatnya. Lanjut baca, ya.",
+    "text": "MAIN BERDUA · SELESAI PERMAINAN SELESAI! Skor dan pilihanmu siap dikirim ke pembuatnya. Lanjut baca, ya. LANJUT BACA ↓",
+    "buttons": [
+      {
+        "text": "LANJUT BACA ↓",
+        "disabled": false,
+        "bg": "rgb(17, 17, 17)"
+      }
+    ],
+    "overflow": -15,
+    "box": [
+      409,
+      263,
+      608,
+      264
+    ]
+  },
+  "playerSkipped": {
+    "badge": "Main Berdua · 2/2",
+    "title": "Rencana Bareng",
+    "subtitle": "Pilih satu. Pilihanmu jadi tiket janji dari Raka.",
+    "text": "MAIN BERDUA · 2/2 RENCANA BARENG Pilih satu. Pilihanmu jadi tiket janji dari Raka. Kalau kamu setuju, kencan pertama kita: BELANJA DI MINIMARKET TENGAH MALAM NONTON FILM PILIHANMU JALAN PAGI CARI SARAPAN lewati permainan ini",
+    "buttons": [
+      {
+        "text": "BELANJA DI MINIMARKET TENGAH MALAM",
+        "disabled": false,
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "NONTON FILM PILIHANMU",
+        "disabled": false,
+        "bg": "rgb(255, 106, 61)"
+      },
+      {
+        "text": "JALAN PAGI CARI SARAPAN",
+        "disabled": false,
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "lewati permainan ini",
+        "disabled": false,
+        "bg": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "overflow": -15,
+    "box": [
+      409,
+      263,
+      608,
+      463
+    ]
+  },
+  "playerMobile": {
+    "badge": "Main Berdua · 1/2",
+    "title": "Kuis Kenal Aku",
+    "subtitle": "Seberapa kenal kamu sama Raka? · 1/2",
+    "text": "MAIN BERDUA · 1/2 KUIS KENAL AKU Seberapa kenal kamu sama Raka? · 1/2 Minuman yang selalu aku pesan kalau kita nongkrong? Es teh manis Kopi susu Matcha latte lewati permainan ini",
+    "buttons": [
+      {
+        "text": "Es teh manis",
+        "disabled": false,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Kopi susu",
+        "disabled": false,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "Matcha latte",
+        "disabled": false,
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "lewati permainan ini",
+        "disabled": false,
+        "bg": "rgba(0, 0, 0, 0)"
+      }
+    ],
+    "overflow": 0,
+    "box": [
+      20,
+      179,
+      350,
+      485
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "phone": {
+    "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0",
+    "rect": {
+      "x": 861,
+      "y": 342,
+      "w": 340,
+      "h": 640
+    },
+    "bg": "rgb(17, 17, 17)",
+    "radius": "38.4px",
+    "border": "6px rgb(17, 17, 17)",
+    "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 10px 10px 0px 0px",
+    "font": "\"Space Mono\"",
+    "size": "16px",
+    "weight": "400"
+  },
+  "htmlLen": 2489
+}

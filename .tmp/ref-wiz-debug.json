@@ -1,0 +1,105 @@
+{
+  "inputs": [
+    {
+      "type": "text",
+      "name": "",
+      "id": "sn",
+      "ph": "",
+      "value": "Raka",
+      "cls": "nb-input"
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "rn",
+      "ph": "",
+      "value": "Dinda",
+      "cls": "nb-input"
+    },
+    {
+      "type": "date",
+      "name": "",
+      "id": "dt",
+      "ph": "",
+      "value": "",
+      "cls": "nb-input"
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "q",
+      "ph": "Mau jadi pacarku?",
+      "value": "Mau jadi pacarku?",
+      "cls": "nb-input"
+    },
+    {
+      "type": "checkbox",
+      "name": "",
+      "id": "",
+      "ph": "",
+      "value": "on",
+      "cls": "mt-1 h-5 w-5 accent-ink"
+    },
+    {
+      "type": "file",
+      "name": "",
+      "id": "",
+      "ph": "",
+      "value": "",
+      "cls": "sr-only"
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "sp",
+      "ph": "Cari judul lagu atau tempel link",
+      "value": "",
+      "cls": "nb-input min-w-0 flex-1"
+    },
+    {
+      "type": "file",
+      "name": "",
+      "id": "",
+      "ph": "",
+      "value": "",
+      "cls": "sr-only"
+    },
+    {
+      "type": "text",
+      "name": "",
+      "id": "slug",
+      "ph": "mis. dinda-dan-raka",
+      "value": "",
+      "cls": "nb-input"
+    }
+  ],
+  "designBtns": [
+    {
+      "text": "PERMEN PINK Manis, pink, deg-degan",
+      "cls": "rounded-2xl border-4 border-ink p-4 text-left transition shadow-[6px_6px_0_#111] -translate-y-1",
+      "html": "<button type=\"button\" aria-pressed=\"true\" class=\"rounded-2xl border-4 border-ink p-4 text-left transition shadow-[6px_6px_0_#111] -translate-y-1\" style=\"background: rgb(255, 143, 184); color: rgb(17, 17, 17);\"><p class=\"font-display text-xl\">PERMEN PINK</p><p class=\"text-xs font-bold\">Manis, pink, deg-degan</p><div class=\"mt-3 flex gap-1.5\"><span class=\"h-6 w-6 rounded-full border-[3px] border-ink\" style=\"background: rgb(255, 244, 224);\"></span><span class=\"h-6 w-6 rounded-full border-[3px] border-ink\" style=\"background: rgb(182, 242, 46);\"></span><span class=\"h-6 w-6 rounded-full border-[3px]"
+    },
+    {
+      "text": "CHAT MALAM Gaya chat story santai",
+      "cls": "rounded-2xl border-4 border-ink p-4 text-left transition opacity-90",
+      "html": "<button type=\"button\" aria-pressed=\"false\" class=\"rounded-2xl border-4 border-ink p-4 text-left transition opacity-90\" style=\"background: rgb(17, 17, 17); color: rgb(255, 244, 224);\"><p class=\"font-display text-xl\">CHAT MALAM</p><p class=\"text-xs font-bold\">Gaya chat story santai</p><div class=\"mt-3 flex gap-1.5\"><span class=\"h-6 w-6 rounded-full border-[3px] border-ink\" style=\"background: rgb(255, 244, 224);\"></span><span class=\"h-6 w-6 rounded-full border-[3px] border-ink\" style=\"background: rgb(182, 242, 46);\"></span><span class=\"h-6 w-6 rounded-full border-[3px] border-ink\" style=\"backgrou"
+    }
+  ],
+  "plansHTML": "<section class=\"nb-card bg-white p-5 sm:p-6\"><h2 class=\"flex items-center gap-3 font-display text-2xl\"><span class=\"grid h-9 w-9 shrink-0 place-items-center rounded-full border-4 border-ink bg-lime text-base\">8</span>PILIH PAKET</h2><div class=\"mt-5 space-y-4\"><div class=\"grid gap-4 sm:grid-cols-3\"><button type=\"button\" aria-pressed=\"false\" class=\"rounded-2xl border-4 border-ink p-4 text-left transition bg-cream\"><p class=\"font-display text-xl\">DASAR</p><p class=\"flex flex-wrap items-baseline gap-x-1.5\"><span class=\"font-display text-2xl\">Rp5.000</span></p><p class=\"text-xs font-bold\">aktif 3 hari</p></button><button type=\"button\" aria-pressed=\"true\" class=\"rounded-2xl border-4 border-ink p-4 text-left transition bg-lime -translate-y-1 shadow-[6px_6px_0_#111]\"><p class=\"font-display text-xl\">PLUS</p><p class=\"flex flex-wrap items-baseline gap-x-1.5\"><span class=\"font-display text-2xl\">Rp10.000</span></p><p class=\"text-xs font-bold\">aktif 14 hari</p></button><button type=\"button\" aria-pressed=\"false\" class=\"rounded-2xl border-4 border-ink p-4 text-left transition bg-cream\"><p class=\"font-display text-xl\">ABADI</p><p class=\"flex flex-wrap items-baseline gap-x-1.5\"><s class=\"text-sm font-bold opacity-50\">Rp20.000</s><span class=\"font-display text-2xl\">Rp15.000</span></p><p class=\"text-xs font-bold\">aktif selamanya</p></button></div><ul class=\"space-y-1 text-sm font-bold\"><li>✦ Semua isi Dasar</li><li>✦ Main Berdua (2 permainan)</li><li>✦ Bisa diedit lagi</li><li>✦ Voice note ≤ 1 menit</li><li>✦ Lagu pilihan (Spotify)</li><li>✦ Link custom</li><li>✦ Ucapan bareng (50 teman)</li><li>✦ Kapsul waktu (≤ 90 hari)</li><li>✦ Aktif 14 hari</li></ul><div><label class=\"nb-label\" for=\"slug\">Link custom (opsional)</label><div class=\"flex items-center gap-2\"><span class=\"text-sm font-bold\">/p/</span><input id=\"slug\" class=\"nb-input\" placeholder=\"mis. dinda-dan-raka\" value=\"\"></div></div></div></section>",
+  "shellInfo": null,
+  "screenCandidates": [
+    {
+      "tag": "DIV",
+      "cls": "space-y-8",
+      "bg": "rgba(0, 0, 0, 0)",
+      "h": 4217
+    },
+    {
+      "tag": "ASIDE",
+      "cls": "hidden lg:block",
+      "bg": "rgba(0, 0, 0, 0)",
+      "h": 4217
+    }
+  ],
+  "bodyH": 4352
+}

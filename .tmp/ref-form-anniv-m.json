@@ -1,0 +1,275 @@
+{
+  "url": "https://proposigo.app/buat/anniv",
+  "title": "Bikin halaman Anniversary · Proposigo",
+  "h2": [
+    {
+      "text": "1 PILIH DESAIN",
+      "id": null,
+      "top": 290
+    },
+    {
+      "text": "2 SIAPA KE SIAPA",
+      "id": null,
+      "top": 1316
+    },
+    {
+      "text": "3 CERITAMU",
+      "id": null,
+      "top": 1733
+    },
+    {
+      "text": "4 FOTO",
+      "id": null,
+      "top": 2298
+    },
+    {
+      "text": "5 MAIN BERDUA",
+      "id": null,
+      "top": 2625
+    },
+    {
+      "text": "6 MUSIK",
+      "id": null,
+      "top": 3275
+    },
+    {
+      "text": "7 SURAT PENUTUP",
+      "id": null,
+      "top": 3764
+    },
+    {
+      "text": "8 PILIH PAKET",
+      "id": null,
+      "top": 4191
+    }
+  ],
+  "badges": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "inputs": [
+    {
+      "type": "text",
+      "name": null,
+      "id": "sn",
+      "placeholder": null,
+      "maxlength": 40,
+      "required": false,
+      "value": "Aldi",
+      "checked": false,
+      "accept": null,
+      "label": null,
+      "cls": "nb-input"
+    },
+    {
+      "type": "text",
+      "name": null,
+      "id": "rn",
+      "placeholder": null,
+      "maxlength": 40,
+      "required": false,
+      "value": "Maya",
+      "checked": false,
+      "accept": null,
+      "label": null,
+      "cls": "nb-input"
+    },
+    {
+      "type": "date",
+      "name": null,
+      "id": "dt",
+      "placeholder": null,
+      "maxlength": null,
+      "required": false,
+      "value": "2024-02-14",
+      "checked": false,
+      "accept": null,
+      "label": null,
+      "cls": "nb-input"
+    },
+    {
+      "type": "file",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "maxlength": null,
+      "required": false,
+      "value": null,
+      "checked": false,
+      "accept": "image/*",
+      "label": "+ Tambah foto",
+      "cls": "sr-only"
+    },
+    {
+      "type": "text",
+      "name": null,
+      "id": "sp",
+      "placeholder": "Cari judul lagu atau tempel link",
+      "maxlength": null,
+      "required": false,
+      "value": "",
+      "checked": false,
+      "accept": null,
+      "label": null,
+      "cls": "nb-input min-w-0 flex-1"
+    },
+    {
+      "type": "file",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "maxlength": null,
+      "required": false,
+      "value": null,
+      "checked": false,
+      "accept": "audio/*",
+      "label": "UNGGAH AUDIO",
+      "cls": "sr-only"
+    },
+    {
+      "type": "text",
+      "name": null,
+      "id": "slug",
+      "placeholder": "mis. dinda-dan-raka",
+      "maxlength": null,
+      "required": false,
+      "value": "",
+      "checked": false,
+      "accept": null,
+      "label": null,
+      "cls": "nb-input"
+    }
+  ],
+  "textareas": [
+    {
+      "name": null,
+      "placeholder": null,
+      "maxlength": 180,
+      "required": false,
+      "value": "Kita sudah sejauh ini, ya.",
+      "rows": 2,
+      "cls": "nb-input min-h-20"
+    },
+    {
+      "name": null,
+      "placeholder": null,
+      "maxlength": 180,
+      "required": false,
+      "value": "Dari makan bakso pinggir jalan sampai nonton hujan dari jendela.",
+      "rows": 2,
+      "cls": "nb-input min-h-20"
+    },
+    {
+      "name": null,
+      "placeholder": null,
+      "maxlength": 180,
+      "required": false,
+      "value": "Semua hari biasa jadi spesial karena ada kamu.",
+      "rows": 2,
+      "cls": "nb-input min-h-20"
+    },
+    {
+      "name": null,
+      "placeholder": null,
+      "maxlength": 1500,
+      "required": false,
+      "value": "Maya, makasih sudah sabar, sudah lucu, sudah jadi rumah. Aku mau ada di cerita kita yang berikutnya. Selamat anniversary, sayang.",
+      "rows": 2,
+      "cls": "nb-input min-h-40"
+    }
+  ],
+  "selects": [],
+  "sections": [
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 360,
+      "text": "1 PILIH DESAIN HATI PINK Romantis dan lembut SENJA CORAL Hangat kayak sore berdua"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 384,
+      "text": "2 SIAPA KE SIAPA NAMAMU NAMA PENERIMA TANGGAL JADIAN"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 533,
+      "text": "3 CERITAMU 3 sampai 5 kartu pendek. Muncul satu-satu seperti chat. × × × + TAMBAH KARTU PAKAI CONTOH ISI"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 295,
+      "text": "4 FOTO Maksimal 8 foto, dikompres otomatis. 0/8 + Tambah foto"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 619,
+      "text": "5 MAIN BERDUA Opsional. Permainan tentang kalian berdua, dan hasilnya dikirim balik ke kamu. Dasar 1 · Plus 2 · Abadi 3 "
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 457,
+      "text": "6 MUSIK Dimulai saat penerima mengetuk amplop. CANON IN D Pachelbel, romantis klasik ▶ SYAHDU Pelan dan hangat ▶ TANPA M"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 394,
+      "text": "7 SURAT PENUTUP 129/1500 PESAN SUARA (MAKS 1 MENIT) PLUS ● REKAM UNGGAH AUDIO"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 811,
+      "text": "8 PILIH PAKET DASAR Rp5.000 aktif 3 hari PLUS Rp10.000 aktif 14 hari ABADI Rp20.000 Rp15.000 aktif selamanya ✦ Semua isi"
+    }
+  ],
+  "sticky": [
+    {
+      "cls": "sticky top-24",
+      "top": "96px",
+      "w": 0
+    }
+  ],
+  "preview": [
+    {
+      "cls": "",
+      "w": 262,
+      "h": 132,
+      "text": "HALAMAN ANNIVERSARY Isi pelan-pelan. Pratinjaunya gratis dan draf-mu tersimpan otomatis."
+    },
+    {
+      "cls": "flex flex-wrap items-center gap-4 pb-8",
+      "w": 358,
+      "h": 219,
+      "text": "LANJUT BAYAR · RP10.000 Sekali bayar · tidak ada langganan atau perpanjangan otomatis. LIHAT PRATINJAU"
+    },
+    {
+      "cls": "sticky top-24",
+      "w": 0,
+      "h": 0,
+      "text": "PRATINJAU LANGSUNGada titipan buat…MAYA(ketuk amplopnya)Ulangi dari awal"
+    }
+  ],
+  "ls": {
+    "proposigo-consent-v2": "granted",
+    "proposigo:draft:confess": "{\"design\":\"permen\",\"c\":{\"photos\":[],\"song\":\"manis\",\"spotifyUrl\":\"\",\"date\":\"\",\"question\":\"Mau jadi pacarku?\",\"senderName\":\"Raka\",\"recipientName\":\"Dinda\",\"story\":",
+    "proposigo:draft:rayakan": "{\"design\":\"kado\",\"c\":{\"photos\":[],\"song\":\"syahdu\",\"spotifyUrl\":\"\",\"date\":\"\",\"question\":\"\",\"senderName\":\"Dinda\",\"recipientName\":\"Ayah\",\"story\":[\"Selamat Hari Aya",
+    "proposigo:draft:ultah": "{\"design\":\"pesta\",\"c\":{\"photos\":[],\"song\":\"ultah\",\"spotifyUrl\":\"\",\"date\":\"\",\"question\":\"\",\"senderName\":\"Bima\",\"recipientName\":\"Sari\",\"story\":[\"Selamat ulang tah",
+    "proposigo:draft:anniv": "{\"design\":\"hati\",\"c\":{\"photos\":[],\"song\":\"kanon\",\"spotifyUrl\":\"\",\"date\":\"2024-02-14\",\"question\":\"\",\"senderName\":\"Aldi\",\"recipientName\":\"Maya\",\"story\":[\"Kita sud",
+    "proposigo:draft:wisuda": "{\"design\":\"toga\",\"c\":{\"photos\":[],\"song\":\"toga\",\"spotifyUrl\":\"\",\"date\":\"\",\"question\":\"\",\"senderName\":\"Mama\",\"recipientName\":\"Fajar\",\"story\":[\"Fajar, hari ini ka",
+    "proposigo:draft:maaf": "{\"design\":\"langit\",\"c\":{\"photos\":[],\"song\":\"maafin\",\"spotifyUrl\":\"\",\"date\":\"\",\"question\":\"Kamu mau maafin aku?\",\"senderName\":\"Rio\",\"recipientName\":\"Nadia\",\"stor"
+  },
+  "bodyH": 5261
+}

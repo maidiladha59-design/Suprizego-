@@ -1,0 +1,189 @@
+{
+  "url": "https://proposigo.app/papan",
+  "title": "Papan Abadi · Proposigo",
+  "desc": "Kumpulan momen yang diabadikan pengguna Proposigo: confess, ulang tahun, anniversary, maaf, dan wisuda. Tampil dengan izin pengirim dan penerima.",
+  "robots": null,
+  "canonical": "https://proposigo.app/papan",
+  "og": {
+    "image": "https://proposigo.app/og/papan-id.png?v=3",
+    "title": "Papan Abadi",
+    "desc": "Kumpulan momen yang diabadikan pengguna Proposigo: confess, ulang tahun, anniversary, maaf, dan wisuda. Tampil dengan izin pengirim dan penerima.",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "PAPAN ABADI",
+      "size": "60px",
+      "lh": "60px"
+    }
+  ],
+  "h2": [],
+  "h3": [
+    "MOMEN",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "text-center",
+      "h": 196,
+      "text": "0 MOMEN DIABADIKAN PAPAN ABADI Momen-momen yang sengaja dipajang selamanya, dengan izin pe"
+    },
+    {
+      "tag": "nav",
+      "id": null,
+      "cls": "mt-8 flex flex-wrap justify-center gap-2",
+      "h": 42,
+      "text": "SEMUA · 0 CONFESS · 0 ULANG TAHUN · 0 ANNIVERSARY · 0 MINTA MAAF · 0 WISUDA · 0 PERAYAAN ·"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "nb-card mx-auto mt-10 max-w-lg bg-cream bg-dots p-8 text-center",
+      "h": 296,
+      "text": "BELUM ADA YANG DIPAJANG Jadi yang pertama mengabadikan momenmu di sini."
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "nb-card mx-auto mt-14 max-w-2xl bg-pink bg-dots p-8 text-center",
+      "h": 243,
+      "text": "MAU MOMENMU DI SINI? Pilih paket Abadi, lalu ajukan kutipanmu dari dasbor. Kutipan tampil "
+    }
+  ],
+  "text": "0 MOMEN DIABADIKAN PAPAN ABADI Momen-momen yang sengaja dipajang selamanya, dengan izin pengirim dan penerimanya. Isi halaman aslinya tetap rahasia mereka. SEMUA · 0 CONFESS · 0 ULANG TAHUN · 0 ANNIVERSARY · 0 MINTA MAAF · 0 WISUDA · 0 PERAYAAN · 0 BELUM ADA YANG DIPAJANG Jadi yang pertama mengabadikan momenmu di sini. MAU MOMENMU DI SINI? Pilih paket Abadi, lalu ajukan kutipanmu dari dasbor. Kutipan tampil setelah penerimanya setuju. BIKIN HALAMAN ABADI",
+  "buttons": [
+    "Pengaturan cookie",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Momen",
+      "h": "/#momen"
+    },
+    {
+      "t": "Cara kerja",
+      "h": "/#cara-kerja"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Masuk",
+      "h": "/masuk"
+    },
+    {
+      "t": "BIKIN SEKARANG",
+      "h": "/buat"
+    },
+    {
+      "t": "SEMUA · 0",
+      "h": "/papan"
+    },
+    {
+      "t": "CONFESS · 0",
+      "h": "/papan?momen=confess"
+    },
+    {
+      "t": "ULANG TAHUN · 0",
+      "h": "/papan?momen=ultah"
+    },
+    {
+      "t": "ANNIVERSARY · 0",
+      "h": "/papan?momen=anniv"
+    },
+    {
+      "t": "MINTA MAAF · 0",
+      "h": "/papan?momen=maaf"
+    },
+    {
+      "t": "WISUDA · 0",
+      "h": "/papan?momen=wisuda"
+    },
+    {
+      "t": "PERAYAAN · 0",
+      "h": "/papan?momen=rayakan"
+    },
+    {
+      "t": "BIKIN HALAMAN ABADI",
+      "h": "/buat"
+    },
+    {
+      "t": "Confess",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "Ulang Tahun",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "Minta Maaf",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "Wisuda",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "Hari Spesial",
+      "h": "/hari"
+    },
+    {
+      "t": "Bikin halaman",
+      "h": "/buat"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide kata-kata & kejutan",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Dasbor",
+      "h": "/dasbor"
+    },
+    {
+      "t": "Syarat & Ketentuan",
+      "h": "/terms"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    }
+  ],
+  "jsonld": [],
+  "scrollH": 1592
+}

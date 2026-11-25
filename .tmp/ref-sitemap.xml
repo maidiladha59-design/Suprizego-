@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<url>
+<loc>https://proposigo.app</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app" />
+<image:image>
+<image:loc>https://proposigo.app/og/home-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app" />
+<image:image>
+<image:loc>https://proposigo.app/og/home-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>1</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/confess</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/confess" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/confess" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/confess" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-confess-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/confess</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/confess" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/confess" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/confess" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-confess-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/ultah</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/ultah" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/ultah" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/ultah" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-ultah-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/ultah</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/ultah" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/ultah" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/ultah" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-ultah-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/anniv</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/anniv" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/anniv" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/anniv" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-anniv-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/anniv</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/anniv" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/anniv" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/anniv" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-anniv-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/maaf</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/maaf" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/maaf" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/maaf" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-maaf-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/maaf</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/maaf" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/maaf" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/maaf" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-maaf-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/wisuda</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/wisuda" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/wisuda" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/wisuda" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-wisuda-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/wisuda</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/wisuda" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/wisuda" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/wisuda" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-wisuda-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/rayakan</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/rayakan" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/rayakan" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/rayakan" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-rayakan-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/rayakan</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/rayakan" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/rayakan" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/rayakan" />
+<image:image>
+<image:loc>https://proposigo.app/og/momen-rayakan-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/ultah/pacar</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/ultah/pacar" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/ultah/pacar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/ultah/pacar" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-ultah-pacar-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/ultah/pacar</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/ultah/pacar" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/ultah/pacar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/ultah/pacar" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-ultah-pacar-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/ultah/sahabat</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/ultah/sahabat" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/ultah/sahabat" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/ultah/sahabat" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-ultah-sahabat-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/ultah/sahabat</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/ultah/sahabat" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/ultah/sahabat" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/ultah/sahabat" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-ultah-sahabat-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/ultah/ibu</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/ultah/ibu" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/ultah/ibu" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/ultah/ibu" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-ultah-ibu-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/ultah/ibu</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/ultah/ibu" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/ultah/ibu" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/ultah/ibu" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-ultah-ibu-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/anniv/pacar</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/anniv/pacar" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/anniv/pacar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/anniv/pacar" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-anniv-pacar-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/anniv/pacar</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/anniv/pacar" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/anniv/pacar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/anniv/pacar" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-anniv-pacar-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/anniv/pasangan</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/anniv/pasangan" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/anniv/pasangan" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/anniv/pasangan" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-anniv-pasangan-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/anniv/pasangan</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/anniv/pasangan" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/anniv/pasangan" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/anniv/pasangan" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-anniv-pasangan-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/maaf/pacar</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/maaf/pacar" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/maaf/pacar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/maaf/pacar" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-maaf-pacar-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/maaf/pacar</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/maaf/pacar" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/maaf/pacar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/maaf/pacar" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-maaf-pacar-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/maaf/sahabat</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/maaf/sahabat" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/maaf/sahabat" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/maaf/sahabat" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-maaf-sahabat-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/maaf/sahabat</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/maaf/sahabat" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/maaf/sahabat" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/maaf/sahabat" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-maaf-sahabat-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/confess/gebetan</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/confess/gebetan" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/confess/gebetan" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/confess/gebetan" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-confess-gebetan-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/confess/gebetan</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/confess/gebetan" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/confess/gebetan" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/confess/gebetan" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-confess-gebetan-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/wisuda/sahabat</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/wisuda/sahabat" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/wisuda/sahabat" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/wisuda/sahabat" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-wisuda-sahabat-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/wisuda/sahabat</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/wisuda/sahabat" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/wisuda/sahabat" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/wisuda/sahabat" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-wisuda-sahabat-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/momen/wisuda/pacar</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/wisuda/pacar" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/wisuda/pacar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/wisuda/pacar" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-wisuda-pacar-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/momen/wisuda/pacar</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/momen/wisuda/pacar" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/momen/wisuda/pacar" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/momen/wisuda/pacar" />
+<image:image>
+<image:loc>https://proposigo.app/og/untuk-wisuda-pacar-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari/hari-ibu</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/hari-ibu" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/hari-ibu" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/hari-ibu" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-hari-ibu-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari/hari-ibu</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/hari-ibu" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/hari-ibu" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/hari-ibu" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-hari-ibu-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari/natal</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/natal" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/natal" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/natal" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-natal-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari/natal</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/natal" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/natal" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/natal" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-natal-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari/tahun-baru</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/tahun-baru" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/tahun-baru" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/tahun-baru" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-tahun-baru-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari/tahun-baru</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/tahun-baru" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/tahun-baru" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/tahun-baru" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-tahun-baru-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari/valentine</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/valentine" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/valentine" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/valentine" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-valentine-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari/valentine</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/valentine" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/valentine" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/valentine" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-valentine-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari/imlek</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/imlek" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/imlek" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/imlek" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-imlek-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari/imlek</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/imlek" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/imlek" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/imlek" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-imlek-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari/lebaran</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/lebaran" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/lebaran" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/lebaran" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-lebaran-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari/lebaran</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/lebaran" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/lebaran" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/lebaran" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-lebaran-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari/hari-guru</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/hari-guru" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/hari-guru" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/hari-guru" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-hari-guru-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari/hari-guru</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/hari-guru" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/hari-guru" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/hari-guru" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-hari-guru-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari/hari-ayah</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/hari-ayah" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/hari-ayah" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/hari-ayah" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-hari-ayah-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari/hari-ayah</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/hari-ayah" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/hari-ayah" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/hari-ayah" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-hari-ayah-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari/hari-kartini</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/hari-kartini" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/hari-kartini" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/hari-kartini" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-hari-kartini-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari/hari-kartini</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/hari-kartini" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/hari-kartini" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/hari-kartini" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-hari-kartini-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/hari/hari-persahabatan</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/hari-persahabatan" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/hari-persahabatan" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/hari-persahabatan" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-hari-persahabatan-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/hari/hari-persahabatan</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/hari/hari-persahabatan" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/hari/hari-persahabatan" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/hari/hari-persahabatan" />
+<image:image>
+<image:loc>https://proposigo.app/og/hari-hari-persahabatan-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>weekly</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/ide" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/ide" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/ide" />
+<image:image>
+<image:loc>https://proposigo.app/og/ide-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/ide</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/ide" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/ide" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/ide" />
+<image:image>
+<image:loc>https://proposigo.app/og/ide-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.8</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/ide-kado-natal-untuk-pacar</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/ide-kado-natal-untuk-pacar.png</image:loc>
+</image:image>
+<lastmod>2026-11-24T01:19:29.133Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/ucapan-ulang-tahun-untuk-ayah</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/ucapan-ulang-tahun-untuk-ayah.png</image:loc>
+</image:image>
+<lastmod>2026-11-23T01:18:00.056Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/kata-kata-minta-maaf-karena-cemburu</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/kata-kata-minta-maaf-karena-cemburu.png</image:loc>
+</image:image>
+<lastmod>2026-11-22T01:18:48.710Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/cara-nembak-cewek-lewat-chat</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/cara-nembak-cewek-lewat-chat.png</image:loc>
+</image:image>
+<lastmod>2026-11-21T01:17:59.149Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/cara-minta-maaf-yang-tulus</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/cara-minta-maaf-yang-tulus.png</image:loc>
+</image:image>
+<lastmod>2026-11-20T01:18:40.735Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/ide-kado-anniversary-1-tahun</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/ide-kado-anniversary-1-tahun.png</image:loc>
+</image:image>
+<lastmod>2026-11-19T01:19:55.727Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/kejutan-ulang-tahun-ldr</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/kejutan-ulang-tahun-ldr.png</image:loc>
+</image:image>
+<lastmod>2026-11-18T01:18:32.511Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/cara-bilang-suka-ke-gebetan</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/cara-bilang-suka-ke-gebetan.png</image:loc>
+</image:image>
+<lastmod>2026-11-17T01:19:31.518Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/ucapan-selamat-wisuda-untuk-pacar</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/ucapan-selamat-wisuda-untuk-pacar.png</image:loc>
+</image:image>
+<lastmod>2026-11-16T01:19:22.256Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/kata-kata-minta-maaf-ke-pacar</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/kata-kata-minta-maaf-ke-pacar.png</image:loc>
+</image:image>
+<lastmod>2026-11-15T01:17:37.719Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/kata-kata-anniversary-untuk-pacar</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/kata-kata-anniversary-untuk-pacar.png</image:loc>
+</image:image>
+<lastmod>2026-11-14T01:18:44.490Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/ucapan-ulang-tahun-untuk-pacar</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/ucapan-ulang-tahun-untuk-pacar.png</image:loc>
+</image:image>
+<lastmod>2026-11-13T01:18:38.224Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/ide/kata-kata-confess</loc>
+<image:image>
+<image:loc>https://proposigo.app/og/ide/id/kata-kata-confess.png</image:loc>
+</image:image>
+<lastmod>2026-11-11T08:22:28.564Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/papan</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/papan" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/papan" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/papan" />
+<image:image>
+<image:loc>https://proposigo.app/og/papan-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/papan</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/papan" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/papan" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/papan" />
+<image:image>
+<image:loc>https://proposigo.app/og/papan-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.7</priority>
+</url>
+<url>
+<loc>https://proposigo.app/terms</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/terms" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/terms" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/terms" />
+<image:image>
+<image:loc>https://proposigo.app/og/terms-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/terms</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/terms" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/terms" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/terms" />
+<image:image>
+<image:loc>https://proposigo.app/og/terms-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://proposigo.app/privacy</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/privacy" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/privacy" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/privacy" />
+<image:image>
+<image:loc>https://proposigo.app/og/privacy-id.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+<url>
+<loc>https://proposigo.app/en/privacy</loc>
+<xhtml:link rel="alternate" hreflang="id" href="https://proposigo.app/privacy" />
+<xhtml:link rel="alternate" hreflang="en" href="https://proposigo.app/en/privacy" />
+<xhtml:link rel="alternate" hreflang="x-default" href="https://proposigo.app/privacy" />
+<image:image>
+<image:loc>https://proposigo.app/og/privacy-en.png?v=3</image:loc>
+</image:image>
+<lastmod>2026-11-19T00:00:00.000Z</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.3</priority>
+</url>
+</urlset>

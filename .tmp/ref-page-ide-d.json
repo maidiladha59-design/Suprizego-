@@ -1,0 +1,244 @@
+{
+  "url": "https://proposigo.app/ide",
+  "title": "Ide kata-kata & kejutan untuk orang tersayang · Proposigo",
+  "desc": "Kumpulan kata-kata confess, ucapan ulang tahun, anniversary, minta maaf, dan wisuda yang siap kirim, plus ide kejutan kreatif.",
+  "robots": null,
+  "canonical": "https://proposigo.app/ide",
+  "og": {
+    "image": "https://proposigo.app/og/ide-id.png?v=3",
+    "title": "Ide kata-kata & kejutan untuk orang tersayang",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "IDE KATA-KATA & KEJUTAN",
+      "cls": "mt-4 font-display text-4xl leading-tight sm:text-5xl",
+      "size": "48px",
+      "lh": "60px",
+      "family": "\"Archivo Black\""
+    }
+  ],
+  "h2": [],
+  "h3": [
+    "MOMEN",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "span",
+      "id": null,
+      "cls": "sticker -rotate-2 bg-pink",
+      "h": 38,
+      "text": "IDE"
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "cls": "mt-4 font-display text-4xl leading-tight sm:text-5xl",
+      "h": 60,
+      "text": "IDE KATA-KATA & KEJUTAN"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": "mt-4 max-w-2xl text-lg font-bold",
+      "h": 56,
+      "text": "Bingung mau ngomong apa? Ambil kalimatnya di sini, lalu kirim jadi halaman kejut"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "mt-8 flex flex-wrap gap-2",
+      "h": 42,
+      "text": "SEMUA CONFESS ULANG TAHUN ANNIVERSARY MINTA MAAF WISUDA PERAYAAN"
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "cls": "mt-10 grid gap-5 sm:grid-cols-2",
+      "h": 1359,
+      "text": "25 Ide Kado Natal untuk Pacar yang Bikin Dia Senyum 25 ide kado Natal untuk paca"
+    }
+  ],
+  "text": "IDE IDE KATA-KATA & KEJUTAN Bingung mau ngomong apa? Ambil kalimatnya di sini, lalu kirim jadi halaman kejutan yang dia buka sendiri. SEMUA CONFESS ULANG TAHUN ANNIVERSARY MINTA MAAF WISUDA PERAYAAN 25 Ide Kado Natal untuk Pacar yang Bikin Dia Senyum 25 ide kado Natal untuk pacar yang romantis, murah tapi berkesan, dan personal, plus cara ngasihnya biar dia makin sayang. 40 Ucapan Ulang Tahun untuk Ayah yang Bikin Beliau Tersenyum 40 ucapan ulang tahun untuk ayah yang hangat, lucu, dan menyentuh hati, plus cara mengirimnya biar Ayah tersenyum seharian. 40 Kata-kata Minta Maaf karena Cemburu yang Bikin Dia Luluh Kumpulan kata-kata minta maaf karena cemburu yang tulus, lucu, dan singkat, plus cara menyampaikannya biar dia percaya dan memaafkanmu. Cara Nembak Cewek Lewat Chat yang Bikin Dia Bilang Iya Cara nembak cewek lewat chat itu soal timing dan kata yang pas. Ini contoh chat nembak yang santai, lucu, dan romantis, plus kesalahan yang harus kamu hindari. Cara Minta Maaf yang Tulus Biar Dia Benar-benar Luluh Cara minta maaf yang tulus itu gampang-gampang susah. Ini contoh kalimatnya, kesalahan yang harus dihindari, dan cara kirimnya biar dia benar-benar luluh. 40 Ide Kado Anniversary 1 Tahun yang Bikin Dia Baper 40 ide kado anniversary 1 tahun buat pacar: romantis, lucu, murah tapi berkesan, dan buat LDR, plus cara kirimnya biar makin baper. 40 Kejutan Ulang Tahun LDR yang Bikin Dia Baper dari Jauh 40 kejutan ulang tahun LDR: kalimat romantis, lucu, singkat, dan ide lewat video call, plus cara kirim biar dia ngerasa kamu hadir. 40 Cara Bilang Suka ke Gebetan yang Bikin Dia Langsung Baper Kumpulan 40 cara bilang suka ke gebetan: kalimat romantis, lucu, singkat, dan contoh chat, plus cara ngirim confess biar dijawab. 40 Ucapan Selamat Wisuda untuk Pacar yang Bikin Dia Bangga Kumpulan 40 ucapan selamat wisuda untuk pacar yang romantis, lucu, dan singkat, plus cara mengirimnya biar momen wisudanya makin berkesan. 40 Kata-kata Minta Maaf ke Pacar yang Tulus dan Bikin Luluh Kumpulan kata-kata minta maaf ke pacar yang tulus, lucu, dan singkat, plus cara mengirimnya biar dia benar-benar luluh dan memaafkanmu. 40 Kata-kata Anniversary untuk Pacar yang Bikin Dia Baper Kumpulan kata-kata anniversary untuk pacar yang romantis, lucu, dan singkat, plus cara mengirimnya biar kejutanmu berkesan dan nggak pasaran. 40 Ucapan Ulang Tahun untuk Pacar yang Bikin Dia Senyum Kumpulan ucapan ulang tahun untuk pacar yang romantis, lucu, dan singkat, plus cara mengirimnya biar kejutanmu berkesan dan nggak pasaran. 40 Kata-kata Confess yang Bikin Dia Senyum-senyum Sendiri Kumpulan kata-kata confess romantis, lucu, dan singkat buat gebetan, plus cara mengirimnya biar momennya kena dan nggak canggung.",
+  "buttons": [
+    "Pengaturan cookie",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Momen",
+      "h": "/#momen"
+    },
+    {
+      "t": "Cara kerja",
+      "h": "/#cara-kerja"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Masuk",
+      "h": "/masuk"
+    },
+    {
+      "t": "BIKIN SEKARANG",
+      "h": "/buat"
+    },
+    {
+      "t": "SEMUA",
+      "h": "/ide"
+    },
+    {
+      "t": "CONFESS",
+      "h": "/ide?momen=confess"
+    },
+    {
+      "t": "ULANG TAHUN",
+      "h": "/ide?momen=ultah"
+    },
+    {
+      "t": "ANNIVERSARY",
+      "h": "/ide?momen=anniv"
+    },
+    {
+      "t": "MINTA MAAF",
+      "h": "/ide?momen=maaf"
+    },
+    {
+      "t": "WISUDA",
+      "h": "/ide?momen=wisuda"
+    },
+    {
+      "t": "PERAYAAN",
+      "h": "/ide?momen=rayakan"
+    },
+    {
+      "t": "25 Ide Kado Natal untuk Pacar yang Bikin Dia Senyum 25 ide k",
+      "h": "/ide/ide-kado-natal-untuk-pacar"
+    },
+    {
+      "t": "40 Ucapan Ulang Tahun untuk Ayah yang Bikin Beliau Tersenyum",
+      "h": "/ide/ucapan-ulang-tahun-untuk-ayah"
+    },
+    {
+      "t": "40 Kata-kata Minta Maaf karena Cemburu yang Bikin Dia Luluh ",
+      "h": "/ide/kata-kata-minta-maaf-karena-cemburu"
+    },
+    {
+      "t": "Cara Nembak Cewek Lewat Chat yang Bikin Dia Bilang Iya Cara ",
+      "h": "/ide/cara-nembak-cewek-lewat-chat"
+    },
+    {
+      "t": "Cara Minta Maaf yang Tulus Biar Dia Benar-benar Luluh Cara m",
+      "h": "/ide/cara-minta-maaf-yang-tulus"
+    },
+    {
+      "t": "40 Ide Kado Anniversary 1 Tahun yang Bikin Dia Baper 40 ide ",
+      "h": "/ide/ide-kado-anniversary-1-tahun"
+    },
+    {
+      "t": "40 Kejutan Ulang Tahun LDR yang Bikin Dia Baper dari Jauh 40",
+      "h": "/ide/kejutan-ulang-tahun-ldr"
+    },
+    {
+      "t": "40 Cara Bilang Suka ke Gebetan yang Bikin Dia Langsung Baper",
+      "h": "/ide/cara-bilang-suka-ke-gebetan"
+    },
+    {
+      "t": "40 Ucapan Selamat Wisuda untuk Pacar yang Bikin Dia Bangga K",
+      "h": "/ide/ucapan-selamat-wisuda-untuk-pacar"
+    },
+    {
+      "t": "40 Kata-kata Minta Maaf ke Pacar yang Tulus dan Bikin Luluh ",
+      "h": "/ide/kata-kata-minta-maaf-ke-pacar"
+    },
+    {
+      "t": "40 Kata-kata Anniversary untuk Pacar yang Bikin Dia Baper Ku",
+      "h": "/ide/kata-kata-anniversary-untuk-pacar"
+    },
+    {
+      "t": "40 Ucapan Ulang Tahun untuk Pacar yang Bikin Dia Senyum Kump",
+      "h": "/ide/ucapan-ulang-tahun-untuk-pacar"
+    },
+    {
+      "t": "40 Kata-kata Confess yang Bikin Dia Senyum-senyum Sendiri Ku",
+      "h": "/ide/kata-kata-confess"
+    },
+    {
+      "t": "Confess",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "Ulang Tahun",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "Minta Maaf",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "Wisuda",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "Hari Spesial",
+      "h": "/hari"
+    },
+    {
+      "t": "Bikin halaman",
+      "h": "/buat"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide kata-kata & kejutan",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Dasbor",
+      "h": "/dasbor"
+    },
+    {
+      "t": "Syarat & Ketentuan",
+      "h": "/terms"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    }
+  ],
+  "scrollH": 2360
+}

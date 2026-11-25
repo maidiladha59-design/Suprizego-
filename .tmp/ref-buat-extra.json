@@ -1,0 +1,368 @@
+{
+  "bg": "rgb(255, 244, 224)",
+  "cards": [
+    {
+      "href": "/buat/confess",
+      "text": "CONFESS\n→",
+      "box": {
+        "bg": "rgb(255, 143, 184)",
+        "color": "rgb(17, 17, 17)",
+        "border": "4px rgb(17, 17, 17)",
+        "radius": "20px",
+        "shadow": "rgb(17, 17, 17) 8px 8px 0px 0px",
+        "rotate": "-1deg",
+        "transform": "none",
+        "padding": "0px",
+        "font": "16px/24px",
+        "weight": "400",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 316,
+          "h": 379
+        }
+      },
+      "content": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(17, 17, 17)",
+        "border": "0px rgb(17, 17, 17)",
+        "radius": "0px",
+        "shadow": "none",
+        "rotate": "none",
+        "transform": "none",
+        "padding": "20px",
+        "font": "16px/24px",
+        "weight": "400",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 304,
+          "h": 167
+        }
+      },
+      "chip": {
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(17, 17, 17)",
+        "border": "3px rgb(17, 17, 17)",
+        "radius": "3.35544e+07px",
+        "shadow": "none",
+        "rotate": "none",
+        "transform": "none",
+        "padding": "4px 12px",
+        "font": "12px/16px",
+        "weight": "700",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 209,
+          "h": 34
+        }
+      }
+    },
+    {
+      "href": "/buat/ultah",
+      "text": "ULANG TAHUN\n→",
+      "box": {
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(17, 17, 17)",
+        "border": "4px rgb(17, 17, 17)",
+        "radius": "20px",
+        "shadow": "rgb(17, 17, 17) 8px 8px 0px 0px",
+        "rotate": "1deg",
+        "transform": "none",
+        "padding": "0px",
+        "font": "16px/24px",
+        "weight": "400",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 316,
+          "h": 379
+        }
+      },
+      "content": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(17, 17, 17)",
+        "border": "0px rgb(17, 17, 17)",
+        "radius": "0px",
+        "shadow": "none",
+        "rotate": "none",
+        "transform": "none",
+        "padding": "20px",
+        "font": "16px/24px",
+        "weight": "400",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 304,
+          "h": 167
+        }
+      },
+      "chip": {
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(17, 17, 17)",
+        "border": "3px rgb(17, 17, 17)",
+        "radius": "3.35544e+07px",
+        "shadow": "none",
+        "rotate": "none",
+        "transform": "none",
+        "padding": "4px 12px",
+        "font": "12px/16px",
+        "weight": "700",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 209,
+          "h": 34
+        }
+      }
+    },
+    {
+      "href": "/buat/anniv",
+      "text": "ANNIVERSARY\n→",
+      "box": {
+        "bg": "rgb(255, 106, 61)",
+        "color": "rgb(17, 17, 17)",
+        "border": "4px rgb(17, 17, 17)",
+        "radius": "20px",
+        "shadow": "rgb(17, 17, 17) 8px 8px 0px 0px",
+        "rotate": "-0.5deg",
+        "transform": "none",
+        "padding": "0px",
+        "font": "16px/24px",
+        "weight": "400",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 313,
+          "h": 377
+        }
+      },
+      "content": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(17, 17, 17)",
+        "border": "0px rgb(17, 17, 17)",
+        "radius": "0px",
+        "shadow": "none",
+        "rotate": "none",
+        "transform": "none",
+        "padding": "20px",
+        "font": "16px/24px",
+        "weight": "400",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 303,
+          "h": 165
+        }
+      },
+      "chip": {
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(17, 17, 17)",
+        "border": "3px rgb(17, 17, 17)",
+        "radius": "3.35544e+07px",
+        "shadow": "none",
+        "rotate": "none",
+        "transform": "none",
+        "padding": "4px 12px",
+        "font": "12px/16px",
+        "weight": "700",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 238,
+          "h": 32
+        }
+      }
+    },
+    {
+      "href": "/buat/maaf",
+      "text": "MINTA MAAF\n→",
+      "box": {
+        "bg": "rgb(182, 242, 46)",
+        "color": "rgb(17, 17, 17)",
+        "border": "4px rgb(17, 17, 17)",
+        "radius": "20px",
+        "shadow": "rgb(17, 17, 17) 8px 8px 0px 0px",
+        "rotate": "1.2deg",
+        "transform": "none",
+        "padding": "0px",
+        "font": "16px/24px",
+        "weight": "400",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 317,
+          "h": 380
+        }
+      },
+      "content": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(17, 17, 17)",
+        "border": "0px rgb(17, 17, 17)",
+        "radius": "0px",
+        "shadow": "none",
+        "rotate": "none",
+        "transform": "none",
+        "padding": "20px",
+        "font": "16px/24px",
+        "weight": "400",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 305,
+          "h": 168
+        }
+      },
+      "chip": {
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(17, 17, 17)",
+        "border": "3px rgb(17, 17, 17)",
+        "radius": "3.35544e+07px",
+        "shadow": "none",
+        "rotate": "none",
+        "transform": "none",
+        "padding": "4px 12px",
+        "font": "12px/16px",
+        "weight": "700",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 239,
+          "h": 35
+        }
+      }
+    },
+    {
+      "href": "/buat/wisuda",
+      "text": "WISUDA\n→",
+      "box": {
+        "bg": "rgb(255, 244, 224)",
+        "color": "rgb(17, 17, 17)",
+        "border": "4px rgb(17, 17, 17)",
+        "radius": "20px",
+        "shadow": "rgb(17, 17, 17) 8px 8px 0px 0px",
+        "rotate": "-1deg",
+        "transform": "none",
+        "padding": "0px",
+        "font": "16px/24px",
+        "weight": "400",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 316,
+          "h": 379
+        }
+      },
+      "content": {
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(17, 17, 17)",
+        "border": "0px rgb(17, 17, 17)",
+        "radius": "0px",
+        "shadow": "none",
+        "rotate": "none",
+        "transform": "none",
+        "padding": "20px",
+        "font": "16px/24px",
+        "weight": "400",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 304,
+          "h": 167
+        }
+      },
+      "chip": {
+        "bg": "rgb(255, 255, 255)",
+        "color": "rgb(17, 17, 17)",
+        "border": "3px rgb(17, 17, 17)",
+        "radius": "3.35544e+07px",
+        "shadow": "none",
+        "rotate": "none",
+        "transform": "none",
+        "padding": "4px 12px",
+        "font": "12px/16px",
+        "weight": "700",
+        "family": "\"Space Mono\", \"Space",
+        "rect": {
+          "w": 165,
+          "h": 33
+        }
+      }
+    }
+  ],
+  "sticker": {
+    "bg": "rgb(182, 242, 46)",
+    "color": "rgb(17, 17, 17)",
+    "border": "3px rgb(17, 17, 17)",
+    "radius": "12px",
+    "shadow": "rgb(17, 17, 17) 3px 3px 0px 0px",
+    "rotate": "6deg",
+    "transform": "none",
+    "padding": "3.2px 11.2px",
+    "font": "16px/24px",
+    "weight": "400",
+    "family": "\"Archivo Black\", \"Ar",
+    "rect": {
+      "w": 165,
+      "h": 53
+    },
+    "text": "PALING DICARI"
+  },
+  "header": {
+    "bg": "lab(96.6656 1.39618 11.0618 / 0.95)",
+    "color": "rgb(17, 17, 17)",
+    "border": "0px rgb(17, 17, 17)",
+    "radius": "0px",
+    "shadow": "none",
+    "rotate": "none",
+    "transform": "none",
+    "padding": "0px",
+    "font": "16px/24px",
+    "weight": "400",
+    "family": "\"Space Mono\", \"Space",
+    "rect": {
+      "w": 1440,
+      "h": 72
+    },
+    "backdrop": "blur(8px)",
+    "inner": {
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "border": "0px rgb(17, 17, 17)",
+      "radius": "0px",
+      "shadow": "none",
+      "rotate": "none",
+      "transform": "none",
+      "padding": "12px 16px",
+      "font": "16px/24px",
+      "weight": "400",
+      "family": "\"Space Mono\", \"Space",
+      "rect": {
+        "w": 1152,
+        "h": 68
+      }
+    }
+  },
+  "footerBar": {
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 244, 224)",
+    "border": "2px lab(96.6656 1.39618 11.0618 / 0.2)",
+    "radius": "0px",
+    "shadow": "none",
+    "rotate": "none",
+    "transform": "none",
+    "padding": "0px",
+    "font": "16px/24px",
+    "weight": "400",
+    "family": "\"Space Mono\", \"Space",
+    "rect": {
+      "w": 1440,
+      "h": 66
+    },
+    "borderTop": "2px lab(96.6656 1.39618 11.0618 / 0.2)"
+  },
+  "subLink": {
+    "bg": "rgba(0, 0, 0, 0)",
+    "color": "rgb(255, 244, 224)",
+    "border": "0px rgb(255, 244, 224)",
+    "radius": "0px",
+    "shadow": "none",
+    "rotate": "none",
+    "transform": "none",
+    "padding": "0px",
+    "font": "14px/20px",
+    "weight": "400",
+    "family": "\"Space Mono\", \"Space",
+    "rect": {
+      "w": 111,
+      "h": 21
+    }
+  }
+}

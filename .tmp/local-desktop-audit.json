@@ -1,0 +1,153 @@
+{
+  "viewport": {
+    "w": 1440,
+    "h": 1000,
+    "scrollW": 1440,
+    "scrollH": 5561
+  },
+  "header": {
+    "text": "SUPRIZEGO\nMomen\nCara kerja\nHarga\nFAQ\nBUAT HALAMAN",
+    "rect": {
+      "x": 0,
+      "y": 520,
+      "w": 1440,
+      "h": 72
+    },
+    "bg": "oklab(0.975359 0.00245237 0.0254572 / 0.95)",
+    "family": "\"Space Grotesk\", \"Space Grotesk Fallback\", ui-sans-serif, system-ui, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "radius": "0px",
+    "border": "0px rgb(17, 17, 17)",
+    "shadow": "none"
+  },
+  "banner": {
+    "text": "Tanggal penting sudah dekat? Siapkan kejutannya dari sekarang.",
+    "rect": {
+      "x": 0,
+      "y": 72,
+      "w": 1440,
+      "h": 47
+    },
+    "bg": "rgb(255, 202, 58)",
+    "family": "\"Space Grotesk\", \"Space Grotesk Fallback\", ui-sans-serif, system-ui, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "radius": "0px",
+    "border": "0px rgb(17, 17, 17)",
+    "shadow": "none"
+  },
+  "h1": {
+    "text": "TAK PERLU\nPIDATO.\nCUKUP SATU LINK.",
+    "rect": {
+      "x": 160,
+      "y": 258,
+      "w": 557,
+      "h": 287
+    },
+    "bg": "rgba(0, 0, 0, 0)",
+    "family": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", \"Arial Black\", ui-sans-serif, sans-serif",
+    "size": "72px",
+    "weight": "800",
+    "lineHeight": "66.24px",
+    "radius": "0px",
+    "border": "0px rgb(17, 17, 17)",
+    "shadow": "none"
+  },
+  "eyebrow": {
+    "text": "HALAMAN KEJUTAN INTERAKTIF",
+    "rect": {
+      "x": 159,
+      "y": 195,
+      "w": 258,
+      "h": 48
+    },
+    "bg": "rgb(255, 166, 196)",
+    "family": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", \"Arial Black\", ui-sans-serif, sans-serif",
+    "size": "14px",
+    "weight": "800",
+    "lineHeight": "16.8px",
+    "radius": "12px",
+    "border": "3px rgb(17, 17, 17)",
+    "shadow": "rgb(17, 17, 17) 3px 3px 0px 0px"
+  },
+  "buttons": [
+    {
+      "text": "BUAT HALAMAN",
+      "rect": {
+        "x": 1113,
+        "y": 536,
+        "w": 159,
+        "h": 40
+      },
+      "bg": "rgb(182, 242, 46)",
+      "family": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", \"Arial Black\", ui-sans-serif, sans-serif",
+      "size": "12px",
+      "weight": "800",
+      "lineHeight": "18px",
+      "radius": "12px",
+      "border": "3px rgb(17, 17, 17)",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 4px 4px 0px 0px"
+    },
+    {
+      "text": "BUAT HALAMAN",
+      "rect": {
+        "x": 160,
+        "y": 697,
+        "w": 222,
+        "h": 66
+      },
+      "bg": "rgb(17, 17, 17)",
+      "family": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", \"Arial Black\", ui-sans-serif, sans-serif",
+      "size": "17px",
+      "weight": "800",
+      "lineHeight": "25.5px",
+      "radius": "16px",
+      "border": "4px rgb(17, 17, 17)",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(182, 242, 46) 6px 6px 0px 0px"
+    },
+    {
+      "text": "LIHAT MOMEN",
+      "rect": {
+        "x": 398,
+        "y": 697,
+        "w": 178,
+        "h": 66
+      },
+      "bg": "rgb(255, 246, 228)",
+      "family": "\"Bricolage Grotesque\", \"Bricolage Grotesque Fallback\", \"Arial Black\", ui-sans-serif, sans-serif",
+      "size": "17px",
+      "weight": "800",
+      "lineHeight": "25.5px",
+      "radius": "16px",
+      "border": "4px rgb(17, 17, 17)",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 6px 6px 0px 0px"
+    }
+  ],
+  "phone": null,
+  "panel": {
+    "text": "YANG RAKA TERIMA\n\nSIMULASI NOTIFIKASI PENGIRIM\n\nPENGIRIM\n\nBuka amplop di layar. ",
+    "rect": {
+      "x": 159,
+      "y": 851,
+      "w": 450,
+      "h": 209
+    },
+    "bg": "rgb(255, 255, 255)",
+    "family": "\"Space Grotesk\", \"Space Grotesk Fallback\", ui-sans-serif, system-ui, sans-serif",
+    "size": "16px",
+    "weight": "400",
+    "lineHeight": "24px",
+    "radius": "21.6px",
+    "border": "4px rgb(17, 17, 17)",
+    "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 8px 8px 0px 0px"
+  },
+  "fonts": [
+    "Bricolage Grotesque",
+    "Space Grotesk"
+  ],
+  "errors": [],
+  "bodyFont": "\"Space Grotesk\", \"Space Grotesk Fallback\", ui-sans-serif, system-ui, sans-serif"
+}

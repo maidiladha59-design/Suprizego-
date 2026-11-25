@@ -1,0 +1,298 @@
+{
+  "url": "https://proposigo.app/hari",
+  "title": "Kalender Hari Spesial: Ucapan & Kado Digital untuk Setiap Perayaan",
+  "desc": "Hari Ibu, Natal, Tahun Baru, Valentine, Imlek, Lebaran, dan hari nasional Indonesia lainnya. Contoh ucapan dan halaman kejutan bertema untuk setiap hari spesial.",
+  "robots": null,
+  "canonical": "https://proposigo.app/hari",
+  "og": {
+    "image": "https://proposigo.app/og/hari-id.png?v=3",
+    "title": "Kalender Hari Spesial: Ucapan & Kado Digital untuk Setiap Perayaan",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "UCAPAN & KADO DIGITAL UNTUK SETIAP HARI SPESIAL",
+      "cls": "mt-4 font-display text-4xl leading-tight sm:text-5xl",
+      "size": "36px",
+      "lh": "45px",
+      "family": "\"Archivo Black\""
+    }
+  ],
+  "h2": [
+    "HARI SPESIAL"
+  ],
+  "h3": [
+    "HARI GURU",
+    "HARI IBU",
+    "NATAL",
+    "TAHUN BARU",
+    "IMLEK",
+    "VALENTINE",
+    "LEBARAN",
+    "HARI KARTINI",
+    "HARI PENDIDIKAN NASIONAL",
+    "MOMEN",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "span",
+      "id": null,
+      "cls": "sticker bg-lime -rotate-2",
+      "h": 42,
+      "text": "HARI SPESIAL"
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "cls": "mt-4 font-display text-4xl leading-tight sm:text-5xl",
+      "h": 180,
+      "text": "UCAPAN & KADO DIGITAL UNTUK SETIAP HARI SPESIAL"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": "mt-4 max-w-2xl text-lg font-bold",
+      "h": 112,
+      "text": "Pilih harinya, ambil contoh kata-katanya, lalu bikin halaman kejutan bertema yan"
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "cls": "mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3",
+      "h": 1960,
+      "text": "💐 HARI IBU Ucapan Hari Ibu & kado digital untuk Ibu → 🎄 NATAL Ucapan Natal & k"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "scroll-mt-24 mt-20",
+      "h": 2836,
+      "text": "HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang,"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": "mt-10 font-bold",
+      "h": 48,
+      "text": "Mau merayakan hari lain? Lihat momen Perayaan."
+    }
+  ],
+  "text": "HARI SPESIAL UCAPAN & KADO DIGITAL UNTUK SETIAP HARI SPESIAL Pilih harinya, ambil contoh kata-katanya, lalu bikin halaman kejutan bertema yang dibuka seperti amplop. 💐 HARI IBU Ucapan Hari Ibu & kado digital untuk Ibu → 🎄 NATAL Ucapan Natal & kartu Natal digital → 🎆 TAHUN BARU Ucapan Tahun Baru & kejutan tepat jam 00.00 → 💘 VALENTINE Ucapan Valentine & kado Valentine digital → 🧧 IMLEK Ucapan Imlek & angpao ucapan digital → 🌙 LEBARAN Ucapan Lebaran & kartu Lebaran digital → 📚 HARI GURU Ucapan Hari Guru & kado digital untuk guru → 👔 HARI AYAH Ucapan Hari Ayah & kado digital untuk Ayah → 🌺 HARI KARTINI Ucapan Hari Kartini untuk perempuan hebat di hidupmu → 🤝 HARI PERSAHABATAN Ucapan Hari Persahabatan untuk sahabat → HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang, atau pakai momennya buat minta maaf. 📚 ●hari ini! HARI GURU Contoh ucapannya → 🎉 Rayakan Terima kasih, Bu/Pak Guru → 🙏 Minta maaf Maaf dulu suka bandel di kelas → 🔒 22 Des · dibuka 1 Des HARI IBU Contoh ucapannya → 🎉 Rayakan Terima kasih buat Ibu 🙏 Minta maaf Maaf sering bikin Ibu khawatir 🔒 25 Des · dibuka 4 Des NATAL Contoh ucapannya → 🎉 Rayakan Ucapan Natal yang hangat 🙏 Minta maaf Damai di hari Natal 🔒 1 Jan · dibuka 11 Des TAHUN BARU Contoh ucapannya → 🎉 Rayakan Rayakan setahun bareng 🙏 Minta maaf Tutup tahun tanpa utang maaf 🔒 6 Feb · dibuka 16 Jan IMLEK Contoh ucapannya → 🎉 Rayakan Kirim angpao ucapan 🙏 Minta maaf Mulai tahun baru tanpa ganjalan 🔒 14 Feb · dibuka 24 Jan VALENTINE Contoh ucapannya → 🎉 Rayakan Bilang sayang di hari kasih sayang 🙏 Minta maaf Baikan sebelum Valentine 🔒 10 Mar · dibuka 17 Feb LEBARAN Contoh ucapannya → 🙏 Minta maaf Mohon maaf lahir dan batin 🎉 Rayakan Ucapan Lebaran buat keluarga 🔒 21 Apr · dibuka 31 Mar HARI KARTINI Contoh ucapannya → 🎉 Rayakan Buat perempuan hebat di hidupmu 🔒 2 Mei · dibuka 11 Apr HARI PENDIDIKAN NASIONAL 🎉 Rayakan Makasih buat yang ngajarin kamu Mau merayakan hari lain? Lihat momen Perayaan.",
+  "buttons": [
+    "Pengaturan cookie",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Momen",
+      "h": "/#momen"
+    },
+    {
+      "t": "Cara kerja",
+      "h": "/#cara-kerja"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Masuk",
+      "h": "/masuk"
+    },
+    {
+      "t": "BIKIN SEKARANG",
+      "h": "/buat"
+    },
+    {
+      "t": "💐 HARI IBU Ucapan Hari Ibu & kado digital untuk Ibu →",
+      "h": "/hari/hari-ibu"
+    },
+    {
+      "t": "🎄 NATAL Ucapan Natal & kartu Natal digital →",
+      "h": "/hari/natal"
+    },
+    {
+      "t": "🎆 TAHUN BARU Ucapan Tahun Baru & kejutan tepat jam 00.00 →",
+      "h": "/hari/tahun-baru"
+    },
+    {
+      "t": "💘 VALENTINE Ucapan Valentine & kado Valentine digital →",
+      "h": "/hari/valentine"
+    },
+    {
+      "t": "🧧 IMLEK Ucapan Imlek & angpao ucapan digital →",
+      "h": "/hari/imlek"
+    },
+    {
+      "t": "🌙 LEBARAN Ucapan Lebaran & kartu Lebaran digital →",
+      "h": "/hari/lebaran"
+    },
+    {
+      "t": "📚 HARI GURU Ucapan Hari Guru & kado digital untuk guru →",
+      "h": "/hari/hari-guru"
+    },
+    {
+      "t": "👔 HARI AYAH Ucapan Hari Ayah & kado digital untuk Ayah →",
+      "h": "/hari/hari-ayah"
+    },
+    {
+      "t": "🌺 HARI KARTINI Ucapan Hari Kartini untuk perempuan hebat di",
+      "h": "/hari/hari-kartini"
+    },
+    {
+      "t": "🤝 HARI PERSAHABATAN Ucapan Hari Persahabatan untuk sahabat ",
+      "h": "/hari/hari-persahabatan"
+    },
+    {
+      "t": "HARI GURU",
+      "h": "/hari/hari-guru"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/hari-guru"
+    },
+    {
+      "t": "🎉 Rayakan Terima kasih, Bu/Pak Guru →",
+      "h": "/buat/rayakan?hari=hariguru"
+    },
+    {
+      "t": "🙏 Minta maaf Maaf dulu suka bandel di kelas →",
+      "h": "/buat/maaf?hari=hariguru"
+    },
+    {
+      "t": "HARI IBU",
+      "h": "/hari/hari-ibu"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/hari-ibu"
+    },
+    {
+      "t": "NATAL",
+      "h": "/hari/natal"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/natal"
+    },
+    {
+      "t": "TAHUN BARU",
+      "h": "/hari/tahun-baru"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/tahun-baru"
+    },
+    {
+      "t": "IMLEK",
+      "h": "/hari/imlek"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/imlek"
+    },
+    {
+      "t": "VALENTINE",
+      "h": "/hari/valentine"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/valentine"
+    },
+    {
+      "t": "LEBARAN",
+      "h": "/hari/lebaran"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/lebaran"
+    },
+    {
+      "t": "HARI KARTINI",
+      "h": "/hari/hari-kartini"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/hari-kartini"
+    },
+    {
+      "t": "Lihat momen Perayaan",
+      "h": "/momen/rayakan"
+    },
+    {
+      "t": "Confess",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "Ulang Tahun",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "Minta Maaf",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "Wisuda",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "Hari Spesial",
+      "h": "/hari"
+    },
+    {
+      "t": "Bikin halaman",
+      "h": "/buat"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide kata-kata & kejutan",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Dasbor",
+      "h": "/dasbor"
+    },
+    {
+      "t": "Syarat & Ketentuan",
+      "h": "/terms"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    }
+  ],
+  "scrollH": 6497
+}

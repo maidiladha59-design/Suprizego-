@@ -1,0 +1,902 @@
+[
+  {
+    "name": "00",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 290.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "ADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 1 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full text-center\"><span class=\"sticker rotate-[-3deg]\" style=\"background:#FF6A3D;color:#111\">ada titipan buat…</span><p class=\"mt-4 break-words font-display text-5xl leading-none\">DINDA</p><button class=\"group mx-auto mt-10 block\" aria-label=\"Ketuk amplop untuk membuka\"><svg viewBox=\"0 0 380 260\" class=\"w-full max-w-72 animate-float drop-shadow-[8px_8px_0_#111]\"><rect x=\"4\" y=\"4\" width=\"372\" height=\"252\" rx=\"14\" fill=\"#FF6A3D\" stroke=\"#111\" stroke-width=\"8\"></rect><path d=\"M4 4L190 150L376 4Z\" fill=\"#B6F22E\" stroke=\"#111\" stroke-width=\"8\" stroke-linejoin=\"round\"></path><circle cx=\"190\" cy=\"150\" r=\"30\" fill=\"#FFF4E0\" stroke=\"#111\" stroke-width=\"8\"></circle><path d=\"M190 164l-12-12a8 8 0 0 1 12-10 8 8 0 0 1 12 10z\" fill=\"#FF6A3D\" stroke=\"#111\" stroke-width=\"4\" stroke-linejoin=\"round\"></path></svg></button><p class=\"mt-6 font-bold\">(ketuk amplopnya)</p></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\nADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.",
+    "logItems": [],
+    "buttons": [
+      {
+        "text": "",
+        "x": 886.6875,
+        "y": 562.09375,
+        "w": 287.984375,
+        "h": 197.03125,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "01-greeting",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nHAI, DINDA!\n\nRaka punya sesuatu buat kamu.\n\nBUKA →",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 2 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full text-center\"><svg viewBox=\"0 0 200 200\" class=\"mx-auto h-44 w-44 animate-float\" role=\"presentation\" style=\"overflow: visible;\"><rect x=\"33\" y=\"79\" width=\"148\" height=\"100\" rx=\"12\" fill=\"#111\"></rect><rect x=\"26\" y=\"72\" width=\"148\" height=\"100\" rx=\"12\" fill=\"#FF6A3D\" stroke=\"#111\" stroke-width=\"6\"></rect><g transform=\"rotate(-4 100 80)\"><rect x=\"46\" y=\"30\" width=\"108\" height=\"100\" rx=\"8\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"6\"></rect><path d=\"M62 54H120M62 72H138M62 90H106\" stroke=\"#111\" stroke-width=\"6\" stroke-linecap=\"round\"></path></g><path d=\"M26 92L100 140L174 92V160A12 12 0 0 1 162 172H38A12 12 0 0 1 26 160Z\" fill=\"#FFF4E0\" stroke=\"#111\" stroke-width=\"6\" stroke-linejoin=\"round\"></path><path d=\"M28 168L78 126M172 168L122 126\" stroke=\"#111\" stroke-width=\"6\" stroke-linecap=\"round\"></path><path transform=\"translate(100 142) rotate(0) scale(1.5)\" d=\"M0 14C-26 -4 -14 -26 0 -10C14 -26 26 -4 0 14Z\" fill=\"#FF6A3D\" stroke=\"#111\" stroke-width=\"3.3333333333333335\" stroke-linejoin=\"round\"></path><path transform=\"translate(166 44) rotate(14) scale(0.8)\" d=\"M0 14C-26 -4 -14 -26 0 -10C14 -26 26 -4 0 14Z\" fill=\"#B6F22E\" stroke=\"#111\" stroke-width=\"6.25\" stroke-linejoin=\"round\"></path><path transform=\"translate(30 48) rotate(-16) scale(0.55)\" d=\"M0 14C-26 -4 -14 -26 0 -10C14 -26 26 -4 0 14Z\" fill=\"#fff\" stroke=\"#111\" stroke-width=\"9.09090909090909\" stroke-linejoin=\"round\"></path></svg><div class=\"nb-card mt-4 p-5\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\"><p class=\"font-display text-3xl leading-tight\">HAI, DINDA!</p><p class=\"mt-2 font-bold\">Raka punya sesuatu buat kamu.</p></div><button class=\"nb-btn ink mt-6\">Buka →</button></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nHAI, DINDA!\n\nRaka punya sesuatu buat kamu.\n\nBUKA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "logItems": [
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "BUKA →",
+        "x": 964.046875,
+        "y": 749.828125,
+        "w": 133.265625,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "02-story1",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nLANJUT BACA →",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 3 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\"><p class=\"mb-3 text-xs font-bold uppercase tracking-wider opacity-80\">cerita dari Raka</p><div class=\"space-y-3\"><div class=\"animate-rise flex justify-start\"><p class=\"max-w-[88%] rounded-2xl border-4 border-ink px-4 py-3 font-bold leading-snug shadow-[5px_5px_0_#111]\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">Hai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.</p></div></div><button class=\"nb-btn ink mx-auto mt-8 block\">Lanjut baca →</button></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nLANJUT BACA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "logItems": [
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT BACA →",
+        "x": 925.78125,
+        "y": 650.078125,
+        "w": 209.8125,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "03",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nLANJUT BACA →",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 3 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\"><p class=\"mb-3 text-xs font-bold uppercase tracking-wider opacity-80\">cerita dari Raka</p><div class=\"space-y-3\"><div class=\"animate-rise flex justify-start\"><p class=\"max-w-[88%] rounded-2xl border-4 border-ink px-4 py-3 font-bold leading-snug shadow-[5px_5px_0_#111]\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">Hai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.</p></div><div class=\"animate-rise flex justify-end\"><p class=\"max-w-[88%] rounded-2xl border-4 border-ink px-4 py-3 font-bold leading-snug shadow-[5px_5px_0_#111]\" style=\"background: rgb(182, 242, 46); color: rgb(17, 17, 17);\">Dari pertama kita ngobrol, hariku jadi lebih ramai.</p></div></div><button class=\"nb-btn ink mx-auto mt-8 block\">Lanjut baca →</button></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nLANJUT BACA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "logItems": [
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT BACA →",
+        "x": 925.78125,
+        "y": 705.078125,
+        "w": 209.8125,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "04",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\n\nLANJUT BACA →",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 3 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\"><p class=\"mb-3 text-xs font-bold uppercase tracking-wider opacity-80\">cerita dari Raka</p><div class=\"space-y-3\"><div class=\"animate-rise flex justify-start\"><p class=\"max-w-[88%] rounded-2xl border-4 border-ink px-4 py-3 font-bold leading-snug shadow-[5px_5px_0_#111]\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">Hai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.</p></div><div class=\"animate-rise flex justify-end\"><p class=\"max-w-[88%] rounded-2xl border-4 border-ink px-4 py-3 font-bold leading-snug shadow-[5px_5px_0_#111]\" style=\"background: rgb(182, 242, 46); color: rgb(17, 17, 17);\">Dari pertama kita ngobrol, hariku jadi lebih ramai.</p></div><div class=\"animate-rise flex justify-start\"><p class=\"max-w-[88%] rounded-2xl border-4 border-ink px-4 py-3 font-bold leading-snug shadow-[5px_5px_0_#111]\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">Kamu ketawa di hal yang nggak lucu, dan aku suka itu.</p></div></div><button class=\"nb-btn ink mx-auto mt-8 block\">Lanjut baca →</button></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\n\nLANJUT BACA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "logItems": [
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT BACA →",
+        "x": 925.78125,
+        "y": 760.078125,
+        "w": 209.8125,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "05",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\n\nJadi... ada satu pertanyaan buat kamu.\n\nSELESAI BACA →",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 3 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\"><p class=\"mb-3 text-xs font-bold uppercase tracking-wider opacity-80\">cerita dari Raka</p><div class=\"space-y-3\"><div class=\"animate-rise flex justify-start\"><p class=\"max-w-[88%] rounded-2xl border-4 border-ink px-4 py-3 font-bold leading-snug shadow-[5px_5px_0_#111]\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">Hai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.</p></div><div class=\"animate-rise flex justify-end\"><p class=\"max-w-[88%] rounded-2xl border-4 border-ink px-4 py-3 font-bold leading-snug shadow-[5px_5px_0_#111]\" style=\"background: rgb(182, 242, 46); color: rgb(17, 17, 17);\">Dari pertama kita ngobrol, hariku jadi lebih ramai.</p></div><div class=\"animate-rise flex justify-start\"><p class=\"max-w-[88%] rounded-2xl border-4 border-ink px-4 py-3 font-bold leading-snug shadow-[5px_5px_0_#111]\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">Kamu ketawa di hal yang nggak lucu, dan aku suka itu.</p></div><div class=\"animate-rise flex justify-end\"><p class=\"max-w-[88%] rounded-2xl border-4 border-ink px-4 py-3 font-bold leading-snug shadow-[5px_5px_0_#111]\" style=\"background: rgb(182, 242, 46); color: rgb(17, 17, 17);\">Jadi... ada satu pertanyaan buat kamu.</p></div></div><button class=\"nb-btn ink mx-auto mt-8 block\">Selesai baca →</button></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\n\nJadi... ada satu pertanyaan buat kamu.\n\nSELESAI BACA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "logItems": [
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "SELESAI BACA →",
+        "x": 923.921875,
+        "y": 805.921875,
+        "w": 213.53125,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "06-photo",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nKENANGAN\n\nSore itu di bukit\nBakso langganan\nFOTO LAIN\nLANJUT →\n\nketuk foto untuk menggeser",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 4 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full text-center\"><p class=\"mb-4 font-display text-2xl\">KENANGAN</p><div class=\"relative mx-auto aspect-[9/11] w-full max-w-72\"><figure class=\"nb-card absolute inset-0 cursor-pointer bg-white p-3 pb-4 transition-all duration-300\" style=\"z-index: 10; border-radius: 10px; transform: rotate(0deg) translateY(0px); opacity: 1;\"><img alt=\"Sore itu di bukit\" class=\"h-[calc(100%-2.25rem)] w-full rounded-md border-2 border-ink object-cover\" draggable=\"false\" src=\"/demo/foto-1.svg\"><figcaption class=\"mt-2 truncate text-sm font-bold\">Sore itu di bukit</figcaption></figure><figure class=\"nb-card absolute inset-0 cursor-pointer bg-white p-3 pb-4 transition-all duration-300\" style=\"z-index: 9; border-radius: 10px; transform: rotate(-5deg) translateY(6px); opacity: 1;\"><img alt=\"Bakso langganan\" class=\"h-[calc(100%-2.25rem)] w-full rounded-md border-2 border-ink object-cover\" draggable=\"false\" src=\"/demo/foto-2.svg\"><figcaption class=\"mt-2 truncate text-sm font-bold\">Bakso langganan</figcaption></figure></div><div class=\"mt-6 flex flex-wrap justify-center gap-3\"><button class=\"nb-btn sm cream whitespace-nowrap !px-3\">Foto lain</button><button class=\"nb-btn sm ink whitespace-nowrap\">Lanjut →</button></div><p class=\"mt-3 text-xs font-bold opacity-70\">ketuk foto untuk menggeser</p><span class=\"hidden\" style=\"background: rgb(255, 143, 184);\"></span></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nKENANGAN\n\nSore itu di bukit\nBakso langganan\nFOTO LAIN\nLANJUT →\n\nketuk foto untuk menggeser\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "logItems": [
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "FOTO LAIN",
+        "x": 907.453125,
+        "y": 777.46875,
+        "w": 112.765625,
+        "h": 42.390625,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT →",
+        "x": 1032.21875,
+        "y": 777.46875,
+        "w": 121.6875,
+        "h": 42.390625,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "07-quiz",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nlewati permainan ini",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 5 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\" data-screen=\"0\"><p class=\"mb-4 text-center\"><span class=\"sticker rotate-[-2deg] text-xs\" style=\"background: rgb(255, 106, 61); color: rgb(17, 17, 17);\">main berdua · 1/2</span></p><div class=\"animate-rise\"><div><div class=\"mb-4 text-center\"><p class=\"font-display text-3xl leading-none\">KUIS KENAL AKU</p><p class=\"mt-1 text-sm font-bold opacity-80\">Seberapa kenal kamu sama Raka? · 1/2</p></div><div class=\"rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\"><p class=\"break-words font-display text-2xl leading-tight\">Minuman yang selalu aku pesan?</p><div class=\"mt-4 space-y-3\"><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 1;\"><span class=\"break-words\">Es teh</span></button><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 1;\"><span class=\"break-words\">Kopi susu</span></button><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 1;\"><span class=\"break-words\">Matcha</span></button></div></div></div></div><div class=\"mt-6 text-center\"><button class=\"text-xs font-bold underline opacity-70\">lewati permainan ini</button></div></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nlewati permainan ini\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "logItems": [
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "Es teh",
+        "x": 906.6875,
+        "y": 585.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "Kopi susu",
+        "x": 906.6875,
+        "y": 653.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "Matcha",
+        "x": 906.6875,
+        "y": 721.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957.234375,
+        "y": 831.859375,
+        "w": 146.890625,
+        "h": 16,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "07b-quiz-answered",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\n✓\nMatcha\n\nBener! 🎉\n\nSOAL BERIKUTNYA →\nlewati permainan ini",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 5 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\" data-screen=\"0\"><p class=\"mb-4 text-center\"><span class=\"sticker rotate-[-2deg] text-xs\" style=\"background: rgb(255, 106, 61); color: rgb(17, 17, 17);\">main berdua · 1/2</span></p><div class=\"animate-rise\"><div><div class=\"mb-4 text-center\"><p class=\"font-display text-3xl leading-none\">KUIS KENAL AKU</p><p class=\"mt-1 text-sm font-bold opacity-80\">Seberapa kenal kamu sama Raka? · 1/2</p></div><div class=\"rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\"><p class=\"break-words font-display text-2xl leading-tight\">Minuman yang selalu aku pesan?</p><div class=\"mt-4 space-y-3\"><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 0.55;\" disabled=\"\"><span class=\"break-words\">Es teh</span></button><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(182, 242, 46); opacity: 1;\" disabled=\"\"><span class=\"break-words\">Kopi susu</span><span aria-label=\"benar\">✓</span></button><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 0.55;\" disabled=\"\"><span class=\"break-words\">Matcha</span></button></div><p class=\"mt-4 animate-pop text-center font-bold\">Bener! 🎉</p></div><div class=\"mt-5 text-center\"><button class=\"nb-btn\" style=\"background: rgb(182, 242, 46); color: rgb(17, 17, 17);\">Soal berikutnya →</button></div></div></div><div class=\"mt-6 text-center\"><button class=\"text-xs font-bold underline opacity-70\">lewati permainan ini</button></div></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\n✓\nMatcha\n\nBener! 🎉\n\nSOAL BERIKUTNYA →\nlewati permainan ini\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "logItems": [
+      {
+        "text": "Minuman yang selalu aku pesan? Es teh Kopi susu ✓ Matcha Bener! 🎉",
+        "html": "<div class=\"rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\"><p class=\"break-words font-display text-2xl leading-tight\">Minuman yang selalu aku pesan?</p><div class=\"mt-4 space-y-3\"><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 0.55;\" disabled=\"\"><span class=\"break-words\">Es teh</span></button><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(182, 242, 46); opacity: 1;\" disabl"
+      },
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Es teh",
+        "x": 906.6875,
+        "y": 478.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "Kopi susu ✓",
+        "x": 906.6875,
+        "y": 546.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "Matcha",
+        "x": 906.6875,
+        "y": 614.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "SOAL BERIKUTNYA →",
+        "x": 903.53125,
+        "y": 754.296875,
+        "w": 254.296875,
+        "h": 59.1875,
+        "disabled": false
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957.234375,
+        "y": 843.484375,
+        "w": 146.890625,
+        "h": 16,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "08-quiz2",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\nGrup kelas\nPerpus\nlewati permainan ini",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 5 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\" data-screen=\"0\"><p class=\"mb-4 text-center\"><span class=\"sticker rotate-[-2deg] text-xs\" style=\"background: rgb(255, 106, 61); color: rgb(17, 17, 17);\">main berdua · 1/2</span></p><div class=\"animate-rise\"><div><div class=\"mb-4 text-center\"><p class=\"font-display text-3xl leading-none\">KUIS KENAL AKU</p><p class=\"mt-1 text-sm font-bold opacity-80\">Seberapa kenal kamu sama Raka? · 2/2</p></div><div class=\"rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\"><p class=\"break-words font-display text-2xl leading-tight\">Pertama kali kita ngobrol di mana?</p><div class=\"mt-4 space-y-3\"><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 1;\"><span class=\"break-words\">Kantin</span></button><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 1;\"><span class=\"break-words\">Grup kelas</span></button><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 1;\"><span class=\"break-words\">Perpus</span></button></div></div></div></div><div class=\"mt-6 text-center\"><button class=\"text-xs font-bold underline opacity-70\">lewati permainan ini</button></div></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\nGrup kelas\nPerpus\nlewati permainan ini\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "logItems": [
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 293.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "Kantin",
+        "x": 906.6875,
+        "y": 585.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "Grup kelas",
+        "x": 906.6875,
+        "y": 653.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "Perpus",
+        "x": 906.6875,
+        "y": 721.859375,
+        "w": 248,
+        "h": 56,
+        "disabled": false
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957.234375,
+        "y": 831.859375,
+        "w": 146.890625,
+        "h": 16,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "08b-answered",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\nGrup kelas\n✓\nPerpus\n\nBener! 🎉\n\nLIHAT SKOR →\nlewati permainan ini",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 5 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\" data-screen=\"0\"><p class=\"mb-4 text-center\"><span class=\"sticker rotate-[-2deg] text-xs\" style=\"background: rgb(255, 106, 61); color: rgb(17, 17, 17);\">main berdua · 1/2</span></p><div class=\"animate-rise\"><div><div class=\"mb-4 text-center\"><p class=\"font-display text-3xl leading-none\">KUIS KENAL AKU</p><p class=\"mt-1 text-sm font-bold opacity-80\">Seberapa kenal kamu sama Raka? · 2/2</p></div><div class=\"rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\"><p class=\"break-words font-display text-2xl leading-tight\">Pertama kali kita ngobrol di mana?</p><div class=\"mt-4 space-y-3\"><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 0.55;\" disabled=\"\"><span class=\"break-words\">Kantin</span></button><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(182, 242, 46); opacity: 1;\" disabled=\"\"><span class=\"break-words\">Grup kelas</span><span aria-label=\"benar\">✓</span></button><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 0.55;\" disabled=\"\"><span class=\"break-words\">Perpus</span></button></div><p class=\"mt-4 animate-pop text-center font-bold\">Bener! 🎉</p></div><div class=\"mt-5 text-center\"><button class=\"nb-btn\" style=\"background: rgb(182, 242, 46); color: rgb(17, 17, 17);\">Lihat skor →</button></div></div></div><div class=\"mt-6 text-center\"><button class=\"text-xs font-bold underline opacity-70\">lewati permainan ini</button></div></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\nGrup kelas\n✓\nPerpus\n\nBener! 🎉\n\nLIHAT SKOR →\nlewati permainan ini\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "logItems": [
+      {
+        "text": "Pertama kali kita ngobrol di mana? Kantin Grup kelas ✓ Perpus Bener! 🎉",
+        "html": "<div class=\"rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\"><p class=\"break-words font-display text-2xl leading-tight\">Pertama kali kita ngobrol di mana?</p><div class=\"mt-4 space-y-3\"><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(255, 255, 255); opacity: 0.55;\" disabled=\"\"><span class=\"break-words\">Kantin</span></button><button class=\"flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition\" style=\"background: rgb(182, 242, 46); opacity: 1;\" di"
+      },
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "Kantin",
+        "x": 906.6875,
+        "y": 478.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 906.6875,
+        "y": 546.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "Perpus",
+        "x": 906.6875,
+        "y": 614.296875,
+        "w": 248,
+        "h": 56,
+        "disabled": true
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 934.84375,
+        "y": 754.296875,
+        "w": 191.671875,
+        "h": 59.1875,
+        "disabled": false
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957.234375,
+        "y": 843.484375,
+        "w": 146.890625,
+        "h": 16,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "09-score",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 292.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nSkor kamu\n\n2/2\n\nKAMU KENAL BANGET!\n\nSkor ini dikirim ke Raka. Siap-siap dibanggain.\n\nGAME BERIKUTNYA →",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 5 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\" data-screen=\"0\"><p class=\"mb-4 text-center\"><span class=\"sticker rotate-[-2deg] text-xs\" style=\"background: rgb(255, 106, 61); color: rgb(17, 17, 17);\">main berdua · 1/2</span></p><div class=\"animate-rise\"><div class=\"rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] animate-pop p-6 text-center\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\"><p class=\"text-sm font-bold\">Skor kamu</p><p class=\"font-display text-7xl leading-none\">2/2</p><p class=\"mt-3 font-display text-xl leading-tight\">KAMU KENAL BANGET!</p><p class=\"mt-1 text-sm font-bold\">Skor ini dikirim ke Raka. Siap-siap dibanggain.</p></div></div><div class=\"mt-6 text-center\"><button class=\"nb-btn ink animate-pop whitespace-nowrap\">Game berikutnya →</button></div></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nMAIN BERDUA · 1/2\n\nSkor kamu\n\n2/2\n\nKAMU KENAL BANGET!\n\nSkor ini dikirim ke Raka. Siap-siap dibanggain.\n\nGAME BERIKUTNYA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar",
+    "logItems": [
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu 🎮 Kuis Kenal Aku · 2/2 benar",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      },
+      {
+        "text": "🎮 Kuis Kenal Aku · 2/2 benar",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">🎮</span><span>Kuis Kenal Aku · 2/2 benar</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 318.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "GAME BERIKUTNYA →",
+        "x": 901.0625,
+        "y": 757.265625,
+        "w": 259.25,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "10-game2",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 292.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 2/2\n\nRENCANA BARENG\n\nPilih satu. Pilihanmu jadi tiket janji dari Raka.\n\nKalau jawabanmu mau, kencan pertama kita:\n\nMAKAN BAKSO\nNONTON\nKELILING KOTA NAIK MOTOR\nlewati permainan ini",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 5 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\" data-screen=\"1\"><p class=\"mb-4 text-center\"><span class=\"sticker rotate-[-2deg] text-xs\" style=\"background: rgb(255, 106, 61); color: rgb(17, 17, 17);\">main berdua · 2/2</span></p><div class=\"animate-rise\"><div><div class=\"mb-4 text-center\"><p class=\"font-display text-3xl leading-none\">RENCANA BARENG</p><p class=\"mt-1 text-sm font-bold opacity-80\">Pilih satu. Pilihanmu jadi tiket janji dari Raka.</p></div><div class=\"rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\"><p class=\"break-words text-center font-display text-2xl leading-tight\">Kalau jawabanmu mau, kencan pertama kita:</p><div class=\"mt-4 grid gap-3\"><button class=\"nb-btn w-full break-words\" style=\"background: rgb(182, 242, 46); color: rgb(17, 17, 17);\">Makan bakso</button><button class=\"nb-btn w-full break-words\" style=\"background: rgb(255, 106, 61); color: rgb(17, 17, 17);\">Nonton</button><button class=\"nb-btn w-full break-words\" style=\"background: rgb(182, 242, 46); color: rgb(17, 17, 17);\">Keliling kota naik motor</button></div></div></div></div><div class=\"mt-6 text-center\"><button class=\"text-xs font-bold underline opacity-70\">lewati permainan ini</button></div></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nMAIN BERDUA · 2/2\n\nRENCANA BARENG\n\nPilih satu. Pilihanmu jadi tiket janji dari Raka.\n\nKalau jawabanmu mau, kencan pertama kita:\n\nMAKAN BAKSO\nNONTON\nKELILING KOTA NAIK MOTOR\nlewati permainan ini\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar",
+    "logItems": [
+      {
+        "text": "YANG MASUK KE RAKA PENGIRIM 👀 Dinda membuka halamanmu 🎮 Kuis Kenal Aku · 2/2 benar",
+        "html": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_"
+      },
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      },
+      {
+        "text": "🎮 Kuis Kenal Aku · 2/2 benar",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">🎮</span><span>Kuis Kenal Aku · 2/2 benar</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 318.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAKAN BAKSO",
+        "x": 906.6875,
+        "y": 659.296875,
+        "w": 248,
+        "h": 59.1875,
+        "disabled": false
+      },
+      {
+        "text": "NONTON",
+        "x": 904.6875,
+        "y": 728.484375,
+        "w": 248,
+        "h": 59.1875,
+        "disabled": false
+      },
+      {
+        "text": "KELILING KOTA NAIK MOTOR",
+        "x": 906.6875,
+        "y": 801.671875,
+        "w": 248,
+        "h": 83.1875,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "11-ticket",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 317.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 2/2\n\nTIKET JANJI · BERLAKU 1X\n\nMAKAN BAKSO\n\nDinda + Raka\n\ntidak bisa dibatalkan, cuma bisa dijadwalkan 😌\n\nRaka langsung dikabari pilihanmu. Tinggal tagih.\n\nLANJUT →",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 5 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\" data-screen=\"1\"><p class=\"mb-4 text-center\"><span class=\"sticker rotate-[-2deg] text-xs\" style=\"background: rgb(255, 106, 61); color: rgb(17, 17, 17);\">main berdua · 2/2</span></p><div class=\"animate-rise\"><div class=\"animate-pop\"><div class=\"rotate-[-2deg] rounded-2xl border-4 border-dashed border-ink p-5 text-center shadow-[6px_6px_0_#111]\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\"><p class=\"text-xs font-bold tracking-widest\">TIKET JANJI · BERLAKU 1X</p><p class=\"my-3 break-words font-display text-4xl leading-none\">MAKAN BAKSO</p><p class=\"text-sm font-bold\">Dinda + Raka</p><p class=\"mt-3 border-t-4 border-dashed border-ink pt-3 text-xs font-bold\">tidak bisa dibatalkan, cuma bisa dijadwalkan 😌</p></div><p class=\"mt-5 text-center font-bold\">Raka langsung dikabari pilihanmu. Tinggal tagih.</p></div></div><div class=\"mt-6 text-center\"><button class=\"nb-btn ink animate-pop whitespace-nowrap\">Lanjut →</button></div></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nMAIN BERDUA · 2/2\n\nTIKET JANJI · BERLAKU 1X\n\nMAKAN BAKSO\n\nDinda + Raka\n\ntidak bisa dibatalkan, cuma bisa dijadwalkan 😌\n\nRaka langsung dikabari pilihanmu. Tinggal tagih.\n\nLANJUT →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Makan bakso",
+    "logItems": [
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      },
+      {
+        "text": "🎮 Kuis Kenal Aku · 2/2 benar",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">🎮</span><span>Kuis Kenal Aku · 2/2 benar</span></li>"
+      },
+      {
+        "text": "🎮 Rencana Bareng · Pilih: Makan bakso",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">🎮</span><span>Rencana Bareng · Pilih: Makan bakso</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 343.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT →",
+        "x": 953.453125,
+        "y": 809.265625,
+        "w": 154.453125,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "12-final",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 317.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAU JADI PACARKU?\n\nMAU\nNGGAK",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 6 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\"><svg viewBox=\"-10 -50 290 320\" class=\"mx-auto h-40 w-40 animate-float\" role=\"presentation\" style=\"overflow: visible;\"><path d=\"M54 34H146A68 68 0 0 1 146 170H118V222H54Z\" transform=\"translate(12 12)\" fill=\"#111\" stroke=\"#111\" stroke-width=\"10\" stroke-linejoin=\"round\"></path><path d=\"M54 34H146A68 68 0 0 1 146 170H118V222H54Z\" fill=\"#B6F22E\" stroke=\"#111\" stroke-width=\"10\" stroke-linejoin=\"round\"></path><g class=\"mascot-eye\"><circle cx=\"104\" cy=\"96\" r=\"14\" fill=\"#111\"></circle><circle cx=\"109\" cy=\"91\" r=\"4.5\" fill=\"#fff\"></circle></g><g class=\"mascot-eye\"><circle cx=\"158\" cy=\"96\" r=\"14\" fill=\"#111\"></circle><circle cx=\"163\" cy=\"91\" r=\"4.5\" fill=\"#fff\"></circle></g><rect x=\"80\" y=\"118\" width=\"26\" height=\"14\" rx=\"7\" fill=\"#FF8FB8\" stroke=\"#111\" stroke-width=\"5\"></rect><rect x=\"156\" y=\"118\" width=\"26\" height=\"14\" rx=\"7\" fill=\"#FF8FB8\" stroke=\"#111\" stroke-width=\"5\"></rect><path d=\"M120 120Q131 132 142 120\" fill=\"none\" stroke=\"#111\" stroke-width=\"7\" stroke-linecap=\"round\"></path></svg><div class=\"nb-card p-5 text-center mt-4\" style=\"background: rgb(255, 244, 224);\"><p class=\"font-display text-3xl leading-tight\">MAU JADI PACARKU?</p><div class=\"relative mt-5 h-36 text-left\"><button class=\"nb-btn text-lg\" style=\"background: rgb(182, 242, 46); color: rgb(17, 17, 17);\">MAU</button><button class=\"nb-btn absolute top-0 text-lg transition-all duration-200\" style=\"background: rgb(255, 106, 61); color: rgb(17, 17, 17); left: 130px; top: 0px; touch-action: none;\">NGGAK</button></div></div></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nMAU JADI PACARKU?\n\nMAU\nNGGAK\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Makan bakso",
+    "logItems": [
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      },
+      {
+        "text": "🎮 Kuis Kenal Aku · 2/2 benar",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">🎮</span><span>Kuis Kenal Aku · 2/2 benar</span></li>"
+      },
+      {
+        "text": "🎮 Rencana Bareng · Pilih: Makan bakso",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">🎮</span><span>Rencana Bareng · Pilih: Makan bakso</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 343.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "MAU",
+        "x": 906.6875,
+        "y": 714.171875,
+        "w": 101.921875,
+        "h": 63.1875,
+        "disabled": false
+      },
+      {
+        "text": "NGGAK",
+        "x": 1036.6875,
+        "y": 714.171875,
+        "w": 130.890625,
+        "h": 63.1875,
+        "disabled": false
+      }
+    ]
+  },
+  {
+    "name": "nggak-history",
+    "nggakHistory": [
+      {
+        "i": 0,
+        "text": "NGGAK",
+        "x": 1037,
+        "y": 714,
+        "w": 131,
+        "h": 63,
+        "transform": {
+          "transform": "none",
+          "left": "130px",
+          "top": "0px",
+          "position": "absolute"
+        }
+      },
+      {
+        "i": 1,
+        "text": "IH KABUR",
+        "x": 1004,
+        "y": 803,
+        "w": 151,
+        "h": 91,
+        "transform": {
+          "transform": "none",
+          "left": "97.4354px",
+          "top": "88.7056px",
+          "position": "absolute"
+        }
+      },
+      {
+        "i": 2,
+        "text": "MENYERAH?",
+        "x": 925,
+        "y": 786,
+        "w": 184,
+        "h": 63,
+        "transform": {
+          "transform": "matrix(1, 0, 0, 1, -2, -2)",
+          "left": "20.2295px",
+          "top": "73.6885px",
+          "position": "absolute"
+        }
+      },
+      {
+        "i": 3,
+        "text": "YAKIN?",
+        "x": 972,
+        "y": 785,
+        "w": 131,
+        "h": 63,
+        "transform": {
+          "transform": "matrix(1, 0, 0, 1, -2, -2)",
+          "left": "66.9281px",
+          "top": "73.2902px",
+          "position": "absolute"
+        }
+      },
+      {
+        "i": 4,
+        "text": "IH KABUR",
+        "x": 996,
+        "y": 785,
+        "w": 156,
+        "h": 91,
+        "transform": {
+          "transform": "matrix(1, 0, 0, 1, -2, -2)",
+          "left": "91.6153px",
+          "top": "73.1132px",
+          "position": "absolute"
+        }
+      },
+      {
+        "i": 5,
+        "text": "NGGAK BISA",
+        "x": 913,
+        "y": 797,
+        "w": 186,
+        "h": 63,
+        "transform": {
+          "transform": "matrix(1, 0, 0, 1, -2, -2)",
+          "left": "8.30059px",
+          "top": "84.9692px",
+          "position": "absolute"
+        }
+      }
+    ]
+  },
+  {
+    "name": "13-closing",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 352.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAU JADI PACARKU?\n\nRaka pasti senyum-senyum sekarang. 💚\n\nLANJUT →",
+      "html": "<div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 6 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span></div><button class=\"sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]\" aria-pressed=\"false\" style=\"background: rgb(255, 244, 224); color: rgb(17, 17, 17);\">♪nyala</button></div><div class=\"flex flex-1 animate-rise flex-col items-center justify-center\"><div class=\"w-full\"><svg viewBox=\"-10 -50 290 320\" class=\"mx-auto h-40 w-40 animate-float\" role=\"presentation\" style=\"overflow: visible;\"><path d=\"M54 34H146A68 68 0 0 1 146 170H118V222H54Z\" transform=\"translate(12 12)\" fill=\"#111\" stroke=\"#111\" stroke-width=\"10\" stroke-linejoin=\"round\"></path><path d=\"M54 34H146A68 68 0 0 1 146 170H118V222H54Z\" fill=\"#B6F22E\" stroke=\"#111\" stroke-width=\"10\" stroke-linejoin=\"round\"></path><path transform=\"translate(104 96) scale(1.1)\" d=\"M0 14C-26 -4 -14 -26 0 -10C14 -26 26 -4 0 14Z\" fill=\"#FF8FB8\" stroke=\"#111\" stroke-width=\"5\" stroke-linejoin=\"round\"></path><path transform=\"translate(158 96) scale(1.1)\" d=\"M0 14C-26 -4 -14 -26 0 -10C14 -26 26 -4 0 14Z\" fill=\"#FF8FB8\" stroke=\"#111\" stroke-width=\"5\" stroke-linejoin=\"round\"></path><rect x=\"80\" y=\"118\" width=\"26\" height=\"14\" rx=\"7\" fill=\"#FF8FB8\" stroke=\"#111\" stroke-width=\"5\"></rect><rect x=\"156\" y=\"118\" width=\"26\" height=\"14\" rx=\"7\" fill=\"#FF8FB8\" stroke=\"#111\" stroke-width=\"5\"></rect><path d=\"M120 120Q131 132 142 120\" fill=\"none\" stroke=\"#111\" stroke-width=\"7\" stroke-linecap=\"round\"></path><path transform=\"translate(236 6) scale(1.5)\" d=\"M0 14C-26 -4 -14 -26 0 -10C14 -26 26 -4 0 14Z\" fill=\"#FF6A3D\" stroke=\"#111\" stroke-width=\"5\" stroke-linejoin=\"round\"></path><path transform=\"translate(30 20) scale(1)\" d=\"M0 14C-26 -4 -14 -26 0 -10C14 -26 26 -4 0 14Z\" fill=\"#B6F22E\" stroke=\"#111\" stroke-width=\"5\" stroke-linejoin=\"round\"></path></svg><div class=\"nb-card p-5 text-center mt-4\" style=\"background: rgb(255, 244, 224);\"><p class=\"font-display text-3xl leading-tight\">MAU JADI PACARKU?</p><p class=\"mt-4 font-bold animate-pop\">Raka pasti senyum-senyum sekarang. 💚</p></div><button class=\"nb-btn ink animate-pop mx-auto mt-6 flex w-fit whitespace-nowrap\">Lanjut →</button></div></div></div></div></div>"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nMAU JADI PACARKU?\n\nRaka pasti senyum-senyum sekarang. 💚\n\nLANJUT →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu\n🎮\nKuis Kenal Aku · 2/2 benar\n🎮\nRencana Bareng · Pilih: Makan bakso\n💚\nDinda jawab MAU (setelah 14x ngejar tombol Nggak)",
+    "logItems": [
+      {
+        "text": "👀 Dinda membuka halamanmu",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li>"
+      },
+      {
+        "text": "🎮 Kuis Kenal Aku · 2/2 benar",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">🎮</span><span>Kuis Kenal Aku · 2/2 benar</span></li>"
+      },
+      {
+        "text": "🎮 Rencana Bareng · Pilih: Makan bakso",
+        "html": "<li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">🎮</span><span>Rencana Bareng · Pilih: Makan bakso</span></li>"
+      }
+    ],
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1104.71875,
+        "y": 378.421875,
+        "w": 73.96875,
+        "h": 30.5,
+        "disabled": false
+      },
+      {
+        "text": "LANJUT →",
+        "x": 953.453125,
+        "y": 849.578125,
+        "w": 154.46875,
+        "h": 59.1875,
+        "disabled": false
+      }
+    ]
+  }
+]

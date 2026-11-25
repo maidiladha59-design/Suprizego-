@@ -1,0 +1,198 @@
+{
+  "url": "https://proposigo.app/momen/wisuda",
+  "title": "Halaman ucapan wisuda digital interaktif · Proposigo",
+  "desc": "Ucapkan selamat wisuda dengan halaman interaktif: lempar toga virtual, buka gulungan ijazah, dan surat bangga.",
+  "robots": null,
+  "canonical": "https://proposigo.app/momen/wisuda",
+  "og": {
+    "image": "https://proposigo.app/og/momen-wisuda-id.png?v=3",
+    "title": "Halaman ucapan wisuda digital interaktif",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "HALAMAN UCAPAN WISUDA DIGITAL INTERAKTIF",
+      "cls": "mt-4 font-display text-4xl leading-tight sm:text-5xl",
+      "size": "48px",
+      "lh": "60px",
+      "family": "\"Archivo Black\""
+    }
+  ],
+  "h2": [
+    "PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ",
+    "DUA DESAIN, SATU KEJUTAN",
+    "BUAT SIAPA?"
+  ],
+  "h3": [
+    "CONTOH CERITA",
+    "MOMEN",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "grid items-center gap-10 md:grid-cols-[1fr_340px]",
+      "h": 793,
+      "text": "WISUDA HALAMAN UCAPAN WISUDA DIGITAL INTERAKTIF Ucapkan selamat wisuda dengan ha"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mt-20",
+      "h": 814,
+      "text": "MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isiny"
+    },
+    {
+      "tag": "h2",
+      "id": null,
+      "cls": "mt-16 font-display text-3xl",
+      "h": 36,
+      "text": "DUA DESAIN, SATU KEJUTAN"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "mt-6 grid gap-6 sm:grid-cols-2",
+      "h": 148,
+      "text": "TOGA LIME Bangga dan ceria KAMPUS KREM Klasik tapi lucu"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mt-12",
+      "h": 80,
+      "text": "BUAT SIAPA? UCAPAN WISUDA UNTUK SAHABAT → UCAPAN WISUDA UNTUK PACAR →"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "nb-card mt-12 bg-white p-6",
+      "h": 244,
+      "text": "CONTOH CERITA Fajar, hari ini kamu resmi jadi sarjana! Begadang, revisi, dan kop"
+    }
+  ],
+  "text": "WISUDA HALAMAN UCAPAN WISUDA DIGITAL INTERAKTIF Ucapkan selamat wisuda dengan halaman interaktif: lempar toga virtual, buka gulungan ijazah, dan surat bangga. BIKIN HALAMAN WISUDA INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… FAJAR (ketuk amplopnya) TOGA LIME KAMPUS KREM ↺ ULANG YANG MASUK KE MAMA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Fajar lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu. KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi. RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. KUIS KENAL AKU Seberapa kenal kamu sama Mama? · 1/2 Berapa kali kamu revisi skripsi? Sekali Tiga kali Nggak kehitung MASUK KE MAMA Selesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim. DUA DESAIN, SATU KEJUTAN TOGA LIME Bangga dan ceria KAMPUS KREM Klasik tapi lucu BUAT SIAPA? UCAPAN WISUDA UNTUK SAHABAT → UCAPAN WISUDA UNTUK PACAR → CONTOH CERITA Fajar, hari ini kamu resmi jadi sarjana! Begadang, revisi, dan kopi dingin akhirnya terbayar. Mama bangga banget sama kamu.",
+  "buttons": [
+    "TOGA LIME",
+    "KAMPUS KREM",
+    "↺ ULANG",
+    "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.",
+    "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.",
+    "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.",
+    "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.",
+    "Sekali",
+    "Tiga kali",
+    "Nggak kehitung",
+    "Pengaturan cookie",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Momen",
+      "h": "/#momen"
+    },
+    {
+      "t": "Cara kerja",
+      "h": "/#cara-kerja"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Masuk",
+      "h": "/masuk"
+    },
+    {
+      "t": "BIKIN SEKARANG",
+      "h": "/buat"
+    },
+    {
+      "t": "BIKIN HALAMAN WISUDA",
+      "h": "/buat/wisuda"
+    },
+    {
+      "t": "UCAPAN WISUDA UNTUK SAHABAT →",
+      "h": "/momen/wisuda/sahabat"
+    },
+    {
+      "t": "UCAPAN WISUDA UNTUK PACAR →",
+      "h": "/momen/wisuda/pacar"
+    },
+    {
+      "t": "Confess",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "Ulang Tahun",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "Minta Maaf",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "Wisuda",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "Hari Spesial",
+      "h": "/hari"
+    },
+    {
+      "t": "Bikin halaman",
+      "h": "/buat"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide kata-kata & kejutan",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Dasbor",
+      "h": "/dasbor"
+    },
+    {
+      "t": "Syarat & Ketentuan",
+      "h": "/terms"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    }
+  ],
+  "scrollH": 3082
+}

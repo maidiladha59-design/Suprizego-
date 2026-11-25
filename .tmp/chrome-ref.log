@@ -1,0 +1,4 @@
+
+DevTools listening on ws://127.0.0.1:9222/devtools/browser/6222564b-ca84-42c6-8794-a5ecbac8231e
+Created TensorFlow Lite XNNPACK delegate for CPU.
+[6336:10688:1125/035606.516:ERROR:services\on_device_model\public\cpp\service_client.cc:37] Unexpected on_device_model service disconnect; reason: 0, description: 

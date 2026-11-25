@@ -1,0 +1,4310 @@
+[
+  {
+    "name": "00",
+    "heroText": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\nADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 861,
+          "y": 290,
+          "w": 340,
+          "h": 640
+        },
+        "text": "ADA TITIPAN BUAT… DINDA (ketuk amplopnya)"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN",
+        "href": "/buat",
+        "rect": {
+          "x": 160,
+          "y": 778,
+          "w": 223,
+          "h": 63
+        },
+        "cls": "nb-btn ink text-lg"
+      },
+      {
+        "tag": "a",
+        "text": "LIHAT MOMEN",
+        "href": "#momen",
+        "rect": {
+          "x": 399,
+          "y": 778,
+          "w": 201,
+          "h": 63
+        },
+        "cls": "nb-btn cream text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 887,
+          "y": 562,
+          "w": 288,
+          "h": 197
+        },
+        "cls": "group mx-auto mt-10 block"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 883,
+          "y": 950,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1037,
+          "y": 950,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 977,
+          "y": 1001,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      }
+    ]
+  },
+  {
+    "name": "01-envelope",
+    "heroText": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nHAI, DINDA!\n\nRaka punya sesuatu buat kamu.\n\nBUKA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 861,
+          "y": 267,
+          "w": 340,
+          "h": 640
+        },
+        "text": "♪NYALA HAI, DINDA! Raka punya sesuatu buat kamu. BUKA →"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN",
+        "href": "/buat",
+        "rect": {
+          "x": 160,
+          "y": 778,
+          "w": 223,
+          "h": 63
+        },
+        "cls": "nb-btn ink text-lg"
+      },
+      {
+        "tag": "a",
+        "text": "LIHAT MOMEN",
+        "href": "#momen",
+        "rect": {
+          "x": 399,
+          "y": 778,
+          "w": 201,
+          "h": 63
+        },
+        "cls": "nb-btn cream text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "♪NYALA",
+        "href": null,
+        "rect": {
+          "x": 1105,
+          "y": 293,
+          "w": 74,
+          "h": 31
+        },
+        "cls": "sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]"
+      },
+      {
+        "tag": "button",
+        "text": "BUKA →",
+        "href": null,
+        "rect": {
+          "x": 964,
+          "y": 750,
+          "w": 133,
+          "h": 59
+        },
+        "cls": "nb-btn ink mt-6"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 883,
+          "y": 927,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1037,
+          "y": 927,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 977,
+          "y": 978,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      }
+    ]
+  },
+  {
+    "name": "02",
+    "heroText": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nHAI, DINDA!\n\nRaka punya sesuatu buat kamu.\n\nBUKA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 861,
+          "y": 267,
+          "w": 340,
+          "h": 640
+        },
+        "text": "♪NYALA HAI, DINDA! Raka punya sesuatu buat kamu. BUKA →"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN",
+        "href": "/buat",
+        "rect": {
+          "x": 160,
+          "y": 778,
+          "w": 223,
+          "h": 63
+        },
+        "cls": "nb-btn ink text-lg"
+      },
+      {
+        "tag": "a",
+        "text": "LIHAT MOMEN",
+        "href": "#momen",
+        "rect": {
+          "x": 399,
+          "y": 778,
+          "w": 201,
+          "h": 63
+        },
+        "cls": "nb-btn cream text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "♪NYALA",
+        "href": null,
+        "rect": {
+          "x": 1105,
+          "y": 293,
+          "w": 74,
+          "h": 31
+        },
+        "cls": "sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]"
+      },
+      {
+        "tag": "button",
+        "text": "BUKA →",
+        "href": null,
+        "rect": {
+          "x": 964,
+          "y": 750,
+          "w": 133,
+          "h": 59
+        },
+        "cls": "nb-btn ink mt-6"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 883,
+          "y": 927,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1037,
+          "y": 927,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 977,
+          "y": 978,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      }
+    ]
+  },
+  {
+    "name": "03",
+    "heroText": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nHAI, DINDA!\n\nRaka punya sesuatu buat kamu.\n\nBUKA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 861,
+          "y": -828,
+          "w": 340,
+          "h": 640
+        },
+        "text": "♪NYALA HAI, DINDA! Raka punya sesuatu buat kamu. BUKA →"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN",
+        "href": "/buat",
+        "rect": {
+          "x": 160,
+          "y": -317,
+          "w": 223,
+          "h": 63
+        },
+        "cls": "nb-btn ink text-lg"
+      },
+      {
+        "tag": "a",
+        "text": "LIHAT MOMEN",
+        "href": "#momen",
+        "rect": {
+          "x": 399,
+          "y": -317,
+          "w": 201,
+          "h": 63
+        },
+        "cls": "nb-btn cream text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "♪NYALA",
+        "href": null,
+        "rect": {
+          "x": 1105,
+          "y": -802,
+          "w": 74,
+          "h": 31
+        },
+        "cls": "sticker inline-flex shrink-0 items-center gap-1 whitespace-nowrap !px-2.5 !py-1 text-[11px]"
+      },
+      {
+        "tag": "button",
+        "text": "BUKA →",
+        "href": null,
+        "rect": {
+          "x": 964,
+          "y": -345,
+          "w": 133,
+          "h": 59
+        },
+        "cls": "nb-btn ink mt-6"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 883,
+          "y": -168,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1037,
+          "y": -168,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 977,
+          "y": -117,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      }
+    ]
+  },
+  {
+    "name": "04",
+    "heroText": "Momen\nCara kerja\nHarga\nIde\nPapan Abadi\nMasuk\nBIKIN SEKARANG\nCONFESS\nHALAMAN UCAPAN CONFESS & NEMBAK DIGITAL\n\nBikin halaman kejutan buat nembak gebetan: cerita, foto, musik, dan tombol Nggak yang kabur. Jadi dalam 5 menit.\n\nBIKIN HALAMAN NEMBAK\n\nINI BENERAN BISA DIMAININ 👇\n\nADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.\n\nMAIN BERDUA\nPERMAINAN YANG KAMU BIKIN, DIA YANG MAININ\n\nEmpat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu.\n\nKUIS KENAL AKU\n\nKamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.\n\nDUA JUJUR SATU BOHONG\n\nTulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.\n\nSUSUN FOTO\n\nSalah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.\n\nRENCANA BARENG\n\nKasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nMASUK KE RAKA\n\nSelesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim.\n\nDUA DESAIN, SATU KEJUTAN\n\nPERMEN PINK\n\nManis, pink, deg-degan\n\nCHAT MALAM\n\nGaya chat story santai\n\nBUAT SIAPA?\nCARA NEMBAK GEBETAN LEWAT LINK →\nCONTOH CERITA\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\nDari pertama kita ngobrol, hariku jadi lebih ramai.\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\nJadi... ada satu pertanyaan buat kamu.\n\nBerani bilang, kami yang bikin momennya. Halaman ucapan digital interaktif.\n\nMOMEN\nConfess\nUlang Tahun\nAnniversary\nMinta Maaf\nWisuda\nHari Spesial\nPROPOSIGO\nBikin halaman\nHarga\nIde kata-kata & kejutan\nPapan Abadi\nDasbor\nSyarat & Ketentuan\nKebijakan Privasi\nPengaturan cookie\n\n© 2026 Proposigo · dibuat dengan deg-degan\n\nBahasa Indonesia\nEnglish\n💬",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 876,
+          "y": 168,
+          "w": 340,
+          "h": 640
+        },
+        "text": "ADA TITIPAN BUAT… DINDA (ketuk amplopnya)"
+      },
+      {
+        "tag": "div",
+        "cls": "rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5",
+        "bg": "rgb(255, 244, 224)",
+        "rect": {
+          "x": 670,
+          "y": 1352,
+          "w": 384,
+          "h": 316
+        },
+        "text": "Minuman yang selalu aku pesan? Es teh Kopi susu Matcha"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/",
+        "rect": {
+          "x": 160,
+          "y": 12,
+          "w": 189,
+          "h": 44
+        },
+        "cls": "shrink-0"
+      },
+      {
+        "tag": "a",
+        "text": "Momen",
+        "href": "/#momen",
+        "rect": {
+          "x": 507,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Cara kerja",
+        "href": "/#cara-kerja",
+        "rect": {
+          "x": 573,
+          "y": 24,
+          "w": 86,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 683,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Ide",
+        "href": "/ide",
+        "rect": {
+          "x": 750,
+          "y": 24,
+          "w": 26,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 800,
+          "y": 24,
+          "w": 94,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Masuk",
+        "href": "/masuk",
+        "rect": {
+          "x": 1052,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hidden text-sm font-bold underline decoration-4 decoration-lime underline-offset-4 sm:inline"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN SEKARANG",
+        "href": "/buat",
+        "rect": {
+          "x": 1106,
+          "y": 13,
+          "w": 174,
+          "h": 42
+        },
+        "cls": "nb-btn sm"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN NEMBAK",
+        "href": "/buat/confess",
+        "rect": {
+          "x": 224,
+          "y": 565,
+          "w": 318,
+          "h": 63
+        },
+        "cls": "nb-btn ink mt-8 text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 902,
+          "y": 440,
+          "w": 288,
+          "h": 197
+        },
+        "cls": "group mx-auto mt-10 block"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 898,
+          "y": 828,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1052,
+          "y": 828,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 992,
+          "y": 879,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yan",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1246,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-lime"
+      },
+      {
+        "tag": "button",
+        "text": "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bo",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1372,
+          "w": 260,
+          "h": 137
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyu",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1521,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi ti",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1648,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "Es teh",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1452,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Kopi susu",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1520,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Matcha",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1588,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "a",
+        "text": "CARA NEMBAK GEBETAN LEWAT LINK →",
+        "href": "/momen/confess/gebetan",
+        "rect": {
+          "x": 224,
+          "y": 2184,
+          "w": 347,
+          "h": 32
+        },
+        "cls": "sticker bg-white text-sm hover:bg-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Confess",
+        "href": "/momen/confess",
+        "rect": {
+          "x": 547,
+          "y": 2803,
+          "w": 60,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ulang Tahun",
+        "href": "/momen/ultah",
+        "rect": {
+          "x": 547,
+          "y": 2831,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Anniversary",
+        "href": "/momen/anniv",
+        "rect": {
+          "x": 547,
+          "y": 2859,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Minta Maaf",
+        "href": "/momen/maaf",
+        "rect": {
+          "x": 547,
+          "y": 2887,
+          "w": 86,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Wisuda",
+        "href": "/momen/wisuda",
+        "rect": {
+          "x": 547,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Hari Spesial",
+        "href": "/hari",
+        "rect": {
+          "x": 547,
+          "y": 2943,
+          "w": 103,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Bikin halaman",
+        "href": "/buat",
+        "rect": {
+          "x": 933,
+          "y": 2803,
+          "w": 111,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 933,
+          "y": 2831,
+          "w": 43,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ide kata-kata & kejutan",
+        "href": "/ide",
+        "rect": {
+          "x": 933,
+          "y": 2859,
+          "w": 197,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 933,
+          "y": 2887,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Dasbor",
+        "href": "/dasbor",
+        "rect": {
+          "x": 933,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Syarat & Ketentuan",
+        "href": "/terms",
+        "rect": {
+          "x": 933,
+          "y": 2943,
+          "w": 154,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Kebijakan Privasi",
+        "href": "/privacy",
+        "rect": {
+          "x": 933,
+          "y": 2971,
+          "w": 146,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Pengaturan cookie",
+        "href": null,
+        "rect": {
+          "x": 933,
+          "y": 3000,
+          "w": 146,
+          "h": 20
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Bahasa Indonesia",
+        "href": null,
+        "rect": {
+          "x": 1061,
+          "y": 3088,
+          "w": 142,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 bg-cream text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "English",
+        "href": null,
+        "rect": {
+          "x": 1203,
+          "y": 3088,
+          "w": 75,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 text-cream hover:bg-lime hover:text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "💬",
+        "href": null,
+        "rect": {
+          "x": 1360,
+          "y": 920,
+          "w": 56,
+          "h": 56
+        },
+        "cls": "fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 place-items-center rounded-full border-"
+      }
+    ]
+  },
+  {
+    "name": "05",
+    "heroText": "Momen\nCara kerja\nHarga\nIde\nPapan Abadi\nMasuk\nBIKIN SEKARANG\nCONFESS\nHALAMAN UCAPAN CONFESS & NEMBAK DIGITAL\n\nBikin halaman kejutan buat nembak gebetan: cerita, foto, musik, dan tombol Nggak yang kabur. Jadi dalam 5 menit.\n\nBIKIN HALAMAN NEMBAK\n\nINI BENERAN BISA DIMAININ 👇\n\nADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.\n\nMAIN BERDUA\nPERMAINAN YANG KAMU BIKIN, DIA YANG MAININ\n\nEmpat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu.\n\nKUIS KENAL AKU\n\nKamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.\n\nDUA JUJUR SATU BOHONG\n\nTulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.\n\nSUSUN FOTO\n\nSalah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.\n\nRENCANA BARENG\n\nKasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nMASUK KE RAKA\n\nSelesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim.\n\nDUA DESAIN, SATU KEJUTAN\n\nPERMEN PINK\n\nManis, pink, deg-degan\n\nCHAT MALAM\n\nGaya chat story santai\n\nBUAT SIAPA?\nCARA NEMBAK GEBETAN LEWAT LINK →\nCONTOH CERITA\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\nDari pertama kita ngobrol, hariku jadi lebih ramai.\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\nJadi... ada satu pertanyaan buat kamu.\n\nBerani bilang, kami yang bikin momennya. Halaman ucapan digital interaktif.\n\nMOMEN\nConfess\nUlang Tahun\nAnniversary\nMinta Maaf\nWisuda\nHari Spesial\nPROPOSIGO\nBikin halaman\nHarga\nIde kata-kata & kejutan\nPapan Abadi\nDasbor\nSyarat & Ketentuan\nKebijakan Privasi\nPengaturan cookie\n\n© 2026 Proposigo · dibuat dengan deg-degan\n\nBahasa Indonesia\nEnglish\n💬",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 876,
+          "y": 168,
+          "w": 340,
+          "h": 640
+        },
+        "text": "ADA TITIPAN BUAT… DINDA (ketuk amplopnya)"
+      },
+      {
+        "tag": "div",
+        "cls": "rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5",
+        "bg": "rgb(255, 244, 224)",
+        "rect": {
+          "x": 670,
+          "y": 1352,
+          "w": 384,
+          "h": 316
+        },
+        "text": "Minuman yang selalu aku pesan? Es teh Kopi susu Matcha"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/",
+        "rect": {
+          "x": 160,
+          "y": 12,
+          "w": 189,
+          "h": 44
+        },
+        "cls": "shrink-0"
+      },
+      {
+        "tag": "a",
+        "text": "Momen",
+        "href": "/#momen",
+        "rect": {
+          "x": 507,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Cara kerja",
+        "href": "/#cara-kerja",
+        "rect": {
+          "x": 573,
+          "y": 24,
+          "w": 86,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 683,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Ide",
+        "href": "/ide",
+        "rect": {
+          "x": 750,
+          "y": 24,
+          "w": 26,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 800,
+          "y": 24,
+          "w": 94,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Masuk",
+        "href": "/masuk",
+        "rect": {
+          "x": 1052,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hidden text-sm font-bold underline decoration-4 decoration-lime underline-offset-4 sm:inline"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN SEKARANG",
+        "href": "/buat",
+        "rect": {
+          "x": 1106,
+          "y": 13,
+          "w": 174,
+          "h": 42
+        },
+        "cls": "nb-btn sm"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN NEMBAK",
+        "href": "/buat/confess",
+        "rect": {
+          "x": 224,
+          "y": 565,
+          "w": 318,
+          "h": 63
+        },
+        "cls": "nb-btn ink mt-8 text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 902,
+          "y": 440,
+          "w": 288,
+          "h": 197
+        },
+        "cls": "group mx-auto mt-10 block"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 898,
+          "y": 828,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1052,
+          "y": 828,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 992,
+          "y": 879,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yan",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1246,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-lime"
+      },
+      {
+        "tag": "button",
+        "text": "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bo",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1372,
+          "w": 260,
+          "h": 137
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyu",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1521,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi ti",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1648,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "Es teh",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1452,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Kopi susu",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1520,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Matcha",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1588,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "a",
+        "text": "CARA NEMBAK GEBETAN LEWAT LINK →",
+        "href": "/momen/confess/gebetan",
+        "rect": {
+          "x": 224,
+          "y": 2184,
+          "w": 347,
+          "h": 32
+        },
+        "cls": "sticker bg-white text-sm hover:bg-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Confess",
+        "href": "/momen/confess",
+        "rect": {
+          "x": 547,
+          "y": 2803,
+          "w": 60,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ulang Tahun",
+        "href": "/momen/ultah",
+        "rect": {
+          "x": 547,
+          "y": 2831,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Anniversary",
+        "href": "/momen/anniv",
+        "rect": {
+          "x": 547,
+          "y": 2859,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Minta Maaf",
+        "href": "/momen/maaf",
+        "rect": {
+          "x": 547,
+          "y": 2887,
+          "w": 86,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Wisuda",
+        "href": "/momen/wisuda",
+        "rect": {
+          "x": 547,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Hari Spesial",
+        "href": "/hari",
+        "rect": {
+          "x": 547,
+          "y": 2943,
+          "w": 103,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Bikin halaman",
+        "href": "/buat",
+        "rect": {
+          "x": 933,
+          "y": 2803,
+          "w": 111,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 933,
+          "y": 2831,
+          "w": 43,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ide kata-kata & kejutan",
+        "href": "/ide",
+        "rect": {
+          "x": 933,
+          "y": 2859,
+          "w": 197,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 933,
+          "y": 2887,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Dasbor",
+        "href": "/dasbor",
+        "rect": {
+          "x": 933,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Syarat & Ketentuan",
+        "href": "/terms",
+        "rect": {
+          "x": 933,
+          "y": 2943,
+          "w": 154,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Kebijakan Privasi",
+        "href": "/privacy",
+        "rect": {
+          "x": 933,
+          "y": 2971,
+          "w": 146,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Pengaturan cookie",
+        "href": null,
+        "rect": {
+          "x": 933,
+          "y": 3000,
+          "w": 146,
+          "h": 20
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Bahasa Indonesia",
+        "href": null,
+        "rect": {
+          "x": 1061,
+          "y": 3088,
+          "w": 142,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 bg-cream text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "English",
+        "href": null,
+        "rect": {
+          "x": 1203,
+          "y": 3088,
+          "w": 75,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 text-cream hover:bg-lime hover:text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "💬",
+        "href": null,
+        "rect": {
+          "x": 1360,
+          "y": 920,
+          "w": 56,
+          "h": 56
+        },
+        "cls": "fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 place-items-center rounded-full border-"
+      }
+    ]
+  },
+  {
+    "name": "06",
+    "heroText": "Momen\nCara kerja\nHarga\nIde\nPapan Abadi\nMasuk\nBIKIN SEKARANG\nCONFESS\nHALAMAN UCAPAN CONFESS & NEMBAK DIGITAL\n\nBikin halaman kejutan buat nembak gebetan: cerita, foto, musik, dan tombol Nggak yang kabur. Jadi dalam 5 menit.\n\nBIKIN HALAMAN NEMBAK\n\nINI BENERAN BISA DIMAININ 👇\n\nADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.\n\nMAIN BERDUA\nPERMAINAN YANG KAMU BIKIN, DIA YANG MAININ\n\nEmpat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu.\n\nKUIS KENAL AKU\n\nKamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.\n\nDUA JUJUR SATU BOHONG\n\nTulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.\n\nSUSUN FOTO\n\nSalah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.\n\nRENCANA BARENG\n\nKasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nMASUK KE RAKA\n\nSelesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim.\n\nDUA DESAIN, SATU KEJUTAN\n\nPERMEN PINK\n\nManis, pink, deg-degan\n\nCHAT MALAM\n\nGaya chat story santai\n\nBUAT SIAPA?\nCARA NEMBAK GEBETAN LEWAT LINK →\nCONTOH CERITA\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\nDari pertama kita ngobrol, hariku jadi lebih ramai.\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\nJadi... ada satu pertanyaan buat kamu.\n\nBerani bilang, kami yang bikin momennya. Halaman ucapan digital interaktif.\n\nMOMEN\nConfess\nUlang Tahun\nAnniversary\nMinta Maaf\nWisuda\nHari Spesial\nPROPOSIGO\nBikin halaman\nHarga\nIde kata-kata & kejutan\nPapan Abadi\nDasbor\nSyarat & Ketentuan\nKebijakan Privasi\nPengaturan cookie\n\n© 2026 Proposigo · dibuat dengan deg-degan\n\nBahasa Indonesia\nEnglish\n💬",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 876,
+          "y": 168,
+          "w": 340,
+          "h": 640
+        },
+        "text": "ADA TITIPAN BUAT… DINDA (ketuk amplopnya)"
+      },
+      {
+        "tag": "div",
+        "cls": "rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5",
+        "bg": "rgb(255, 244, 224)",
+        "rect": {
+          "x": 670,
+          "y": 1352,
+          "w": 384,
+          "h": 316
+        },
+        "text": "Minuman yang selalu aku pesan? Es teh Kopi susu Matcha"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/",
+        "rect": {
+          "x": 160,
+          "y": 12,
+          "w": 189,
+          "h": 44
+        },
+        "cls": "shrink-0"
+      },
+      {
+        "tag": "a",
+        "text": "Momen",
+        "href": "/#momen",
+        "rect": {
+          "x": 507,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Cara kerja",
+        "href": "/#cara-kerja",
+        "rect": {
+          "x": 573,
+          "y": 24,
+          "w": 86,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 683,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Ide",
+        "href": "/ide",
+        "rect": {
+          "x": 750,
+          "y": 24,
+          "w": 26,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 800,
+          "y": 24,
+          "w": 94,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Masuk",
+        "href": "/masuk",
+        "rect": {
+          "x": 1052,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hidden text-sm font-bold underline decoration-4 decoration-lime underline-offset-4 sm:inline"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN SEKARANG",
+        "href": "/buat",
+        "rect": {
+          "x": 1106,
+          "y": 13,
+          "w": 174,
+          "h": 42
+        },
+        "cls": "nb-btn sm"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN NEMBAK",
+        "href": "/buat/confess",
+        "rect": {
+          "x": 224,
+          "y": 565,
+          "w": 318,
+          "h": 63
+        },
+        "cls": "nb-btn ink mt-8 text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 902,
+          "y": 440,
+          "w": 288,
+          "h": 197
+        },
+        "cls": "group mx-auto mt-10 block"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 898,
+          "y": 828,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1052,
+          "y": 828,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 992,
+          "y": 879,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yan",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1246,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-lime"
+      },
+      {
+        "tag": "button",
+        "text": "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bo",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1372,
+          "w": 260,
+          "h": 137
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyu",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1521,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi ti",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1648,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "Es teh",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1452,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Kopi susu",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1520,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Matcha",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1588,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "a",
+        "text": "CARA NEMBAK GEBETAN LEWAT LINK →",
+        "href": "/momen/confess/gebetan",
+        "rect": {
+          "x": 224,
+          "y": 2184,
+          "w": 347,
+          "h": 32
+        },
+        "cls": "sticker bg-white text-sm hover:bg-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Confess",
+        "href": "/momen/confess",
+        "rect": {
+          "x": 547,
+          "y": 2803,
+          "w": 60,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ulang Tahun",
+        "href": "/momen/ultah",
+        "rect": {
+          "x": 547,
+          "y": 2831,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Anniversary",
+        "href": "/momen/anniv",
+        "rect": {
+          "x": 547,
+          "y": 2859,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Minta Maaf",
+        "href": "/momen/maaf",
+        "rect": {
+          "x": 547,
+          "y": 2887,
+          "w": 86,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Wisuda",
+        "href": "/momen/wisuda",
+        "rect": {
+          "x": 547,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Hari Spesial",
+        "href": "/hari",
+        "rect": {
+          "x": 547,
+          "y": 2943,
+          "w": 103,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Bikin halaman",
+        "href": "/buat",
+        "rect": {
+          "x": 933,
+          "y": 2803,
+          "w": 111,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 933,
+          "y": 2831,
+          "w": 43,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ide kata-kata & kejutan",
+        "href": "/ide",
+        "rect": {
+          "x": 933,
+          "y": 2859,
+          "w": 197,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 933,
+          "y": 2887,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Dasbor",
+        "href": "/dasbor",
+        "rect": {
+          "x": 933,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Syarat & Ketentuan",
+        "href": "/terms",
+        "rect": {
+          "x": 933,
+          "y": 2943,
+          "w": 154,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Kebijakan Privasi",
+        "href": "/privacy",
+        "rect": {
+          "x": 933,
+          "y": 2971,
+          "w": 146,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Pengaturan cookie",
+        "href": null,
+        "rect": {
+          "x": 933,
+          "y": 3000,
+          "w": 146,
+          "h": 20
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Bahasa Indonesia",
+        "href": null,
+        "rect": {
+          "x": 1061,
+          "y": 3088,
+          "w": 142,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 bg-cream text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "English",
+        "href": null,
+        "rect": {
+          "x": 1203,
+          "y": 3088,
+          "w": 75,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 text-cream hover:bg-lime hover:text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "💬",
+        "href": null,
+        "rect": {
+          "x": 1360,
+          "y": 920,
+          "w": 56,
+          "h": 56
+        },
+        "cls": "fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 place-items-center rounded-full border-"
+      }
+    ]
+  },
+  {
+    "name": "07",
+    "heroText": "Momen\nCara kerja\nHarga\nIde\nPapan Abadi\nMasuk\nBIKIN SEKARANG\nCONFESS\nHALAMAN UCAPAN CONFESS & NEMBAK DIGITAL\n\nBikin halaman kejutan buat nembak gebetan: cerita, foto, musik, dan tombol Nggak yang kabur. Jadi dalam 5 menit.\n\nBIKIN HALAMAN NEMBAK\n\nINI BENERAN BISA DIMAININ 👇\n\nADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.\n\nMAIN BERDUA\nPERMAINAN YANG KAMU BIKIN, DIA YANG MAININ\n\nEmpat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu.\n\nKUIS KENAL AKU\n\nKamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.\n\nDUA JUJUR SATU BOHONG\n\nTulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.\n\nSUSUN FOTO\n\nSalah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.\n\nRENCANA BARENG\n\nKasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nMASUK KE RAKA\n\nSelesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim.\n\nDUA DESAIN, SATU KEJUTAN\n\nPERMEN PINK\n\nManis, pink, deg-degan\n\nCHAT MALAM\n\nGaya chat story santai\n\nBUAT SIAPA?\nCARA NEMBAK GEBETAN LEWAT LINK →\nCONTOH CERITA\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\nDari pertama kita ngobrol, hariku jadi lebih ramai.\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\nJadi... ada satu pertanyaan buat kamu.\n\nBerani bilang, kami yang bikin momennya. Halaman ucapan digital interaktif.\n\nMOMEN\nConfess\nUlang Tahun\nAnniversary\nMinta Maaf\nWisuda\nHari Spesial\nPROPOSIGO\nBikin halaman\nHarga\nIde kata-kata & kejutan\nPapan Abadi\nDasbor\nSyarat & Ketentuan\nKebijakan Privasi\nPengaturan cookie\n\n© 2026 Proposigo · dibuat dengan deg-degan\n\nBahasa Indonesia\nEnglish\n💬",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 876,
+          "y": 168,
+          "w": 340,
+          "h": 640
+        },
+        "text": "ADA TITIPAN BUAT… DINDA (ketuk amplopnya)"
+      },
+      {
+        "tag": "div",
+        "cls": "rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5",
+        "bg": "rgb(255, 244, 224)",
+        "rect": {
+          "x": 670,
+          "y": 1352,
+          "w": 384,
+          "h": 316
+        },
+        "text": "Minuman yang selalu aku pesan? Es teh Kopi susu Matcha"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/",
+        "rect": {
+          "x": 160,
+          "y": 12,
+          "w": 189,
+          "h": 44
+        },
+        "cls": "shrink-0"
+      },
+      {
+        "tag": "a",
+        "text": "Momen",
+        "href": "/#momen",
+        "rect": {
+          "x": 507,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Cara kerja",
+        "href": "/#cara-kerja",
+        "rect": {
+          "x": 573,
+          "y": 24,
+          "w": 86,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 683,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Ide",
+        "href": "/ide",
+        "rect": {
+          "x": 750,
+          "y": 24,
+          "w": 26,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 800,
+          "y": 24,
+          "w": 94,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Masuk",
+        "href": "/masuk",
+        "rect": {
+          "x": 1052,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hidden text-sm font-bold underline decoration-4 decoration-lime underline-offset-4 sm:inline"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN SEKARANG",
+        "href": "/buat",
+        "rect": {
+          "x": 1106,
+          "y": 13,
+          "w": 174,
+          "h": 42
+        },
+        "cls": "nb-btn sm"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN NEMBAK",
+        "href": "/buat/confess",
+        "rect": {
+          "x": 224,
+          "y": 565,
+          "w": 318,
+          "h": 63
+        },
+        "cls": "nb-btn ink mt-8 text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 902,
+          "y": 440,
+          "w": 288,
+          "h": 197
+        },
+        "cls": "group mx-auto mt-10 block"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 898,
+          "y": 828,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1052,
+          "y": 828,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 992,
+          "y": 879,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yan",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1246,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-lime"
+      },
+      {
+        "tag": "button",
+        "text": "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bo",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1372,
+          "w": 260,
+          "h": 137
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyu",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1521,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi ti",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1648,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "Es teh",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1452,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Kopi susu",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1520,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Matcha",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1588,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "a",
+        "text": "CARA NEMBAK GEBETAN LEWAT LINK →",
+        "href": "/momen/confess/gebetan",
+        "rect": {
+          "x": 224,
+          "y": 2184,
+          "w": 347,
+          "h": 32
+        },
+        "cls": "sticker bg-white text-sm hover:bg-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Confess",
+        "href": "/momen/confess",
+        "rect": {
+          "x": 547,
+          "y": 2803,
+          "w": 60,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ulang Tahun",
+        "href": "/momen/ultah",
+        "rect": {
+          "x": 547,
+          "y": 2831,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Anniversary",
+        "href": "/momen/anniv",
+        "rect": {
+          "x": 547,
+          "y": 2859,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Minta Maaf",
+        "href": "/momen/maaf",
+        "rect": {
+          "x": 547,
+          "y": 2887,
+          "w": 86,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Wisuda",
+        "href": "/momen/wisuda",
+        "rect": {
+          "x": 547,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Hari Spesial",
+        "href": "/hari",
+        "rect": {
+          "x": 547,
+          "y": 2943,
+          "w": 103,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Bikin halaman",
+        "href": "/buat",
+        "rect": {
+          "x": 933,
+          "y": 2803,
+          "w": 111,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 933,
+          "y": 2831,
+          "w": 43,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ide kata-kata & kejutan",
+        "href": "/ide",
+        "rect": {
+          "x": 933,
+          "y": 2859,
+          "w": 197,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 933,
+          "y": 2887,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Dasbor",
+        "href": "/dasbor",
+        "rect": {
+          "x": 933,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Syarat & Ketentuan",
+        "href": "/terms",
+        "rect": {
+          "x": 933,
+          "y": 2943,
+          "w": 154,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Kebijakan Privasi",
+        "href": "/privacy",
+        "rect": {
+          "x": 933,
+          "y": 2971,
+          "w": 146,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Pengaturan cookie",
+        "href": null,
+        "rect": {
+          "x": 933,
+          "y": 3000,
+          "w": 146,
+          "h": 20
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Bahasa Indonesia",
+        "href": null,
+        "rect": {
+          "x": 1061,
+          "y": 3088,
+          "w": 142,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 bg-cream text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "English",
+        "href": null,
+        "rect": {
+          "x": 1203,
+          "y": 3088,
+          "w": 75,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 text-cream hover:bg-lime hover:text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "💬",
+        "href": null,
+        "rect": {
+          "x": 1360,
+          "y": 920,
+          "w": 56,
+          "h": 56
+        },
+        "cls": "fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 place-items-center rounded-full border-"
+      }
+    ]
+  },
+  {
+    "name": "08",
+    "heroText": "Momen\nCara kerja\nHarga\nIde\nPapan Abadi\nMasuk\nBIKIN SEKARANG\nCONFESS\nHALAMAN UCAPAN CONFESS & NEMBAK DIGITAL\n\nBikin halaman kejutan buat nembak gebetan: cerita, foto, musik, dan tombol Nggak yang kabur. Jadi dalam 5 menit.\n\nBIKIN HALAMAN NEMBAK\n\nINI BENERAN BISA DIMAININ 👇\n\nADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.\n\nMAIN BERDUA\nPERMAINAN YANG KAMU BIKIN, DIA YANG MAININ\n\nEmpat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu.\n\nKUIS KENAL AKU\n\nKamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.\n\nDUA JUJUR SATU BOHONG\n\nTulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.\n\nSUSUN FOTO\n\nSalah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.\n\nRENCANA BARENG\n\nKasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nMASUK KE RAKA\n\nSelesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim.\n\nDUA DESAIN, SATU KEJUTAN\n\nPERMEN PINK\n\nManis, pink, deg-degan\n\nCHAT MALAM\n\nGaya chat story santai\n\nBUAT SIAPA?\nCARA NEMBAK GEBETAN LEWAT LINK →\nCONTOH CERITA\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\nDari pertama kita ngobrol, hariku jadi lebih ramai.\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\nJadi... ada satu pertanyaan buat kamu.\n\nBerani bilang, kami yang bikin momennya. Halaman ucapan digital interaktif.\n\nMOMEN\nConfess\nUlang Tahun\nAnniversary\nMinta Maaf\nWisuda\nHari Spesial\nPROPOSIGO\nBikin halaman\nHarga\nIde kata-kata & kejutan\nPapan Abadi\nDasbor\nSyarat & Ketentuan\nKebijakan Privasi\nPengaturan cookie\n\n© 2026 Proposigo · dibuat dengan deg-degan\n\nBahasa Indonesia\nEnglish\n💬",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 876,
+          "y": 168,
+          "w": 340,
+          "h": 640
+        },
+        "text": "ADA TITIPAN BUAT… DINDA (ketuk amplopnya)"
+      },
+      {
+        "tag": "div",
+        "cls": "rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5",
+        "bg": "rgb(255, 244, 224)",
+        "rect": {
+          "x": 670,
+          "y": 1352,
+          "w": 384,
+          "h": 316
+        },
+        "text": "Minuman yang selalu aku pesan? Es teh Kopi susu Matcha"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/",
+        "rect": {
+          "x": 160,
+          "y": 12,
+          "w": 189,
+          "h": 44
+        },
+        "cls": "shrink-0"
+      },
+      {
+        "tag": "a",
+        "text": "Momen",
+        "href": "/#momen",
+        "rect": {
+          "x": 507,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Cara kerja",
+        "href": "/#cara-kerja",
+        "rect": {
+          "x": 573,
+          "y": 24,
+          "w": 86,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 683,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Ide",
+        "href": "/ide",
+        "rect": {
+          "x": 750,
+          "y": 24,
+          "w": 26,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 800,
+          "y": 24,
+          "w": 94,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Masuk",
+        "href": "/masuk",
+        "rect": {
+          "x": 1052,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hidden text-sm font-bold underline decoration-4 decoration-lime underline-offset-4 sm:inline"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN SEKARANG",
+        "href": "/buat",
+        "rect": {
+          "x": 1106,
+          "y": 13,
+          "w": 174,
+          "h": 42
+        },
+        "cls": "nb-btn sm"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN NEMBAK",
+        "href": "/buat/confess",
+        "rect": {
+          "x": 224,
+          "y": 565,
+          "w": 318,
+          "h": 63
+        },
+        "cls": "nb-btn ink mt-8 text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 902,
+          "y": 440,
+          "w": 288,
+          "h": 197
+        },
+        "cls": "group mx-auto mt-10 block"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 898,
+          "y": 828,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1052,
+          "y": 828,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 992,
+          "y": 879,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yan",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1246,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-lime"
+      },
+      {
+        "tag": "button",
+        "text": "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bo",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1372,
+          "w": 260,
+          "h": 137
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyu",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1521,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi ti",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1648,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "Es teh",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1452,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Kopi susu",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1520,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Matcha",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1588,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "a",
+        "text": "CARA NEMBAK GEBETAN LEWAT LINK →",
+        "href": "/momen/confess/gebetan",
+        "rect": {
+          "x": 224,
+          "y": 2184,
+          "w": 347,
+          "h": 32
+        },
+        "cls": "sticker bg-white text-sm hover:bg-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Confess",
+        "href": "/momen/confess",
+        "rect": {
+          "x": 547,
+          "y": 2803,
+          "w": 60,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ulang Tahun",
+        "href": "/momen/ultah",
+        "rect": {
+          "x": 547,
+          "y": 2831,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Anniversary",
+        "href": "/momen/anniv",
+        "rect": {
+          "x": 547,
+          "y": 2859,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Minta Maaf",
+        "href": "/momen/maaf",
+        "rect": {
+          "x": 547,
+          "y": 2887,
+          "w": 86,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Wisuda",
+        "href": "/momen/wisuda",
+        "rect": {
+          "x": 547,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Hari Spesial",
+        "href": "/hari",
+        "rect": {
+          "x": 547,
+          "y": 2943,
+          "w": 103,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Bikin halaman",
+        "href": "/buat",
+        "rect": {
+          "x": 933,
+          "y": 2803,
+          "w": 111,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 933,
+          "y": 2831,
+          "w": 43,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ide kata-kata & kejutan",
+        "href": "/ide",
+        "rect": {
+          "x": 933,
+          "y": 2859,
+          "w": 197,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 933,
+          "y": 2887,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Dasbor",
+        "href": "/dasbor",
+        "rect": {
+          "x": 933,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Syarat & Ketentuan",
+        "href": "/terms",
+        "rect": {
+          "x": 933,
+          "y": 2943,
+          "w": 154,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Kebijakan Privasi",
+        "href": "/privacy",
+        "rect": {
+          "x": 933,
+          "y": 2971,
+          "w": 146,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Pengaturan cookie",
+        "href": null,
+        "rect": {
+          "x": 933,
+          "y": 3000,
+          "w": 146,
+          "h": 20
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Bahasa Indonesia",
+        "href": null,
+        "rect": {
+          "x": 1061,
+          "y": 3088,
+          "w": 142,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 bg-cream text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "English",
+        "href": null,
+        "rect": {
+          "x": 1203,
+          "y": 3088,
+          "w": 75,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 text-cream hover:bg-lime hover:text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "💬",
+        "href": null,
+        "rect": {
+          "x": 1360,
+          "y": 920,
+          "w": 56,
+          "h": 56
+        },
+        "cls": "fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 place-items-center rounded-full border-"
+      }
+    ]
+  },
+  {
+    "name": "09",
+    "heroText": "Momen\nCara kerja\nHarga\nIde\nPapan Abadi\nMasuk\nBIKIN SEKARANG\nCONFESS\nHALAMAN UCAPAN CONFESS & NEMBAK DIGITAL\n\nBikin halaman kejutan buat nembak gebetan: cerita, foto, musik, dan tombol Nggak yang kabur. Jadi dalam 5 menit.\n\nBIKIN HALAMAN NEMBAK\n\nINI BENERAN BISA DIMAININ 👇\n\nADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.\n\nMAIN BERDUA\nPERMAINAN YANG KAMU BIKIN, DIA YANG MAININ\n\nEmpat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu.\n\nKUIS KENAL AKU\n\nKamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.\n\nDUA JUJUR SATU BOHONG\n\nTulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.\n\nSUSUN FOTO\n\nSalah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.\n\nRENCANA BARENG\n\nKasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nMASUK KE RAKA\n\nSelesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim.\n\nDUA DESAIN, SATU KEJUTAN\n\nPERMEN PINK\n\nManis, pink, deg-degan\n\nCHAT MALAM\n\nGaya chat story santai\n\nBUAT SIAPA?\nCARA NEMBAK GEBETAN LEWAT LINK →\nCONTOH CERITA\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\nDari pertama kita ngobrol, hariku jadi lebih ramai.\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\nJadi... ada satu pertanyaan buat kamu.\n\nBerani bilang, kami yang bikin momennya. Halaman ucapan digital interaktif.\n\nMOMEN\nConfess\nUlang Tahun\nAnniversary\nMinta Maaf\nWisuda\nHari Spesial\nPROPOSIGO\nBikin halaman\nHarga\nIde kata-kata & kejutan\nPapan Abadi\nDasbor\nSyarat & Ketentuan\nKebijakan Privasi\nPengaturan cookie\n\n© 2026 Proposigo · dibuat dengan deg-degan\n\nBahasa Indonesia\nEnglish\n💬",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 876,
+          "y": 168,
+          "w": 340,
+          "h": 640
+        },
+        "text": "ADA TITIPAN BUAT… DINDA (ketuk amplopnya)"
+      },
+      {
+        "tag": "div",
+        "cls": "rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5",
+        "bg": "rgb(255, 244, 224)",
+        "rect": {
+          "x": 670,
+          "y": 1352,
+          "w": 384,
+          "h": 316
+        },
+        "text": "Minuman yang selalu aku pesan? Es teh Kopi susu Matcha"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/",
+        "rect": {
+          "x": 160,
+          "y": 12,
+          "w": 189,
+          "h": 44
+        },
+        "cls": "shrink-0"
+      },
+      {
+        "tag": "a",
+        "text": "Momen",
+        "href": "/#momen",
+        "rect": {
+          "x": 507,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Cara kerja",
+        "href": "/#cara-kerja",
+        "rect": {
+          "x": 573,
+          "y": 24,
+          "w": 86,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 683,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Ide",
+        "href": "/ide",
+        "rect": {
+          "x": 750,
+          "y": 24,
+          "w": 26,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 800,
+          "y": 24,
+          "w": 94,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Masuk",
+        "href": "/masuk",
+        "rect": {
+          "x": 1052,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hidden text-sm font-bold underline decoration-4 decoration-lime underline-offset-4 sm:inline"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN SEKARANG",
+        "href": "/buat",
+        "rect": {
+          "x": 1106,
+          "y": 13,
+          "w": 174,
+          "h": 42
+        },
+        "cls": "nb-btn sm"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN NEMBAK",
+        "href": "/buat/confess",
+        "rect": {
+          "x": 224,
+          "y": 565,
+          "w": 318,
+          "h": 63
+        },
+        "cls": "nb-btn ink mt-8 text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 902,
+          "y": 440,
+          "w": 288,
+          "h": 197
+        },
+        "cls": "group mx-auto mt-10 block"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 898,
+          "y": 828,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1052,
+          "y": 828,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 992,
+          "y": 879,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yan",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1246,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-lime"
+      },
+      {
+        "tag": "button",
+        "text": "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bo",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1372,
+          "w": 260,
+          "h": 137
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyu",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1521,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi ti",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1648,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "Es teh",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1452,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Kopi susu",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1520,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Matcha",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1588,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "a",
+        "text": "CARA NEMBAK GEBETAN LEWAT LINK →",
+        "href": "/momen/confess/gebetan",
+        "rect": {
+          "x": 224,
+          "y": 2184,
+          "w": 347,
+          "h": 32
+        },
+        "cls": "sticker bg-white text-sm hover:bg-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Confess",
+        "href": "/momen/confess",
+        "rect": {
+          "x": 547,
+          "y": 2803,
+          "w": 60,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ulang Tahun",
+        "href": "/momen/ultah",
+        "rect": {
+          "x": 547,
+          "y": 2831,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Anniversary",
+        "href": "/momen/anniv",
+        "rect": {
+          "x": 547,
+          "y": 2859,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Minta Maaf",
+        "href": "/momen/maaf",
+        "rect": {
+          "x": 547,
+          "y": 2887,
+          "w": 86,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Wisuda",
+        "href": "/momen/wisuda",
+        "rect": {
+          "x": 547,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Hari Spesial",
+        "href": "/hari",
+        "rect": {
+          "x": 547,
+          "y": 2943,
+          "w": 103,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Bikin halaman",
+        "href": "/buat",
+        "rect": {
+          "x": 933,
+          "y": 2803,
+          "w": 111,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 933,
+          "y": 2831,
+          "w": 43,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ide kata-kata & kejutan",
+        "href": "/ide",
+        "rect": {
+          "x": 933,
+          "y": 2859,
+          "w": 197,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 933,
+          "y": 2887,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Dasbor",
+        "href": "/dasbor",
+        "rect": {
+          "x": 933,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Syarat & Ketentuan",
+        "href": "/terms",
+        "rect": {
+          "x": 933,
+          "y": 2943,
+          "w": 154,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Kebijakan Privasi",
+        "href": "/privacy",
+        "rect": {
+          "x": 933,
+          "y": 2971,
+          "w": 146,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Pengaturan cookie",
+        "href": null,
+        "rect": {
+          "x": 933,
+          "y": 3000,
+          "w": 146,
+          "h": 20
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Bahasa Indonesia",
+        "href": null,
+        "rect": {
+          "x": 1061,
+          "y": 3088,
+          "w": 142,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 bg-cream text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "English",
+        "href": null,
+        "rect": {
+          "x": 1203,
+          "y": 3088,
+          "w": 75,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 text-cream hover:bg-lime hover:text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "💬",
+        "href": null,
+        "rect": {
+          "x": 1360,
+          "y": 920,
+          "w": 56,
+          "h": 56
+        },
+        "cls": "fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 place-items-center rounded-full border-"
+      }
+    ]
+  },
+  {
+    "name": "btn-permen pink",
+    "heroText": "Momen\nCara kerja\nHarga\nIde\nPapan Abadi\nMasuk\nBIKIN SEKARANG\nCONFESS\nHALAMAN UCAPAN CONFESS & NEMBAK DIGITAL\n\nBikin halaman kejutan buat nembak gebetan: cerita, foto, musik, dan tombol Nggak yang kabur. Jadi dalam 5 menit.\n\nBIKIN HALAMAN NEMBAK\n\nINI BENERAN BISA DIMAININ 👇\n\nADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.\n\nMAIN BERDUA\nPERMAINAN YANG KAMU BIKIN, DIA YANG MAININ\n\nEmpat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu.\n\nKUIS KENAL AKU\n\nKamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.\n\nDUA JUJUR SATU BOHONG\n\nTulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.\n\nSUSUN FOTO\n\nSalah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.\n\nRENCANA BARENG\n\nKasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nMASUK KE RAKA\n\nSelesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim.\n\nDUA DESAIN, SATU KEJUTAN\n\nPERMEN PINK\n\nManis, pink, deg-degan\n\nCHAT MALAM\n\nGaya chat story santai\n\nBUAT SIAPA?\nCARA NEMBAK GEBETAN LEWAT LINK →\nCONTOH CERITA\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\nDari pertama kita ngobrol, hariku jadi lebih ramai.\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\nJadi... ada satu pertanyaan buat kamu.\n\nBerani bilang, kami yang bikin momennya. Halaman ucapan digital interaktif.\n\nMOMEN\nConfess\nUlang Tahun\nAnniversary\nMinta Maaf\nWisuda\nHari Spesial\nPROPOSIGO\nBikin halaman\nHarga\nIde kata-kata & kejutan\nPapan Abadi\nDasbor\nSyarat & Ketentuan\nKebijakan Privasi\nPengaturan cookie\n\n© 2026 Proposigo · dibuat dengan deg-degan\n\nBahasa Indonesia\nEnglish\n💬",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 876,
+          "y": 168,
+          "w": 340,
+          "h": 640
+        },
+        "text": "ADA TITIPAN BUAT… DINDA (ketuk amplopnya)"
+      },
+      {
+        "tag": "div",
+        "cls": "rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5",
+        "bg": "rgb(255, 244, 224)",
+        "rect": {
+          "x": 670,
+          "y": 1352,
+          "w": 384,
+          "h": 316
+        },
+        "text": "Minuman yang selalu aku pesan? Es teh Kopi susu Matcha"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/",
+        "rect": {
+          "x": 160,
+          "y": 12,
+          "w": 189,
+          "h": 44
+        },
+        "cls": "shrink-0"
+      },
+      {
+        "tag": "a",
+        "text": "Momen",
+        "href": "/#momen",
+        "rect": {
+          "x": 507,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Cara kerja",
+        "href": "/#cara-kerja",
+        "rect": {
+          "x": 573,
+          "y": 24,
+          "w": 86,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 683,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Ide",
+        "href": "/ide",
+        "rect": {
+          "x": 750,
+          "y": 24,
+          "w": 26,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 800,
+          "y": 24,
+          "w": 94,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Masuk",
+        "href": "/masuk",
+        "rect": {
+          "x": 1052,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hidden text-sm font-bold underline decoration-4 decoration-lime underline-offset-4 sm:inline"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN SEKARANG",
+        "href": "/buat",
+        "rect": {
+          "x": 1106,
+          "y": 13,
+          "w": 174,
+          "h": 42
+        },
+        "cls": "nb-btn sm"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN NEMBAK",
+        "href": "/buat/confess",
+        "rect": {
+          "x": 224,
+          "y": 565,
+          "w": 318,
+          "h": 63
+        },
+        "cls": "nb-btn ink mt-8 text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 902,
+          "y": 440,
+          "w": 288,
+          "h": 197
+        },
+        "cls": "group mx-auto mt-10 block"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 896,
+          "y": 826,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1052,
+          "y": 828,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 992,
+          "y": 879,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yan",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1246,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-lime"
+      },
+      {
+        "tag": "button",
+        "text": "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bo",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1372,
+          "w": 260,
+          "h": 137
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyu",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1521,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi ti",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1648,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "Es teh",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1452,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Kopi susu",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1520,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Matcha",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1588,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "a",
+        "text": "CARA NEMBAK GEBETAN LEWAT LINK →",
+        "href": "/momen/confess/gebetan",
+        "rect": {
+          "x": 224,
+          "y": 2184,
+          "w": 347,
+          "h": 32
+        },
+        "cls": "sticker bg-white text-sm hover:bg-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Confess",
+        "href": "/momen/confess",
+        "rect": {
+          "x": 547,
+          "y": 2803,
+          "w": 60,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ulang Tahun",
+        "href": "/momen/ultah",
+        "rect": {
+          "x": 547,
+          "y": 2831,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Anniversary",
+        "href": "/momen/anniv",
+        "rect": {
+          "x": 547,
+          "y": 2859,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Minta Maaf",
+        "href": "/momen/maaf",
+        "rect": {
+          "x": 547,
+          "y": 2887,
+          "w": 86,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Wisuda",
+        "href": "/momen/wisuda",
+        "rect": {
+          "x": 547,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Hari Spesial",
+        "href": "/hari",
+        "rect": {
+          "x": 547,
+          "y": 2943,
+          "w": 103,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Bikin halaman",
+        "href": "/buat",
+        "rect": {
+          "x": 933,
+          "y": 2803,
+          "w": 111,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 933,
+          "y": 2831,
+          "w": 43,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ide kata-kata & kejutan",
+        "href": "/ide",
+        "rect": {
+          "x": 933,
+          "y": 2859,
+          "w": 197,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 933,
+          "y": 2887,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Dasbor",
+        "href": "/dasbor",
+        "rect": {
+          "x": 933,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Syarat & Ketentuan",
+        "href": "/terms",
+        "rect": {
+          "x": 933,
+          "y": 2943,
+          "w": 154,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Kebijakan Privasi",
+        "href": "/privacy",
+        "rect": {
+          "x": 933,
+          "y": 2971,
+          "w": 146,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Pengaturan cookie",
+        "href": null,
+        "rect": {
+          "x": 933,
+          "y": 3000,
+          "w": 146,
+          "h": 20
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Bahasa Indonesia",
+        "href": null,
+        "rect": {
+          "x": 1061,
+          "y": 3088,
+          "w": 142,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 bg-cream text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "English",
+        "href": null,
+        "rect": {
+          "x": 1203,
+          "y": 3088,
+          "w": 75,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 text-cream hover:bg-lime hover:text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "💬",
+        "href": null,
+        "rect": {
+          "x": 1360,
+          "y": 920,
+          "w": 56,
+          "h": 56
+        },
+        "cls": "fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 place-items-center rounded-full border-"
+      }
+    ]
+  },
+  {
+    "name": "btn-chat malam",
+    "heroText": "Momen\nCara kerja\nHarga\nIde\nPapan Abadi\nMasuk\nBIKIN SEKARANG\nCONFESS\nHALAMAN UCAPAN CONFESS & NEMBAK DIGITAL\n\nBikin halaman kejutan buat nembak gebetan: cerita, foto, musik, dan tombol Nggak yang kabur. Jadi dalam 5 menit.\n\nBIKIN HALAMAN NEMBAK\n\nINI BENERAN BISA DIMAININ 👇\n\nADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.\n\nMAIN BERDUA\nPERMAINAN YANG KAMU BIKIN, DIA YANG MAININ\n\nEmpat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu.\n\nKUIS KENAL AKU\n\nKamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.\n\nDUA JUJUR SATU BOHONG\n\nTulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.\n\nSUSUN FOTO\n\nSalah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.\n\nRENCANA BARENG\n\nKasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nMASUK KE RAKA\n\nSelesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim.\n\nDUA DESAIN, SATU KEJUTAN\n\nPERMEN PINK\n\nManis, pink, deg-degan\n\nCHAT MALAM\n\nGaya chat story santai\n\nBUAT SIAPA?\nCARA NEMBAK GEBETAN LEWAT LINK →\nCONTOH CERITA\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\nDari pertama kita ngobrol, hariku jadi lebih ramai.\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\nJadi... ada satu pertanyaan buat kamu.\n\nBerani bilang, kami yang bikin momennya. Halaman ucapan digital interaktif.\n\nMOMEN\nConfess\nUlang Tahun\nAnniversary\nMinta Maaf\nWisuda\nHari Spesial\nPROPOSIGO\nBikin halaman\nHarga\nIde kata-kata & kejutan\nPapan Abadi\nDasbor\nSyarat & Ketentuan\nKebijakan Privasi\nPengaturan cookie\n\n© 2026 Proposigo · dibuat dengan deg-degan\n\nBahasa Indonesia\nEnglish\n💬",
+    "phoneCandidates": [
+      {
+        "tag": "div",
+        "cls": "relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h",
+        "bg": "rgb(17, 17, 17)",
+        "rect": {
+          "x": 876,
+          "y": 168,
+          "w": 340,
+          "h": 640
+        },
+        "text": "ADA TITIPAN BUAT… DINDA (ketuk amplopnya)"
+      },
+      {
+        "tag": "div",
+        "cls": "rounded-2xl border-4 border-ink shadow-[5px_5px_0_#111] p-5",
+        "bg": "rgb(255, 244, 224)",
+        "rect": {
+          "x": 670,
+          "y": 1352,
+          "w": 384,
+          "h": 316
+        },
+        "text": "Minuman yang selalu aku pesan? Es teh Kopi susu Matcha"
+      }
+    ],
+    "buttons": [
+      {
+        "tag": "a",
+        "text": "",
+        "href": "/",
+        "rect": {
+          "x": 160,
+          "y": 12,
+          "w": 189,
+          "h": 44
+        },
+        "cls": "shrink-0"
+      },
+      {
+        "tag": "a",
+        "text": "Momen",
+        "href": "/#momen",
+        "rect": {
+          "x": 507,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Cara kerja",
+        "href": "/#cara-kerja",
+        "rect": {
+          "x": 573,
+          "y": 24,
+          "w": 86,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 683,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Ide",
+        "href": "/ide",
+        "rect": {
+          "x": 750,
+          "y": 24,
+          "w": 26,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 800,
+          "y": 24,
+          "w": 94,
+          "h": 20
+        },
+        "cls": "hover:underline decoration-4 decoration-lime underline-offset-4"
+      },
+      {
+        "tag": "a",
+        "text": "Masuk",
+        "href": "/masuk",
+        "rect": {
+          "x": 1052,
+          "y": 24,
+          "w": 43,
+          "h": 20
+        },
+        "cls": "hidden text-sm font-bold underline decoration-4 decoration-lime underline-offset-4 sm:inline"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN SEKARANG",
+        "href": "/buat",
+        "rect": {
+          "x": 1106,
+          "y": 13,
+          "w": 174,
+          "h": 42
+        },
+        "cls": "nb-btn sm"
+      },
+      {
+        "tag": "a",
+        "text": "BIKIN HALAMAN NEMBAK",
+        "href": "/buat/confess",
+        "rect": {
+          "x": 224,
+          "y": 565,
+          "w": 318,
+          "h": 63
+        },
+        "cls": "nb-btn ink mt-8 text-lg"
+      },
+      {
+        "tag": "button",
+        "text": "",
+        "href": null,
+        "rect": {
+          "x": 902,
+          "y": 440,
+          "w": 288,
+          "h": 197
+        },
+        "cls": "group mx-auto mt-10 block"
+      },
+      {
+        "tag": "button",
+        "text": "PERMEN PINK",
+        "href": null,
+        "rect": {
+          "x": 898,
+          "y": 828,
+          "w": 146,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "CHAT MALAM",
+        "href": null,
+        "rect": {
+          "x": 1050,
+          "y": 826,
+          "w": 141,
+          "h": 42
+        },
+        "cls": "nb-btn sm "
+      },
+      {
+        "tag": "button",
+        "text": "↺ ULANG",
+        "href": null,
+        "rect": {
+          "x": 992,
+          "y": 879,
+          "w": 108,
+          "h": 42
+        },
+        "cls": "nb-btn sm cream"
+      },
+      {
+        "tag": "button",
+        "text": "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yan",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1246,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-lime"
+      },
+      {
+        "tag": "button",
+        "text": "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bo",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1372,
+          "w": 260,
+          "h": 137
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyu",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1521,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi ti",
+        "href": null,
+        "rect": {
+          "x": 224,
+          "y": 1648,
+          "w": 260,
+          "h": 115
+        },
+        "cls": "nb-card min-w-[200px] shrink-0 p-4 text-left shadow-[5px_5px_0_#111] transition-transform hover:-translate-y-0.5 bg-whit"
+      },
+      {
+        "tag": "button",
+        "text": "Es teh",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1452,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Kopi susu",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1520,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "button",
+        "text": "Matcha",
+        "href": null,
+        "rect": {
+          "x": 694,
+          "y": 1588,
+          "w": 336,
+          "h": 56
+        },
+        "cls": "flex w-full items-center justify-between gap-2 rounded-xl border-4 border-ink px-4 py-3 text-left font-bold transition"
+      },
+      {
+        "tag": "a",
+        "text": "CARA NEMBAK GEBETAN LEWAT LINK →",
+        "href": "/momen/confess/gebetan",
+        "rect": {
+          "x": 224,
+          "y": 2184,
+          "w": 347,
+          "h": 32
+        },
+        "cls": "sticker bg-white text-sm hover:bg-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Confess",
+        "href": "/momen/confess",
+        "rect": {
+          "x": 547,
+          "y": 2803,
+          "w": 60,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ulang Tahun",
+        "href": "/momen/ultah",
+        "rect": {
+          "x": 547,
+          "y": 2831,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Anniversary",
+        "href": "/momen/anniv",
+        "rect": {
+          "x": 547,
+          "y": 2859,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Minta Maaf",
+        "href": "/momen/maaf",
+        "rect": {
+          "x": 547,
+          "y": 2887,
+          "w": 86,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Wisuda",
+        "href": "/momen/wisuda",
+        "rect": {
+          "x": 547,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Hari Spesial",
+        "href": "/hari",
+        "rect": {
+          "x": 547,
+          "y": 2943,
+          "w": 103,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Bikin halaman",
+        "href": "/buat",
+        "rect": {
+          "x": 933,
+          "y": 2803,
+          "w": 111,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 933,
+          "y": 2831,
+          "w": 43,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Ide kata-kata & kejutan",
+        "href": "/ide",
+        "rect": {
+          "x": 933,
+          "y": 2859,
+          "w": 197,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 933,
+          "y": 2887,
+          "w": 94,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Dasbor",
+        "href": "/dasbor",
+        "rect": {
+          "x": 933,
+          "y": 2915,
+          "w": 51,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Syarat & Ketentuan",
+        "href": "/terms",
+        "rect": {
+          "x": 933,
+          "y": 2943,
+          "w": 154,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "a",
+        "text": "Kebijakan Privasi",
+        "href": "/privacy",
+        "rect": {
+          "x": 933,
+          "y": 2971,
+          "w": 146,
+          "h": 21
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Pengaturan cookie",
+        "href": null,
+        "rect": {
+          "x": 933,
+          "y": 3000,
+          "w": 146,
+          "h": 20
+        },
+        "cls": "hover:text-lime"
+      },
+      {
+        "tag": "button",
+        "text": "Bahasa Indonesia",
+        "href": null,
+        "rect": {
+          "x": 1061,
+          "y": 3088,
+          "w": 142,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 bg-cream text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "English",
+        "href": null,
+        "rect": {
+          "x": 1203,
+          "y": 3088,
+          "w": 75,
+          "h": 28
+        },
+        "cls": "px-3 py-1.5 text-cream hover:bg-lime hover:text-ink"
+      },
+      {
+        "tag": "button",
+        "text": "💬",
+        "href": null,
+        "rect": {
+          "x": 1360,
+          "y": 920,
+          "w": 56,
+          "h": 56
+        },
+        "cls": "fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 place-items-center rounded-full border-"
+      }
+    ]
+  }
+]

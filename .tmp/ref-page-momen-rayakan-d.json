@@ -1,0 +1,182 @@
+{
+  "url": "https://proposigo.app/momen/rayakan",
+  "title": "Ucapan Hari Ayah, Hari Ibu & Hari Guru digital · Proposigo",
+  "desc": "Rayakan Hari Ayah, Hari Ibu, Hari Guru, Kartini, 17 Agustus, dan Lebaran dengan halaman interaktif: kado yang dibuka, foto, dan surat.",
+  "robots": null,
+  "canonical": "https://proposigo.app/momen/rayakan",
+  "og": {
+    "image": "https://proposigo.app/og/momen-rayakan-id.png?v=3",
+    "title": "Ucapan Hari Ayah, Hari Ibu & Hari Guru digital",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "UCAPAN HARI AYAH, HARI IBU & HARI GURU DIGITAL",
+      "cls": "mt-4 font-display text-4xl leading-tight sm:text-5xl",
+      "size": "48px",
+      "lh": "60px",
+      "family": "\"Archivo Black\""
+    }
+  ],
+  "h2": [
+    "PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ",
+    "DUA DESAIN, SATU KEJUTAN"
+  ],
+  "h3": [
+    "CONTOH CERITA",
+    "MOMEN",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "grid items-center gap-10 md:grid-cols-[1fr_340px]",
+      "h": 793,
+      "text": "PERAYAAN UCAPAN HARI AYAH, HARI IBU & HARI GURU DIGITAL Rayakan Hari Ayah, Hari "
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mt-20",
+      "h": 814,
+      "text": "MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isiny"
+    },
+    {
+      "tag": "h2",
+      "id": null,
+      "cls": "mt-16 font-display text-3xl",
+      "h": 36,
+      "text": "DUA DESAIN, SATU KEJUTAN"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "mt-6 grid gap-6 sm:grid-cols-2",
+      "h": 148,
+      "text": "KADO LIME Ceria, siap dirayakan PITA CORAL Hangat dan meriah"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "nb-card mt-12 bg-white p-6",
+      "h": 244,
+      "text": "CONTOH CERITA Selamat Hari Ayah, Yah! Makasih udah antar jemput bertahun-tahun t"
+    }
+  ],
+  "text": "PERAYAAN UCAPAN HARI AYAH, HARI IBU & HARI GURU DIGITAL Rayakan Hari Ayah, Hari Ibu, Hari Guru, Kartini, 17 Agustus, dan Lebaran dengan halaman interaktif: kado yang dibuka, foto, dan surat. BIKIN HALAMAN RAYAKAN INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… AYAH (ketuk amplopnya) KADO LIME PITA CORAL ↺ ULANG YANG MASUK KE DINDA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Ayah lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu. KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi. RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. KUIS KENAL AKU Seberapa kenal kamu sama Dinda? · 1/2 Kebiasaan Ayah tiap pagi? Nyiram tanaman Baca berita Nyanyi di kamar mandi MASUK KE DINDA Selesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim. DUA DESAIN, SATU KEJUTAN KADO LIME Ceria, siap dirayakan PITA CORAL Hangat dan meriah CONTOH CERITA Selamat Hari Ayah, Yah! Makasih udah antar jemput bertahun-tahun tanpa pernah ngeluh. Hari ini giliran aku yang bilang: Ayah hebat.",
+  "buttons": [
+    "KADO LIME",
+    "PITA CORAL",
+    "↺ ULANG",
+    "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.",
+    "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.",
+    "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.",
+    "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.",
+    "Nyiram tanaman",
+    "Baca berita",
+    "Nyanyi di kamar mandi",
+    "Pengaturan cookie",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Momen",
+      "h": "/#momen"
+    },
+    {
+      "t": "Cara kerja",
+      "h": "/#cara-kerja"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Masuk",
+      "h": "/masuk"
+    },
+    {
+      "t": "BIKIN SEKARANG",
+      "h": "/buat"
+    },
+    {
+      "t": "BIKIN HALAMAN RAYAKAN",
+      "h": "/buat/rayakan"
+    },
+    {
+      "t": "Confess",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "Ulang Tahun",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "Minta Maaf",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "Wisuda",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "Hari Spesial",
+      "h": "/hari"
+    },
+    {
+      "t": "Bikin halaman",
+      "h": "/buat"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide kata-kata & kejutan",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Dasbor",
+      "h": "/dasbor"
+    },
+    {
+      "t": "Syarat & Ketentuan",
+      "h": "/terms"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    }
+  ],
+  "scrollH": 2954
+}

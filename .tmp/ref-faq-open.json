@@ -1,0 +1,22 @@
+[
+  {
+    "q": "Penerimanya perlu akun atau install aplikasi?",
+    "a": "Nggak perlu. Penerima cukup buka link dari WhatsApp atau Instagram."
+  },
+  {
+    "q": "Berapa lama bikinnya?",
+    "a": "Sekitar 5 menit. Ada contoh isi siap pakai yang tinggal kamu edit, dan pratinjaunya gratis sepuasnya."
+  },
+  {
+    "q": "Aku tahu kalau dia sudah buka halamannya?",
+    "a": "Tahu. Kamu dapat email waktu halamannya pertama kali dibuka, dan jawaban penerima (Mau/Nggak, Dimaafkan/Belum) ikut dikirim ke kamu."
+  },
+  {
+    "q": "Foto-fotoku aman?",
+    "a": "Link-nya acak dan panjang, halaman tidak diindeks Google, dan ada masa aktif. Meski begitu, siapa pun yang punya link bisa membukanya, jadi kirim ke orang yang tepat."
+  },
+  {
+    "q": "Bayarnya pakai apa?",
+    "a": "QRIS, e-wallet, atau virtual account bank untuk Indonesia dan Malaysia. Dari negara lain bayar dalam USD pakai kartu. Sekali bayar, tanpa langganan."
+  }
+]

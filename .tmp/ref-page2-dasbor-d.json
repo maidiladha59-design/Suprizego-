@@ -1,0 +1,60 @@
+{
+  "url": "https://proposigo.app/masuk?next=%2Fdasbor",
+  "title": "Masuk · Proposigo",
+  "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.",
+  "robots": "noindex",
+  "canonical": "https://proposigo.app/masuk",
+  "og": {
+    "image": "https://proposigo.app/og/masuk-id.png?v=3",
+    "title": "Proposigo",
+    "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "MASUK",
+      "size": "36px",
+      "lh": "40px"
+    }
+  ],
+  "h2": [],
+  "h3": [],
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "w-full max-w-md",
+      "h": 673,
+      "text": "MASUK Lanjut bikin kejutan. EMAIL PASSWORD Lupa password? MASUKLANJUT DENGAN GOOGLE Belum "
+    }
+  ],
+  "text": "MASUK Lanjut bikin kejutan. EMAIL PASSWORD Lupa password? MASUKLANJUT DENGAN GOOGLE Belum punya akun? Masuk dengan Google berarti kamu berusia 13+ dan setuju Syarat & Kebijakan Privasi. Belum punya akun? Daftar",
+  "buttons": [
+    "MASUK",
+    "LANJUT DENGAN GOOGLE",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Lupa password?",
+      "h": "/lupa-sandi"
+    },
+    {
+      "t": "Daftar",
+      "h": "/daftar?next=%2Fdasbor"
+    }
+  ],
+  "jsonld": [],
+  "scrollH": 1000
+}

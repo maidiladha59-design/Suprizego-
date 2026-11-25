@@ -1,0 +1,170 @@
+{
+  "url": "https://proposigo.app/privacy",
+  "title": "Kebijakan Privasi · Proposigo",
+  "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.",
+  "robots": null,
+  "canonical": "https://proposigo.app/privacy",
+  "og": {
+    "image": "https://proposigo.app/og/privacy-id.png?v=3",
+    "title": "Proposigo",
+    "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "KEBIJAKAN PRIVASI",
+      "size": "36px",
+      "lh": "40px"
+    }
+  ],
+  "h2": [
+    "1. Perkenalan",
+    "2. Data yang Kami Kumpulkan",
+    "3. Cara Kami Menggunakan Data",
+    "4. Berbagi Data dengan Pihak Ketiga",
+    "5. Data dari Google",
+    "6. Cookie dan Teknologi Sejenis",
+    "7. Keamanan Data",
+    "8. Penyimpanan Data",
+    "9. Hak Anda",
+    "10. Privasi Anak",
+    "11. Perubahan Kebijakan Ini",
+    "12. Hubungi Kami"
+  ],
+  "h3": [
+    "MOMEN",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "span",
+      "id": null,
+      "cls": "sticker bg-pink -rotate-2",
+      "h": 39,
+      "text": "LEGAL"
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "cls": "mt-5 font-display text-4xl sm:text-5xl",
+      "h": 80,
+      "text": "KEBIJAKAN PRIVASI"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": "mt-3 text-sm font-bold opacity-70",
+      "h": 40,
+      "text": "Terakhir diperbarui: 10 November 2026 · Versi 1"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "mt-8",
+      "h": 8536,
+      "text": "1. Perkenalan Proposigo (“kami”, “layanan”) menyediakan halaman ucapan digital interaktif."
+    }
+  ],
+  "text": "LEGAL KEBIJAKAN PRIVASI Terakhir diperbarui: 10 November 2026 · Versi 1 1. Perkenalan Proposigo (“kami”, “layanan”) menyediakan halaman ucapan digital interaktif. Halaman ini menjelaskan data apa yang kami kumpulkan, bagaimana kami menggunakannya, dengan siapa data dibagikan, dan hak yang Anda miliki atas data tersebut. Dengan menggunakan Proposigo, Anda menyetujui praktik yang dijelaskan di sini. Jika ada pertanyaan, hubungi kami di legal@proposigo.app. 2. Data yang Kami Kumpulkan Data Akun: nama, alamat email, dan foto profil. Jika Anda masuk dengan Google, kami juga menyimpan pengenal akun Google Anda (tidak termasuk kata sandi Google — kami tidak pernah membaca atau menyimpan kata sandi Google Anda). Jika Anda mendaftar dengan email, kata sandi disimpan dalam bentuk hash (terenkripsi satu arah), bukan teks asli. Data Sesi & Teknis: alamat IP, jenis peramban (user-agent), dan waktu aktivitas, digunakan untuk keamanan, pembatasan laju (rate limiting), dan menjaga sesi login tetap aman. Konten Halaman: nama pengirim, nama penerima, tanggal, pertanyaan, cerita, foto beserta keterangannya, pilihan musik/tautan Spotify, rekaman suara (voice note), dan surat yang Anda tulis. Media yang Diunggah: file foto (JPEG/PNG/WebP) dan audio (rekaman suara) yang Anda unggah, disimpan di server kami. Data Aktivitas Halaman: catatan ketika halaman pertama kali dibuka, jawaban penerima (mis. “Mau”/“Dimaafkan”), dan jumlah percobaan jawaban. Ucapan Bareng: nama, ucapan, dan foto opsional yang dikirim teman-teman pengirim lewat link ucapan. Data ini hanya tampil di halaman penerima dan dasbor pengirim, dan ikut terhapus bersama halamannya. Video Reaksi (opsional): jika penerima memilih merekam reaksi, video 5 detik dari kamera depan beserta suaranya dikirim ke pengirim. Kamera hanya menyala setelah penerima menekan tombol rekam dan memberi izin di browser, dan video bisa ditonton dulu sebelum dikirim. Video ini privat, hanya bisa ditonton pengirim dari dasbornya, dan ikut terhapus saat halamannya dihapus. Papan Abadi (opsional): jika pengirim mengajukan dan penerima menyetujui, nama pengirim, nama penerima, jenis momen, bulan dan tahun, serta satu kutipan pilihan pengirim ditampilkan secara publik di halaman Papan Abadi. Isi halaman lain, foto, dan link tidak ditampilkan. Pengirim maupun penerima dapat menariknya kapan saja. Data Pembayaran: paket yang dibeli, nominal, mata uang, status pembayaran, dan waktu pembayaran. Data kartu/e-wallet tidak kami simpan — diproses langsung oleh penyedia pembayaran. Untuk pembayaran USD, Lemon Squeezy mengumpulkan nama, email, negara/alamat penagihan, dan metode pembayaran untuk menagih, menghitung pajak, dan mencegah penipuan; kami hanya menerima email, nominal, dan status pesanan. Laporan: alasan pelaporan jika Anda melaporkan sebuah halaman. Chat CS: pesan yang Anda kirim ke asisten CS di situs, serta email yang Anda tuliskan bila meminta dibantu tim. Riwayat obrolan disimpan supaya Anda bisa melihatnya lagi (di peramban yang sama, atau di semua perangkat bila Anda masuk akun). Anda bisa meminta penghapusan riwayat chat lewat email CS. 3. Cara Kami Menggunakan Data Membuat, menampilkan, dan mengirimkan halaman ucapan Anda beserta isinya. Membuat dan mengelola akun, login (termasuk “Masuk dengan Google”), serta mengamankan sesi. Memproses pembayaran dan mengaktifkan halaman sesuai paket yang dibeli. Mengirim email notifikasi (mis. saat halaman Anda dibuka atau dijawab) melalui penyedia email. Mendeteksi penyalahgunaan, menangani laporan, menegakkan ketentuan, dan menjaga keamanan layanan. Memeriksa foto, video reaksi, dan teks secara otomatis untuk mendeteksi konten terlarang (mis. pornografi, eksploitasi anak, narkoba, judi). Pemeriksaan utama berjalan di server kami sendiri; sebagai lapisan kedua, foto dan teks juga diperiksa oleh layanan moderasi OpenAI. Konten yang meragukan ditinjau manual oleh tim. Memenuhi kewajiban hukum yang berlaku. Kami tidak menjual data pribadi Anda atau data penerima Anda kepada pihak mana pun. 4. Berbagi Data dengan Pihak Ketiga Kami hanya membagikan data sebatas yang diperlukan untuk menjalankan layanan, kepada: Google — untuk autentikasi “Masuk dengan Google” (kebijakan privasi Google berlaku). DOKU — untuk memproses pembayaran dalam Rupiah (QRIS, e-wallet, virtual account). Lemon Squeezy — untuk memproses pembayaran dalam USD sebagai merchant of record, termasuk penghitungan pajak dan pencegahan penipuan (kebijakan privasi Lemon Squeezy berlaku). Resend — untuk mengirim email transaksional (notifikasi). OpenAI — pemeriksaan otomatis foto dan teks untuk mendeteksi konten terlarang (Moderation API). Data yang dikirim lewat API ini tidak dipakai OpenAI untuk melatih model. OpenAI (asisten CS) — menjawab pertanyaan di chat CS. Sebelum dikirim, email, nomor telepon, dan tautan halaman disamarkan; isi halaman dan data akun tidak dikirim. Obrolan CS dapat digunakan OpenAI untuk meningkatkan layanannya, jadi jangan menulis data sensitif di chat. Google Analytics — hanya jika Anda menyetujui cookie analitik: data penggunaan situs (halaman yang dilihat, perangkat, perkiraan lokasi tingkat kota, dan langkah pembelian seperti paket dan nominal) untuk memahami dan memperbaiki layanan. Tidak dipakai untuk iklan, dan halaman ucapan penerima tidak pernah dilacak. Penyedia hosting & database — infrastruktur penyimpanan data (database PostgreSQL dan penyimpanan file) yang menjalankan layanan ini. Kami juga dapat mengungkapkan data bila diwajibkan oleh hukum atau untuk melindungi hak, keselamatan, dan keamanan pengguna serta layanan. 5. Data dari Google Jika Anda masuk menggunakan akun Google, kami menerima informasi profil dasar dari Google (nama, alamat email, atau foto profil). Informasi ini hanya kami gunakan untuk membuat dan mengelola akun Proposigo Anda. Penggunaan dan transfer informasi yang diterima dari Google API akan mematuhi Google API Services: User Data Policy, termasuk persyaratan Limited Use. Kami tidak menjual data tersebut, tidak menggunakannya untuk iklan, dan hanya menggunakannya untuk fungsi inti layanan. 6. Cookie dan Teknologi Sejenis Kami menggunakan dua jenis cookie: Cookie esensial untuk menjaga sesi login dan keamanan pembayaran. Cookie ini selalu aktif karena layanan tidak bisa berjalan tanpanya. Cookie analitik (Google Analytics) yang hanya dipasang setelah Anda memilih “Boleh” pada banner cookie. Jika Anda menolak, Google Analytics tidak dimuat sama sekali. Anda dapat mengubah pilihan kapan saja lewat tautan “Pengaturan cookie” di bagian bawah situs; saat izin dicabut, cookie analitik dihapus. Anda juga dapat menghapus cookie melalui pengaturan peramban, namun sebagian fitur (seperti tetap masuk) mungkin tidak berfungsi. 7. Keamanan Data Kami menerapkan langkah pengamanan yang wajar, termasuk kata sandi yang di-hash, koneksi yang dienkripsi (HTTPS), dan pembatasan akses ke penyimpanan. Namun, tidak ada metode transmisi atau penyimpanan data yang sepenuhnya aman; kami tidak dapat menjamin keamanan mutlak. 8. Penyimpanan Data Halaman beserta kontennya tersimpan selama masa aktif paket yang Anda beli (mis. 3 hari, 14 hari, atau selamanya untuk paket Abadi) dan dapat dihapus lebih cepat dari dasbor Anda. Data akun tersimpan selama akun Anda aktif. Saat Anda menghapus halaman atau akun, data terkait akan dihapus dari sistem kami. Data tertentu (mis. catatan pembayaran) dapat kami simpan lebih lama bila diperlukan untuk kewajiban hukum, pajak, atau penyelesaian sengketa. 9. Hak Anda Anda memiliki hak untuk: Mengakses data Anda; sebagian besar dapat dilihat langsung di dasbor. Memperbaiki atau memperbarui informasi akun. Menghapus halaman yang Anda buat, dan meminta penghapusan akun serta seluruh data terkait dengan menghubungi kami. Kirim permintaan ke legal@proposigo.app. Kami akan memprosesnya dalam waktu yang wajar dan sesuai hukum yang berlaku. 10. Privasi Anak Layanan ini tidak ditujukan untuk anak di bawah usia 13 tahun (atau batas usia minimum yang berlaku di wilayah Anda). Kami tidak secara sadar mengumpulkan data pribadi anak-anak. Jika Anda mengetahui seorang anak telah memberikan data pribadinya kepada kami, hubungi kami agar data tersebut dihapus. 11. Perubahan Kebijakan Ini Kami dapat memperbarui kebijakan ini dari waktu ke waktu. Perubahan yang berarti akan kami informasikan melalui halaman ini dengan mencantumkan tanggal pembaruan. Dengan terus menggunakan layanan setelah perubahan, Anda dianggap menyetujui kebijakan yang diperbarui. 12. Hubungi Kami Untuk pertanyaan atau permintaan terkait privasi, hubungi kami di: Email: legal@proposigo.app Situs: https://proposigo.app",
+  "buttons": [
+    "Pengaturan cookie",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Momen",
+      "h": "/#momen"
+    },
+    {
+      "t": "Cara kerja",
+      "h": "/#cara-kerja"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Masuk",
+      "h": "/masuk"
+    },
+    {
+      "t": "BIKIN SEKARANG",
+      "h": "/buat"
+    },
+    {
+      "t": "Confess",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "Ulang Tahun",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "Minta Maaf",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "Wisuda",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "Hari Spesial",
+      "h": "/hari"
+    },
+    {
+      "t": "Bikin halaman",
+      "h": "/buat"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide kata-kata & kejutan",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Dasbor",
+      "h": "/dasbor"
+    },
+    {
+      "t": "Syarat & Ketentuan",
+      "h": "/terms"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    }
+  ],
+  "jsonld": [],
+  "scrollH": 9889
+}

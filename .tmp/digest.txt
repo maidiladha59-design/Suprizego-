@@ -1,0 +1,636 @@
+
+===== ref-page-home-d.json =====
+url: https://proposigo.app/ | title: Proposigo · Halaman ucapan digital interaktif
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: null | canonical: https://proposigo.app/ | lang: id
+og: {"image":"https://proposigo.app/og/home-id.png?v=3","title":"Proposigo","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: BERANI BILANG. KAMI YANG BIKIN MOMENNYA. [72px/68.4px/"Archivo Black"]
+h2: MOMEN APA? | HARI SPESIAL | 3 LANGKAH, SELESAI. | BUKAN SEKADAR LINK. | HARGANYA RINGAN. | MASIH PENASARAN? | UDAH SIAP BILANG?
+h3: CONFESS → | ULANG TAHUN → | ANNIVERSARY → | MINTA MAAF → | WISUDA → | HARI GURU | HARI IBU | NATAL | TAHUN BARU | IMLEK | VALENTINE | PILIH MOMEN | ISI CERITAMU | BAYAR & KIRIM | DIKABARI | GERAK SEMUA | SIMPAN GAMBAR | TANPA RIBET | DASAR | PLUS | ABADI | MOMEN | PROPOSIGO
+sections(10):
+  - a h:44 cls:block border-b-4 border-ink px-4 py-2.5 text-center text-sm font-bold | 📚 Hari Guru sebentar lagi! Bikin halaman bertema Hari Guru sekarang →
+  - section h:1065 cls:bg-lime bg-stripes border-b-4 border-ink | HALAMAN UCAPAN INTERAKTIF BERANI BILANG. KAMI YANG BIKIN MOMENNYA. Bik
+  - div h:56 cls:overflow-hidden border-b-4 border-ink bg-ink py-3 text-lime | CONFESS ✦ ULANG TAHUN ✦ ANNIVERSARY ✦ MINTA MAAF ✦ WISUDA ✦ CONFESS ✦ 
+  - section#momen h:1088 cls:mx-auto max-w-6xl scroll-mt-24 px-4 py-20 | MOMEN APA? Lima momen, masing-masing punya kejutan interaktifnya sendi
+  - div h:908 cls:border-t-4 border-ink bg-cream bg-grid py-20 | HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang 
+  - section#cara-kerja h:492 cls:scroll-mt-24 border-y-4 border-ink bg-pink bg-dots py-20 | 3 LANGKAH, SELESAI. 1 PILIH MOMEN Pilih momen dan desainnya. Pratinjau
+  - section h:392 cls:mx-auto max-w-6xl px-4 py-20 | BUKAN SEKADAR LINK. DIKABARI Email masuk saat halamanmu dibuka dan saa
+  - section#harga h:835 cls:scroll-mt-24 border-y-4 border-ink bg-lime bg-stripes py-20 | HARGANYA RINGAN. Sekali bayar. Beda paket = beda lama aktif. DASAR Bua
+  - section h:684 cls:mx-auto max-w-3xl px-4 py-20 | MASIH PENASARAN? Penerimanya perlu akun atau install aplikasi? Berapa 
+  - section h:248 cls:mx-auto max-w-5xl px-4 | UDAH SIAP BILANG? Pratinjaunya gratis. Bayar baru saat kamu puas. BIKI
+buttons: PERMEN PINK | CHAT MALAM | ↺ ULANG | Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | 📚 Hari Guru sebentar lagi! Bi=>/buat/rayakan?hari=hariguru | BIKIN HALAMAN=>/buat | LIHAT MOMEN=>#momen | CONFESS → Berani bilang suka, =>/momen/confess | ULANG TAHUN → Tiup lilin virtu=>/momen/ultah | ANNIVERSARY → Hitung hari bare=>/momen/anniv | MINTA MAAF → Maaf yang tulus, =>/momen/maaf | WISUDA → Lempar toga, buka gul=>/momen/wisuda | HARI GURU=>/hari/hari-guru | Contoh ucapannya →=>/hari/hari-guru | 🎉 Rayakan Terima kasih, Bu/Pa=>/buat/rayakan?hari=hariguru | 🙏 Minta maaf Maaf dulu suka b=>/buat/maaf?hari=hariguru | HARI IBU=>/hari/hari-ibu | Contoh ucapannya →=>/hari/hari-ibu | NATAL=>/hari/natal | Contoh ucapannya →=>/hari/natal | TAHUN BARU=>/hari/tahun-baru | Contoh ucapannya →=>/hari/tahun-baru | IMLEK=>/hari/imlek | Contoh ucapannya →=>/hari/imlek | VALENTINE=>/hari/valentine | Contoh ucapannya →=>/hari/valentine | PILIH DASAR=>/buat | PILIH PLUS=>/buat | PILIH ABADI=>/buat | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(trunc): 📚 Hari Guru sebentar lagi! Bikin halaman bertema Hari Guru sekarang → HALAMAN UCAPAN INTERAKTIF BERANI BILANG. KAMI YANG BIKIN MOMENNYA. Bikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu. BIKIN HALAMAN LIHAT MOMEN MULAI 5 RIBU INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… DINDA (ketuk amplopnya) PERMEN PINK CHAT MALAM ↺ ULANG YANG MASUK KE RAKA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. CONFESS ✦ ULANG TAHUN ✦ ANNIVERSARY ✦ MINTA MAAF ✦ WISUDA ✦ CONFESS ✦ ULANG TAHUN ✦ ANNIVERSARY ✦ MINTA MAAF ✦ WISUDA ✦ MOMEN APA? Lima momen, masing-masing punya kejutan interaktifnya sendiri. CONFESS → Berani bilang suka, tombol Nggak-nya kabur. ✦ tombol Nggak-nya kabur PALING DICARI ULANG TAHUN → Tiup lilin virtual, kejutan ceria. ✦ lilin ditiup pakai mik ANNIVERSARY → Hitung hari bareng, tahan hati sampai penuh. ✦ tahan hatinya sampai penuh MINTA MAAF → Maaf yang tulus, jawabannya langsung sampai. ✦ dijawab: dimaafkan / belum WISUDA → Lempar toga, buka gulungan ijazah. ✦ toganya dilempar HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang, atau pakai momennya buat minta maaf. 📚 ●hari ini! HARI GURU Contoh ucapannya → 🎉 Rayakan Terima kasih, Bu/Pak Guru → 🙏 Minta maaf Maaf dulu suka bandel di kelas → 🔒 22 Des · dibuka 1 Des HARI IBU Contoh ucapannya → 🎉 Rayakan Terima kasih buat Ibu 🙏 Minta maaf Maaf sering bikin Ibu khawatir 🔒 25 Des · dibuka 4 Des NATAL
+scrollH: 6403
+
+===== ref-page2-home-m.json =====
+url: https://proposigo.app/ | title: Proposigo · Halaman ucapan digital interaktif
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: null | canonical: https://proposigo.app/ | lang: id
+og: {"image":"https://proposigo.app/og/home-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: BERANI BILANG. KAMI YANG BIKIN MOMENNYA. [41.6px/39.52px/undefined]
+h2: MOMEN APA? | HARI SPESIAL | 3 LANGKAH, SELESAI. | BUKAN SEKADAR LINK. | HARGANYA RINGAN. | MASIH PENASARAN? | UDAH SIAP BILANG?
+h3: CONFESS → | ULANG TAHUN → | ANNIVERSARY → | MINTA MAAF → | WISUDA → | HARI GURU | HARI IBU | NATAL | TAHUN BARU | IMLEK | VALENTINE | PILIH MOMEN | ISI CERITAMU | BAYAR & KIRIM | DIKABARI | GERAK SEMUA | SIMPAN GAMBAR | TANPA RIBET | DASAR | PLUS | ABADI | MOMEN | PROPOSIGO
+sections(10):
+  - a h:64 cls:block border-b-4 border-ink px-4 py-2.5 text-center text-sm font-bold | 📚 Hari Guru sebentar lagi! Bikin halaman bertema Hari Guru sekarang →
+  - section h:1830 cls:bg-lime bg-stripes border-b-4 border-ink | HALAMAN UCAPAN INTERAKTIF BERANI BILANG. KAMI YANG BIKIN MOMENNYA. Bik
+  - div h:56 cls:overflow-hidden border-b-4 border-ink bg-ink py-3 text-lime | CONFESS ✦ ULANG TAHUN ✦ ANNIVERSARY ✦ MINTA MAAF ✦ WISUDA ✦ CONFESS ✦ 
+  - section#momen h:2258 cls:mx-auto max-w-6xl scroll-mt-24 px-4 py-20 | MOMEN APA? Lima momen, masing-masing punya kejutan interaktifnya sendi
+  - div h:2180 cls:border-t-4 border-ink bg-cream bg-grid py-20 | HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang 
+  - section#cara-kerja h:1061 cls:scroll-mt-24 border-y-4 border-ink bg-pink bg-dots py-20 | 3 LANGKAH, SELESAI. 1 PILIH MOMEN Pilih momen dan desainnya. Pratinjau
+  - section h:848 cls:mx-auto max-w-6xl px-4 py-20 | BUKAN SEKADAR LINK. DIKABARI Email masuk saat halamanmu dibuka dan saa
+  - section#harga h:1969 cls:scroll-mt-24 border-y-4 border-ink bg-lime bg-stripes py-20 | HARGANYA RINGAN. Sekali bayar. Beda paket = beda lama aktif. DASAR Bua
+  - section h:772 cls:mx-auto max-w-3xl px-4 py-20 | MASIH PENASARAN? Penerimanya perlu akun atau install aplikasi? Berapa 
+  - section h:479 cls:mx-auto max-w-5xl px-4 | UDAH SIAP BILANG? Pratinjaunya gratis. Bayar baru saat kamu puas. BIKI
+buttons: PERMEN PINK | CHAT MALAM | ↺ ULANG | Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | 📚 Hari Guru sebentar lagi! Bi=>/buat/rayakan?hari=hariguru | BIKIN HALAMAN=>/buat | LIHAT MOMEN=>#momen | CONFESS → Berani bilang suka, =>/momen/confess | ULANG TAHUN → Tiup lilin virtu=>/momen/ultah | ANNIVERSARY → Hitung hari bare=>/momen/anniv | MINTA MAAF → Maaf yang tulus, =>/momen/maaf | WISUDA → Lempar toga, buka gul=>/momen/wisuda | HARI GURU=>/hari/hari-guru | Contoh ucapannya →=>/hari/hari-guru | 🎉 Rayakan Terima kasih, Bu/Pa=>/buat/rayakan?hari=hariguru | 🙏 Minta maaf Maaf dulu suka b=>/buat/maaf?hari=hariguru | HARI IBU=>/hari/hari-ibu | Contoh ucapannya →=>/hari/hari-ibu | NATAL=>/hari/natal | Contoh ucapannya →=>/hari/natal | TAHUN BARU=>/hari/tahun-baru | Contoh ucapannya →=>/hari/tahun-baru | IMLEK=>/hari/imlek | Contoh ucapannya →=>/hari/imlek | VALENTINE=>/hari/valentine | Contoh ucapannya →=>/hari/valentine | PILIH DASAR=>/buat | PILIH PLUS=>/buat | PILIH ABADI=>/buat | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(trunc): 📚 Hari Guru sebentar lagi! Bikin halaman bertema Hari Guru sekarang → HALAMAN UCAPAN INTERAKTIF BERANI BILANG. KAMI YANG BIKIN MOMENNYA. Bikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu. BIKIN HALAMAN LIHAT MOMEN MULAI 5 RIBU INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… DINDA (ketuk amplopnya) PERMEN PINK CHAT MALAM ↺ ULANG YANG MASUK KE RAKA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. CONFESS ✦ ULANG TAHUN ✦ ANNIVERSARY ✦ MINTA MAAF ✦ WISUDA ✦ CONFESS ✦ ULANG TAHUN ✦ ANNIVERSARY ✦ MINTA MAAF ✦ WISUDA ✦ MOMEN APA? Lima momen, masing-masing punya kejutan interaktifnya sendiri. CONFESS → Berani bilang suka, tombol Nggak-nya kabur. ✦ tombol Nggak-nya kabur PALING DICARI ULANG TAHUN → Tiup lilin virtual, kejutan ceria. ✦ lilin ditiup pakai mik ANNIVERSARY → Hitung hari bareng, tahan hati sampai penuh. ✦ tahan hatinya sampai penuh MINTA MAAF → Maaf yang tulus, jawabannya langsung sampai. ✦ dijawab: dimaafkan / belum WISUDA → Lempar toga, buka gulungan ijazah. ✦ toganya dilempar HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang, atau pakai momennya buat minta maaf. 📚 ●hari ini! HARI GURU Contoh ucapannya → 🎉 Rayakan Terima kasih, Bu/Pak Guru → 🙏 Minta maaf Maaf dulu suka bandel di kelas → 🔒 22 Des · dibuka 1 Des HARI IBU Contoh ucapannya → 🎉 Rayakan Terima kasih buat Ibu 🙏 Minta maaf Maaf sering bikin Ibu khawatir 🔒 25 Des · dibuka 4 Des NATAL
+scrollH: 12538
+
+===== ref-page2-en-home-d.json =====
+url: https://proposigo.app/en | title: Proposigo · Interactive digital greeting pages
+desc: Say it bravely, we make the moment. Build an interactive surprise page (story, photos, music, voice) in 5 minutes and send one link.
+robots: null | canonical: https://proposigo.app/en | lang: en
+og: {"image":"https://proposigo.app/og/home-en.png?v=3","title":"Proposigo","desc":"Say it bravely, we make the moment. Build an interactive surprise page in 5 minutes and send one link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: SAY IT BRAVELY. WE MAKE THE MOMENT. [72px/68.4px/undefined]
+h2: WHAT MOMENT? | SPECIAL DAYS | 3 STEPS, DONE. | NOT JUST A LINK. | FRIENDLY PRICES. | STILL CURIOUS? | READY TO SAY IT?
+h3: CONFESSION → | BIRTHDAY → | ANNIVERSARY → | APOLOGY → | GRADUATION → | TEACHERS' DAY | MOTHER'S DAY | CHRISTMAS | NEW YEAR | LUNAR NEW YEAR | VALENTINE'S DAY | PICK A MOMENT | TELL YOUR STORY | PAY & SEND | GET NOTIFIED | EVERYTHING MOVES | SAVE AS IMAGE | NO HASSLE | BASIC | PLUS | FOREVER | MOMENTS | PROPOSIGO
+sections(10):
+  - a h:44 cls:block border-b-4 border-ink px-4 py-2.5 text-center text-sm font-bold | 📚 Teachers' Day is coming! Make a Teachers' Day page now →
+  - section h:1065 cls:bg-lime bg-stripes border-b-4 border-ink | INTERACTIVE GREETING PAGES SAY IT BRAVELY. WE MAKE THE MOMENT. Build a
+  - div h:56 cls:overflow-hidden border-b-4 border-ink bg-ink py-3 text-lime | CONFESSION ✦ BIRTHDAY ✦ ANNIVERSARY ✦ APOLOGY ✦ GRADUATION ✦ CONFESSIO
+  - section#momen h:1064 cls:mx-auto max-w-6xl scroll-mt-24 px-4 py-20 | WHAT MOMENT? Five moments, each with its own interactive surprise. CON
+  - div h:924 cls:border-t-4 border-ink bg-cream bg-grid py-20 | SPECIAL DAYS Indonesian national days & celebrations. Celebrate someon
+  - section#cara-kerja h:492 cls:scroll-mt-24 border-y-4 border-ink bg-pink bg-dots py-20 | 3 STEPS, DONE. 1 PICK A MOMENT Choose a moment and a design. The previ
+  - section h:420 cls:mx-auto max-w-6xl px-4 py-20 | NOT JUST A LINK. GET NOTIFIED An email lands when your page is opened 
+  - section#harga h:835 cls:scroll-mt-24 border-y-4 border-ink bg-lime bg-stripes py-20 | FRIENDLY PRICES. Pay once. Each plan stays live for a different length
+  - section h:684 cls:mx-auto max-w-3xl px-4 py-20 | STILL CURIOUS? Does the recipient need an account or an app? How long 
+  - section h:248 cls:mx-auto max-w-5xl px-4 | READY TO SAY IT? Previews are free. Only pay when you love it. CREATE 
+buttons: CANDY PINK | NIGHT CHAT | ↺ RESTART | Cookie settings | Bahasa Indonesia | English | 💬
+links: =>/en | Moments=>/en#momen | How it works=>/en#cara-kerja | Pricing=>/en#harga | Ideas=>/en/ide | Forever Wall=>/en/papan | Sign in=>/en/masuk | CREATE NOW=>/en/buat | 📚 Teachers' Day is coming! Ma=>/en/buat/rayakan?hari=hariguru | CREATE A PAGE=>/en/buat | SEE MOMENTS=>#momen | CONFESSION → Say you like them=>/en/momen/confess | BIRTHDAY → Blow out virtual ca=>/en/momen/ultah | ANNIVERSARY → Count your days =>/en/momen/anniv | APOLOGY → A sincere apology, t=>/en/momen/maaf | GRADUATION → Toss the cap, unr=>/en/momen/wisuda | TEACHERS' DAY=>/en/hari/hari-guru | Sample messages →=>/en/hari/hari-guru | 🎉 Celebrate Thank you, teache=>/en/buat/rayakan?hari=hariguru | 🙏 Say sorry Sorry for being a=>/en/buat/maaf?hari=hariguru | MOTHER'S DAY=>/en/hari/hari-ibu | Sample messages →=>/en/hari/hari-ibu | CHRISTMAS=>/en/hari/natal | Sample messages →=>/en/hari/natal | NEW YEAR=>/en/hari/tahun-baru | Sample messages →=>/en/hari/tahun-baru | LUNAR NEW YEAR=>/en/hari/imlek | Sample messages →=>/en/hari/imlek | VALENTINE'S DAY=>/en/hari/valentine | Sample messages →=>/en/hari/valentine | CHOOSE BASIC=>/en/buat | CHOOSE PLUS=>/en/buat | CHOOSE FOREVER=>/en/buat | Confession=>/en/momen/confess | Birthday=>/en/momen/ultah | Anniversary=>/en/momen/anniv | Apology=>/en/momen/maaf | Graduation=>/en/momen/wisuda | Special days=>/en/hari | Create a page=>/en/buat | Message & surprise ideas=>/en/ide | Dashboard=>/en/dasbor | Terms of Service=>/en/terms | Privacy Policy=>/en/privacy
+text(trunc): 📚 Teachers' Day is coming! Make a Teachers' Day page now → INTERACTIVE GREETING PAGES SAY IT BRAVELY. WE MAKE THE MOMENT. Build a surprise page (story, photos, music, voice) in 5 minutes, then send one link. They just tap the envelope, and you hear about everything they do. CREATE A PAGE SEE MOMENTS FROM RP5.000 GO AHEAD, IT'S PLAYABLE 👇 SOMETHING FOR… DINDA (tap the envelope) CANDY PINK NIGHT CHAT ↺ RESTART WHAT RAKA GETS SENDER Play the sample page. Everything Dinda does shows up here, exactly like what you'll receive. CONFESSION ✦ BIRTHDAY ✦ ANNIVERSARY ✦ APOLOGY ✦ GRADUATION ✦ CONFESSION ✦ BIRTHDAY ✦ ANNIVERSARY ✦ APOLOGY ✦ GRADUATION ✦ WHAT MOMENT? Five moments, each with its own interactive surprise. CONFESSION → Say you like them. The “No” button runs away. ✦ the No button runs away MOST LOVED BIRTHDAY → Blow out virtual candles, a cheerful surprise. ✦ blow out candles with your mic ANNIVERSARY → Count your days together, hold the heart until it's full. ✦ hold the heart until it fills APOLOGY → A sincere apology, the answer arrives instantly. ✦ answered: forgiven / not yet GRADUATION → Toss the cap, unroll the diploma. ✦ toss the graduation cap SPECIAL DAYS Indonesian national days & celebrations. Celebrate someone you love, or use the day to say sorry. 📚 ●today! TEACHERS' DAY Sample messages → 🎉 Celebrate Thank you, teacher → 🙏 Say sorry Sorry for being a handful in class → 🔒 22 Dec · opens 1 Dec MOTHER'S DAY Sample messages → 🎉 Celebrate Thank you, Mom 🙏 Say sorry Sorry for making Mom worry 🔒 25 Dec · opens 4 Dec CHRISTMAS Sample messages → 🎉 Celebrate A 
+scrollH: 6423
+
+===== ref-page2-buat-m.json =====
+url: https://proposigo.app/buat | title: Pilih momen · Proposigo
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: noindex | canonical: https://proposigo.app/buat | lang: id
+og: {"image":"https://proposigo.app/og/buat-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: MOMEN APA KALI INI? [36px/40px/undefined]
+h2: CONFESS → | ULANG TAHUN → | ANNIVERSARY → | MINTA MAAF → | WISUDA → | HARI SPESIAL
+h3: HARI GURU | HARI IBU | NATAL | TAHUN BARU | IMLEK | VALENTINE | MOMEN | PROPOSIGO
+sections(4):
+  - h1 h:80 cls:font-display text-4xl sm:text-5xl | MOMEN APA KALI INI?
+  - p h:48 cls:mt-3 font-bold | Pilih satu. Pratinjau dan drafnya gratis, bayar baru di akhir.
+  - div h:1958 cls:mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 | CONFESS → Berani bilang suka, tombol Nggak-nya kabur. ✦ tombol Nggak-n
+  - section#hari-spesial h:2016 cls:scroll-mt-24 mt-20 | HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang 
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | CONFESS → Berani bilang suka, =>/buat/confess | ULANG TAHUN → Tiup lilin virtu=>/buat/ultah | ANNIVERSARY → Hitung hari bare=>/buat/anniv | MINTA MAAF → Maaf yang tulus, =>/buat/maaf | WISUDA → Lempar toga, buka gul=>/buat/wisuda | HARI GURU=>/hari/hari-guru | Contoh ucapannya →=>/hari/hari-guru | 🎉 Rayakan Terima kasih, Bu/Pa=>/buat/rayakan?hari=hariguru | 🙏 Minta maaf Maaf dulu suka b=>/buat/maaf?hari=hariguru | HARI IBU=>/hari/hari-ibu | Contoh ucapannya →=>/hari/hari-ibu | NATAL=>/hari/natal | Contoh ucapannya →=>/hari/natal | TAHUN BARU=>/hari/tahun-baru | Contoh ucapannya →=>/hari/tahun-baru | IMLEK=>/hari/imlek | Contoh ucapannya →=>/hari/imlek | VALENTINE=>/hari/valentine | Contoh ucapannya →=>/hari/valentine | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(full): MOMEN APA KALI INI? Pilih satu. Pratinjau dan drafnya gratis, bayar baru di akhir. CONFESS → Berani bilang suka, tombol Nggak-nya kabur. ✦ tombol Nggak-nya kabur PALING DICARI ULANG TAHUN → Tiup lilin virtual, kejutan ceria. ✦ lilin ditiup pakai mik ANNIVERSARY → Hitung hari bareng, tahan hati sampai penuh. ✦ tahan hatinya sampai penuh MINTA MAAF → Maaf yang tulus, jawabannya langsung sampai. ✦ dijawab: dimaafkan / belum WISUDA → Lempar toga, buka gulungan ijazah. ✦ toganya dilempar HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang, atau pakai momennya buat minta maaf. 📚 ●hari ini! HARI GURU Contoh ucapannya → 🎉 Rayakan Terima kasih, Bu/Pak Guru → 🙏 Minta maaf Maaf dulu suka bandel di kelas → 🔒 22 Des · dibuka 1 Des HARI IBU Contoh ucapannya → 🎉 Rayakan Terima kasih buat Ibu 🙏 Minta maaf Maaf sering bikin Ibu khawatir 🔒 25 Des · dibuka 4 Des NATAL Contoh ucapannya → 🎉 Rayakan Ucapan Natal yang hangat 🙏 Minta maaf Damai di hari Natal 🔒 1 Jan · dibuka 11 Des TAHUN BARU Contoh ucapannya → 🎉 Rayakan Rayakan setahun bareng 🙏 Minta maaf Tutup tahun tanpa utang maaf 🔒 6 Feb · dibuka 16 Jan IMLEK Contoh ucapannya → 🎉 Rayakan Kirim angpao ucapan 🙏 Minta maaf Mulai tahun baru tanpa ganjalan 🔒 14 Feb · dibuka 24 Jan VALENTINE Contoh ucapannya → 🎉 Rayakan Bilang sayang di hari kasih sayang 🙏 Minta maaf Baikan sebelum Valentine
+scrollH: 5366
+
+===== ref-page2-buat-ultah-d.json =====
+url: https://proposigo.app/buat/ultah | title: Bikin halaman Ulang Tahun · Proposigo
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: noindex | canonical: https://proposigo.app/buat/ultah | lang: id
+og: {"image":"https://proposigo.app/og/buat-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN ULANG TAHUN [36px/40px/undefined]
+h2: 1 PILIH DESAIN | 2 SIAPA KE SIAPA | 3 CERITAMU | 4 FOTO | 5 MAIN BERDUA | 6 MUSIK | 7 SURAT PENUTUP | 8 PILIH PAKET
+h3: 
+sections(1):
+  - div h:4029 cls:min-h-dvh bg-cream bg-dots | GANTI MOMEN HALAMAN ULANG TAHUN Isi pelan-pelan. Pratinjaunya gratis d
+buttons: PESTA KONFETI Ceria, warna-warni | KUE CORAL Hangat ala toko kue | Biasa saja | 📚 Hari Gurulagi musim | 🔒 Valentine24 Jan | 🔒 Imlek16 Jan | 🔒 Lebaran17 Feb | 🔒 Halloween10 Okt | 🔒 Natal4 Des | 🔒 Tahun Baru11 Des | 🔒 Hari Ayah22 Okt | 🔒 Hari Ibu1 Des | 🔒 Hari Anak2 Jul | 🔒 Hari Kartini31 Mar | 🔒 Hari Pendidikan Nasional11 Apr | 🔒 Hari Kemerdekaan27 Jul | 🔒 Hari Batik11 Sep | 🔒 Hari Sumpah Pemuda7 Okt | 🔒 Hari Pahlawan20 Okt | 🔒 Hari Persahabatan9 Jul | × | + TAMBAH KARTU | PAKAI CONTOH ISI | + KUIS KENAL AKU Kamu bikin pertanyaan t | + DUA JUJUR SATU BOHONG Tulis tiga hal t | + SUSUN FOTO Tambah foto dulu di bagian  | + RENCANA BARENG Kasih pilihan rencana.  | HAPPY BIRTHDAY Lagu ulang tahun klasik | ▶ | PESTA Riang, buat seru-seruan | TANPA MUSIK Hening, biar ceritanya yang  | TEMPEL | ● REKAM | DASAR Rp5.000 aktif 3 hari | PLUS Rp10.000 aktif 14 hari | ABADI Rp20.000 Rp15.000 aktif selamanya | LANJUT BAYAR · RP10.000 | Lihat pratinjau | ULANGI DARI AWAL
+links: =>/ | GANTI MOMEN=>/buat
+text(trunc): GANTI MOMEN HALAMAN ULANG TAHUN Isi pelan-pelan. Pratinjaunya gratis dan draf-mu tersimpan otomatis. 1 PILIH DESAIN PESTA KONFETI Ceria, warna-warni KUE CORAL Hangat ala toko kue HARI SPESIAL (opsional, tema ikut ke semua bagian halaman) Biasa saja 📚 Hari Gurulagi musim 🔒 Valentine24 Jan 🔒 Imlek16 Jan 🔒 Lebaran17 Feb 🔒 Halloween10 Okt 🔒 Natal4 Des 🔒 Tahun Baru11 Des 🔒 Hari Ayah22 Okt 🔒 Hari Ibu1 Des 🔒 Hari Anak2 Jul 🔒 Hari Kartini31 Mar 🔒 Hari Pendidikan Nasional11 Apr 🔒 Hari Kemerdekaan27 Jul 🔒 Hari Batik11 Sep 🔒 Hari Sumpah Pemuda7 Okt 🔒 Hari Pahlawan20 Okt 🔒 Hari Persahabatan9 Jul 2 SIAPA KE SIAPA NAMAMU NAMA PENERIMA TANGGAL ULANG TAHUN 3 CERITAMU 3 sampai 5 kartu pendek. Muncul satu-satu seperti chat. × × × + TAMBAH KARTU PAKAI CONTOH ISI 4 FOTO Maksimal 8 foto, dikompres otomatis. 0/8 + Tambah foto 5 MAIN BERDUA Opsional. Permainan tentang kalian berdua, dan hasilnya dikirim balik ke kamu. Dasar 1 · Plus 2 · Abadi 3 permainan. TAMBAH PERMAINAN + KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. + DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. + SUSUN FOTO Tambah foto dulu di bagian Foto. + RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. 6 MUSIK Dimulai saat penerima mengetuk amplop. HAPPY BIRTHDAY Lagu ulang tahun klasik ▶ PESTA Riang, buat seru-seruan ▶ TANPA MUSIK Hening, biar ceritanya yang bicara LAGU PILIHAN (SPOTIFY) PLUS TEMPEL 7 SURAT PENUTUP 155/1500 PESAN SUARA (MAKS 1 MENIT) PLUS ● REKAM UNGGAH AUDIO
+scrollH: 4029
+
+===== ref-page2-buat-ultah-m.json =====
+url: https://proposigo.app/buat/ultah | title: Bikin halaman Ulang Tahun · Proposigo
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: noindex | canonical: https://proposigo.app/buat/ultah | lang: id
+og: {"image":"https://proposigo.app/og/buat-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN ULANG TAHUN [30px/36px/undefined]
+h2: 1 PILIH DESAIN | 2 SIAPA KE SIAPA | 3 CERITAMU | 4 FOTO | 5 MAIN BERDUA | 6 MUSIK | 7 SURAT PENUTUP | 8 PILIH PAKET
+h3: 
+sections(2):
+  - div h:5261 cls:min-h-dvh bg-cream bg-dots | GANTI MOMEN HALAMAN ULANG TAHUN Isi pelan-pelan. Pratinjaunya gratis d
+  - button h:48 cls:fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 | 💬
+buttons: PESTA KONFETI Ceria, warna-warni | KUE CORAL Hangat ala toko kue | Biasa saja | 📚 Hari Gurulagi musim | 🔒 Valentine24 Jan | 🔒 Imlek16 Jan | 🔒 Lebaran17 Feb | 🔒 Halloween10 Okt | 🔒 Natal4 Des | 🔒 Tahun Baru11 Des | 🔒 Hari Ayah22 Okt | 🔒 Hari Ibu1 Des | 🔒 Hari Anak2 Jul | 🔒 Hari Kartini31 Mar | 🔒 Hari Pendidikan Nasional11 Apr | 🔒 Hari Kemerdekaan27 Jul | 🔒 Hari Batik11 Sep | 🔒 Hari Sumpah Pemuda7 Okt | 🔒 Hari Pahlawan20 Okt | 🔒 Hari Persahabatan9 Jul | × | + TAMBAH KARTU | PAKAI CONTOH ISI | + KUIS KENAL AKU Kamu bikin pertanyaan t | + DUA JUJUR SATU BOHONG Tulis tiga hal t | + SUSUN FOTO Tambah foto dulu di bagian  | + RENCANA BARENG Kasih pilihan rencana.  | HAPPY BIRTHDAY Lagu ulang tahun klasik | ▶ | PESTA Riang, buat seru-seruan | TANPA MUSIK Hening, biar ceritanya yang  | TEMPEL | ● REKAM | DASAR Rp5.000 aktif 3 hari | PLUS Rp10.000 aktif 14 hari | ABADI Rp20.000 Rp15.000 aktif selamanya | LANJUT BAYAR · RP10.000 | LIHAT PRATINJAU | Ulangi dari awal | 💬
+links: =>/ | GANTI MOMEN=>/buat
+text(trunc): GANTI MOMEN HALAMAN ULANG TAHUN Isi pelan-pelan. Pratinjaunya gratis dan draf-mu tersimpan otomatis. 1 PILIH DESAIN PESTA KONFETI Ceria, warna-warni KUE CORAL Hangat ala toko kue HARI SPESIAL (opsional, tema ikut ke semua bagian halaman) Biasa saja 📚 Hari Gurulagi musim 🔒 Valentine24 Jan 🔒 Imlek16 Jan 🔒 Lebaran17 Feb 🔒 Halloween10 Okt 🔒 Natal4 Des 🔒 Tahun Baru11 Des 🔒 Hari Ayah22 Okt 🔒 Hari Ibu1 Des 🔒 Hari Anak2 Jul 🔒 Hari Kartini31 Mar 🔒 Hari Pendidikan Nasional11 Apr 🔒 Hari Kemerdekaan27 Jul 🔒 Hari Batik11 Sep 🔒 Hari Sumpah Pemuda7 Okt 🔒 Hari Pahlawan20 Okt 🔒 Hari Persahabatan9 Jul 2 SIAPA KE SIAPA NAMAMU NAMA PENERIMA TANGGAL ULANG TAHUN 3 CERITAMU 3 sampai 5 kartu pendek. Muncul satu-satu seperti chat. × × × + TAMBAH KARTU PAKAI CONTOH ISI 4 FOTO Maksimal 8 foto, dikompres otomatis. 0/8 + Tambah foto 5 MAIN BERDUA Opsional. Permainan tentang kalian berdua, dan hasilnya dikirim balik ke kamu. Dasar 1 · Plus 2 · Abadi 3 permainan. TAMBAH PERMAINAN + KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. + DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. + SUSUN FOTO Tambah foto dulu di bagian Foto. + RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. 6 MUSIK Dimulai saat penerima mengetuk amplop. HAPPY BIRTHDAY Lagu ulang tahun klasik ▶ PESTA Riang, buat seru-seruan ▶ TANPA MUSIK Hening, biar ceritanya yang bicara LAGU PILIHAN (SPOTIFY) PLUS TEMPEL 7 SURAT PENUTUP 155/1500 PESAN SUARA (MAKS 1 MENIT) PLUS ● REKAM UNGGAH AUDIO
+scrollH: 5261
+
+===== ref-page2-buat-anniv-d.json =====
+url: https://proposigo.app/buat/anniv | title: Bikin halaman Anniversary · Proposigo
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: noindex | canonical: https://proposigo.app/buat/anniv | lang: id
+og: {"image":"https://proposigo.app/og/buat-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN ANNIVERSARY [36px/40px/undefined]
+h2: 1 PILIH DESAIN | 2 SIAPA KE SIAPA | 3 CERITAMU | 4 FOTO | 5 MAIN BERDUA | 6 MUSIK | 7 SURAT PENUTUP | 8 PILIH PAKET
+h3: 
+sections(1):
+  - div h:4029 cls:min-h-dvh bg-cream bg-dots | GANTI MOMEN HALAMAN ANNIVERSARY Isi pelan-pelan. Pratinjaunya gratis d
+buttons: HATI PINK Romantis dan lembut | SENJA CORAL Hangat kayak sore berdua | Biasa saja | 📚 Hari Gurulagi musim | 🔒 Valentine24 Jan | 🔒 Imlek16 Jan | 🔒 Lebaran17 Feb | 🔒 Halloween10 Okt | 🔒 Natal4 Des | 🔒 Tahun Baru11 Des | 🔒 Hari Ayah22 Okt | 🔒 Hari Ibu1 Des | 🔒 Hari Anak2 Jul | 🔒 Hari Kartini31 Mar | 🔒 Hari Pendidikan Nasional11 Apr | 🔒 Hari Kemerdekaan27 Jul | 🔒 Hari Batik11 Sep | 🔒 Hari Sumpah Pemuda7 Okt | 🔒 Hari Pahlawan20 Okt | 🔒 Hari Persahabatan9 Jul | × | + TAMBAH KARTU | PAKAI CONTOH ISI | + KUIS KENAL AKU Kamu bikin pertanyaan t | + DUA JUJUR SATU BOHONG Tulis tiga hal t | + SUSUN FOTO Tambah foto dulu di bagian  | + RENCANA BARENG Kasih pilihan rencana.  | CANON IN D Pachelbel, romantis klasik | ▶ | SYAHDU Pelan dan hangat | TANPA MUSIK Hening, biar ceritanya yang  | TEMPEL | ● REKAM | DASAR Rp5.000 aktif 3 hari | PLUS Rp10.000 aktif 14 hari | ABADI Rp20.000 Rp15.000 aktif selamanya | LANJUT BAYAR · RP10.000 | Lihat pratinjau | ULANGI DARI AWAL
+links: =>/ | GANTI MOMEN=>/buat
+text(trunc): GANTI MOMEN HALAMAN ANNIVERSARY Isi pelan-pelan. Pratinjaunya gratis dan draf-mu tersimpan otomatis. 1 PILIH DESAIN HATI PINK Romantis dan lembut SENJA CORAL Hangat kayak sore berdua HARI SPESIAL (opsional, tema ikut ke semua bagian halaman) Biasa saja 📚 Hari Gurulagi musim 🔒 Valentine24 Jan 🔒 Imlek16 Jan 🔒 Lebaran17 Feb 🔒 Halloween10 Okt 🔒 Natal4 Des 🔒 Tahun Baru11 Des 🔒 Hari Ayah22 Okt 🔒 Hari Ibu1 Des 🔒 Hari Anak2 Jul 🔒 Hari Kartini31 Mar 🔒 Hari Pendidikan Nasional11 Apr 🔒 Hari Kemerdekaan27 Jul 🔒 Hari Batik11 Sep 🔒 Hari Sumpah Pemuda7 Okt 🔒 Hari Pahlawan20 Okt 🔒 Hari Persahabatan9 Jul 2 SIAPA KE SIAPA NAMAMU NAMA PENERIMA TANGGAL JADIAN 3 CERITAMU 3 sampai 5 kartu pendek. Muncul satu-satu seperti chat. × × × + TAMBAH KARTU PAKAI CONTOH ISI 4 FOTO Maksimal 8 foto, dikompres otomatis. 0/8 + Tambah foto 5 MAIN BERDUA Opsional. Permainan tentang kalian berdua, dan hasilnya dikirim balik ke kamu. Dasar 1 · Plus 2 · Abadi 3 permainan. TAMBAH PERMAINAN + KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. + DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. + SUSUN FOTO Tambah foto dulu di bagian Foto. + RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. 6 MUSIK Dimulai saat penerima mengetuk amplop. CANON IN D Pachelbel, romantis klasik ▶ SYAHDU Pelan dan hangat ▶ TANPA MUSIK Hening, biar ceritanya yang bicara LAGU PILIHAN (SPOTIFY) PLUS TEMPEL 7 SURAT PENUTUP 129/1500 PESAN SUARA (MAKS 1 MENIT) PLUS ● REKAM UNGGAH AUDIO 8 PILIH
+scrollH: 4029
+
+===== ref-page2-buat-maaf-d.json =====
+url: https://proposigo.app/buat/maaf | title: Bikin halaman Minta Maaf · Proposigo
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: noindex | canonical: https://proposigo.app/buat/maaf | lang: id
+og: {"image":"https://proposigo.app/og/buat-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN MINTA MAAF [36px/40px/undefined]
+h2: 1 PILIH DESAIN | 2 SIAPA KE SIAPA | 3 CERITAMU | 4 FOTO | 5 MAIN BERDUA | 6 MUSIK | 7 SURAT PENUTUP | 8 PILIH PAKET
+h3: 
+sections(2):
+  - div h:4128 cls:min-h-dvh bg-cream bg-dots | GANTI MOMEN HALAMAN MINTA MAAF Isi pelan-pelan. Pratinjaunya gratis da
+  - button h:56 cls:fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 | 💬
+buttons: LANGIT TENANG Lembut, tenang, tulus | HUJAN GELAP Sendu tapi hangat | Biasa saja | 📚 Hari Gurulagi musim | 🔒 Valentine24 Jan | 🔒 Imlek16 Jan | 🔒 Lebaran17 Feb | 🔒 Halloween10 Okt | 🔒 Natal4 Des | 🔒 Tahun Baru11 Des | 🔒 Hari Ayah22 Okt | 🔒 Hari Ibu1 Des | 🔒 Hari Anak2 Jul | 🔒 Hari Kartini31 Mar | 🔒 Hari Pendidikan Nasional11 Apr | 🔒 Hari Kemerdekaan27 Jul | 🔒 Hari Batik11 Sep | 🔒 Hari Sumpah Pemuda7 Okt | 🔒 Hari Pahlawan20 Okt | 🔒 Hari Persahabatan9 Jul | × | + TAMBAH KARTU | PAKAI CONTOH ISI | + KUIS KENAL AKU Kamu bikin pertanyaan t | + DUA JUJUR SATU BOHONG Tulis tiga hal t | + SUSUN FOTO Tambah foto dulu di bagian  | + RENCANA BARENG Kasih pilihan rencana.  | MAAFIN AKU Sendu tapi tulus | ▶ | SYAHDU Pelan dan hangat | TANPA MUSIK Hening, biar ceritanya yang  | TEMPEL | ● REKAM | DASAR Rp5.000 aktif 3 hari | PLUS Rp10.000 aktif 14 hari | ABADI Rp20.000 Rp15.000 aktif selamanya | LANJUT BAYAR · RP10.000 | Lihat pratinjau | ULANGI DARI AWAL | 💬
+links: =>/ | GANTI MOMEN=>/buat
+text(trunc): GANTI MOMEN HALAMAN MINTA MAAF Isi pelan-pelan. Pratinjaunya gratis dan draf-mu tersimpan otomatis. 1 PILIH DESAIN LANGIT TENANG Lembut, tenang, tulus HUJAN GELAP Sendu tapi hangat HARI SPESIAL (opsional, tema ikut ke semua bagian halaman) Biasa saja 📚 Hari Gurulagi musim 🔒 Valentine24 Jan 🔒 Imlek16 Jan 🔒 Lebaran17 Feb 🔒 Halloween10 Okt 🔒 Natal4 Des 🔒 Tahun Baru11 Des 🔒 Hari Ayah22 Okt 🔒 Hari Ibu1 Des 🔒 Hari Anak2 Jul 🔒 Hari Kartini31 Mar 🔒 Hari Pendidikan Nasional11 Apr 🔒 Hari Kemerdekaan27 Jul 🔒 Hari Batik11 Sep 🔒 Hari Sumpah Pemuda7 Okt 🔒 Hari Pahlawan20 Okt 🔒 Hari Persahabatan9 Jul 2 SIAPA KE SIAPA NAMAMU NAMA PENERIMA TANGGAL KEJADIAN (OPSIONAL) PERTANYAAN BESAR 3 CERITAMU 3 sampai 5 kartu pendek. Muncul satu-satu seperti chat. × × × + TAMBAH KARTU PAKAI CONTOH ISI 4 FOTO Maksimal 8 foto, dikompres otomatis. 0/8 + Tambah foto 5 MAIN BERDUA Opsional. Permainan tentang kalian berdua, dan hasilnya dikirim balik ke kamu. Dasar 1 · Plus 2 · Abadi 3 permainan. TAMBAH PERMAINAN + KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. + DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. + SUSUN FOTO Tambah foto dulu di bagian Foto. + RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. 6 MUSIK Dimulai saat penerima mengetuk amplop. MAAFIN AKU Sendu tapi tulus ▶ SYAHDU Pelan dan hangat ▶ TANPA MUSIK Hening, biar ceritanya yang bicara LAGU PILIHAN (SPOTIFY) PLUS TEMPEL 7 SURAT PENUTUP 152/1500 PESAN SUARA (MAKS 1 MENIT) PLUS ● REKAM UN
+scrollH: 4128
+
+===== ref-page2-buat-wisuda-d.json =====
+url: https://proposigo.app/buat/wisuda | title: Bikin halaman Wisuda · Proposigo
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: noindex | canonical: https://proposigo.app/buat/wisuda | lang: id
+og: {"image":"https://proposigo.app/og/buat-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN WISUDA [36px/40px/undefined]
+h2: 1 PILIH DESAIN | 2 SIAPA KE SIAPA | 3 CERITAMU | 4 FOTO | 5 MAIN BERDUA | 6 MUSIK | 7 SURAT PENUTUP | 8 PILIH PAKET
+h3: 
+sections(2):
+  - div h:4029 cls:min-h-dvh bg-cream bg-dots | GANTI MOMEN HALAMAN WISUDA Isi pelan-pelan. Pratinjaunya gratis dan dr
+  - button h:56 cls:fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 | 💬
+buttons: TOGA LIME Bangga dan ceria | KAMPUS KREM Klasik tapi lucu | Biasa saja | 📚 Hari Gurulagi musim | 🔒 Valentine24 Jan | 🔒 Imlek16 Jan | 🔒 Lebaran17 Feb | 🔒 Halloween10 Okt | 🔒 Natal4 Des | 🔒 Tahun Baru11 Des | 🔒 Hari Ayah22 Okt | 🔒 Hari Ibu1 Des | 🔒 Hari Anak2 Jul | 🔒 Hari Kartini31 Mar | 🔒 Hari Pendidikan Nasional11 Apr | 🔒 Hari Kemerdekaan27 Jul | 🔒 Hari Batik11 Sep | 🔒 Hari Sumpah Pemuda7 Okt | 🔒 Hari Pahlawan20 Okt | 🔒 Hari Persahabatan9 Jul | × | + TAMBAH KARTU | PAKAI CONTOH ISI | + KUIS KENAL AKU Kamu bikin pertanyaan t | + DUA JUJUR SATU BOHONG Tulis tiga hal t | + SUSUN FOTO Tambah foto dulu di bagian  | + RENCANA BARENG Kasih pilihan rencana.  | TOGA Mars kemenangan | ▶ | PESTA Riang, buat seru-seruan | TANPA MUSIK Hening, biar ceritanya yang  | TEMPEL | ● REKAM | DASAR Rp5.000 aktif 3 hari | PLUS Rp10.000 aktif 14 hari | ABADI Rp20.000 Rp15.000 aktif selamanya | LANJUT BAYAR · RP10.000 | Lihat pratinjau | ULANGI DARI AWAL | 💬
+links: =>/ | GANTI MOMEN=>/buat
+text(trunc): GANTI MOMEN HALAMAN WISUDA Isi pelan-pelan. Pratinjaunya gratis dan draf-mu tersimpan otomatis. 1 PILIH DESAIN TOGA LIME Bangga dan ceria KAMPUS KREM Klasik tapi lucu HARI SPESIAL (opsional, tema ikut ke semua bagian halaman) Biasa saja 📚 Hari Gurulagi musim 🔒 Valentine24 Jan 🔒 Imlek16 Jan 🔒 Lebaran17 Feb 🔒 Halloween10 Okt 🔒 Natal4 Des 🔒 Tahun Baru11 Des 🔒 Hari Ayah22 Okt 🔒 Hari Ibu1 Des 🔒 Hari Anak2 Jul 🔒 Hari Kartini31 Mar 🔒 Hari Pendidikan Nasional11 Apr 🔒 Hari Kemerdekaan27 Jul 🔒 Hari Batik11 Sep 🔒 Hari Sumpah Pemuda7 Okt 🔒 Hari Pahlawan20 Okt 🔒 Hari Persahabatan9 Jul 2 SIAPA KE SIAPA NAMAMU NAMA PENERIMA TANGGAL WISUDA 3 CERITAMU 3 sampai 5 kartu pendek. Muncul satu-satu seperti chat. × × × + TAMBAH KARTU PAKAI CONTOH ISI 4 FOTO Maksimal 8 foto, dikompres otomatis. 0/8 + Tambah foto 5 MAIN BERDUA Opsional. Permainan tentang kalian berdua, dan hasilnya dikirim balik ke kamu. Dasar 1 · Plus 2 · Abadi 3 permainan. TAMBAH PERMAINAN + KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. + DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. + SUSUN FOTO Tambah foto dulu di bagian Foto. + RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. 6 MUSIK Dimulai saat penerima mengetuk amplop. TOGA Mars kemenangan ▶ PESTA Riang, buat seru-seruan ▶ TANPA MUSIK Hening, biar ceritanya yang bicara LAGU PILIHAN (SPOTIFY) PLUS TEMPEL 7 SURAT PENUTUP 145/1500 PESAN SUARA (MAKS 1 MENIT) PLUS ● REKAM UNGGAH AUDIO 8 PILIH PAKET DASAR Rp5.000 aktif 
+scrollH: 4029
+
+===== ref-page2-buat-rayakan-d.json =====
+url: https://proposigo.app/buat/rayakan | title: Bikin halaman Perayaan · Proposigo
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: noindex | canonical: https://proposigo.app/buat/rayakan | lang: id
+og: {"image":"https://proposigo.app/og/buat-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN PERAYAAN [36px/40px/undefined]
+h2: 1 PILIH DESAIN | 2 SIAPA KE SIAPA | 3 CERITAMU | 4 FOTO | 5 MAIN BERDUA | 6 MUSIK | 7 SURAT PENUTUP | 8 PILIH PAKET
+h3: 
+sections(2):
+  - div h:4029 cls:min-h-dvh bg-cream bg-dots | GANTI MOMEN HALAMAN PERAYAAN Isi pelan-pelan. Pratinjaunya gratis dan 
+  - button h:56 cls:fixed bottom-[max(1rem,env(safe-area-inset-bottom))] right-4 z-50 grid h-12 w-12 | 💬
+buttons: KADO LIME Ceria, siap dirayakan | PITA CORAL Hangat dan meriah | Biasa saja | 📚 Hari Gurulagi musim | 🔒 Valentine24 Jan | 🔒 Imlek16 Jan | 🔒 Lebaran17 Feb | 🔒 Halloween10 Okt | 🔒 Natal4 Des | 🔒 Tahun Baru11 Des | 🔒 Hari Ayah22 Okt | 🔒 Hari Ibu1 Des | 🔒 Hari Anak2 Jul | 🔒 Hari Kartini31 Mar | 🔒 Hari Pendidikan Nasional11 Apr | 🔒 Hari Kemerdekaan27 Jul | 🔒 Hari Batik11 Sep | 🔒 Hari Sumpah Pemuda7 Okt | 🔒 Hari Pahlawan20 Okt | 🔒 Hari Persahabatan9 Jul | × | + TAMBAH KARTU | PAKAI CONTOH ISI | + KUIS KENAL AKU Kamu bikin pertanyaan t | + DUA JUJUR SATU BOHONG Tulis tiga hal t | + SUSUN FOTO Tambah foto dulu di bagian  | + RENCANA BARENG Kasih pilihan rencana.  | PESTA Riang, buat seru-seruan | ▶ | SYAHDU Pelan dan hangat | TANPA MUSIK Hening, biar ceritanya yang  | TEMPEL | ● REKAM | DASAR Rp5.000 aktif 3 hari | PLUS Rp10.000 aktif 14 hari | ABADI Rp20.000 Rp15.000 aktif selamanya | LANJUT BAYAR · RP10.000 | Lihat pratinjau | ULANGI DARI AWAL | 💬
+links: =>/ | GANTI MOMEN=>/buat
+text(trunc): GANTI MOMEN HALAMAN PERAYAAN Isi pelan-pelan. Pratinjaunya gratis dan draf-mu tersimpan otomatis. 1 PILIH DESAIN KADO LIME Ceria, siap dirayakan PITA CORAL Hangat dan meriah HARI SPESIAL (opsional, tema ikut ke semua bagian halaman) Biasa saja 📚 Hari Gurulagi musim 🔒 Valentine24 Jan 🔒 Imlek16 Jan 🔒 Lebaran17 Feb 🔒 Halloween10 Okt 🔒 Natal4 Des 🔒 Tahun Baru11 Des 🔒 Hari Ayah22 Okt 🔒 Hari Ibu1 Des 🔒 Hari Anak2 Jul 🔒 Hari Kartini31 Mar 🔒 Hari Pendidikan Nasional11 Apr 🔒 Hari Kemerdekaan27 Jul 🔒 Hari Batik11 Sep 🔒 Hari Sumpah Pemuda7 Okt 🔒 Hari Pahlawan20 Okt 🔒 Hari Persahabatan9 Jul 2 SIAPA KE SIAPA NAMAMU NAMA PENERIMA TANGGAL (OPSIONAL) 3 CERITAMU 3 sampai 5 kartu pendek. Muncul satu-satu seperti chat. × × × + TAMBAH KARTU PAKAI CONTOH ISI 4 FOTO Maksimal 8 foto, dikompres otomatis. 0/8 + Tambah foto 5 MAIN BERDUA Opsional. Permainan tentang kalian berdua, dan hasilnya dikirim balik ke kamu. Dasar 1 · Plus 2 · Abadi 3 permainan. TAMBAH PERMAINAN + KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. + DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. + SUSUN FOTO Tambah foto dulu di bagian Foto. + RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. 6 MUSIK Dimulai saat penerima mengetuk amplop. PESTA Riang, buat seru-seruan ▶ SYAHDU Pelan dan hangat ▶ TANPA MUSIK Hening, biar ceritanya yang bicara LAGU PILIHAN (SPOTIFY) PLUS TEMPEL 7 SURAT PENUTUP 162/1500 PESAN SUARA (MAKS 1 MENIT) PLUS ● REKAM UNGGAH AUDIO 8 PILIH PAKET DASAR 
+scrollH: 4029
+
+===== ref-page-momen-confess-d.json =====
+url: https://proposigo.app/momen/confess | title: Halaman ucapan confess & nembak digital · Proposigo
+desc: Bikin halaman kejutan buat nembak gebetan: cerita, foto, musik, dan tombol Nggak yang kabur. Jadi dalam 5 menit.
+robots: null | canonical: https://proposigo.app/momen/confess | lang: id
+og: {"image":"https://proposigo.app/og/momen-confess-id.png?v=3","title":"Halaman ucapan confess & nembak digital","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN UCAPAN CONFESS & NEMBAK DIGITAL [48px/60px/"Archivo Black"]
+h2: PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ | DUA DESAIN, SATU KEJUTAN | BUAT SIAPA?
+h3: CONTOH CERITA | MOMEN | PROPOSIGO
+sections(6):
+  - div h:793 cls:grid items-center gap-10 md:grid-cols-[1fr_340px] | CONFESS HALAMAN UCAPAN CONFESS & NEMBAK DIGITAL Bikin halaman kejutan 
+  - section h:814 cls:mt-20 | MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan
+  - h2 h:36 cls:mt-16 font-display text-3xl | DUA DESAIN, SATU KEJUTAN
+  - div h:148 cls:mt-6 grid gap-6 sm:grid-cols-2 | PERMEN PINK Manis, pink, deg-degan CHAT MALAM Gaya chat story santai
+  - section h:80 cls:mt-12 | BUAT SIAPA? CARA NEMBAK GEBETAN LEWAT LINK →
+  - div h:296 cls:nb-card mt-12 bg-white p-6 | CONTOH CERITA Hai Dinda. Ini agak deg-degan, jadi aku bikin halaman in
+buttons: PERMEN PINK | CHAT MALAM | ↺ ULANG | KUIS KENAL AKU Kamu bikin pertanyaan ten | DUA JUJUR SATU BOHONG Tulis tiga hal ten | SUSUN FOTO Salah satu fotomu diacak jadi | RENCANA BARENG Kasih pilihan rencana. Ya | Es teh | Kopi susu | Matcha | Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | BIKIN HALAMAN NEMBAK=>/buat/confess | CARA NEMBAK GEBETAN LEWAT LINK=>/momen/confess/gebetan | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(full): CONFESS HALAMAN UCAPAN CONFESS & NEMBAK DIGITAL Bikin halaman kejutan buat nembak gebetan: cerita, foto, musik, dan tombol Nggak yang kabur. Jadi dalam 5 menit. BIKIN HALAMAN NEMBAK INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… DINDA (ketuk amplopnya) PERMEN PINK CHAT MALAM ↺ ULANG YANG MASUK KE RAKA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu. KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi. RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. KUIS KENAL AKU Seberapa kenal kamu sama Raka? · 1/2 Minuman yang selalu aku pesan? Es teh Kopi susu Matcha MASUK KE RAKA Selesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim. DUA DESAIN, SATU KEJUTAN PERMEN PINK Manis, pink, deg-degan CHAT MALAM Gaya chat story santai BUAT SIAPA? CARA NEMBAK GEBETAN LEWAT LINK → CONTOH CERITA Hai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini. Dari pertama kita ngobrol, hariku jadi lebih ramai. Kamu ketawa di hal yang nggak lucu, dan aku suka itu. Jadi... ada satu pertanyaan buat kamu.
+scrollH: 3134
+
+===== ref-page-momen-ultah-d.json =====
+url: https://proposigo.app/momen/ultah | title: Halaman ucapan ulang tahun digital interaktif · Proposigo
+desc: Kirim ucapan ulang tahun yang beda: halaman interaktif dengan lilin yang bisa ditiup, foto, dan surat spesial.
+robots: null | canonical: https://proposigo.app/momen/ultah | lang: id
+og: {"image":"https://proposigo.app/og/momen-ultah-id.png?v=3","title":"Halaman ucapan ulang tahun digital interaktif","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN UCAPAN ULANG TAHUN DIGITAL INTERAKTIF [48px/60px/"Archivo Black"]
+h2: PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ | DUA DESAIN, SATU KEJUTAN | BUAT SIAPA?
+h3: CONTOH CERITA | MOMEN | PROPOSIGO
+sections(6):
+  - div h:793 cls:grid items-center gap-10 md:grid-cols-[1fr_340px] | ULANG TAHUN HALAMAN UCAPAN ULANG TAHUN DIGITAL INTERAKTIF Kirim ucapan
+  - section h:814 cls:mt-20 | MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan
+  - h2 h:36 cls:mt-16 font-display text-3xl | DUA DESAIN, SATU KEJUTAN
+  - div h:148 cls:mt-6 grid gap-6 sm:grid-cols-2 | PESTA KONFETI Ceria, warna-warni KUE CORAL Hangat ala toko kue
+  - section h:121 cls:mt-12 | BUAT SIAPA? UCAPAN ULANG TAHUN UNTUK PACAR → UCAPAN ULANG TAHUN UNTUK 
+  - div h:244 cls:nb-card mt-12 bg-white p-6 | CONTOH CERITA Selamat ulang tahun, Sari! Satu tahun lagi, satu level l
+buttons: PESTA KONFETI | KUE CORAL | ↺ ULANG | KUIS KENAL AKU Kamu bikin pertanyaan ten | DUA JUJUR SATU BOHONG Tulis tiga hal ten | SUSUN FOTO Salah satu fotomu diacak jadi | RENCANA BARENG Kasih pilihan rencana. Ya | Gantungan kunci | Buku | Cokelat | Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | BIKIN HALAMAN ULTAH=>/buat/ultah | UCAPAN ULANG TAHUN UNTUK PACAR=>/momen/ultah/pacar | UCAPAN ULANG TAHUN UNTUK SAHAB=>/momen/ultah/sahabat | UCAPAN ULANG TAHUN UNTUK IBU →=>/momen/ultah/ibu | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(full): ULANG TAHUN HALAMAN UCAPAN ULANG TAHUN DIGITAL INTERAKTIF Kirim ucapan ulang tahun yang beda: halaman interaktif dengan lilin yang bisa ditiup, foto, dan surat spesial. BIKIN HALAMAN ULTAH INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… SARI (ketuk amplopnya) PESTA KONFETI KUE CORAL ↺ ULANG YANG MASUK KE BIMA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Sari lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu. KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi. RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. KUIS KENAL AKU Seberapa kenal kamu sama Bima? · 1/2 Kado pertama dariku buat kamu? Gantungan kunci Buku Cokelat MASUK KE BIMA Selesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim. DUA DESAIN, SATU KEJUTAN PESTA KONFETI Ceria, warna-warni KUE CORAL Hangat ala toko kue BUAT SIAPA? UCAPAN ULANG TAHUN UNTUK PACAR → UCAPAN ULANG TAHUN UNTUK SAHABAT → UCAPAN ULANG TAHUN UNTUK IBU → CONTOH CERITA Selamat ulang tahun, Sari! Satu tahun lagi, satu level lebih keren. Semoga semua yang kamu tunggu datang tepat waktu.
+scrollH: 3122
+
+===== ref-page-momen-anniv-d.json =====
+url: https://proposigo.app/momen/anniv | title: Halaman anniversary & mensiversary digital · Proposigo
+desc: Rayakan anniversary atau mensiversary dengan halaman interaktif: hitungan hari bersama, galeri foto, dan surat cinta.
+robots: null | canonical: https://proposigo.app/momen/anniv | lang: id
+og: {"image":"https://proposigo.app/og/momen-anniv-id.png?v=3","title":"Halaman anniversary & mensiversary digital","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN ANNIVERSARY & MENSIVERSARY DIGITAL [48px/60px/"Archivo Black"]
+h2: PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ | DUA DESAIN, SATU KEJUTAN | BUAT SIAPA?
+h3: CONTOH CERITA | MOMEN | PROPOSIGO
+sections(6):
+  - div h:793 cls:grid items-center gap-10 md:grid-cols-[1fr_340px] | ANNIVERSARY HALAMAN ANNIVERSARY & MENSIVERSARY DIGITAL Rayakan anniver
+  - section h:814 cls:mt-20 | MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan
+  - h2 h:36 cls:mt-16 font-display text-3xl | DUA DESAIN, SATU KEJUTAN
+  - div h:148 cls:mt-6 grid gap-6 sm:grid-cols-2 | HATI PINK Romantis dan lembut SENJA CORAL Hangat kayak sore berdua
+  - section h:80 cls:mt-12 | BUAT SIAPA? UCAPAN ANNIVERSARY UNTUK PACAR → UCAPAN ANNIVERSARY PERNIK
+  - div h:244 cls:nb-card mt-12 bg-white p-6 | CONTOH CERITA Kita sudah sejauh ini, ya. Dari makan bakso pinggir jala
+buttons: HATI PINK | SENJA CORAL | ↺ ULANG | KUIS KENAL AKU Kamu bikin pertanyaan ten | DUA JUJUR SATU BOHONG Tulis tiga hal ten | SUSUN FOTO Salah satu fotomu diacak jadi | RENCANA BARENG Kasih pilihan rencana. Ya | Bakso | Sate | Mie ayam | Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | BIKIN HALAMAN ANNIV=>/buat/anniv | UCAPAN ANNIVERSARY UNTUK PACAR=>/momen/anniv/pacar | UCAPAN ANNIVERSARY PERNIKAHAN =>/momen/anniv/pasangan | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(full): ANNIVERSARY HALAMAN ANNIVERSARY & MENSIVERSARY DIGITAL Rayakan anniversary atau mensiversary dengan halaman interaktif: hitungan hari bersama, galeri foto, dan surat cinta. BIKIN HALAMAN ANNIV INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… MAYA (ketuk amplopnya) HATI PINK SENJA CORAL ↺ ULANG YANG MASUK KE ALDI PENGIRIM Mainkan halaman contohnya. Tiap hal yang Maya lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu. KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi. RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. KUIS KENAL AKU Seberapa kenal kamu sama Aldi? · 1/2 Makanan di kencan pertama kita? Bakso Sate Mie ayam MASUK KE ALDI Selesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim. DUA DESAIN, SATU KEJUTAN HATI PINK Romantis dan lembut SENJA CORAL Hangat kayak sore berdua BUAT SIAPA? UCAPAN ANNIVERSARY UNTUK PACAR → UCAPAN ANNIVERSARY PERNIKAHAN → CONTOH CERITA Kita sudah sejauh ini, ya. Dari makan bakso pinggir jalan sampai nonton hujan dari jendela. Semua hari biasa jadi spesial karena ada kamu.
+scrollH: 3082
+
+===== ref-page-momen-maaf-d.json =====
+url: https://proposigo.app/momen/maaf | title: Halaman minta maaf digital yang tulus · Proposigo
+desc: Susah ngomong maaf? Kirim halaman permintaan maaf yang tulus, dengan jawaban Dimaafkan atau Belum yang langsung dikirim ke kamu.
+robots: null | canonical: https://proposigo.app/momen/maaf | lang: id
+og: {"image":"https://proposigo.app/og/momen-maaf-id.png?v=3","title":"Halaman minta maaf digital yang tulus","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN MINTA MAAF DIGITAL YANG TULUS [48px/60px/"Archivo Black"]
+h2: PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ | DUA DESAIN, SATU KEJUTAN | BUAT SIAPA?
+h3: CONTOH CERITA | MOMEN | PROPOSIGO
+sections(6):
+  - div h:793 cls:grid items-center gap-10 md:grid-cols-[1fr_340px] | MINTA MAAF HALAMAN MINTA MAAF DIGITAL YANG TULUS Susah ngomong maaf? K
+  - section h:814 cls:mt-20 | MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan
+  - h2 h:36 cls:mt-16 font-display text-3xl | DUA DESAIN, SATU KEJUTAN
+  - div h:148 cls:mt-6 grid gap-6 sm:grid-cols-2 | LANGIT TENANG Lembut, tenang, tulus HUJAN GELAP Sendu tapi hangat
+  - section h:80 cls:mt-12 | BUAT SIAPA? KATA-KATA MINTA MAAF KE PACAR → KATA-KATA MINTA MAAF KE SA
+  - div h:244 cls:nb-card mt-12 bg-white p-6 | CONTOH CERITA Nadia, aku salah. Aku nggak mau cari alasan. Aku cuma ma
+buttons: LANGIT TENANG | HUJAN GELAP | ↺ ULANG | KUIS KENAL AKU Kamu bikin pertanyaan ten | DUA JUJUR SATU BOHONG Tulis tiga hal ten | SUSUN FOTO Salah satu fotomu diacak jadi | RENCANA BARENG Kasih pilihan rencana. Ya | Dibeliin makan | Didengerin | Dikasih waktu | Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | BIKIN HALAMAN MAAF=>/buat/maaf | KATA-KATA MINTA MAAF KE PACAR =>/momen/maaf/pacar | KATA-KATA MINTA MAAF KE SAHABA=>/momen/maaf/sahabat | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(full): MINTA MAAF HALAMAN MINTA MAAF DIGITAL YANG TULUS Susah ngomong maaf? Kirim halaman permintaan maaf yang tulus, dengan jawaban Dimaafkan atau Belum yang langsung dikirim ke kamu. BIKIN HALAMAN MAAF INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… NADIA (ketuk amplopnya) LANGIT TENANG HUJAN GELAP ↺ ULANG YANG MASUK KE RIO PENGIRIM Mainkan halaman contohnya. Tiap hal yang Nadia lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu. KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi. RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. KUIS KENAL AKU Seberapa kenal kamu sama Rio? · 1/2 Yang paling bikin kamu luluh? Dibeliin makan Didengerin Dikasih waktu MASUK KE RIO Selesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim. DUA DESAIN, SATU KEJUTAN LANGIT TENANG Lembut, tenang, tulus HUJAN GELAP Sendu tapi hangat BUAT SIAPA? KATA-KATA MINTA MAAF KE PACAR → KATA-KATA MINTA MAAF KE SAHABAT → CONTOH CERITA Nadia, aku salah. Aku nggak mau cari alasan. Aku cuma mau minta maaf. Kata-kataku kemarin bikin kamu sakit hati, dan itu nggak adil.
+scrollH: 3082
+
+===== ref-page-momen-wisuda-d.json =====
+url: https://proposigo.app/momen/wisuda | title: Halaman ucapan wisuda digital interaktif · Proposigo
+desc: Ucapkan selamat wisuda dengan halaman interaktif: lempar toga virtual, buka gulungan ijazah, dan surat bangga.
+robots: null | canonical: https://proposigo.app/momen/wisuda | lang: id
+og: {"image":"https://proposigo.app/og/momen-wisuda-id.png?v=3","title":"Halaman ucapan wisuda digital interaktif","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HALAMAN UCAPAN WISUDA DIGITAL INTERAKTIF [48px/60px/"Archivo Black"]
+h2: PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ | DUA DESAIN, SATU KEJUTAN | BUAT SIAPA?
+h3: CONTOH CERITA | MOMEN | PROPOSIGO
+sections(6):
+  - div h:793 cls:grid items-center gap-10 md:grid-cols-[1fr_340px] | WISUDA HALAMAN UCAPAN WISUDA DIGITAL INTERAKTIF Ucapkan selamat wisuda
+  - section h:814 cls:mt-20 | MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan
+  - h2 h:36 cls:mt-16 font-display text-3xl | DUA DESAIN, SATU KEJUTAN
+  - div h:148 cls:mt-6 grid gap-6 sm:grid-cols-2 | TOGA LIME Bangga dan ceria KAMPUS KREM Klasik tapi lucu
+  - section h:80 cls:mt-12 | BUAT SIAPA? UCAPAN WISUDA UNTUK SAHABAT → UCAPAN WISUDA UNTUK PACAR →
+  - div h:244 cls:nb-card mt-12 bg-white p-6 | CONTOH CERITA Fajar, hari ini kamu resmi jadi sarjana! Begadang, revis
+buttons: TOGA LIME | KAMPUS KREM | ↺ ULANG | KUIS KENAL AKU Kamu bikin pertanyaan ten | DUA JUJUR SATU BOHONG Tulis tiga hal ten | SUSUN FOTO Salah satu fotomu diacak jadi | RENCANA BARENG Kasih pilihan rencana. Ya | Sekali | Tiga kali | Nggak kehitung | Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | BIKIN HALAMAN WISUDA=>/buat/wisuda | UCAPAN WISUDA UNTUK SAHABAT →=>/momen/wisuda/sahabat | UCAPAN WISUDA UNTUK PACAR →=>/momen/wisuda/pacar | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(full): WISUDA HALAMAN UCAPAN WISUDA DIGITAL INTERAKTIF Ucapkan selamat wisuda dengan halaman interaktif: lempar toga virtual, buka gulungan ijazah, dan surat bangga. BIKIN HALAMAN WISUDA INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… FAJAR (ketuk amplopnya) TOGA LIME KAMPUS KREM ↺ ULANG YANG MASUK KE MAMA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Fajar lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu. KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi. RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. KUIS KENAL AKU Seberapa kenal kamu sama Mama? · 1/2 Berapa kali kamu revisi skripsi? Sekali Tiga kali Nggak kehitung MASUK KE MAMA Selesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim. DUA DESAIN, SATU KEJUTAN TOGA LIME Bangga dan ceria KAMPUS KREM Klasik tapi lucu BUAT SIAPA? UCAPAN WISUDA UNTUK SAHABAT → UCAPAN WISUDA UNTUK PACAR → CONTOH CERITA Fajar, hari ini kamu resmi jadi sarjana! Begadang, revisi, dan kopi dingin akhirnya terbayar. Mama bangga banget sama kamu.
+scrollH: 3082
+
+===== ref-page-momen-rayakan-d.json =====
+url: https://proposigo.app/momen/rayakan | title: Ucapan Hari Ayah, Hari Ibu & Hari Guru digital · Proposigo
+desc: Rayakan Hari Ayah, Hari Ibu, Hari Guru, Kartini, 17 Agustus, dan Lebaran dengan halaman interaktif: kado yang dibuka, foto, dan surat.
+robots: null | canonical: https://proposigo.app/momen/rayakan | lang: id
+og: {"image":"https://proposigo.app/og/momen-rayakan-id.png?v=3","title":"Ucapan Hari Ayah, Hari Ibu & Hari Guru digital","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: UCAPAN HARI AYAH, HARI IBU & HARI GURU DIGITAL [48px/60px/"Archivo Black"]
+h2: PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ | DUA DESAIN, SATU KEJUTAN
+h3: CONTOH CERITA | MOMEN | PROPOSIGO
+sections(5):
+  - div h:793 cls:grid items-center gap-10 md:grid-cols-[1fr_340px] | PERAYAAN UCAPAN HARI AYAH, HARI IBU & HARI GURU DIGITAL Rayakan Hari A
+  - section h:814 cls:mt-20 | MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan
+  - h2 h:36 cls:mt-16 font-display text-3xl | DUA DESAIN, SATU KEJUTAN
+  - div h:148 cls:mt-6 grid gap-6 sm:grid-cols-2 | KADO LIME Ceria, siap dirayakan PITA CORAL Hangat dan meriah
+  - div h:244 cls:nb-card mt-12 bg-white p-6 | CONTOH CERITA Selamat Hari Ayah, Yah! Makasih udah antar jemput bertah
+buttons: KADO LIME | PITA CORAL | ↺ ULANG | KUIS KENAL AKU Kamu bikin pertanyaan ten | DUA JUJUR SATU BOHONG Tulis tiga hal ten | SUSUN FOTO Salah satu fotomu diacak jadi | RENCANA BARENG Kasih pilihan rencana. Ya | Nyiram tanaman | Baca berita | Nyanyi di kamar mandi | Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | BIKIN HALAMAN RAYAKAN=>/buat/rayakan | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(full): PERAYAAN UCAPAN HARI AYAH, HARI IBU & HARI GURU DIGITAL Rayakan Hari Ayah, Hari Ibu, Hari Guru, Kartini, 17 Agustus, dan Lebaran dengan halaman interaktif: kado yang dibuka, foto, dan surat. BIKIN HALAMAN RAYAKAN INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… AYAH (ketuk amplopnya) KADO LIME PITA CORAL ↺ ULANG YANG MASUK KE DINDA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Ayah lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu. KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi. RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. KUIS KENAL AKU Seberapa kenal kamu sama Dinda? · 1/2 Kebiasaan Ayah tiap pagi? Nyiram tanaman Baca berita Nyanyi di kamar mandi MASUK KE DINDA Selesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim. DUA DESAIN, SATU KEJUTAN KADO LIME Ceria, siap dirayakan PITA CORAL Hangat dan meriah CONTOH CERITA Selamat Hari Ayah, Yah! Makasih udah antar jemput bertahun-tahun tanpa pernah ngeluh. Hari ini giliran aku yang bilang: Ayah hebat.
+scrollH: 2954
+
+===== ref-page2-momen-confess-gebetan-d.json =====
+url: https://proposigo.app/momen/confess/gebetan | title: Cara Nembak Gebetan Lewat Link: Ide Confess Unik + Kata-kata
+desc: Ide nembak gebetan yang unik lewat satu link: halaman confess berisi ceritamu, foto, lagu, dan tombol "mau" yang jawabannya langsung sampai. Bisa anonim.
+robots: null | canonical: https://proposigo.app/momen/confess/gebetan | lang: id
+og: {"image":"https://proposigo.app/og/untuk-confess-gebetan-id.png?v=3","title":"Cara Nembak Gebetan Lewat Link: Ide Confess Unik + Kata-kata","desc":"Ide nembak gebetan yang unik lewat satu link: halaman confess berisi ceritamu, foto, lagu, dan tombol \"mau\" yang jawabannya langsung sampai. Bisa anonim.","type":"article"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: CARA NEMBAK GEBETAN LEWAT LINK [48px/60px/undefined]
+h2: CONTOH KATA-KATA SIAP KIRIM | BIAR LEBIH BERKESAN | PERTANYAAN YANG SERING DITANYA | LIHAT JUGA
+h3: MOMEN | PROPOSIGO
+sections(5):
+  - div h:392 cls:grid items-center gap-10 md:grid-cols-[1fr_220px] | CONFESS · UNTUK GEBETAN CARA NEMBAK GEBETAN LEWAT LINK Nembak langsung
+  - section h:412 cls:mt-16 | CONTOH KATA-KATA SIAP KIRIM Pakai apa adanya, atau ubah sedikit supaya
+  - section h:311 cls:nb-card mt-14 bg-cream p-6 | BIAR LEBIH BERKESAN ✦ Belum berani pakai nama asli? Mode Confess Anoni
+  - section h:288 cls:mt-14 | PERTANYAAN YANG SERING DITANYA Bisa nembak tanpa ketahuan siapa pengir
+  - nav h:161 cls:mt-14 | LIHAT JUGA CONFESS CARA NEMBAK CEWEK LEWAT CHAT YANG BIKIN DIA BILANG 
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | BIKIN HALAMAN NEMBAK BUAT GEBE=>/buat/confess?ref=seo-gebetan | CONFESS=>/momen/confess | CARA NEMBAK CEWEK LEWAT CHAT Y=>/ide/cara-nembak-cewek-lewat-chat | 40 CARA BILANG SUKA KE GEBETAN=>/ide/cara-bilang-suka-ke-gebetan | 40 KATA-KATA CONFESS YANG BIKI=>/ide/kata-kata-confess | NATAL=>/hari/natal | TAHUN BARU=>/hari/tahun-baru | VALENTINE=>/hari/valentine | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(full): CONFESS · UNTUK GEBETAN CARA NEMBAK GEBETAN LEWAT LINK Nembak langsung bikin lidah kelu, nembak lewat chat terasa kurang serius. Halaman confess ada di tengah-tengahnya: kamu menulis dengan tenang, dia membukanya seperti membuka surat, lalu menjawab di halaman itu juga. BIKIN HALAMAN NEMBAK BUAT GEBETAN → CONTOH KATA-KATA SIAP KIRIM Pakai apa adanya, atau ubah sedikit supaya terasa kamu banget. 1 Aku nggak pandai ngomong langsung, jadi aku tulis di sini: aku suka kamu. 2 Sudah lama aku pengin bilang ini. Kamu mau jalan bareng aku? 3 Kamu mungkin nggak sadar, tapi kamu bikin hariku lebih baik. 4 Aku nggak minta jawaban sekarang. Aku cuma nggak mau nyesel karena nggak pernah bilang. 5 Dari semua orang di sekitarku, cuma kamu yang bikin aku gugup tiap chat. 6 Jadi gimana, mau jadi alasan aku senyum tiap hari? BIAR LEBIH BERKESAN ✦ Belum berani pakai nama asli? Mode Confess Anonim menyembunyikan namamu sampai dia menebak benar atau menjawab "mau". ✦ Sebut hal spesifik yang kamu suka dari dia. Itu yang membedakan confess tulus dengan gombal. ✦ Tombol "mau" langsung mengabari kamu. Siapkan hati, dan siapkan rencana kencan pertama. BIKIN HALAMAN NEMBAK BUAT GEBETAN → PERTANYAAN YANG SERING DITANYA Bisa nembak tanpa ketahuan siapa pengirimnya? Penerimanya perlu install aplikasi? Apa bedanya dengan kirim chat biasa? LIHAT JUGA CONFESS CARA NEMBAK CEWEK LEWAT CHAT YANG BIKIN DIA BILANG IYA 40 CARA BILANG SUKA KE GEBETAN YANG BIKIN DIA LANGSUNG BAPER 40 KATA-KATA CONFESS YANG BIKIN DIA SENYUM-SENYUM SENDIRI NATAL TAHUN BARU VALENTINE
+scrollH: 2498
+
+===== ref-page2-momen-ultah-pacar-d.json =====
+url: https://proposigo.app/momen/ultah/pacar | title: Ucapan Ulang Tahun untuk Pacar yang Romantis + Kejutan Digital
+desc: Ucapan ulang tahun romantis untuk pacar, plus ide kejutan digital: halaman berisi cerita kalian, foto, lagu, dan tiup lilin virtual. Kirim lewat satu link.
+robots: null | canonical: https://proposigo.app/momen/ultah/pacar | lang: id
+og: {"image":"https://proposigo.app/og/untuk-ultah-pacar-id.png?v=3","title":"Ucapan Ulang Tahun untuk Pacar yang Romantis + Kejutan Digital","desc":"Ucapan ulang tahun romantis untuk pacar, plus ide kejutan digital: halaman berisi cerita kalian, foto, lagu, dan tiup lilin virtual. Kirim lewat satu link.","type":"article"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: UCAPAN ULANG TAHUN UNTUK PACAR [48px/60px/undefined]
+h2: CONTOH KATA-KATA SIAP KIRIM | BIAR LEBIH BERKESAN | PERTANYAAN YANG SERING DITANYA | LIHAT JUGA
+h3: MOMEN | PROPOSIGO
+sections(5):
+  - div h:392 cls:grid items-center gap-10 md:grid-cols-[1fr_220px] | ULANG TAHUN · UNTUK PACAR UCAPAN ULANG TAHUN UNTUK PACAR Kejutan ulang
+  - section h:388 cls:mt-16 | CONTOH KATA-KATA SIAP KIRIM Pakai apa adanya, atau ubah sedikit supaya
+  - section h:311 cls:nb-card mt-14 bg-cream p-6 | BIAR LEBIH BERKESAN ✦ Halaman ulang tahun punya lilin virtual yang dit
+  - section h:288 cls:mt-14 | PERTANYAAN YANG SERING DITANYA Kado ulang tahun apa yang murah tapi be
+  - nav h:242 cls:mt-14 | LIHAT JUGA ULANG TAHUN 40 UCAPAN ULANG TAHUN UNTUK AYAH YANG BIKIN BEL
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | BIKIN HALAMAN ULTAH BUAT PACAR=>/buat/ultah?ref=seo-pacar | ULANG TAHUN=>/momen/ultah | 40 UCAPAN ULANG TAHUN UNTUK AY=>/ide/ucapan-ulang-tahun-untuk-ayah | 40 KEJUTAN ULANG TAHUN LDR YAN=>/ide/kejutan-ulang-tahun-ldr | 40 UCAPAN ULANG TAHUN UNTUK PA=>/ide/ucapan-ulang-tahun-untuk-pacar | UCAPAN ULANG TAHUN UNTUK SAHAB=>/momen/ultah/sahabat | UCAPAN ULANG TAHUN UNTUK IBU=>/momen/ultah/ibu | UCAPAN ANNIVERSARY UNTUK PACAR=>/momen/anniv/pacar | KATA-KATA MINTA MAAF KE PACAR=>/momen/maaf/pacar | UCAPAN WISUDA UNTUK PACAR=>/momen/wisuda/pacar | HARI IBU=>/hari/hari-ibu | TAHUN BARU=>/hari/tahun-baru | IMLEK=>/hari/imlek | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(trunc): ULANG TAHUN · UNTUK PACAR UCAPAN ULANG TAHUN UNTUK PACAR Kejutan ulang tahun nggak harus mahal. Yang bikin dia nangis biasanya hal kecil yang kamu ingat: tanggal pertama ketemu, lagu kalian, foto yang dia lupa pernah ada. Kumpulkan semuanya di satu halaman. BIKIN HALAMAN ULTAH BUAT PACAR → CONTOH KATA-KATA SIAP KIRIM Pakai apa adanya, atau ubah sedikit supaya terasa kamu banget. 1 Selamat ulang tahun, Sayang. Makasih sudah lahir, dan makasih sudah milih aku. 2 Satu tahun lebih tua, tetap orang favoritku. Happy birthday! 3 Semoga semua yang kamu doakan diam-diam terkabul tahun ini. Aku ikut mengaminkan. 4 Hari ini hari kamu. Tiup lilinnya, aku yang bawa sisa kejutannya. 5 Happy birthday buat orang yang bikin hari-hari biasa jadi seru. Sayang kamu. 6 Di umurmu yang baru, aku cuma mau satu hal: tetap ada di sebelahmu. BIAR LEBIH BERKESAN ✦ Halaman ulang tahun punya lilin virtual yang ditiup penerima. Kamu dapat notifikasi saat dia meniupnya. ✦ Pakai kapsul waktu supaya halaman terbuka tepat jam 00.00 di hari ulang tahunnya. ✦ Tambah permainan kuis "seberapa kenal kamu sama aku" supaya dia ikut main. BIKIN HALAMAN ULTAH BUAT PACAR → PERTANYAAN YANG SERING DITANYA Kado ulang tahun apa yang murah tapi berkesan buat pacar? Penerimanya perlu install aplikasi? Apa bedanya dengan kirim chat biasa? LIHAT JUGA ULANG TAHUN 40 UCAPAN ULANG TAHUN UNTUK AYAH YANG BIKIN BELIAU TERSENYUM 40 KEJUTAN ULANG TAHUN LDR YANG BIKIN DIA BAPER DARI JAUH 40 UCAPAN ULANG TAHUN UNTUK PACAR YANG BIKIN DIA SENYUM UCAPAN ULANG TAHUN UNTUK SAHABAT UCAPAN ULANG TAHUN UNTUK IBU UCAPAN ANNIVERSARY UNTUK PACAR 
+scrollH: 2555
+
+===== ref-page-hari-d.json =====
+url: https://proposigo.app/hari | title: Kalender Hari Spesial: Ucapan & Kado Digital untuk Setiap Perayaan
+desc: Hari Ibu, Natal, Tahun Baru, Valentine, Imlek, Lebaran, dan hari nasional Indonesia lainnya. Contoh ucapan dan halaman kejutan bertema untuk setiap hari spesial
+robots: null | canonical: https://proposigo.app/hari | lang: id
+og: {"image":"https://proposigo.app/og/hari-id.png?v=3","title":"Kalender Hari Spesial: Ucapan & Kado Digital untuk Setiap Perayaan","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: UCAPAN & KADO DIGITAL UNTUK SETIAP HARI SPESIAL [48px/60px/"Archivo Black"]
+h2: HARI SPESIAL
+h3: HARI GURU | HARI IBU | NATAL | TAHUN BARU | IMLEK | VALENTINE | LEBARAN | HARI KARTINI | HARI PENDIDIKAN NASIONAL | MOMEN | PROPOSIGO
+sections(6):
+  - span h:42 cls:sticker bg-lime -rotate-2 | HARI SPESIAL
+  - h1 h:120 cls:mt-4 font-display text-4xl leading-tight sm:text-5xl | UCAPAN & KADO DIGITAL UNTUK SETIAP HARI SPESIAL
+  - p h:56 cls:mt-4 max-w-2xl text-lg font-bold | Pilih harinya, ambil contoh kata-katanya, lalu bikin halaman kejutan b
+  - ul h:772 cls:mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3 | 💐 HARI IBU Ucapan Hari Ibu & kado digital untuk Ibu → 🎄 NATAL Ucapan
+  - section h:1058 cls:scroll-mt-24 mt-20 | HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang 
+  - p h:24 cls:mt-10 font-bold | Mau merayakan hari lain? Lihat momen Perayaan.
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | 💐 HARI IBU Ucapan Hari Ibu & =>/hari/hari-ibu | 🎄 NATAL Ucapan Natal & kartu =>/hari/natal | 🎆 TAHUN BARU Ucapan Tahun Bar=>/hari/tahun-baru | 💘 VALENTINE Ucapan Valentine =>/hari/valentine | 🧧 IMLEK Ucapan Imlek & angpao=>/hari/imlek | 🌙 LEBARAN Ucapan Lebaran & ka=>/hari/lebaran | 📚 HARI GURU Ucapan Hari Guru =>/hari/hari-guru | 👔 HARI AYAH Ucapan Hari Ayah =>/hari/hari-ayah | 🌺 HARI KARTINI Ucapan Hari Ka=>/hari/hari-kartini | 🤝 HARI PERSAHABATAN Ucapan Ha=>/hari/hari-persahabatan | HARI GURU=>/hari/hari-guru | Contoh ucapannya →=>/hari/hari-guru | 🎉 Rayakan Terima kasih, Bu/Pa=>/buat/rayakan?hari=hariguru | 🙏 Minta maaf Maaf dulu suka b=>/buat/maaf?hari=hariguru | HARI IBU=>/hari/hari-ibu | Contoh ucapannya →=>/hari/hari-ibu | NATAL=>/hari/natal | Contoh ucapannya →=>/hari/natal | TAHUN BARU=>/hari/tahun-baru | Contoh ucapannya →=>/hari/tahun-baru | IMLEK=>/hari/imlek | Contoh ucapannya →=>/hari/imlek | VALENTINE=>/hari/valentine | Contoh ucapannya →=>/hari/valentine | LEBARAN=>/hari/lebaran | Contoh ucapannya →=>/hari/lebaran | HARI KARTINI=>/hari/hari-kartini | Contoh ucapannya →=>/hari/hari-kartini | Lihat momen Perayaan=>/momen/rayakan | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(trunc): HARI SPESIAL UCAPAN & KADO DIGITAL UNTUK SETIAP HARI SPESIAL Pilih harinya, ambil contoh kata-katanya, lalu bikin halaman kejutan bertema yang dibuka seperti amplop. 💐 HARI IBU Ucapan Hari Ibu & kado digital untuk Ibu → 🎄 NATAL Ucapan Natal & kartu Natal digital → 🎆 TAHUN BARU Ucapan Tahun Baru & kejutan tepat jam 00.00 → 💘 VALENTINE Ucapan Valentine & kado Valentine digital → 🧧 IMLEK Ucapan Imlek & angpao ucapan digital → 🌙 LEBARAN Ucapan Lebaran & kartu Lebaran digital → 📚 HARI GURU Ucapan Hari Guru & kado digital untuk guru → 👔 HARI AYAH Ucapan Hari Ayah & kado digital untuk Ayah → 🌺 HARI KARTINI Ucapan Hari Kartini untuk perempuan hebat di hidupmu → 🤝 HARI PERSAHABATAN Ucapan Hari Persahabatan untuk sahabat → HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang, atau pakai momennya buat minta maaf. 📚 ●hari ini! HARI GURU Contoh ucapannya → 🎉 Rayakan Terima kasih, Bu/Pak Guru → 🙏 Minta maaf Maaf dulu suka bandel di kelas → 🔒 22 Des · dibuka 1 Des HARI IBU Contoh ucapannya → 🎉 Rayakan Terima kasih buat Ibu 🙏 Minta maaf Maaf sering bikin Ibu khawatir 🔒 25 Des · dibuka 4 Des NATAL Contoh ucapannya → 🎉 Rayakan Ucapan Natal yang hangat 🙏 Minta maaf Damai di hari Natal 🔒 1 Jan · dibuka 11 Des TAHUN BARU Contoh ucapannya → 🎉 Rayakan Rayakan setahun bareng 🙏 Minta maaf Tutup tahun tanpa utang maaf 🔒 6 Feb · dibuka 16 Jan IMLEK Contoh ucapannya → 🎉 Rayakan Kirim angpao ucapan 🙏 Minta maaf Mulai tahun baru tanpa ganjalan 🔒 14 Feb · dibuka 24 Jan VALENTINE Contoh ucapannya → 🎉 Rayakan Bilang sayang di hari kasih sayang 🙏 Minta 
+scrollH: 2960
+
+===== ref-page2-hari-guru-m.json =====
+url: https://proposigo.app/hari/hari-guru | title: Ucapan Hari Guru 2026 yang Menyentuh + Kado Digital untuk Guru
+desc: Ucapan Hari Guru Nasional 25 November yang tulus dari murid, alumni, atau satu kelas, plus kado digital untuk guru: ucapan, foto kelas, dan pesan suara dalam sa
+robots: null | canonical: https://proposigo.app/hari/hari-guru | lang: id
+og: {"image":"https://proposigo.app/og/hari-hari-guru-id.png?v=3","title":"Ucapan Hari Guru 2026 yang Menyentuh + Kado Digital untuk Guru","desc":"Ucapan Hari Guru Nasional 25 November yang tulus dari murid, alumni, atau satu kelas, plus kado digital untuk guru: ucapan, foto kelas, dan pesan suara dalam satu link.","type":"article"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: UCAPAN HARI GURU & KADO DIGITAL UNTUK GURU [36px/45px/undefined]
+h2: CONTOH KATA-KATA SIAP KIRIM | BIAR LEBIH BERKESAN | PERTANYAAN YANG SERING DITANYA | LIHAT JUGA
+h3: MOMEN | PROPOSIGO
+sections(5):
+  - div h:715 cls:grid items-center gap-10 md:grid-cols-[1fr_220px] | 📚 HARI GURU · 25 NOVEMBER 2026 · HARI INI! UCAPAN HARI GURU & KADO DI
+  - section h:1120 cls:mt-16 | CONTOH KATA-KATA SIAP KIRIM Pakai apa adanya, atau ubah sedikit supaya
+  - section h:670 cls:nb-card mt-14 bg-cream p-6 | BIAR LEBIH BERKESAN ✦ Pakai ucapan bareng supaya satu kelas atau satu 
+  - section h:380 cls:mt-14 | PERTANYAAN YANG SERING DITANYA Kapan Hari Guru Nasional? Penerimanya p
+  - nav h:363 cls:mt-14 | LIHAT JUGA HARI IBU NATAL TAHUN BARU VALENTINE IMLEK LEBARAN HARI AYAH
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | 🎉 RAYAKAN: TERIMA KASIH, BU/P=>/buat/rayakan?hari=hariguru | 🙏 MINTA MAAF: MAAF DULU SUKA =>/buat/maaf?hari=hariguru | HARI IBU=>/hari/hari-ibu | NATAL=>/hari/natal | TAHUN BARU=>/hari/tahun-baru | VALENTINE=>/hari/valentine | IMLEK=>/hari/imlek | LEBARAN=>/hari/lebaran | HARI AYAH=>/hari/hari-ayah | HARI KARTINI=>/hari/hari-kartini | HARI PERSAHABATAN=>/hari/hari-persahabatan | KATA-KATA MINTA MAAF KE PACAR=>/momen/maaf/pacar | KATA-KATA MINTA MAAF KE SAHABA=>/momen/maaf/sahabat | UCAPAN WISUDA UNTUK SAHABAT=>/momen/wisuda/sahabat | UCAPAN WISUDA UNTUK PACAR=>/momen/wisuda/pacar | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(trunc): 📚 HARI GURU · 25 NOVEMBER 2026 · HARI INI! UCAPAN HARI GURU & KADO DIGITAL UNTUK GURU Hari Guru Nasional jatuh setiap 25 November. Guru jarang tahu seberapa besar pengaruhnya, sampai ada murid yang bilang langsung. Tulis ucapanmu, ajak teman sekelas ikut menulis, lalu kirim satu link ke Bu atau Pak Guru. 🎉 RAYAKAN: TERIMA KASIH, BU/PAK GURU 🙏 MINTA MAAF: MAAF DULU SUKA BANDEL DI KELAS CONTOH KATA-KATA SIAP KIRIM Pakai apa adanya, atau ubah sedikit supaya terasa kamu banget. 1 Selamat Hari Guru, Bu. Makasih sudah sabar menjelaskan berulang kali sampai aku paham. 2 Pak, banyak rumus yang sudah aku lupa, tapi cara Bapak bikin kelas jadi seru masih aku ingat. Selamat Hari Guru. 3 Selamat Hari Guru untuk guru yang percaya aku bisa, bahkan saat nilaiku bilang sebaliknya. 4 Terima kasih sudah mengajar dengan hati, bukan cuma dengan buku. Selamat Hari Guru Nasional. 5 Maaf ya Bu, dulu kami sering ribut di kelas. Sekarang kami paham betapa capeknya Ibu. Makasih untuk semuanya. 6 Sudah lulus bertahun-tahun, tapi nasihat Bapak masih kepakai sampai sekarang. Selamat Hari Guru, sehat selalu. BIAR LEBIH BERKESAN ✦ Pakai ucapan bareng supaya satu kelas atau satu angkatan bisa menulis di halaman yang sama. ✦ Masukkan foto kelas, foto study tour, atau foto perpisahan ke galeri. ✦ Sebut satu momen spesifik di kelas yang kamu ingat. Guru biasanya paling tersentuh oleh detail kecil. 🎉 RAYAKAN: TERIMA KASIH, BU/PAK GURU 🙏 MINTA MAAF: MAAF DULU SUKA BANDEL DI KELAS PERTANYAAN YANG SERING DITANYA Kapan Hari Guru Nasional? Penerimanya perlu install aplikasi? Apa bedanya dengan kirim chat bias
+scrollH: 4613
+
+===== ref-page2-hari-ibu-m.json =====
+url: https://proposigo.app/hari/hari-ibu | title: Ucapan Hari Ibu 2026 yang Menyentuh + Kado Digital untuk Ibu
+desc: Kumpulan ucapan Hari Ibu 22 Desember yang menyentuh, plus cara bikin kado digital untuk Ibu: cerita, foto lama, lagu, dan pesan suaramu dalam satu link.
+robots: null | canonical: https://proposigo.app/hari/hari-ibu | lang: id
+og: {"image":"https://proposigo.app/og/hari-hari-ibu-id.png?v=3","title":"Ucapan Hari Ibu 2026 yang Menyentuh + Kado Digital untuk Ibu","desc":"Kumpulan ucapan Hari Ibu 22 Desember yang menyentuh, plus cara bikin kado digital untuk Ibu: cerita, foto lama, lagu, dan pesan suaramu dalam satu link.","type":"article"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: UCAPAN HARI IBU & KADO DIGITAL UNTUK IBU [36px/45px/undefined]
+h2: CONTOH KATA-KATA SIAP KIRIM | BIAR LEBIH BERKESAN | PERTANYAAN YANG SERING DITANYA | LIHAT JUGA
+h3: MOMEN | PROPOSIGO
+sections(5):
+  - div h:697 cls:grid items-center gap-10 md:grid-cols-[1fr_220px] | 💐 HARI IBU · 22 DESEMBER 2026 · 27 HARI LAGI UCAPAN HARI IBU & KADO D
+  - section h:1048 cls:mt-16 | CONTOH KATA-KATA SIAP KIRIM Pakai apa adanya, atau ubah sedikit supaya
+  - section h:618 cls:nb-card mt-14 bg-cream p-6 | BIAR LEBIH BERKESAN ✦ Rekam pesan suara. Suaramu jauh lebih berkesan b
+  - section h:380 cls:mt-14 | PERTANYAAN YANG SERING DITANYA Kapan Hari Ibu di Indonesia? Penerimany
+  - nav h:363 cls:mt-14 | LIHAT JUGA NATAL TAHUN BARU VALENTINE IMLEK LEBARAN HARI GURU HARI AYA
+buttons: KABARI AKU | Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | Atau bikin halaman tanpa tema =>/buat/rayakan | NATAL=>/hari/natal | TAHUN BARU=>/hari/tahun-baru | VALENTINE=>/hari/valentine | IMLEK=>/hari/imlek | LEBARAN=>/hari/lebaran | HARI GURU=>/hari/hari-guru | HARI AYAH=>/hari/hari-ayah | HARI KARTINI=>/hari/hari-kartini | HARI PERSAHABATAN=>/hari/hari-persahabatan | UCAPAN ULANG TAHUN UNTUK PACAR=>/momen/ultah/pacar | UCAPAN ULANG TAHUN UNTUK SAHAB=>/momen/ultah/sahabat | UCAPAN ULANG TAHUN UNTUK IBU=>/momen/ultah/ibu | KATA-KATA MINTA MAAF KE PACAR=>/momen/maaf/pacar | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(trunc): 💐 HARI IBU · 22 DESEMBER 2026 · 27 HARI LAGI UCAPAN HARI IBU & KADO DIGITAL UNTUK IBU Hari Ibu di Indonesia jatuh setiap 22 Desember. Kalau kata-kata "makasih, Bu" susah keluar langsung, tulis di sini: pilih kalimat di bawah atau tulis sendiri, tambah foto lama dan pesan suaramu, lalu kirim satu link ke Ibu. Tema Hari Ibu dibuka 1 Desember. Mau dikabari? KABARI AKU Sekali kirim saja. Bisa dihentikan lewat link di email. Atau bikin halaman tanpa tema sekarang → CONTOH KATA-KATA SIAP KIRIM Pakai apa adanya, atau ubah sedikit supaya terasa kamu banget. 1 Bu, makasih sudah percaya sama aku, bahkan saat aku sendiri ragu. Selamat Hari Ibu. 2 Selamat Hari Ibu buat perempuan yang masakannya nggak pernah bisa aku tiru dan sabarnya nggak pernah habis. 3 Maaf ya Bu, aku lebih sering minta tolong daripada bilang makasih. Hari ini aku mau bilang: makasih banyak. 4 Semua yang baik di diriku asalnya dari Ibu. Selamat Hari Ibu, sehat terus ya. 5 Buat Mama yang selalu nanya "udah makan belum?": udah, Ma. Dan aku sayang Mama. Selamat Hari Ibu. 6 Jarak boleh jauh, tapi doa Ibu selalu sampai. Selamat Hari Ibu, aku kangen. BIAR LEBIH BERKESAN ✦ Rekam pesan suara. Suaramu jauh lebih berkesan buat Ibu daripada teks panjang. ✦ Masukkan foto lama, misalnya foto kecilmu digendong Ibu. Biasanya ini yang paling bikin terharu. ✦ Pakai kapsul waktu supaya halamannya baru terbuka tepat 22 Desember pagi. Tema Hari Ibu dibuka 1 Desember. Mau dikabari? KABARI AKU Sekali kirim saja. Bisa dihentikan lewat link di email. Atau bikin halaman tanpa tema sekarang → PERTANYAAN YANG SERING DITANYA Kapan Hari Ibu di
+scrollH: 4471
+
+===== ref-page-ide-d.json =====
+url: https://proposigo.app/ide | title: Ide kata-kata & kejutan untuk orang tersayang · Proposigo
+desc: Kumpulan kata-kata confess, ucapan ulang tahun, anniversary, minta maaf, dan wisuda yang siap kirim, plus ide kejutan kreatif.
+robots: null | canonical: https://proposigo.app/ide | lang: id
+og: {"image":"https://proposigo.app/og/ide-id.png?v=3","title":"Ide kata-kata & kejutan untuk orang tersayang","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: IDE KATA-KATA & KEJUTAN [48px/60px/"Archivo Black"]
+h2: 
+h3: MOMEN | PROPOSIGO
+sections(5):
+  - span h:38 cls:sticker -rotate-2 bg-pink | IDE
+  - h1 h:60 cls:mt-4 font-display text-4xl leading-tight sm:text-5xl | IDE KATA-KATA & KEJUTAN
+  - p h:56 cls:mt-4 max-w-2xl text-lg font-bold | Bingung mau ngomong apa? Ambil kalimatnya di sini, lalu kirim jadi hal
+  - div h:42 cls:mt-8 flex flex-wrap gap-2 | SEMUA CONFESS ULANG TAHUN ANNIVERSARY MINTA MAAF WISUDA PERAYAAN
+  - ul h:1359 cls:mt-10 grid gap-5 sm:grid-cols-2 | 25 Ide Kado Natal untuk Pacar yang Bikin Dia Senyum 25 ide kado Natal 
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | SEMUA=>/ide | CONFESS=>/ide?momen=confess | ULANG TAHUN=>/ide?momen=ultah | ANNIVERSARY=>/ide?momen=anniv | MINTA MAAF=>/ide?momen=maaf | WISUDA=>/ide?momen=wisuda | PERAYAAN=>/ide?momen=rayakan | 25 Ide Kado Natal untuk Pacar =>/ide/ide-kado-natal-untuk-pacar | 40 Ucapan Ulang Tahun untuk Ay=>/ide/ucapan-ulang-tahun-untuk-ayah | 40 Kata-kata Minta Maaf karena=>/ide/kata-kata-minta-maaf-karena-cemburu | Cara Nembak Cewek Lewat Chat y=>/ide/cara-nembak-cewek-lewat-chat | Cara Minta Maaf yang Tulus Bia=>/ide/cara-minta-maaf-yang-tulus | 40 Ide Kado Anniversary 1 Tahu=>/ide/ide-kado-anniversary-1-tahun | 40 Kejutan Ulang Tahun LDR yan=>/ide/kejutan-ulang-tahun-ldr | 40 Cara Bilang Suka ke Gebetan=>/ide/cara-bilang-suka-ke-gebetan | 40 Ucapan Selamat Wisuda untuk=>/ide/ucapan-selamat-wisuda-untuk-pacar | 40 Kata-kata Minta Maaf ke Pac=>/ide/kata-kata-minta-maaf-ke-pacar | 40 Kata-kata Anniversary untuk=>/ide/kata-kata-anniversary-untuk-pacar | 40 Ucapan Ulang Tahun untuk Pa=>/ide/ucapan-ulang-tahun-untuk-pacar | 40 Kata-kata Confess yang Biki=>/ide/kata-kata-confess | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(trunc): IDE IDE KATA-KATA & KEJUTAN Bingung mau ngomong apa? Ambil kalimatnya di sini, lalu kirim jadi halaman kejutan yang dia buka sendiri. SEMUA CONFESS ULANG TAHUN ANNIVERSARY MINTA MAAF WISUDA PERAYAAN 25 Ide Kado Natal untuk Pacar yang Bikin Dia Senyum 25 ide kado Natal untuk pacar yang romantis, murah tapi berkesan, dan personal, plus cara ngasihnya biar dia makin sayang. 40 Ucapan Ulang Tahun untuk Ayah yang Bikin Beliau Tersenyum 40 ucapan ulang tahun untuk ayah yang hangat, lucu, dan menyentuh hati, plus cara mengirimnya biar Ayah tersenyum seharian. 40 Kata-kata Minta Maaf karena Cemburu yang Bikin Dia Luluh Kumpulan kata-kata minta maaf karena cemburu yang tulus, lucu, dan singkat, plus cara menyampaikannya biar dia percaya dan memaafkanmu. Cara Nembak Cewek Lewat Chat yang Bikin Dia Bilang Iya Cara nembak cewek lewat chat itu soal timing dan kata yang pas. Ini contoh chat nembak yang santai, lucu, dan romantis, plus kesalahan yang harus kamu hindari. Cara Minta Maaf yang Tulus Biar Dia Benar-benar Luluh Cara minta maaf yang tulus itu gampang-gampang susah. Ini contoh kalimatnya, kesalahan yang harus dihindari, dan cara kirimnya biar dia benar-benar luluh. 40 Ide Kado Anniversary 1 Tahun yang Bikin Dia Baper 40 ide kado anniversary 1 tahun buat pacar: romantis, lucu, murah tapi berkesan, dan buat LDR, plus cara kirimnya biar makin baper. 40 Kejutan Ulang Tahun LDR yang Bikin Dia Baper dari Jauh 40 kejutan ulang tahun LDR: kalimat romantis, lucu, singkat, dan ide lewat video call, plus cara kirim biar dia ngerasa kamu hadir. 40 Cara Bilang Suka ke Gebetan yang Bikin Dia 
+scrollH: 2360
+
+===== ref-page2-ide-confess-d.json =====
+url: https://proposigo.app/ide/kata-kata-confess | title: 40 Kata-kata Confess yang Bikin Dia Senyum-senyum Sendiri
+desc: Kumpulan kata-kata confess romantis, lucu, dan singkat buat gebetan, plus cara mengirimnya biar momennya kena dan nggak canggung.
+robots: null | canonical: https://proposigo.app/ide/kata-kata-confess | lang: id
+og: {"image":"https://proposigo.app/og/ide/id/kata-kata-confess.png","title":"40 Kata-kata Confess yang Bikin Dia Senyum-senyum Sendiri","desc":"Kumpulan kata-kata confess romantis, lucu, dan singkat buat gebetan, plus cara mengirimnya biar momennya kena dan nggak canggung.","type":"article"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: 40 Kata-kata Confess yang Bikin Dia Senyum-senyum Sendiri [48px/60px/undefined]
+h2: Sebelum ngirim, cek dulu tiga hal ini | Kata-kata confess romantis, buat yang pengin serius tapi tetap ringan | Kesalahan yang sering bikin confess jadi canggung | Cara ngirimnya biar momennya kena | PERTANYAAN YANG SERING DITANYA | IDE LAINNYA
+h3: MOMEN | PROPOSIGO
+sections(6):
+  - h1 h:180 cls:mt-4 font-display text-4xl leading-tight sm:text-5xl | 40 Kata-kata Confess yang Bikin Dia Senyum-senyum Sendiri
+  - p h:163 cls:mt-6 text-xl font-bold leading-relaxed | Lagi nyari kata-kata confess yang pas buat gebetan? Kamu datang ke tem
+  - div h:6656 cls:mt-8 | Sebelum ngirim, cek dulu tiga hal ini Confess yang bagus itu soal wakt
+  - section h:560 cls:mt-14 | PERTANYAAN YANG SERING DITANYA Lebih baik confess lewat chat atau lang
+  - div h:168 cls:mt-14 | Jangan cuma dikirim lewat chat. Jadikan halaman kejutan yang dia buka 
+  - section h:136 cls:mt-14 | IDE LAINNYA Cara Nembak Cewek Lewat Chat yang Bikin Dia Bilang Iya 40 
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | Confess=>/momen/confess | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=1 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=2 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=3 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=4 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=5 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=6 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=7 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=8 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=9 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=10 | BIKIN SEKARANG=>/buat/confess | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=11 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=12 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=13 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=14 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=15 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=16 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=17 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=18 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=19 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=20 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=21 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=22 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=23 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=24 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=25 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=26 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=27 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=28 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=29 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=30 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=31 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=32 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=33 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=34 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=35 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=36 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=37 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=38 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=39 | KIRIM INI 💌=>/buat/confess?ide=kata-kata-confess&n=40 | halaman confess interaktif=>/momen/confess | Cara Nembak Cewek Lewat Chat y=>/ide/cara-nembak-cewek-lewat-chat | 40 Cara Bilang Suka ke Gebetan=>/ide/cara-bilang-suka-ke-gebetan | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(trunc): Ide/Confess 40 Kata-kata Confess yang Bikin Dia Senyum-senyum Sendiri Tim Proposigo · 11 November 2026 Lagi nyari kata-kata confess yang pas buat gebetan? Kamu datang ke tempat yang tepat. Di halaman ini ada 40 kalimat siap pakai, dari yang romantis sampai yang lucu, tinggal pilih yang paling mirip gayamu. Ada juga cara ngirimnya biar momennya kena, bukan malah canggung. Sebelum ngirim, cek dulu tiga hal ini Confess yang bagus itu soal waktu, bukan cuma soal kata. Jangan kirim pas dia lagi ada masalah keluarga, lagi dikejar deadline, atau baru putus minggu lalu. Kalimat sebagus apa pun bakal terasa salah tempat. Pastikan juga kamu siap sama dua kemungkinan jawaban. Kalau niatmu memang lega karena udah jujur, jawaban apa pun nggak akan terasa seberat itu. Contoh gampangnya begini. Kalian baru pulang dari acara kampus, ngobrol di chat sampai jam 23.41, dan dia bilang hari ini seru banget. Itu lampu hijau buat ngirim kalimat yang agak lebih dalam dari biasanya, bukan yang paling berani, tapi yang membuka pintu. Sebaliknya, kalau chat kalian seminggu ini cuma dibalas 'haha' dan 'iya', jangan langsung tembak. Hangatkan dulu obrolannya beberapa hari, baru pilih momennya. Kata-kata confess romantis, buat yang pengin serius tapi tetap ringan Kelompok ini aman buat kamu yang hubungannya udah dekat dan sering ngobrol panjang. Nadanya jujur, nggak lebay, dan nggak maksa jawaban. ROMANTIS 1.Aku nggak tahu sejak kapan, tapi sekarang tiap ada kabar baik, orang pertama yang pengin aku kasih tahu itu kamu. KIRIM INI 💌 2.Kamu itu kayak lagu favorit. Didengar tiap hari pun nggak bosen, mala
+scrollH: 8841
+
+===== ref-page2-papan-d.json =====
+url: https://proposigo.app/papan | title: Papan Abadi · Proposigo
+desc: Kumpulan momen yang diabadikan pengguna Proposigo: confess, ulang tahun, anniversary, maaf, dan wisuda. Tampil dengan izin pengirim dan penerima.
+robots: null | canonical: https://proposigo.app/papan | lang: id
+og: {"image":"https://proposigo.app/og/papan-id.png?v=3","title":"Papan Abadi","desc":"Kumpulan momen yang diabadikan pengguna Proposigo: confess, ulang tahun, anniversary, maaf, dan wisuda. Tampil dengan izin pengirim dan penerima.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: PAPAN ABADI [60px/60px/undefined]
+h2: 
+h3: MOMEN | PROPOSIGO
+sections(4):
+  - div h:196 cls:text-center | 0 MOMEN DIABADIKAN PAPAN ABADI Momen-momen yang sengaja dipajang selam
+  - nav h:42 cls:mt-8 flex flex-wrap justify-center gap-2 | SEMUA · 0 CONFESS · 0 ULANG TAHUN · 0 ANNIVERSARY · 0 MINTA MAAF · 0 W
+  - div h:296 cls:nb-card mx-auto mt-10 max-w-lg bg-cream bg-dots p-8 text-center | BELUM ADA YANG DIPAJANG Jadi yang pertama mengabadikan momenmu di sini
+  - div h:243 cls:nb-card mx-auto mt-14 max-w-2xl bg-pink bg-dots p-8 text-center | MAU MOMENMU DI SINI? Pilih paket Abadi, lalu ajukan kutipanmu dari das
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | SEMUA · 0=>/papan | CONFESS · 0=>/papan?momen=confess | ULANG TAHUN · 0=>/papan?momen=ultah | ANNIVERSARY · 0=>/papan?momen=anniv | MINTA MAAF · 0=>/papan?momen=maaf | WISUDA · 0=>/papan?momen=wisuda | PERAYAAN · 0=>/papan?momen=rayakan | BIKIN HALAMAN ABADI=>/buat | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(full): 0 MOMEN DIABADIKAN PAPAN ABADI Momen-momen yang sengaja dipajang selamanya, dengan izin pengirim dan penerimanya. Isi halaman aslinya tetap rahasia mereka. SEMUA · 0 CONFESS · 0 ULANG TAHUN · 0 ANNIVERSARY · 0 MINTA MAAF · 0 WISUDA · 0 PERAYAAN · 0 BELUM ADA YANG DIPAJANG Jadi yang pertama mengabadikan momenmu di sini. MAU MOMENMU DI SINI? Pilih paket Abadi, lalu ajukan kutipanmu dari dasbor. Kutipan tampil setelah penerimanya setuju. BIKIN HALAMAN ABADI
+scrollH: 1592
+
+===== ref-page2-papan-m.json =====
+url: https://proposigo.app/papan | title: Papan Abadi · Proposigo
+desc: Kumpulan momen yang diabadikan pengguna Proposigo: confess, ulang tahun, anniversary, maaf, dan wisuda. Tampil dengan izin pengirim dan penerima.
+robots: null | canonical: https://proposigo.app/papan | lang: id
+og: {"image":"https://proposigo.app/og/papan-id.png?v=3","title":"Papan Abadi","desc":"Kumpulan momen yang diabadikan pengguna Proposigo: confess, ulang tahun, anniversary, maaf, dan wisuda. Tampil dengan izin pengirim dan penerima.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: PAPAN ABADI [36px/40px/undefined]
+h2: 
+h3: MOMEN | PROPOSIGO
+sections(4):
+  - div h:200 cls:text-center | 0 MOMEN DIABADIKAN PAPAN ABADI Momen-momen yang sengaja dipajang selam
+  - nav h:194 cls:mt-8 flex flex-wrap justify-center gap-2 | SEMUA · 0 CONFESS · 0 ULANG TAHUN · 0 ANNIVERSARY · 0 MINTA MAAF · 0 W
+  - div h:328 cls:nb-card mx-auto mt-10 max-w-lg bg-cream bg-dots p-8 text-center | BELUM ADA YANG DIPAJANG Jadi yang pertama mengabadikan momenmu di sini
+  - div h:327 cls:nb-card mx-auto mt-14 max-w-2xl bg-pink bg-dots p-8 text-center | MAU MOMENMU DI SINI? Pilih paket Abadi, lalu ajukan kutipanmu dari das
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | SEMUA · 0=>/papan | CONFESS · 0=>/papan?momen=confess | ULANG TAHUN · 0=>/papan?momen=ultah | ANNIVERSARY · 0=>/papan?momen=anniv | MINTA MAAF · 0=>/papan?momen=maaf | WISUDA · 0=>/papan?momen=wisuda | PERAYAAN · 0=>/papan?momen=rayakan | BIKIN HALAMAN ABADI=>/buat | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(full): 0 MOMEN DIABADIKAN PAPAN ABADI Momen-momen yang sengaja dipajang selamanya, dengan izin pengirim dan penerimanya. Isi halaman aslinya tetap rahasia mereka. SEMUA · 0 CONFESS · 0 ULANG TAHUN · 0 ANNIVERSARY · 0 MINTA MAAF · 0 WISUDA · 0 PERAYAAN · 0 BELUM ADA YANG DIPAJANG Jadi yang pertama mengabadikan momenmu di sini. MAU MOMENMU DI SINI? Pilih paket Abadi, lalu ajukan kutipanmu dari dasbor. Kutipan tampil setelah penerimanya setuju. BIKIN HALAMAN ABADI
+scrollH: 2294
+
+===== ref-page2-terms-d.json =====
+url: https://proposigo.app/terms | title: Syarat & Ketentuan · Proposigo
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: null | canonical: https://proposigo.app/terms | lang: id
+og: {"image":"https://proposigo.app/og/terms-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: SYARAT & KETENTUAN [48px/48px/undefined]
+h2: 1. Penerimaan Ketentuan | 2. Deskripsi Layanan | 3. Akun dan Keamanan | 4. Paket dan Pembayaran | 5. Konten dan Kepemilikan | 6. Penggunaan yang Dilarang | 7. Pelaporan dan Penghapusan Konten | 8. Masa Aktif dan Pengakhiran | 9. Sanggahan dan Batas Tanggung Jawab | 10. Hukum yang Berlaku | 11. Perubahan Ketentuan | 12. Hubungi Kami
+h3: MOMEN | PROPOSIGO
+sections(3):
+  - span h:39 cls:sticker bg-lime rotate-2 | LEGAL
+  - h1 h:48 cls:mt-5 font-display text-4xl sm:text-5xl | SYARAT & KETENTUAN
+  - div h:3088 cls:mt-8 | 1. Penerimaan Ketentuan Dengan mengakses atau menggunakan Proposigo, A
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | Kebijakan Privasi=>/privacy | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms
+text(trunc): LEGAL SYARAT & KETENTUAN Terakhir diperbarui: 10 November 2026 · Versi 1 1. Penerimaan Ketentuan Dengan mengakses atau menggunakan Proposigo, Anda menyetujui Syarat & Ketentuan ini serta Kebijakan Privasi kami. Jika tidak setuju, mohon tidak menggunakan layanan. 2. Deskripsi Layanan Proposigo adalah platform untuk membuat halaman ucapan digital interaktif (cerita, foto, musik, suara) yang dapat dibagikan melalui satu tautan. Fitur dan masa aktif halaman mengikuti paket yang Anda pilih (Dasar, Plus, atau Abadi). 3. Akun dan Keamanan Anda dapat membuat akun dengan email dan kata sandi, atau masuk dengan Google. Anda bertanggung jawab menjaga kerahasiaan kredensial akun Anda dan atas semua aktivitas yang terjadi di akun Anda. Beri tahu kami segera jika mencurigai penggunaan tanpa izin. 4. Paket dan Pembayaran Harga mengikuti negara asal kunjungan Anda (dideteksi dari alamat IP), bukan bahasa situs: pengunjung dari Indonesia dan Malaysia melihat dan membayar dalam Rupiah (IDR), pengunjung dari negara lain dalam dolar AS (USD). Harga, mata uang, dan cara bayar keduanya dapat berbeda; yang berlaku adalah total yang tertera di halaman pembayaran sebelum Anda membayar. Pembayaran dalam Rupiah diproses oleh DOKU (QRIS, virtual account, dan metode lain di halaman DOKU). Pembayaran lewat virtual account dikenai biaya admin bank yang ditampilkan sebelum Anda membayar; QRIS tanpa biaya tambahan. Tagihan dapat tertulis atas nama Codevision, pengelola Proposigo. Pembayaran dalam USD diproses oleh Lemon Squeezy sebagai merchant of record (penjual resmi untuk transaksi tersebut). Lemon Sque
+scrollH: 3958
+
+===== ref-page2-privacy-m.json =====
+url: https://proposigo.app/privacy | title: Kebijakan Privasi · Proposigo
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: null | canonical: https://proposigo.app/privacy | lang: id
+og: {"image":"https://proposigo.app/og/privacy-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: KEBIJAKAN PRIVASI [36px/40px/undefined]
+h2: 1. Perkenalan | 2. Data yang Kami Kumpulkan | 3. Cara Kami Menggunakan Data | 4. Berbagi Data dengan Pihak Ketiga | 5. Data dari Google | 6. Cookie dan Teknologi Sejenis | 7. Keamanan Data | 8. Penyimpanan Data | 9. Hak Anda | 10. Privasi Anak | 11. Perubahan Kebijakan Ini | 12. Hubungi Kami
+h3: MOMEN | PROPOSIGO
+sections(4):
+  - span h:39 cls:sticker bg-pink -rotate-2 | LEGAL
+  - h1 h:80 cls:mt-5 font-display text-4xl sm:text-5xl | KEBIJAKAN PRIVASI
+  - p h:40 cls:mt-3 text-sm font-bold opacity-70 | Terakhir diperbarui: 10 November 2026 · Versi 1
+  - div h:8536 cls:mt-8 | 1. Perkenalan Proposigo (“kami”, “layanan”) menyediakan halaman ucapan
+buttons: Pengaturan cookie | Bahasa Indonesia | English | 💬
+links: =>/ | Momen=>/#momen | Cara kerja=>/#cara-kerja | Harga=>/#harga | Ide=>/ide | Papan Abadi=>/papan | Masuk=>/masuk | BIKIN SEKARANG=>/buat | Confess=>/momen/confess | Ulang Tahun=>/momen/ultah | Anniversary=>/momen/anniv | Minta Maaf=>/momen/maaf | Wisuda=>/momen/wisuda | Hari Spesial=>/hari | Bikin halaman=>/buat | Ide kata-kata & kejutan=>/ide | Dasbor=>/dasbor | Syarat & Ketentuan=>/terms | Kebijakan Privasi=>/privacy
+text(trunc): LEGAL KEBIJAKAN PRIVASI Terakhir diperbarui: 10 November 2026 · Versi 1 1. Perkenalan Proposigo (“kami”, “layanan”) menyediakan halaman ucapan digital interaktif. Halaman ini menjelaskan data apa yang kami kumpulkan, bagaimana kami menggunakannya, dengan siapa data dibagikan, dan hak yang Anda miliki atas data tersebut. Dengan menggunakan Proposigo, Anda menyetujui praktik yang dijelaskan di sini. Jika ada pertanyaan, hubungi kami di legal@proposigo.app. 2. Data yang Kami Kumpulkan Data Akun: nama, alamat email, dan foto profil. Jika Anda masuk dengan Google, kami juga menyimpan pengenal akun Google Anda (tidak termasuk kata sandi Google — kami tidak pernah membaca atau menyimpan kata sandi Google Anda). Jika Anda mendaftar dengan email, kata sandi disimpan dalam bentuk hash (terenkripsi satu arah), bukan teks asli. Data Sesi & Teknis: alamat IP, jenis peramban (user-agent), dan waktu aktivitas, digunakan untuk keamanan, pembatasan laju (rate limiting), dan menjaga sesi login tetap aman. Konten Halaman: nama pengirim, nama penerima, tanggal, pertanyaan, cerita, foto beserta keterangannya, pilihan musik/tautan Spotify, rekaman suara (voice note), dan surat yang Anda tulis. Media yang Diunggah: file foto (JPEG/PNG/WebP) dan audio (rekaman suara) yang Anda unggah, disimpan di server kami. Data Aktivitas Halaman: catatan ketika halaman pertama kali dibuka, jawaban penerima (mis. “Mau”/“Dimaafkan”), dan jumlah percobaan jawaban. Ucapan Bareng: nama, ucapan, dan foto opsional yang dikirim teman-teman pengirim lewat link ucapan. Data ini hanya tampil di halaman penerima dan dasbor
+scrollH: 9889
+
+===== ref-page2-en-buat-d.json =====
+url: https://proposigo.app/en/buat | title: Choose a moment · Proposigo
+desc: Say it bravely, we make the moment. Build an interactive surprise page (story, photos, music, voice) in 5 minutes and send one link.
+robots: noindex | canonical: https://proposigo.app/en/buat | lang: en
+og: {"image":"https://proposigo.app/og/buat-en.png?v=3","title":"Proposigo","desc":"Say it bravely, we make the moment. Build an interactive surprise page in 5 minutes and send one link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: WHAT'S THE MOMENT? [48px/48px/undefined]
+h2: CONFESSION → | BIRTHDAY → | ANNIVERSARY → | APOLOGY → | GRADUATION → | SPECIAL DAYS
+h3: TEACHERS' DAY | MOTHER'S DAY | CHRISTMAS | NEW YEAR | LUNAR NEW YEAR | VALENTINE'S DAY | MOMENTS | PROPOSIGO
+sections(4):
+  - h1 h:48 cls:font-display text-4xl sm:text-5xl | WHAT'S THE MOMENT?
+  - p h:24 cls:mt-3 font-bold | Pick one. Previews and drafts are free, you only pay at the end.
+  - div h:796 cls:mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3 | CONFESSION → Say you like them. The “No” button runs away. ✦ the No bu
+  - section#hari-spesial h:760 cls:scroll-mt-24 mt-20 | SPECIAL DAYS Indonesian national days & celebrations. Celebrate someon
+buttons: Cookie settings | Bahasa Indonesia | English | 💬
+links: =>/en | Moments=>/en#momen | How it works=>/en#cara-kerja | Pricing=>/en#harga | Ideas=>/en/ide | Forever Wall=>/en/papan | Sign in=>/en/masuk | CREATE NOW=>/en/buat | CONFESSION → Say you like them=>/en/buat/confess | BIRTHDAY → Blow out virtual ca=>/en/buat/ultah | ANNIVERSARY → Count your days =>/en/buat/anniv | APOLOGY → A sincere apology, t=>/en/buat/maaf | GRADUATION → Toss the cap, unr=>/en/buat/wisuda | TEACHERS' DAY=>/en/hari/hari-guru | Sample messages →=>/en/hari/hari-guru | 🎉 Celebrate Thank you, teache=>/en/buat/rayakan?hari=hariguru | 🙏 Say sorry Sorry for being a=>/en/buat/maaf?hari=hariguru | MOTHER'S DAY=>/en/hari/hari-ibu | Sample messages →=>/en/hari/hari-ibu | CHRISTMAS=>/en/hari/natal | Sample messages →=>/en/hari/natal | NEW YEAR=>/en/hari/tahun-baru | Sample messages →=>/en/hari/tahun-baru | LUNAR NEW YEAR=>/en/hari/imlek | Sample messages →=>/en/hari/imlek | VALENTINE'S DAY=>/en/hari/valentine | Sample messages →=>/en/hari/valentine | Confession=>/en/momen/confess | Birthday=>/en/momen/ultah | Anniversary=>/en/momen/anniv | Apology=>/en/momen/maaf | Graduation=>/en/momen/wisuda | Special days=>/en/hari | Create a page=>/en/buat | Message & surprise ideas=>/en/ide | Dashboard=>/en/dasbor | Terms of Service=>/en/terms | Privacy Policy=>/en/privacy
+text(full): WHAT'S THE MOMENT? Pick one. Previews and drafts are free, you only pay at the end. CONFESSION → Say you like them. The “No” button runs away. ✦ the No button runs away MOST LOVED BIRTHDAY → Blow out virtual candles, a cheerful surprise. ✦ blow out candles with your mic ANNIVERSARY → Count your days together, hold the heart until it's full. ✦ hold the heart until it fills APOLOGY → A sincere apology, the answer arrives instantly. ✦ answered: forgiven / not yet GRADUATION → Toss the cap, unroll the diploma. ✦ toss the graduation cap SPECIAL DAYS Indonesian national days & celebrations. Celebrate someone you love, or use the day to say sorry. 📚 ●today! TEACHERS' DAY Sample messages → 🎉 Celebrate Thank you, teacher → 🙏 Say sorry Sorry for being a handful in class → 🔒 22 Dec · opens 1 Dec MOTHER'S DAY Sample messages → 🎉 Celebrate Thank you, Mom 🙏 Say sorry Sorry for making Mom worry 🔒 25 Dec · opens 4 Dec CHRISTMAS Sample messages → 🎉 Celebrate A warm Christmas greeting 🙏 Say sorry Make peace this Christmas 🔒 1 Jan · opens 11 Dec NEW YEAR Sample messages → 🎉 Celebrate Celebrate a year together 🙏 Say sorry Close the year with no grudges 🔒 6 Feb · opens 16 Jan LUNAR NEW YEAR Sample messages → 🎉 Celebrate Send a lucky greeting 🙏 Say sorry Start the new year clean 🔒 14 Feb · opens 24 Jan VALENTINE'S DAY Sample messages → 🎉 Celebrate Say you care on Valentine's 🙏 Say sorry Make up before Valentine's
+scrollH: 2462
+
+===== ref-more-en-buat.json =====
+url: https://proposigo.app/en/buat | title: Choose a moment · Proposigo
+desc: Say it bravely, we make the moment. Build an interactive surprise page (story, photos, music, voice) in 5 minutes and send one link.
+h1: WHAT'S THE MOMENT?
+h2: CONFESSION → | BIRTHDAY → | ANNIVERSARY → | APOLOGY → | GRADUATION → | SPECIAL DAYS
+buttons: Cookie settings | Bahasa Indonesia | English | 💬
+links: =>/en | Moments=>/en#momen | How it works=>/en#cara-kerja | Pricing=>/en#harga | Ideas=>/en/ide | Forever Wall=>/en/papan | Sign in=>/en/masuk | CREATE NOW=>/en/buat | CONFESSION → Say you like them=>/en/buat/confess | BIRTHDAY → Blow out virtual ca=>/en/buat/ultah | ANNIVERSARY → Count your days =>/en/buat/anniv | APOLOGY → A sincere apology, t=>/en/buat/maaf | GRADUATION → Toss the cap, unr=>/en/buat/wisuda | TEACHERS' DAY=>/en/hari/hari-guru | Sample messages →=>/en/hari/hari-guru | 🎉 Celebrate Thank you, teache=>/en/buat/rayakan?hari=hariguru | 🙏 Say sorry Sorry for being a=>/en/buat/maaf?hari=hariguru | MOTHER'S DAY=>/en/hari/hari-ibu | Sample messages →=>/en/hari/hari-ibu | CHRISTMAS=>/en/hari/natal | Sample messages →=>/en/hari/natal | NEW YEAR=>/en/hari/tahun-baru | Sample messages →=>/en/hari/tahun-baru | LUNAR NEW YEAR=>/en/hari/imlek | Sample messages →=>/en/hari/imlek | VALENTINE'S DAY=>/en/hari/valentine | Sample messages →=>/en/hari/valentine | Confession=>/en/momen/confess | Birthday=>/en/momen/ultah | Anniversary=>/en/momen/anniv | Apology=>/en/momen/maaf | Graduation=>/en/momen/wisuda | Special days=>/en/hari | Create a page=>/en/buat | Message & surprise ideas=>/en/ide | Dashboard=>/en/dasbor | Terms of Service=>/en/terms | Privacy Policy=>/en/privacy
+text(full): WHAT'S THE MOMENT? Pick one. Previews and drafts are free, you only pay at the end. CONFESSION → Say you like them. The “No” button runs away. ✦ the No button runs away MOST LOVED BIRTHDAY → Blow out virtual candles, a cheerful surprise. ✦ blow out candles with your mic ANNIVERSARY → Count your days together, hold the heart until it's full. ✦ hold the heart until it fills APOLOGY → A sincere apology, the answer arrives instantly. ✦ answered: forgiven / not yet GRADUATION → Toss the cap, unroll the diploma. ✦ toss the graduation cap SPECIAL DAYS Indonesian national days & celebrations. Celebrate someone you love, or use the day to say sorry. 📚 ●today! TEACHERS' DAY Sample messages → 🎉 Celebrate Thank you, teacher → 🙏 Say sorry Sorry for being a handful in class → 🔒 22 Dec · opens 1 Dec MOTHER'S DAY Sample messages → 🎉 Celebrate Thank you, Mom 🙏 Say sorry Sorry for making Mom worry 🔒 25 Dec · opens 4 Dec CHRISTMAS Sample messages → 🎉 Celebrate A warm Christmas greeting 🙏 Say sorry Make peace this Christmas 🔒 1 Jan · opens 11 Dec NEW YEAR Sample messages → 🎉 Celebrate Celebrate a year together 🙏 Say sorry Close the year with no grudges 🔒 6 Feb · opens 16 Jan LUNAR NEW YEAR Sample messages → 🎉 Celebrate Send a lucky greeting 🙏 Say sorry Start the new year clean 🔒 14 Feb · opens 24 Jan VALENTINE'S DAY Sample messages → 🎉 Celebrate Say you care on Valentine's 🙏 Say sorry Make up before Valentine's
+scrollH: 2462
+
+===== ref-more-en-home.json =====
+url: https://proposigo.app/en | title: Proposigo · Interactive digital greeting pages
+desc: Say it bravely, we make the moment. Build an interactive surprise page (story, photos, music, voice) in 5 minutes and send one link.
+h1: SAY IT BRAVELY. WE MAKE THE MOMENT.
+h2: WHAT MOMENT? | SPECIAL DAYS | 3 STEPS, DONE. | NOT JUST A LINK. | FRIENDLY PRICES. | STILL CURIOUS? | READY TO SAY IT?
+buttons: CANDY PINK | NIGHT CHAT | ↺ RESTART | Cookie settings | Bahasa Indonesia | English | 💬
+links: =>/en | Moments=>/en#momen | How it works=>/en#cara-kerja | Pricing=>/en#harga | Ideas=>/en/ide | Forever Wall=>/en/papan | Sign in=>/en/masuk | CREATE NOW=>/en/buat | 📚 Teachers' Day is coming! Ma=>/en/buat/rayakan?hari=hariguru | CREATE A PAGE=>/en/buat | SEE MOMENTS=>#momen | CONFESSION → Say you like them=>/en/momen/confess | BIRTHDAY → Blow out virtual ca=>/en/momen/ultah | ANNIVERSARY → Count your days =>/en/momen/anniv | APOLOGY → A sincere apology, t=>/en/momen/maaf | GRADUATION → Toss the cap, unr=>/en/momen/wisuda | TEACHERS' DAY=>/en/hari/hari-guru | Sample messages →=>/en/hari/hari-guru | 🎉 Celebrate Thank you, teache=>/en/buat/rayakan?hari=hariguru | 🙏 Say sorry Sorry for being a=>/en/buat/maaf?hari=hariguru | MOTHER'S DAY=>/en/hari/hari-ibu | Sample messages →=>/en/hari/hari-ibu | CHRISTMAS=>/en/hari/natal | Sample messages →=>/en/hari/natal | NEW YEAR=>/en/hari/tahun-baru | Sample messages →=>/en/hari/tahun-baru | LUNAR NEW YEAR=>/en/hari/imlek | Sample messages →=>/en/hari/imlek | VALENTINE'S DAY=>/en/hari/valentine | Sample messages →=>/en/hari/valentine | CHOOSE BASIC=>/en/buat | CHOOSE PLUS=>/en/buat | CHOOSE FOREVER=>/en/buat | Confession=>/en/momen/confess | Birthday=>/en/momen/ultah | Anniversary=>/en/momen/anniv | Apology=>/en/momen/maaf | Graduation=>/en/momen/wisuda | Special days=>/en/hari
+text(trunc): 📚 Teachers' Day is coming! Make a Teachers' Day page now → INTERACTIVE GREETING PAGES SAY IT BRAVELY. WE MAKE THE MOMENT. Build a surprise page (story, photos, music, voice) in 5 minutes, then send one link. They just tap the envelope, and you hear about everything they do. CREATE A PAGE SEE MOMENTS FROM RP5.000 GO AHEAD, IT'S PLAYABLE 👇 SOMETHING FOR… DINDA (tap the envelope) CANDY PINK NIGHT CHAT ↺ RESTART WHAT RAKA GETS SENDER Play the sample page. Everything Dinda does shows up here, exactly like what you'll receive. CONFESSION ✦ BIRTHDAY ✦ ANNIVERSARY ✦ APOLOGY ✦ GRADUATION ✦ CONFESSION ✦ BIRTHDAY ✦ ANNIVERSARY ✦ APOLOGY ✦ GRADUATION ✦ WHAT MOMENT? Five moments, each with its own interactive surprise. CONFESSION → Say you like them. The “No” button runs away. ✦ the No button runs away MOST LOVED BIRTHDAY → Blow out virtual candles, a cheerful surprise. ✦ blow out candles with your mic ANNIVERSARY → Count your days together, hold the heart until it's full. ✦ hold the heart until it fills APOLOGY → A sincere apology, the answer arrives instantly. ✦ answered: forgiven / not yet GRADUATION → Toss the cap, unroll the diploma. ✦ toss the graduation cap SPECIAL DAYS Indonesian national days & celebrations. Celebrate someone you love, or use the day to say sorry. 📚 ●today! TEACHERS' DAY Sample messages → 🎉 Celebrate Thank you, teacher → 🙏 Say sorry Sorry for being a handful in class → 🔒 22 Dec · opens 1 Dec MOTHER'S DAY Sample messages → 🎉 Celebrate Thank you, Mom 🙏 Say sorry Sorry for making Mom worry 🔒 25 Dec · opens 4 Dec CHRISTMAS Sample messages → 🎉 Celebrate A 
+scrollH: 6423
+
+===== ref-more-en-momen-confess.json =====
+url: https://proposigo.app/en/momen/confess | title: Digital love confession page · Proposigo
+desc: Build a surprise page to confess to your crush: story, photos, music, and a “No” button that runs away. Ready in 5 minutes.
+h1: DIGITAL LOVE CONFESSION PAGE
+h2: GAMES YOU MAKE, THEY PLAY | TWO DESIGNS, ONE SURPRISE | WHO'S IT FOR?
+buttons: CANDY PINK | NIGHT CHAT | ↺ RESTART | HOW WELL DO YOU KNOW ME You write questi | TWO TRUTHS, ONE LIE Write three things a | PHOTO PUZZLE One of your photos is shuff | PLAN TOGETHER Offer a few plans. Their p | Iced tea | Iced latte | Matcha | Cookie settings | Bahasa Indonesia | English | 💬
+links: =>/en | Moments=>/en#momen | How it works=>/en#cara-kerja | Pricing=>/en#harga | Ideas=>/en/ide | Forever Wall=>/en/papan | Sign in=>/en/masuk | CREATE NOW=>/en/buat | CREATE A CONFESS PAGE=>/en/buat/confess | HOW TO CONFESS TO YOUR CRUSH W=>/en/momen/confess/gebetan | Confession=>/en/momen/confess | Birthday=>/en/momen/ultah | Anniversary=>/en/momen/anniv | Apology=>/en/momen/maaf | Graduation=>/en/momen/wisuda | Special days=>/en/hari | Create a page=>/en/buat | Message & surprise ideas=>/en/ide | Dashboard=>/en/dasbor | Terms of Service=>/en/terms | Privacy Policy=>/en/privacy
+text(full): CONFESSION DIGITAL LOVE CONFESSION PAGE Build a surprise page to confess to your crush: story, photos, music, and a “No” button that runs away. Ready in 5 minutes. CREATE A CONFESS PAGE GO AHEAD, IT'S PLAYABLE 👇 SOMETHING FOR… DINDA (tap the envelope) CANDY PINK NIGHT CHAT ↺ RESTART WHAT RAKA GETS SENDER Play the sample page. Everything Dinda does shows up here, exactly like what you'll receive. PLAY TOGETHER GAMES YOU MAKE, THEY PLAY You write the content of these four games: your questions, your photos, your plans. Try them all below and see what comes back to you. HOW WELL DO YOU KNOW ME You write questions about yourself, they answer. The score is sent to you. TWO TRUTHS, ONE LIE Write three things about you two. One is a lie, they have to find it. PHOTO PUZZLE One of your photos is shuffled into 9 pieces. They put it back together. PLAN TOGETHER Offer a few plans. Their pick becomes a promise ticket, and you're notified. HOW WELL DO YOU KNOW ME How well do you know Raka? · 1/2 The drink I always order? Iced tea Iced latte Matcha SENT TO RAKA Finish the game. The result goes to the sender's dashboard and email. TWO DESIGNS, ONE SURPRISE CANDY PINK Sweet, pink, heart racing NIGHT CHAT Casual chat-story style WHO'S IT FOR? HOW TO CONFESS TO YOUR CRUSH WITH A LINK → SAMPLE STORY Hi Dinda. I'm a little nervous, so I made this page. Ever since we first talked, my days got brighter. You laugh at things that aren't funny, and I love that. So... I have one question for you.
+scrollH: 3094
+
+===== ref-page2-notfound-d.json =====
+url: https://proposigo.app/halaman-yang-tidak-ada-xyz | title: Proposigo · Halaman ucapan digital interaktif
+desc: Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.
+robots: noindex | canonical: https://proposigo.app/halaman-yang-tidak-ada-xyz | lang: id
+og: {"image":"https://proposigo.app/og/home-id.png?v=3","title":"Proposigo","desc":"Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.","type":"website"}
+theme: #B6F22E
+body: {"bg":"rgb(255, 244, 224)","color":"rgb(17, 17, 17)","font":"\"Space Mono\""}
+h1: HILANG... [36px/40px/undefined]
+h2: 
+h3: 
+sections(1):
+  - div h:427 cls:nb-card max-w-md bg-cream p-8 text-center | HILANG... Halaman ini nggak ada, atau sudah lewat masanya. PULANG
+buttons: 💬
+links: PULANG=>/
+text(full): HILANG... Halaman ini nggak ada, atau sudah lewat masanya. PULANG
+scrollH: 1000
+
+===== ref-dasbor.json =====
+url: https://proposigo.app/masuk?next=%2Fdasbor | title: Masuk · Proposigo
+buttons: MASUK | LANJUT DENGAN GOOGLE | 💬
+links: =>/ | Lupa password?=>/lupa-sandi | Daftar=>/daftar?next=%2Fdasbor
+text(full): MASUK Lanjut bikin kejutan. EMAIL PASSWORD Lupa password? MASUKLANJUT DENGAN GOOGLE Belum punya akun? Masuk dengan Google berarti kamu berusia 13+ dan setuju Syarat & Kebijakan Privasi. Belum punya akun? Daftar

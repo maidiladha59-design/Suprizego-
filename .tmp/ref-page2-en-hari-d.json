@@ -1,0 +1,300 @@
+{
+  "url": "https://proposigo.app/en/hari",
+  "title": "Special Days Calendar: Messages & Digital Gifts for Every Celebration",
+  "desc": "Mother's Day, Christmas, New Year, Valentine's, Lunar New Year, Eid, and other Indonesian celebrations. Sample messages and themed surprise pages for every special day.",
+  "robots": null,
+  "canonical": "https://proposigo.app/en/hari",
+  "og": {
+    "image": "https://proposigo.app/og/hari-en.png?v=3",
+    "title": "Special Days Calendar: Messages & Digital Gifts for Every Celebration",
+    "desc": "Mother's Day, Christmas, New Year, Valentine's, Lunar New Year, Eid, and other Indonesian celebrations. Sample messages and themed surprise pages for every special day.",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "en",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "MESSAGES & DIGITAL GIFTS FOR EVERY SPECIAL DAY",
+      "size": "48px",
+      "lh": "60px"
+    }
+  ],
+  "h2": [
+    "SPECIAL DAYS"
+  ],
+  "h3": [
+    "TEACHERS' DAY",
+    "MOTHER'S DAY",
+    "CHRISTMAS",
+    "NEW YEAR",
+    "LUNAR NEW YEAR",
+    "VALENTINE'S DAY",
+    "EID AL-FITR",
+    "KARTINI DAY",
+    "NATIONAL EDUCATION DAY",
+    "MOMENTS",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "span",
+      "id": null,
+      "cls": "sticker bg-lime -rotate-2",
+      "h": 42,
+      "text": "SPECIAL DAYS"
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "cls": "mt-4 font-display text-4xl leading-tight sm:text-5xl",
+      "h": 120,
+      "text": "MESSAGES & DIGITAL GIFTS FOR EVERY SPECIAL DAY"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": "mt-4 max-w-2xl text-lg font-bold",
+      "h": 56,
+      "text": "Pick the day, grab a sample message, then make a themed surprise page that opens like an e"
+    },
+    {
+      "tag": "ul",
+      "id": null,
+      "cls": "mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3",
+      "h": 772,
+      "text": "💐 MOTHER'S DAY Mother's Day messages & a digital gift for Mom → 🎄 CHRISTMAS Christmas me"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "scroll-mt-24 mt-20",
+      "h": 1074,
+      "text": "SPECIAL DAYS Indonesian national days & celebrations. Celebrate someone you love, or use t"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": "mt-10 font-bold",
+      "h": 24,
+      "text": "Celebrating another day? See the Celebration moment."
+    }
+  ],
+  "text": "SPECIAL DAYS MESSAGES & DIGITAL GIFTS FOR EVERY SPECIAL DAY Pick the day, grab a sample message, then make a themed surprise page that opens like an envelope. 💐 MOTHER'S DAY Mother's Day messages & a digital gift for Mom → 🎄 CHRISTMAS Christmas messages & a digital Christmas card → 🎆 NEW YEAR New Year messages & a surprise right at midnight → 💘 VALENTINE'S DAY Valentine's messages & a digital Valentine's gift → 🧧 LUNAR NEW YEAR Lunar New Year messages & a digital greeting → 🌙 EID AL-FITR Eid messages & a digital Eid card → 📚 TEACHERS' DAY Teachers' Day messages & a digital gift for your teacher → 👔 FATHER'S DAY Father's Day messages & a digital gift for Dad → 🌺 KARTINI DAY Kartini Day messages for the amazing women in your life → 🤝 FRIENDSHIP DAY Friendship Day messages for your best friend → SPECIAL DAYS Indonesian national days & celebrations. Celebrate someone you love, or use the day to say sorry. 📚 ●today! TEACHERS' DAY Sample messages → 🎉 Celebrate Thank you, teacher → 🙏 Say sorry Sorry for being a handful in class → 🔒 22 Dec · opens 1 Dec MOTHER'S DAY Sample messages → 🎉 Celebrate Thank you, Mom 🙏 Say sorry Sorry for making Mom worry 🔒 25 Dec · opens 4 Dec CHRISTMAS Sample messages → 🎉 Celebrate A warm Christmas greeting 🙏 Say sorry Make peace this Christmas 🔒 1 Jan · opens 11 Dec NEW YEAR Sample messages → 🎉 Celebrate Celebrate a year together 🙏 Say sorry Close the year with no grudges 🔒 6 Feb · opens 16 Jan LUNAR NEW YEAR Sample messages → 🎉 Celebrate Send a lucky greeting 🙏 Say sorry Start the new year clean 🔒 14 Feb · opens 24 Jan VALENTINE'S DAY Sample messages → 🎉 Celebrate Say you care on Valentine's 🙏 Say sorry Make up before Valentine's 🔒 10 Mar · opens 17 Feb EID AL-FITR Sample messages → 🙏 Say sorry Ask for forgiveness, sincerely 🎉 Celebrate Eid wishes for family 🔒 21 Apr · opens 31 Mar KARTINI DAY Sample messages → 🎉 Celebrate For the amazing women in your life 🔒 2 May · opens 11 Apr NATIONAL EDUCATION DAY 🎉 Celebrate Thank someone who taught you Celebrating another day? See the Celebration moment.",
+  "buttons": [
+    "Cookie settings",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/en"
+    },
+    {
+      "t": "Moments",
+      "h": "/en#momen"
+    },
+    {
+      "t": "How it works",
+      "h": "/en#cara-kerja"
+    },
+    {
+      "t": "Pricing",
+      "h": "/en#harga"
+    },
+    {
+      "t": "Ideas",
+      "h": "/en/ide"
+    },
+    {
+      "t": "Forever Wall",
+      "h": "/en/papan"
+    },
+    {
+      "t": "Sign in",
+      "h": "/en/masuk"
+    },
+    {
+      "t": "CREATE NOW",
+      "h": "/en/buat"
+    },
+    {
+      "t": "💐 MOTHER'S DAY Mother's Day messages & a digital gift for M",
+      "h": "/en/hari/hari-ibu"
+    },
+    {
+      "t": "🎄 CHRISTMAS Christmas messages & a digital Christmas card →",
+      "h": "/en/hari/natal"
+    },
+    {
+      "t": "🎆 NEW YEAR New Year messages & a surprise right at midnight",
+      "h": "/en/hari/tahun-baru"
+    },
+    {
+      "t": "💘 VALENTINE'S DAY Valentine's messages & a digital Valentin",
+      "h": "/en/hari/valentine"
+    },
+    {
+      "t": "🧧 LUNAR NEW YEAR Lunar New Year messages & a digital greeti",
+      "h": "/en/hari/imlek"
+    },
+    {
+      "t": "🌙 EID AL-FITR Eid messages & a digital Eid card →",
+      "h": "/en/hari/lebaran"
+    },
+    {
+      "t": "📚 TEACHERS' DAY Teachers' Day messages & a digital gift for",
+      "h": "/en/hari/hari-guru"
+    },
+    {
+      "t": "👔 FATHER'S DAY Father's Day messages & a digital gift for D",
+      "h": "/en/hari/hari-ayah"
+    },
+    {
+      "t": "🌺 KARTINI DAY Kartini Day messages for the amazing women in",
+      "h": "/en/hari/hari-kartini"
+    },
+    {
+      "t": "🤝 FRIENDSHIP DAY Friendship Day messages for your best frie",
+      "h": "/en/hari/hari-persahabatan"
+    },
+    {
+      "t": "TEACHERS' DAY",
+      "h": "/en/hari/hari-guru"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/hari-guru"
+    },
+    {
+      "t": "🎉 Celebrate Thank you, teacher →",
+      "h": "/en/buat/rayakan?hari=hariguru"
+    },
+    {
+      "t": "🙏 Say sorry Sorry for being a handful in class →",
+      "h": "/en/buat/maaf?hari=hariguru"
+    },
+    {
+      "t": "MOTHER'S DAY",
+      "h": "/en/hari/hari-ibu"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/hari-ibu"
+    },
+    {
+      "t": "CHRISTMAS",
+      "h": "/en/hari/natal"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/natal"
+    },
+    {
+      "t": "NEW YEAR",
+      "h": "/en/hari/tahun-baru"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/tahun-baru"
+    },
+    {
+      "t": "LUNAR NEW YEAR",
+      "h": "/en/hari/imlek"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/imlek"
+    },
+    {
+      "t": "VALENTINE'S DAY",
+      "h": "/en/hari/valentine"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/valentine"
+    },
+    {
+      "t": "EID AL-FITR",
+      "h": "/en/hari/lebaran"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/lebaran"
+    },
+    {
+      "t": "KARTINI DAY",
+      "h": "/en/hari/hari-kartini"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/hari-kartini"
+    },
+    {
+      "t": "See the Celebration moment",
+      "h": "/en/momen/rayakan"
+    },
+    {
+      "t": "Confession",
+      "h": "/en/momen/confess"
+    },
+    {
+      "t": "Birthday",
+      "h": "/en/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/en/momen/anniv"
+    },
+    {
+      "t": "Apology",
+      "h": "/en/momen/maaf"
+    },
+    {
+      "t": "Graduation",
+      "h": "/en/momen/wisuda"
+    },
+    {
+      "t": "Special days",
+      "h": "/en/hari"
+    },
+    {
+      "t": "Create a page",
+      "h": "/en/buat"
+    },
+    {
+      "t": "Pricing",
+      "h": "/en#harga"
+    },
+    {
+      "t": "Message & surprise ideas",
+      "h": "/en/ide"
+    },
+    {
+      "t": "Forever Wall",
+      "h": "/en/papan"
+    },
+    {
+      "t": "Dashboard",
+      "h": "/en/dasbor"
+    },
+    {
+      "t": "Terms of Service",
+      "h": "/en/terms"
+    },
+    {
+      "t": "Privacy Policy",
+      "h": "/en/privacy"
+    }
+  ],
+  "jsonld": [
+    "{\"@context\":\"https://schema.org\",\"@type\":\"BreadcrumbList\",\"itemListElement\":[{\"@type\":\"ListItem\",\"position\":1,\"name\":\"Proposigo\",\"item\":\"https://proposigo.app/en\"},{\"@type\":\"ListItem\",\"position\":2,\"name\":\"Special Days\",\"item\":\"https://proposigo.app/en/hari\"}]}"
+  ],
+  "scrollH": 2976
+}

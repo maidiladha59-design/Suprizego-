@@ -1,0 +1,271 @@
+{
+  "url": "https://proposigo.app/buat/ultah",
+  "title": "Bikin halaman Ulang Tahun · Proposigo",
+  "h2": [
+    {
+      "text": "1 PILIH DESAIN",
+      "id": null,
+      "top": 242
+    },
+    {
+      "text": "2 SIAPA KE SIAPA",
+      "id": null,
+      "top": 818
+    },
+    {
+      "text": "3 CERITAMU",
+      "id": null,
+      "top": 1144
+    },
+    {
+      "text": "4 FOTO",
+      "id": null,
+      "top": 1642
+    },
+    {
+      "text": "5 MAIN BERDUA",
+      "id": null,
+      "top": 2017
+    },
+    {
+      "text": "6 MUSIK",
+      "id": null,
+      "top": 2452
+    },
+    {
+      "text": "7 SURAT PENUTUP",
+      "id": null,
+      "top": 2856
+    },
+    {
+      "text": "8 PILIH PAKET",
+      "id": null,
+      "top": 3291
+    }
+  ],
+  "badges": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8"
+  ],
+  "inputs": [
+    {
+      "type": "text",
+      "name": null,
+      "id": "sn",
+      "placeholder": null,
+      "maxlength": 40,
+      "required": false,
+      "value": "Bima",
+      "checked": false,
+      "accept": null,
+      "label": null,
+      "cls": "nb-input"
+    },
+    {
+      "type": "text",
+      "name": null,
+      "id": "rn",
+      "placeholder": null,
+      "maxlength": 40,
+      "required": false,
+      "value": "Sari",
+      "checked": false,
+      "accept": null,
+      "label": null,
+      "cls": "nb-input"
+    },
+    {
+      "type": "date",
+      "name": null,
+      "id": "dt",
+      "placeholder": null,
+      "maxlength": null,
+      "required": false,
+      "value": "",
+      "checked": false,
+      "accept": null,
+      "label": null,
+      "cls": "nb-input"
+    },
+    {
+      "type": "file",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "maxlength": null,
+      "required": false,
+      "value": null,
+      "checked": false,
+      "accept": "image/*",
+      "label": "+ Tambah foto",
+      "cls": "sr-only"
+    },
+    {
+      "type": "text",
+      "name": null,
+      "id": "sp",
+      "placeholder": "Cari judul lagu atau tempel link",
+      "maxlength": null,
+      "required": false,
+      "value": "",
+      "checked": false,
+      "accept": null,
+      "label": null,
+      "cls": "nb-input min-w-0 flex-1"
+    },
+    {
+      "type": "file",
+      "name": null,
+      "id": null,
+      "placeholder": null,
+      "maxlength": null,
+      "required": false,
+      "value": null,
+      "checked": false,
+      "accept": "audio/*",
+      "label": "UNGGAH AUDIO",
+      "cls": "sr-only"
+    },
+    {
+      "type": "text",
+      "name": null,
+      "id": "slug",
+      "placeholder": "mis. dinda-dan-raka",
+      "maxlength": null,
+      "required": false,
+      "value": "",
+      "checked": false,
+      "accept": null,
+      "label": null,
+      "cls": "nb-input"
+    }
+  ],
+  "textareas": [
+    {
+      "name": null,
+      "placeholder": null,
+      "maxlength": 180,
+      "required": false,
+      "value": "Selamat ulang tahun, Sari!",
+      "rows": 2,
+      "cls": "nb-input min-h-20"
+    },
+    {
+      "name": null,
+      "placeholder": null,
+      "maxlength": 180,
+      "required": false,
+      "value": "Satu tahun lagi, satu level lebih keren.",
+      "rows": 2,
+      "cls": "nb-input min-h-20"
+    },
+    {
+      "name": null,
+      "placeholder": null,
+      "maxlength": 180,
+      "required": false,
+      "value": "Semoga semua yang kamu tunggu datang tepat waktu.",
+      "rows": 2,
+      "cls": "nb-input min-h-20"
+    },
+    {
+      "name": null,
+      "placeholder": null,
+      "maxlength": 1500,
+      "required": false,
+      "value": "Sari, terima kasih sudah jadi teman yang selalu ada. Semoga tahun ini penuh hal baik, kue enak, dan tawa yang lama. Tiup lilinnya, jangan lupa make a wish!",
+      "rows": 2,
+      "cls": "nb-input min-h-40"
+    }
+  ],
+  "selects": [],
+  "sections": [
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 232,
+      "text": "1 PILIH DESAIN PESTA KONFETI Ceria, warna-warni KUE CORAL Hangat ala toko kue"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 294,
+      "text": "2 SIAPA KE SIAPA NAMAMU NAMA PENERIMA TANGGAL ULANG TAHUN"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 466,
+      "text": "3 CERITAMU 3 sampai 5 kartu pendek. Muncul satu-satu seperti chat. × × × + TAMBAH KARTU PAKAI CONTOH ISI"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 343,
+      "text": "4 FOTO Maksimal 8 foto, dikompres otomatis. 0/8 + Tambah foto"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 403,
+      "text": "5 MAIN BERDUA Opsional. Permainan tentang kalian berdua, dan hasilnya dikirim balik ke kamu. Dasar 1 · Plus 2 · Abadi 3 "
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 373,
+      "text": "6 MUSIK Dimulai saat penerima mengetuk amplop. HAPPY BIRTHDAY Lagu ulang tahun klasik ▶ PESTA Riang, buat seru-seruan ▶ "
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 402,
+      "text": "7 SURAT PENUTUP 155/1500 PESAN SUARA (MAKS 1 MENIT) PLUS ● REKAM UNGGAH AUDIO"
+    },
+    {
+      "id": null,
+      "cls": "nb-card bg-white p-5 sm:p-6",
+      "h": 575,
+      "text": "8 PILIH PAKET DASAR Rp5.000 aktif 3 hari PLUS Rp10.000 aktif 14 hari ABADI Rp20.000 Rp15.000 aktif selamanya ✦ Semua isi"
+    }
+  ],
+  "sticky": [
+    {
+      "cls": "sticky top-24",
+      "top": "96px",
+      "w": 380
+    }
+  ],
+  "preview": [
+    {
+      "cls": "",
+      "w": 583,
+      "h": 60,
+      "text": "HALAMAN ULANG TAHUN Isi pelan-pelan. Pratinjaunya gratis dan draf-mu tersimpan otomatis."
+    },
+    {
+      "cls": "sticky top-24",
+      "w": 380,
+      "h": 778,
+      "text": "PRATINJAU LANGSUNG ADA TITIPAN BUAT… SARI (ketuk amplopnya) ULANGI DARI AWAL"
+    },
+    {
+      "cls": "mx-auto w-[300px] sm:w-[340px]",
+      "w": 340,
+      "h": 738,
+      "text": "ADA TITIPAN BUAT… SARI (ketuk amplopnya) ULANGI DARI AWAL"
+    }
+  ],
+  "ls": {
+    "proposigo-consent-v2": "granted",
+    "proposigo:draft:confess": "{\"design\":\"permen\",\"c\":{\"photos\":[],\"song\":\"manis\",\"spotifyUrl\":\"\",\"date\":\"\",\"question\":\"Mau jadi pacarku?\",\"senderName\":\"Raka\",\"recipientName\":\"Dinda\",\"story\":",
+    "proposigo:draft:ultah": "{\"design\":\"pesta\",\"c\":{\"photos\":[],\"song\":\"ultah\",\"spotifyUrl\":\"\",\"date\":\"\",\"question\":\"\",\"senderName\":\"Bima\",\"recipientName\":\"Sari\",\"story\":[\"Selamat ulang tah"
+  },
+  "bodyH": 4029
+}

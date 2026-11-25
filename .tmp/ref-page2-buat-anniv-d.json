@@ -1,0 +1,101 @@
+{
+  "url": "https://proposigo.app/buat/anniv",
+  "title": "Bikin halaman Anniversary · Proposigo",
+  "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.",
+  "robots": "noindex",
+  "canonical": "https://proposigo.app/buat/anniv",
+  "og": {
+    "image": "https://proposigo.app/og/buat-id.png?v=3",
+    "title": "Proposigo",
+    "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "HALAMAN ANNIVERSARY",
+      "size": "36px",
+      "lh": "40px"
+    }
+  ],
+  "h2": [
+    "1 PILIH DESAIN",
+    "2 SIAPA KE SIAPA",
+    "3 CERITAMU",
+    "4 FOTO",
+    "5 MAIN BERDUA",
+    "6 MUSIK",
+    "7 SURAT PENUTUP",
+    "8 PILIH PAKET"
+  ],
+  "h3": [],
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "min-h-dvh bg-cream bg-dots",
+      "h": 4029,
+      "text": "GANTI MOMEN HALAMAN ANNIVERSARY Isi pelan-pelan. Pratinjaunya gratis dan draf-mu tersimpan"
+    }
+  ],
+  "text": "GANTI MOMEN HALAMAN ANNIVERSARY Isi pelan-pelan. Pratinjaunya gratis dan draf-mu tersimpan otomatis. 1 PILIH DESAIN HATI PINK Romantis dan lembut SENJA CORAL Hangat kayak sore berdua HARI SPESIAL (opsional, tema ikut ke semua bagian halaman) Biasa saja 📚 Hari Gurulagi musim 🔒 Valentine24 Jan 🔒 Imlek16 Jan 🔒 Lebaran17 Feb 🔒 Halloween10 Okt 🔒 Natal4 Des 🔒 Tahun Baru11 Des 🔒 Hari Ayah22 Okt 🔒 Hari Ibu1 Des 🔒 Hari Anak2 Jul 🔒 Hari Kartini31 Mar 🔒 Hari Pendidikan Nasional11 Apr 🔒 Hari Kemerdekaan27 Jul 🔒 Hari Batik11 Sep 🔒 Hari Sumpah Pemuda7 Okt 🔒 Hari Pahlawan20 Okt 🔒 Hari Persahabatan9 Jul 2 SIAPA KE SIAPA NAMAMU NAMA PENERIMA TANGGAL JADIAN 3 CERITAMU 3 sampai 5 kartu pendek. Muncul satu-satu seperti chat. × × × + TAMBAH KARTU PAKAI CONTOH ISI 4 FOTO Maksimal 8 foto, dikompres otomatis. 0/8 + Tambah foto 5 MAIN BERDUA Opsional. Permainan tentang kalian berdua, dan hasilnya dikirim balik ke kamu. Dasar 1 · Plus 2 · Abadi 3 permainan. TAMBAH PERMAINAN + KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. + DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. + SUSUN FOTO Tambah foto dulu di bagian Foto. + RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. 6 MUSIK Dimulai saat penerima mengetuk amplop. CANON IN D Pachelbel, romantis klasik ▶ SYAHDU Pelan dan hangat ▶ TANPA MUSIK Hening, biar ceritanya yang bicara LAGU PILIHAN (SPOTIFY) PLUS TEMPEL 7 SURAT PENUTUP 129/1500 PESAN SUARA (MAKS 1 MENIT) PLUS ● REKAM UNGGAH AUDIO 8 PILIH PAKET DASAR Rp5.000 aktif 3 hari PLUS Rp10.000 aktif 14 hari ABADI Rp20.000 Rp15.000 aktif selamanya ✦ Semua isi Dasar ✦ Main Berdua (2 permainan) ✦ Bisa diedit lagi ✦ Voice note ≤ 1 menit ✦ Lagu pilihan (Spotify) ✦ Link custom ✦ Ucapan bareng (50 teman) ✦ Kapsul waktu (≤ 90 hari) ✦ Aktif 14 hari LINK CUSTOM (OPSIONAL) /p/ LANJUT BAYAR · RP10.000 Sekali bayar · tidak ada langganan atau perpanjangan otomatis. PRATINJAU LANGSUNG ADA TITIPAN BUAT… MAYA (ketuk amplopnya) ULANGI DARI AWAL",
+  "buttons": [
+    "HATI PINK Romantis dan lembut",
+    "SENJA CORAL Hangat kayak sore berdua",
+    "Biasa saja",
+    "📚 Hari Gurulagi musim",
+    "🔒 Valentine24 Jan",
+    "🔒 Imlek16 Jan",
+    "🔒 Lebaran17 Feb",
+    "🔒 Halloween10 Okt",
+    "🔒 Natal4 Des",
+    "🔒 Tahun Baru11 Des",
+    "🔒 Hari Ayah22 Okt",
+    "🔒 Hari Ibu1 Des",
+    "🔒 Hari Anak2 Jul",
+    "🔒 Hari Kartini31 Mar",
+    "🔒 Hari Pendidikan Nasional11 Apr",
+    "🔒 Hari Kemerdekaan27 Jul",
+    "🔒 Hari Batik11 Sep",
+    "🔒 Hari Sumpah Pemuda7 Okt",
+    "🔒 Hari Pahlawan20 Okt",
+    "🔒 Hari Persahabatan9 Jul",
+    "×",
+    "+ TAMBAH KARTU",
+    "PAKAI CONTOH ISI",
+    "+ KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.",
+    "+ DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.",
+    "+ SUSUN FOTO Tambah foto dulu di bagian Foto.",
+    "+ RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.",
+    "CANON IN D Pachelbel, romantis klasik",
+    "▶",
+    "SYAHDU Pelan dan hangat",
+    "TANPA MUSIK Hening, biar ceritanya yang bicara",
+    "TEMPEL",
+    "● REKAM",
+    "DASAR Rp5.000 aktif 3 hari",
+    "PLUS Rp10.000 aktif 14 hari",
+    "ABADI Rp20.000 Rp15.000 aktif selamanya",
+    "LANJUT BAYAR · RP10.000",
+    "Lihat pratinjau",
+    "ULANGI DARI AWAL"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "GANTI MOMEN",
+      "h": "/buat"
+    }
+  ],
+  "jsonld": [],
+  "scrollH": 4029
+}

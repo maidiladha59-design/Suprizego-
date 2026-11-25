@@ -1,0 +1,50 @@
+{
+  "/robots.txt": {
+    "status": 429,
+    "ct": "text/plain; charset=utf-8",
+    "final": "https://proposigo.app/robots.txt",
+    "body": "Terlalu banyak permintaan. Coba lagi sebentar lagi."
+  },
+  "/llms.txt": {
+    "status": 429,
+    "ct": "text/plain; charset=utf-8",
+    "final": "https://proposigo.app/llms.txt",
+    "body": "Terlalu banyak permintaan. Coba lagi sebentar lagi."
+  },
+  "/sitemap.xml": {
+    "status": 429,
+    "ct": "text/plain; charset=utf-8",
+    "final": "https://proposigo.app/sitemap.xml",
+    "body": "Terlalu banyak permintaan. Coba lagi sebentar lagi."
+  },
+  "/favicon.ico": {
+    "status": 200,
+    "ct": "image/x-icon",
+    "final": "https://proposigo.app/favicon.ico",
+    "body": null
+  },
+  "/icon.png": {
+    "status": 200,
+    "ct": "image/png",
+    "final": "https://proposigo.app/icon.png",
+    "body": null
+  },
+  "/og/home-id.png": {
+    "status": 200,
+    "ct": "image/png",
+    "final": "https://proposigo.app/og/home-id.png",
+    "body": null
+  },
+  "/manifest.webmanifest": {
+    "status": 429,
+    "ct": "text/plain; charset=utf-8",
+    "final": "https://proposigo.app/manifest.webmanifest",
+    "body": "Terlalu banyak permintaan. Coba lagi sebentar lagi."
+  },
+  "/404": {
+    "status": 429,
+    "ct": "text/plain; charset=utf-8",
+    "final": "https://proposigo.app/404",
+    "body": "Terlalu banyak permintaan. Coba lagi sebentar lagi."
+  }
+}

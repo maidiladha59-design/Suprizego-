@@ -1,0 +1,172 @@
+{
+  "desktop": {
+    "heroBadge": [
+      "Halaman kejutan interaktif",
+      "Mulai Rp5.000",
+      "Kejutan kecil buat…",
+      "Pengirim"
+    ],
+    "heading": "Pilih sesuai umur kejutannya.",
+    "sub": "Sekali bayar, tanpa langganan. Paket lebih panjang membuka lebih banyak — dari Main Berdua ekstra sampai halaman yang aktif selamanya.",
+    "cards": [
+      {
+        "name": "Dasar",
+        "tagline": "Buat kejutan cepat",
+        "prices": [
+          "Rp5.000"
+        ],
+        "struck": null,
+        "discount": [],
+        "active": "aktif 3 hari",
+        "features": [
+          "✦Semua desain",
+          "✦Musik bawaan",
+          "✦Main Berdua (1 permainan)",
+          "✦Kartu QR",
+          "✦Simpan jadi gambar",
+          "✦Ucapan bareng (10 teman)",
+          "✦Kapsul waktu (≤ 30 hari)",
+          "✦Aktif 3 hari"
+        ],
+        "cta": "Pilih Dasar",
+        "bg": "rgb(255, 244, 224)"
+      },
+      {
+        "name": "Plus",
+        "tagline": "Paling laris",
+        "prices": [
+          "Rp10.000"
+        ],
+        "struck": null,
+        "discount": [
+          "Paling laris"
+        ],
+        "active": "aktif 14 hari",
+        "features": [
+          "✦Semua isi Dasar",
+          "✦Main Berdua (2 permainan)",
+          "✦Bisa diedit lagi",
+          "✦Voice note ≤ 1 menit",
+          "✦Lagu pilihan (Spotify)",
+          "✦Link custom",
+          "✦Ucapan bareng (50 teman)",
+          "✦Kapsul waktu (≤ 90 hari)",
+          "✦Aktif 14 hari"
+        ],
+        "cta": "Pilih Plus",
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "name": "Abadi",
+        "tagline": "Kenangan selamanya",
+        "prices": [
+          "Rp20.000 Rp15.000"
+        ],
+        "struck": "Rp20.000",
+        "discount": [
+          "Hemat 25%"
+        ],
+        "active": "aktif selamanya",
+        "features": [
+          "✦Semua isi Plus",
+          "✦Aktif selamanya",
+          "✦Main Berdua (3 permainan)",
+          "✦Tampil di Papan Abadi (opsional)",
+          "✦Desain eksklusif bertanda khusus",
+          "✦Ucapan bareng (100 teman)",
+          "✦Kapsul waktu sampai 10 tahun"
+        ],
+        "cta": "Pilih Abadi",
+        "bg": "rgb(255, 244, 224)"
+      }
+    ],
+    "faqCount": 6,
+    "faqText": false,
+    "overflow": -15
+  },
+  "mobile": {
+    "heroBadge": [
+      "Halaman kejutan interaktif",
+      "Mulai Rp5.000",
+      "Kejutan kecil buat…",
+      "Pengirim"
+    ],
+    "heading": "Pilih sesuai umur kejutannya.",
+    "sub": "Sekali bayar, tanpa langganan. Paket lebih panjang membuka lebih banyak — dari Main Berdua ekstra sampai halaman yang aktif selamanya.",
+    "cards": [
+      {
+        "name": "Dasar",
+        "tagline": "Buat kejutan cepat",
+        "prices": [
+          "Rp5.000"
+        ],
+        "struck": null,
+        "discount": [],
+        "active": "aktif 3 hari",
+        "features": [
+          "✦Semua desain",
+          "✦Musik bawaan",
+          "✦Main Berdua (1 permainan)",
+          "✦Kartu QR",
+          "✦Simpan jadi gambar",
+          "✦Ucapan bareng (10 teman)",
+          "✦Kapsul waktu (≤ 30 hari)",
+          "✦Aktif 3 hari"
+        ],
+        "cta": "Pilih Dasar",
+        "bg": "rgb(255, 244, 224)"
+      },
+      {
+        "name": "Plus",
+        "tagline": "Paling laris",
+        "prices": [
+          "Rp10.000"
+        ],
+        "struck": null,
+        "discount": [
+          "Paling laris"
+        ],
+        "active": "aktif 14 hari",
+        "features": [
+          "✦Semua isi Dasar",
+          "✦Main Berdua (2 permainan)",
+          "✦Bisa diedit lagi",
+          "✦Voice note ≤ 1 menit",
+          "✦Lagu pilihan (Spotify)",
+          "✦Link custom",
+          "✦Ucapan bareng (50 teman)",
+          "✦Kapsul waktu (≤ 90 hari)",
+          "✦Aktif 14 hari"
+        ],
+        "cta": "Pilih Plus",
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "name": "Abadi",
+        "tagline": "Kenangan selamanya",
+        "prices": [
+          "Rp20.000 Rp15.000"
+        ],
+        "struck": "Rp20.000",
+        "discount": [
+          "Hemat 25%"
+        ],
+        "active": "aktif selamanya",
+        "features": [
+          "✦Semua isi Plus",
+          "✦Aktif selamanya",
+          "✦Main Berdua (3 permainan)",
+          "✦Tampil di Papan Abadi (opsional)",
+          "✦Desain eksklusif bertanda khusus",
+          "✦Ucapan bareng (100 teman)",
+          "✦Kapsul waktu sampai 10 tahun"
+        ],
+        "cta": "Pilih Abadi",
+        "bg": "rgb(255, 244, 224)"
+      }
+    ],
+    "faqCount": 6,
+    "faqText": false,
+    "overflow": 0
+  }
+}

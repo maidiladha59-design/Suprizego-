@@ -1,0 +1,40 @@
+{
+  "url": "https://proposigo.app/masuk?next=%2Fdasbor",
+  "title": "Masuk · Proposigo",
+  "text": "MASUK\n\nLanjut bikin kejutan.\n\nEMAIL\nPASSWORD\n\nLupa password?\n\nMASUKLANJUT DENGAN GOOGLE\n\nBelum punya akun? Masuk dengan Google berarti kamu berusia 13+ dan setuju Syarat & Kebijakan Privasi.\n\nBelum punya akun? Daftar",
+  "inputs": [
+    {
+      "type": "email",
+      "name": "email",
+      "id": "email",
+      "ph": "kamu@email.com",
+      "autocomplete": "email"
+    },
+    {
+      "type": "password",
+      "name": "password",
+      "id": "password",
+      "ph": "Minimal 8 karakter",
+      "autocomplete": "current-password"
+    }
+  ],
+  "buttons": [
+    "MASUK",
+    "LANJUT DENGAN GOOGLE",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Lupa password?",
+      "h": "/lupa-sandi"
+    },
+    {
+      "t": "Daftar",
+      "h": "/daftar?next=%2Fdasbor"
+    }
+  ]
+}

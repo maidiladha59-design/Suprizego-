@@ -1,0 +1,1159 @@
+{
+  "initial": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      2608,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "REKAM",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          185,
+          2638,
+          110,
+          42
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "UNGGAH AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          302,
+          2638,
+          160,
+          42
+        ],
+        "bg": "rgb(255, 244, 224)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": null,
+    "duration": null,
+    "playBox": null,
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAM UNGGAH AUDIO",
+    "overflow": -15
+  },
+  "startRecord": "REKAM",
+  "recordStarted": true,
+  "recording": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "SELESAI",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          634,
+          886,
+          103,
+          42
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "BATAL",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          745,
+          886,
+          87,
+          42
+        ],
+        "bg": "rgb(255, 244, 224)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": null,
+    "duration": null,
+    "playBox": null,
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS 0:03 sisa 0:57 SELESAI BATAL",
+    "overflow": -15
+  },
+  "stopRecord": "SELESAI",
+  "savedAfterStop": true,
+  "saved": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      840,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "aria": "Putar pesan suara",
+        "pressed": "false",
+        "disabled": false,
+        "box": [
+          196,
+          881,
+          40,
+          40
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "REKAM ULANG",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          196,
+          929,
+          123,
+          36
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "GANTI AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          326,
+          929,
+          113,
+          36
+        ],
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "HAPUS",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          448,
+          929,
+          73,
+          36
+        ],
+        "bg": "rgb(255, 106, 61)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": "Rekaman suara",
+    "duration": "Pesan suara · 0:03",
+    "playBox": [
+      196,
+      881,
+      40,
+      40
+    ],
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAMAN SUARA Pesan suara · 0:03 REKAM ULANG GANTI AUDIO HAPUS",
+    "overflow": -15
+  },
+  "idbAfterRecord": {
+    "count": 1,
+    "items": [
+      {
+        "id": "41fb7351-0547-4c05-a842-00d51c0cdee1",
+        "name": "Rekaman suara",
+        "mime": "audio/mp4;codecs=mp4a.40.2",
+        "duration": 3.252,
+        "size": 35642,
+        "key": "pengakuan:voice"
+      }
+    ]
+  },
+  "playing": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      840,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "aria": "Jeda pesan suara",
+        "pressed": "true",
+        "disabled": false,
+        "box": [
+          196,
+          881,
+          40,
+          40
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "REKAM ULANG",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          196,
+          929,
+          123,
+          36
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "GANTI AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          326,
+          929,
+          113,
+          36
+        ],
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "HAPUS",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          448,
+          929,
+          73,
+          36
+        ],
+        "bg": "rgb(255, 106, 61)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": "Rekaman suara",
+    "duration": "Pesan suara · 0:03",
+    "playBox": [
+      196,
+      881,
+      40,
+      40
+    ],
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAMAN SUARA Pesan suara · 0:03 REKAM ULANG GANTI AUDIO HAPUS",
+    "overflow": -15
+  },
+  "paused": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      840,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "aria": "Putar pesan suara",
+        "pressed": "false",
+        "disabled": false,
+        "box": [
+          196,
+          881,
+          40,
+          40
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "REKAM ULANG",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          196,
+          929,
+          123,
+          36
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "GANTI AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          326,
+          929,
+          113,
+          36
+        ],
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "HAPUS",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          448,
+          929,
+          73,
+          36
+        ],
+        "bg": "rgb(255, 106, 61)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": "Rekaman suara",
+    "duration": "Pesan suara · 0:03",
+    "playBox": [
+      196,
+      881,
+      40,
+      40
+    ],
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAMAN SUARA Pesan suara · 0:03 REKAM ULANG GANTI AUDIO HAPUS",
+    "overflow": -15
+  },
+  "persistedReload": true,
+  "afterReload": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "aria": "Putar pesan suara",
+        "pressed": "false",
+        "disabled": false,
+        "box": [
+          196,
+          897,
+          40,
+          40
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "REKAM ULANG",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          196,
+          945,
+          123,
+          36
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "GANTI AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          326,
+          945,
+          113,
+          36
+        ],
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "HAPUS",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          448,
+          945,
+          73,
+          36
+        ],
+        "bg": "rgb(255, 106, 61)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": "Rekaman suara",
+    "duration": "Pesan suara · 0:03",
+    "playBox": [
+      196,
+      897,
+      40,
+      40
+    ],
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAMAN SUARA Pesan suara · 0:03 REKAM ULANG GANTI AUDIO HAPUS",
+    "overflow": -15
+  },
+  "idbAfterReload": {
+    "count": 1,
+    "items": [
+      {
+        "id": "41fb7351-0547-4c05-a842-00d51c0cdee1",
+        "name": "Rekaman suara",
+        "mime": "audio/mp4;codecs=mp4a.40.2",
+        "duration": 3.252,
+        "size": 35642,
+        "key": "pengakuan:voice"
+      }
+    ]
+  },
+  "deleteClick": "HAPUS",
+  "afterDelete": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "REKAM",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          185,
+          886,
+          110,
+          42
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "UNGGAH AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          302,
+          886,
+          160,
+          42
+        ],
+        "bg": "rgb(255, 244, 224)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": null,
+    "duration": null,
+    "playBox": null,
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAM UNGGAH AUDIO",
+    "overflow": -15
+  },
+  "idbAfterDelete": {
+    "count": 0,
+    "items": []
+  },
+  "invalidType": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "REKAM",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          185,
+          886,
+          110,
+          42
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "UNGGAH AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          302,
+          886,
+          160,
+          42
+        ],
+        "bg": "rgb(255, 244, 224)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [
+      "Formatnya harus MP3, M4A, WAV, OGG, atau WebM."
+    ],
+    "name": null,
+    "duration": null,
+    "playBox": null,
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAM UNGGAH AUDIO Formatnya harus MP3, M4A, WAV, OGG, atau WebM.",
+    "overflow": -15
+  },
+  "uploaded": true,
+  "afterUpload": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "aria": "Putar pesan suara",
+        "pressed": "false",
+        "disabled": false,
+        "box": [
+          196,
+          897,
+          40,
+          40
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "REKAM ULANG",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          196,
+          945,
+          123,
+          36
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "GANTI AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          326,
+          945,
+          113,
+          36
+        ],
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "HAPUS",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          448,
+          945,
+          73,
+          36
+        ],
+        "bg": "rgb(255, 106, 61)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": "test-voice-ok.wav",
+    "duration": "Pesan suara · 0:02",
+    "playBox": [
+      196,
+      897,
+      40,
+      40
+    ],
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS TEST-VOICE-OK.WAV Pesan suara · 0:02 REKAM ULANG GANTI AUDIO HAPUS",
+    "overflow": -15
+  },
+  "idbAfterUpload": {
+    "count": 1,
+    "items": [
+      {
+        "id": "6836b82e-f927-4ed7-9e3c-5fc44e82dd45",
+        "name": "test-voice-ok.wav",
+        "mime": "audio/wav",
+        "duration": 2,
+        "size": 32044,
+        "key": "pengakuan:voice"
+      }
+    ]
+  },
+  "uploadPersisted": true,
+  "afterUploadReload": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "aria": "Putar pesan suara",
+        "pressed": "false",
+        "disabled": false,
+        "box": [
+          196,
+          897,
+          40,
+          40
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "REKAM ULANG",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          196,
+          945,
+          123,
+          36
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "GANTI AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          326,
+          945,
+          113,
+          36
+        ],
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "HAPUS",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          448,
+          945,
+          73,
+          36
+        ],
+        "bg": "rgb(255, 106, 61)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": "test-voice-ok.wav",
+    "duration": "Pesan suara · 0:02",
+    "playBox": [
+      196,
+      897,
+      40,
+      40
+    ],
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS TEST-VOICE-OK.WAV Pesan suara · 0:02 REKAM ULANG GANTI AUDIO HAPUS",
+    "overflow": -15
+  },
+  "idbAfterUploadReload": {
+    "count": 1,
+    "items": [
+      {
+        "id": "6836b82e-f927-4ed7-9e3c-5fc44e82dd45",
+        "name": "test-voice-ok.wav",
+        "mime": "audio/wav",
+        "duration": 2,
+        "size": 32044,
+        "key": "pengakuan:voice"
+      }
+    ]
+  },
+  "uploadTooLong": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "aria": "Putar pesan suara",
+        "pressed": "false",
+        "disabled": false,
+        "box": [
+          196,
+          897,
+          40,
+          40
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "REKAM ULANG",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          196,
+          945,
+          123,
+          36
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "GANTI AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          326,
+          945,
+          113,
+          36
+        ],
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "HAPUS",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          448,
+          945,
+          73,
+          36
+        ],
+        "bg": "rgb(255, 106, 61)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [
+      "Audionya lebih dari 1 menit. Potong dulu, ya."
+    ],
+    "name": "test-voice-ok.wav",
+    "duration": "Pesan suara · 0:02",
+    "playBox": [
+      196,
+      897,
+      40,
+      40
+    ],
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS TEST-VOICE-OK.WAV Pesan suara · 0:02 REKAM ULANG GANTI AUDIO HAPUS Audionya lebih dari 1 menit. Potong dulu, ya.",
+    "overflow": -15
+  },
+  "uploadTooBig": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "aria": "Putar pesan suara",
+        "pressed": "false",
+        "disabled": false,
+        "box": [
+          196,
+          897,
+          40,
+          40
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "REKAM ULANG",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          196,
+          945,
+          123,
+          36
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "GANTI AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          326,
+          945,
+          113,
+          36
+        ],
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "HAPUS",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          448,
+          945,
+          73,
+          36
+        ],
+        "bg": "rgb(255, 106, 61)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [
+      "Filenya lebih dari 5 MB. Pilih yang lebih kecil, ya."
+    ],
+    "name": "test-voice-ok.wav",
+    "duration": "Pesan suara · 0:02",
+    "playBox": [
+      196,
+      897,
+      40,
+      40
+    ],
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS TEST-VOICE-OK.WAV Pesan suara · 0:02 REKAM ULANG GANTI AUDIO HAPUS Filenya lebih dari 5 MB. Pilih yang lebih kecil, ya.",
+    "overflow": -15
+  },
+  "deleteUploaded": "HAPUS",
+  "afterDeleteUploaded": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "REKAM",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          185,
+          886,
+          110,
+          42
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "UNGGAH AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          302,
+          886,
+          160,
+          42
+        ],
+        "bg": "rgb(255, 244, 224)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": null,
+    "duration": null,
+    "playBox": null,
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAM UNGGAH AUDIO",
+    "overflow": -15
+  },
+  "idbAfterDeleteUploaded": {
+    "count": 0,
+    "items": []
+  },
+  "autoStopStart": "REKAM",
+  "autoStopStarted": true,
+  "autoStopTimer": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "SELESAI",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          634,
+          886,
+          103,
+          42
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "BATAL",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          745,
+          886,
+          87,
+          42
+        ],
+        "bg": "rgb(255, 244, 224)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": null,
+    "duration": null,
+    "playBox": null,
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS 0:01 sisa 0:59 SELESAI BATAL",
+    "overflow": -15
+  },
+  "autoStop": true,
+  "afterAutoStop": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "",
+        "aria": "Putar pesan suara",
+        "pressed": "false",
+        "disabled": false,
+        "box": [
+          196,
+          897,
+          40,
+          40
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "REKAM ULANG",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          196,
+          945,
+          123,
+          36
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "GANTI AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          326,
+          945,
+          113,
+          36
+        ],
+        "bg": "rgb(255, 255, 255)"
+      },
+      {
+        "text": "HAPUS",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          448,
+          945,
+          73,
+          36
+        ],
+        "bg": "rgb(255, 106, 61)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": "Rekaman suara",
+    "duration": "Pesan suara · 1:00",
+    "playBox": [
+      196,
+      897,
+      40,
+      40
+    ],
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAMAN SUARA Pesan suara · 1:00 REKAM ULANG GANTI AUDIO HAPUS",
+    "overflow": -15
+  },
+  "idbAfterAutoStop": {
+    "count": 1,
+    "items": [
+      {
+        "id": "6eb34830-e8e5-448f-8ffa-795b89993e07",
+        "name": "Rekaman suara",
+        "mime": "audio/mp4;codecs=mp4a.40.2",
+        "duration": 60,
+        "size": 751566,
+        "key": "pengakuan:voice"
+      }
+    ]
+  },
+  "resetClick": "ULANGI DARI AWAL",
+  "afterReset": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      185,
+      856,
+      648,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "REKAM",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          185,
+          886,
+          110,
+          42
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "UNGGAH AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          302,
+          886,
+          160,
+          42
+        ],
+        "bg": "rgb(255, 244, 224)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": null,
+    "duration": null,
+    "playBox": null,
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAM UNGGAH AUDIO",
+    "overflow": -15
+  },
+  "idbAfterReset": {
+    "count": 0,
+    "items": []
+  },
+  "mobile": {
+    "label": "Pesan suara (maks 1 menit)Plus",
+    "sticker": "Plus",
+    "labelBox": [
+      44,
+      626,
+      302,
+      22
+    ],
+    "buttons": [
+      {
+        "text": "REKAM",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          44,
+          656,
+          110,
+          42
+        ],
+        "bg": "rgb(182, 242, 46)"
+      },
+      {
+        "text": "UNGGAH AUDIO",
+        "aria": null,
+        "pressed": null,
+        "disabled": false,
+        "box": [
+          162,
+          656,
+          160,
+          42
+        ],
+        "bg": "rgb(255, 244, 224)"
+      }
+    ],
+    "accept": ".mp3,.m4a,.wav,.ogg,.webm,audio/mpeg,audio/mp4,audio/x-m4a,audio/wav,audio/ogg,audio/webm",
+    "fileLabel": "Unggah audio",
+    "statuses": [],
+    "name": null,
+    "duration": null,
+    "playBox": null,
+    "text": "6 SURAT PENUTUP Surat penutup 0/1500 PESAN SUARA (MAKS 1 MENIT) PLUS REKAM UNGGAH AUDIO",
+    "overflow": 0
+  }
+}

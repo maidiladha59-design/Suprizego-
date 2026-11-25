@@ -1,0 +1,174 @@
+{
+  "url": "https://proposigo.app/terms",
+  "title": "Syarat & Ketentuan · Proposigo",
+  "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.",
+  "robots": null,
+  "canonical": "https://proposigo.app/terms",
+  "og": {
+    "image": "https://proposigo.app/og/terms-id.png?v=3",
+    "title": "Proposigo",
+    "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "SYARAT & KETENTUAN",
+      "size": "36px",
+      "lh": "40px"
+    }
+  ],
+  "h2": [
+    "1. Penerimaan Ketentuan",
+    "2. Deskripsi Layanan",
+    "3. Akun dan Keamanan",
+    "4. Paket dan Pembayaran",
+    "5. Konten dan Kepemilikan",
+    "6. Penggunaan yang Dilarang",
+    "7. Pelaporan dan Penghapusan Konten",
+    "8. Masa Aktif dan Pengakhiran",
+    "9. Sanggahan dan Batas Tanggung Jawab",
+    "10. Hukum yang Berlaku",
+    "11. Perubahan Ketentuan",
+    "12. Hubungi Kami"
+  ],
+  "h3": [
+    "MOMEN",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "span",
+      "id": null,
+      "cls": "sticker bg-lime rotate-2",
+      "h": 39,
+      "text": "LEGAL"
+    },
+    {
+      "tag": "h1",
+      "id": null,
+      "cls": "mt-5 font-display text-4xl sm:text-5xl",
+      "h": 80,
+      "text": "SYARAT & KETENTUAN"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": "mt-3 text-sm font-bold opacity-70",
+      "h": 40,
+      "text": "Terakhir diperbarui: 10 November 2026 · Versi 1"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "mt-8",
+      "h": 4858,
+      "text": "1. Penerimaan Ketentuan Dengan mengakses atau menggunakan Proposigo, Anda menyetujui Syara"
+    }
+  ],
+  "text": "LEGAL SYARAT & KETENTUAN Terakhir diperbarui: 10 November 2026 · Versi 1 1. Penerimaan Ketentuan Dengan mengakses atau menggunakan Proposigo, Anda menyetujui Syarat & Ketentuan ini serta Kebijakan Privasi kami. Jika tidak setuju, mohon tidak menggunakan layanan. 2. Deskripsi Layanan Proposigo adalah platform untuk membuat halaman ucapan digital interaktif (cerita, foto, musik, suara) yang dapat dibagikan melalui satu tautan. Fitur dan masa aktif halaman mengikuti paket yang Anda pilih (Dasar, Plus, atau Abadi). 3. Akun dan Keamanan Anda dapat membuat akun dengan email dan kata sandi, atau masuk dengan Google. Anda bertanggung jawab menjaga kerahasiaan kredensial akun Anda dan atas semua aktivitas yang terjadi di akun Anda. Beri tahu kami segera jika mencurigai penggunaan tanpa izin. 4. Paket dan Pembayaran Harga mengikuti negara asal kunjungan Anda (dideteksi dari alamat IP), bukan bahasa situs: pengunjung dari Indonesia dan Malaysia melihat dan membayar dalam Rupiah (IDR), pengunjung dari negara lain dalam dolar AS (USD). Harga, mata uang, dan cara bayar keduanya dapat berbeda; yang berlaku adalah total yang tertera di halaman pembayaran sebelum Anda membayar. Pembayaran dalam Rupiah diproses oleh DOKU (QRIS, virtual account, dan metode lain di halaman DOKU). Pembayaran lewat virtual account dikenai biaya admin bank yang ditampilkan sebelum Anda membayar; QRIS tanpa biaya tambahan. Tagihan dapat tertulis atas nama Codevision, pengelola Proposigo. Pembayaran dalam USD diproses oleh Lemon Squeezy sebagai merchant of record (penjual resmi untuk transaksi tersebut). Lemon Squeezy menagih kartu, PayPal, Apple Pay, atau Google Pay Anda, menghitung dan memungut pajak penjualan/PPN yang berlaku di negara Anda, dan mengirim tanda terima. Syarat pembelian Lemon Squeezy juga berlaku, dan tagihan di laporan kartu dapat tertulis atas nama Lemon Squeezy. Setelah pembayaran dikonfirmasi, halaman Anda akan diaktifkan sesuai paket. Karena layanan bersifat digital dan langsung tersedia/dapat digunakan segera setelah pembayaran, pembayaran umumnya tidak dapat dikembalikan, kecuali diwajibkan oleh hukum yang berlaku atau terjadi kesalahan teknis yang dapat diverifikasi. Pengembalian dana yang disetujui dikirim lewat penyedia yang sama dengan pembayarannya (DOKU atau Lemon Squeezy). 5. Konten dan Kepemilikan Anda tetap memiliki hak atas konten yang Anda buat. Dengan mengunggah konten, Anda memberi kami lisensi terbatas untuk menyimpan, menampilkan, dan mengirimkan konten tersebut semata-mata guna menjalankan layanan (termasuk menampilkan halaman Anda kepada penerima). Anda bertanggung jawab penuh bahwa konten yang Anda unggah bersifat sah dan tidak melanggar hak pihak lain. 6. Penggunaan yang Dilarang Anda setuju untuk tidak menggunakan layanan untuk: Melecehkan, mengintimidasi, atau menyerang orang lain. Konten yang melanggar hukum, pornografi anak, atau materi yang melanggar hak cipta/merek/hak pihak lain. Spam, penipuan (phishing), atau penyalahgunaan massal. Mengganggu, meretas, atau membebani infrastruktur layanan secara tidak wajar. 7. Pelaporan dan Penghapusan Konten Setiap halaman memiliki tombol laporkan. Kami dapat meninjau konten yang dilaporkan dan, atas kebijakan kami, menghapus atau menonaktifkan halaman yang melanggar ketentuan ini tanpa pemberitahuan sebelumnya. 8. Masa Aktif dan Pengakhiran Halaman memiliki masa aktif sesuai paket. Setelah masa aktif berakhir, halaman tidak dapat diakses. Kami juga dapat menangguhkan atau menghentikan akun yang melanggar ketentuan ini. Anda dapat menghapus halaman atau akun kapan saja dari dasbor atau dengan menghubungi kami. 9. Sanggahan dan Batas Tanggung Jawab Layanan disediakan “sebagaimana adanya” tanpa jaminan dalam bentuk apa pun. Sejauh diizinkan hukum, Proposigo tidak bertanggung jawab atas kerugian tidak langsung, insidental, atau konsekuensial yang timbul dari penggunaan layanan. Tanggung jawab kami, dalam hal apa pun, tidak melebihi jumlah yang Anda bayarkan kepada kami. 10. Hukum yang Berlaku Ketentuan ini diatur oleh hukum Republik Indonesia. Sengketa yang timbul akan diselesaikan melalui musyawarah terlebih dahulu, dan bila tidak tercapai, melalui yurisdiksi yang berlaku. 11. Perubahan Ketentuan Kami dapat memperbarui ketentuan ini dari waktu ke waktu. Perubahan akan diumumkan melalui halaman ini. Dengan terus menggunakan layanan setelah perubahan, Anda dianggap menyetujui ketentuan yang diperbarui. 12. Hubungi Kami Untuk pertanyaan terkait ketentuan ini, hubungi kami di legal@proposigo.app atau melalui https://proposigo.app.",
+  "buttons": [
+    "Pengaturan cookie",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Momen",
+      "h": "/#momen"
+    },
+    {
+      "t": "Cara kerja",
+      "h": "/#cara-kerja"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Masuk",
+      "h": "/masuk"
+    },
+    {
+      "t": "BIKIN SEKARANG",
+      "h": "/buat"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    },
+    {
+      "t": "Confess",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "Ulang Tahun",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "Minta Maaf",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "Wisuda",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "Hari Spesial",
+      "h": "/hari"
+    },
+    {
+      "t": "Bikin halaman",
+      "h": "/buat"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide kata-kata & kejutan",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Dasbor",
+      "h": "/dasbor"
+    },
+    {
+      "t": "Syarat & Ketentuan",
+      "h": "/terms"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    }
+  ],
+  "jsonld": [],
+  "scrollH": 6211
+}

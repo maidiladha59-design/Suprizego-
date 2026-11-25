@@ -1,0 +1,1232 @@
+[
+  {
+    "name": "00",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 290.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "ADA TITIPAN BUAT…\n\nDINDA\n\n(ketuk amplopnya)"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n\nMainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.",
+    "buttons": [
+      {
+        "text": "",
+        "x": 887,
+        "y": 562,
+        "w": 288,
+        "h": 197
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><p class=\"mt-3 rounded-xl border-2 border-dashed border-ink/40 px-3 py-3 text-sm font-bold opacity-70\">Mainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima.</p></div>"
+  },
+  {
+    "name": "01",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nHAI, DINDA!\n\nRaka punya sesuatu buat kamu.\n\nBUKA →"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nHAI, DINDA!\n\nRaka punya sesuatu buat kamu.\n\nBUKA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1105,
+        "y": 293,
+        "w": 74,
+        "h": 31
+      },
+      {
+        "text": "BUKA →",
+        "x": 964,
+        "y": 750,
+        "w": 133,
+        "h": 59
+      }
+    ],
+    "logHTML": "<div class=\"mx-auto grid max-w-6xl items-center gap-x-12 gap-y-10 px-4 py-14 md:grid-cols-[1.15fr_1fr] md:py-20\"><div><span class=\"sticker bg-pink -rotate-2\">Halaman ucapan interaktif</span><h1 class=\"mt-5 font-display text-[2.6rem] leading-[0.95] sm:text-6xl lg:text-7xl\">BERANI<!-- --> <br>BILANG.<br><span class=\"mt-2 inline-block rotate-[-1.5deg] rounded-2xl border-4 border-ink bg-cream px-3 shadow-[6px_6px_0_#111]\">KAMI YANG BIKIN MOMENNYA.</span></h1><p class=\"mt-6 max-w-lg text-lg font-bold\">Bikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.</p><div class=\"mt-8 flex flex-wrap gap-4\"><a class=\"nb-btn ink text-lg\" href=\"/buat\">Bikin halaman</a><a class=\"nb-btn cream text-lg\" href=\"#momen\">Lihat momen</a><span class=\"sticker self-center -rotate-3 bg-pink text-sm\">mulai 5 ribu</span></div></div><div class=\"relative md:col-start-2 md:row-span-2 md:row-start-1\"><div class=\"mx-auto w-full max-w-[340px] \"><p class=\"mb-3 text-center\"><span class=\"sticker rotate-[-2deg] bg-cream text-xs\">ini beneran bisa dimainin 👇</span></p><div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 2 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border"
+  },
+  {
+    "name": "02",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nLANJUT BACA →"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nLANJUT BACA →\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1105,
+        "y": 293,
+        "w": 74,
+        "h": 31
+      },
+      {
+        "text": "LANJUT BACA →",
+        "x": 926,
+        "y": 650,
+        "w": 210,
+        "h": 59
+      }
+    ],
+    "logHTML": "<div class=\"mx-auto grid max-w-6xl items-center gap-x-12 gap-y-10 px-4 py-14 md:grid-cols-[1.15fr_1fr] md:py-20\"><div><span class=\"sticker bg-pink -rotate-2\">Halaman ucapan interaktif</span><h1 class=\"mt-5 font-display text-[2.6rem] leading-[0.95] sm:text-6xl lg:text-7xl\">BERANI<!-- --> <br>BILANG.<br><span class=\"mt-2 inline-block rotate-[-1.5deg] rounded-2xl border-4 border-ink bg-cream px-3 shadow-[6px_6px_0_#111]\">KAMI YANG BIKIN MOMENNYA.</span></h1><p class=\"mt-6 max-w-lg text-lg font-bold\">Bikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.</p><div class=\"mt-8 flex flex-wrap gap-4\"><a class=\"nb-btn ink text-lg\" href=\"/buat\">Bikin halaman</a><a class=\"nb-btn cream text-lg\" href=\"#momen\">Lihat momen</a><span class=\"sticker self-center -rotate-3 bg-pink text-sm\">mulai 5 ribu</span></div></div><div class=\"relative md:col-start-2 md:row-span-2 md:row-start-1\"><div class=\"mx-auto w-full max-w-[340px] \"><p class=\"mb-3 text-center\"><span class=\"sticker rotate-[-2deg] bg-cream text-xs\">ini beneran bisa dimainin 👇</span></p><div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 3 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 "
+  },
+  {
+    "name": "03",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nLANJUT BACA →"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1105,
+        "y": 293,
+        "w": 74,
+        "h": 31
+      },
+      {
+        "text": "LANJUT BACA →",
+        "x": 926,
+        "y": 705,
+        "w": 210,
+        "h": 59
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "04",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\n\nLANJUT BACA →"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1105,
+        "y": 293,
+        "w": 74,
+        "h": 31
+      },
+      {
+        "text": "LANJUT BACA →",
+        "x": 926,
+        "y": 760,
+        "w": 210,
+        "h": 59
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "05",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nCERITA DARI RAKA\n\nHai Dinda. Ini agak deg-degan, jadi aku bikin halaman ini.\n\nDari pertama kita ngobrol, hariku jadi lebih ramai.\n\nKamu ketawa di hal yang nggak lucu, dan aku suka itu.\n\nJadi... ada satu pertanyaan buat kamu.\n\nSELESAI BACA →"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1105,
+        "y": 293,
+        "w": 74,
+        "h": 31
+      },
+      {
+        "text": "SELESAI BACA →",
+        "x": 924,
+        "y": 806,
+        "w": 214,
+        "h": 59
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "06",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nKENANGAN\n\nSore itu di bukit\nBakso langganan\nFOTO LAIN\nLANJUT →\n\nketuk foto untuk menggeser"
+    },
+    "log": "HALAMAN UCAPAN INTERAKTIF\nBERANI\nBILANG.\nKAMI YANG BIKIN MOMENNYA.\n\nBikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.\n\nBIKIN HALAMAN\nLIHAT MOMEN\nMULAI 5 RIBU\n\nINI BENERAN BISA DIMAININ 👇\n\n♪NYALA\n\nKENANGAN\n\nSore itu di bukit\nBakso langganan\nFOTO LAIN\nLANJUT →\n\nketuk foto untuk menggeser\n\nPERMEN PINK\nCHAT MALAM\n↺ ULANG\n\nYANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1105,
+        "y": 293,
+        "w": 74,
+        "h": 31
+      },
+      {
+        "text": "FOTO LAIN",
+        "x": 907,
+        "y": 777,
+        "w": 113,
+        "h": 42
+      },
+      {
+        "text": "LANJUT →",
+        "x": 1032,
+        "y": 777,
+        "w": 122,
+        "h": 42
+      }
+    ],
+    "logHTML": "<div class=\"mx-auto grid max-w-6xl items-center gap-x-12 gap-y-10 px-4 py-14 md:grid-cols-[1.15fr_1fr] md:py-20\"><div><span class=\"sticker bg-pink -rotate-2\">Halaman ucapan interaktif</span><h1 class=\"mt-5 font-display text-[2.6rem] leading-[0.95] sm:text-6xl lg:text-7xl\">BERANI<!-- --> <br>BILANG.<br><span class=\"mt-2 inline-block rotate-[-1.5deg] rounded-2xl border-4 border-ink bg-cream px-3 shadow-[6px_6px_0_#111]\">KAMI YANG BIKIN MOMENNYA.</span></h1><p class=\"mt-6 max-w-lg text-lg font-bold\">Bikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.</p><div class=\"mt-8 flex flex-wrap gap-4\"><a class=\"nb-btn ink text-lg\" href=\"/buat\">Bikin halaman</a><a class=\"nb-btn cream text-lg\" href=\"#momen\">Lihat momen</a><span class=\"sticker self-center -rotate-3 bg-pink text-sm\">mulai 5 ribu</span></div></div><div class=\"relative md:col-start-2 md:row-span-2 md:row-start-1\"><div class=\"mx-auto w-full max-w-[340px] \"><p class=\"mb-3 text-center\"><span class=\"sticker rotate-[-2deg] bg-cream text-xs\">ini beneran bisa dimainin 👇</span></p><div data-demo=\"true\" class=\"relative flex min-h-[640px] flex-col overflow-hidden rounded-[2.4rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111] lg:block lg:h-[640px] lg:min-h-0\"><div class=\"relative w-full overflow-x-hidden overflow-y-auto h-full [scrollbar-width:none] [&amp;::-webkit-scrollbar]:hidden max-lg:flex max-lg:h-auto max-lg:flex-1 max-lg:flex-col max-lg:overflow-y-visible bg-dots\" style=\"background:#FF8FB8;color:#111\"><div class=\"relative z-[1] mx-auto flex max-w-[460px] flex-col pb-10 pt-5 min-h-full px-4 max-lg:w-full max-lg:flex-1\"><div class=\"mb-4 flex items-center justify-between gap-3\"><div class=\"flex min-w-0 flex-wrap gap-1.5\" aria-label=\"Bagian 4 dari 8\"><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:#111\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color: rgb(17, 17, 17); background: rgb(17, 17, 17);\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><span class=\"h-3 w-3 rounded-full border-2\" style=\"border-color:#111;background:transparent\"></span><s"
+  },
+  {
+    "name": "07",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\nKopi susu\nMatcha\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1105,
+        "y": 293,
+        "w": 74,
+        "h": 31
+      },
+      {
+        "text": "Es teh",
+        "x": 907,
+        "y": 586,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Kopi susu",
+        "x": 907,
+        "y": 654,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Matcha",
+        "x": 907,
+        "y": 722,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 832,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "08",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 1/2\n\nMinuman yang selalu aku pesan?\n\nEs teh\n✗\nKopi susu\n✓\nMatcha\n\nHmm, jawabannya \"Kopi susu\".\n\nSOAL BERIKUTNYA →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Es teh ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Kopi susu ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Matcha",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "SOAL BERIKUTNYA →",
+        "x": 904,
+        "y": 754,
+        "w": 254,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "09",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\nGrup kelas\nPerpus\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "♪NYALA",
+        "x": 1105,
+        "y": 293,
+        "w": 74,
+        "h": 31
+      },
+      {
+        "text": "Kantin",
+        "x": 907,
+        "y": 586,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas",
+        "x": 907,
+        "y": 654,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 722,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 832,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "10",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "11",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "12",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "13",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "14",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "15",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "16",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "17",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "18",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "19",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "20",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "21",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "22",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "23",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "24",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "25",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  },
+  {
+    "name": "26",
+    "url": "https://proposigo.app/",
+    "phone": {
+      "x": 860.6875,
+      "y": 267.421875,
+      "w": 340,
+      "h": 640,
+      "bg": "rgb(17, 17, 17)",
+      "text": "♪NYALA\n\nMAIN BERDUA · 1/2\n\nKUIS KENAL AKU\n\nSeberapa kenal kamu sama Raka? · 2/2\n\nPertama kali kita ngobrol di mana?\n\nKantin\n✗\nGrup kelas\n✓\nPerpus\n\nHmm, jawabannya \"Grup kelas\".\n\nLIHAT SKOR →\nlewati permainan ini"
+    },
+    "log": "YANG MASUK KE RAKA\n\nPENGIRIM\n👀\nDinda membuka halamanmu",
+    "buttons": [
+      {
+        "text": "Kantin ✗",
+        "x": 907,
+        "y": 454,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Grup kelas ✓",
+        "x": 907,
+        "y": 522,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "Perpus",
+        "x": 907,
+        "y": 590,
+        "w": 248,
+        "h": 56
+      },
+      {
+        "text": "LIHAT SKOR →",
+        "x": 935,
+        "y": 754,
+        "w": 192,
+        "h": 59
+      },
+      {
+        "text": "lewati permainan ini",
+        "x": 957,
+        "y": 843,
+        "w": 147,
+        "h": 16
+      }
+    ],
+    "logHTML": "<div class=\"nb-card bg-white p-4 max-w-md self-start rotate-[0.6deg] md:col-start-1 md:row-start-2\" aria-live=\"polite\"><div class=\"flex items-center justify-between gap-2\"><p class=\"font-display text-lg leading-tight\">YANG MASUK KE<!-- --> <!-- -->RAKA</p><span class=\"sticker bg-lime text-[10px]\">pengirim</span></div><ul class=\"mt-3 space-y-2\"><li class=\"flex animate-rise items-start gap-2 rounded-xl border-[3px] border-ink bg-cream px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]\"><span aria-hidden=\"true\">👀</span><span>Dinda membuka halamanmu</span></li></ul></div>"
+  }
+]

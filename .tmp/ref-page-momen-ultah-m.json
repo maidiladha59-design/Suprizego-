@@ -1,0 +1,202 @@
+{
+  "url": "https://proposigo.app/momen/ultah",
+  "title": "Halaman ucapan ulang tahun digital interaktif · Proposigo",
+  "desc": "Kirim ucapan ulang tahun yang beda: halaman interaktif dengan lilin yang bisa ditiup, foto, dan surat spesial.",
+  "robots": null,
+  "canonical": "https://proposigo.app/momen/ultah",
+  "og": {
+    "image": "https://proposigo.app/og/momen-ultah-id.png?v=3",
+    "title": "Halaman ucapan ulang tahun digital interaktif",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "HALAMAN UCAPAN ULANG TAHUN DIGITAL INTERAKTIF",
+      "cls": "mt-4 font-display text-4xl leading-tight sm:text-5xl",
+      "size": "36px",
+      "lh": "45px",
+      "family": "\"Archivo Black\""
+    }
+  ],
+  "h2": [
+    "PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ",
+    "DUA DESAIN, SATU KEJUTAN",
+    "BUAT SIAPA?"
+  ],
+  "h3": [
+    "CONTOH CERITA",
+    "MOMEN",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "grid items-center gap-10 md:grid-cols-[1fr_340px]",
+      "h": 1577,
+      "text": "ULANG TAHUN HALAMAN UCAPAN ULANG TAHUN DIGITAL INTERAKTIF Kirim ucapan ulang tah"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mt-20",
+      "h": 1041,
+      "text": "MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isiny"
+    },
+    {
+      "tag": "h2",
+      "id": null,
+      "cls": "mt-16 font-display text-3xl",
+      "h": 72,
+      "text": "DUA DESAIN, SATU KEJUTAN"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "mt-6 grid gap-6 sm:grid-cols-2",
+      "h": 320,
+      "text": "PESTA KONFETI Ceria, warna-warni KUE CORAL Hangat ala toko kue"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mt-12",
+      "h": 181,
+      "text": "BUAT SIAPA? UCAPAN ULANG TAHUN UNTUK PACAR → UCAPAN ULANG TAHUN UNTUK SAHABAT → "
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "nb-card mt-12 bg-white p-6",
+      "h": 284,
+      "text": "CONTOH CERITA Selamat ulang tahun, Sari! Satu tahun lagi, satu level lebih keren"
+    }
+  ],
+  "text": "ULANG TAHUN HALAMAN UCAPAN ULANG TAHUN DIGITAL INTERAKTIF Kirim ucapan ulang tahun yang beda: halaman interaktif dengan lilin yang bisa ditiup, foto, dan surat spesial. BIKIN HALAMAN ULTAH INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… SARI (ketuk amplopnya) PESTA KONFETI KUE CORAL ↺ ULANG YANG MASUK KE BIMA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Sari lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. MAIN BERDUA PERMAINAN YANG KAMU BIKIN, DIA YANG MAININ Empat permainan ini isinya kamu yang tulis: pertanyaanmu, fotomu, rencanamu. Coba semuanya di bawah, dan lihat hasil apa yang sampai ke kamu. KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu. DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana. SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi. RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari. KUIS KENAL AKU Seberapa kenal kamu sama Bima? · 1/2 Kado pertama dariku buat kamu? Gantungan kunci Buku Cokelat MASUK KE BIMA Selesaikan permainannya, hasilnya dikirim ke dasbor dan email pengirim. DUA DESAIN, SATU KEJUTAN PESTA KONFETI Ceria, warna-warni KUE CORAL Hangat ala toko kue BUAT SIAPA? UCAPAN ULANG TAHUN UNTUK PACAR → UCAPAN ULANG TAHUN UNTUK SAHABAT → UCAPAN ULANG TAHUN UNTUK IBU → CONTOH CERITA Selamat ulang tahun, Sari! Satu tahun lagi, satu level lebih keren. Semoga semua yang kamu tunggu datang tepat waktu.",
+  "buttons": [
+    "PESTA KONFETI",
+    "KUE CORAL",
+    "↺ ULANG",
+    "KUIS KENAL AKU Kamu bikin pertanyaan tentang dirimu, dia yang jawab. Skornya dikirim ke kamu.",
+    "DUA JUJUR SATU BOHONG Tulis tiga hal tentang kalian. Satu bohong, dia harus menebak yang mana.",
+    "SUSUN FOTO Salah satu fotomu diacak jadi 9 keping. Dia menyusunnya sampai utuh lagi.",
+    "RENCANA BARENG Kasih pilihan rencana. Yang dia pilih jadi tiket janji, dan kamu langsung dikabari.",
+    "Gantungan kunci",
+    "Buku",
+    "Cokelat",
+    "Pengaturan cookie",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Momen",
+      "h": "/#momen"
+    },
+    {
+      "t": "Cara kerja",
+      "h": "/#cara-kerja"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Masuk",
+      "h": "/masuk"
+    },
+    {
+      "t": "BIKIN SEKARANG",
+      "h": "/buat"
+    },
+    {
+      "t": "BIKIN HALAMAN ULTAH",
+      "h": "/buat/ultah"
+    },
+    {
+      "t": "UCAPAN ULANG TAHUN UNTUK PACAR →",
+      "h": "/momen/ultah/pacar"
+    },
+    {
+      "t": "UCAPAN ULANG TAHUN UNTUK SAHABAT →",
+      "h": "/momen/ultah/sahabat"
+    },
+    {
+      "t": "UCAPAN ULANG TAHUN UNTUK IBU →",
+      "h": "/momen/ultah/ibu"
+    },
+    {
+      "t": "Confess",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "Ulang Tahun",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "Minta Maaf",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "Wisuda",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "Hari Spesial",
+      "h": "/hari"
+    },
+    {
+      "t": "Bikin halaman",
+      "h": "/buat"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide kata-kata & kejutan",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Dasbor",
+      "h": "/dasbor"
+    },
+    {
+      "t": "Syarat & Ketentuan",
+      "h": "/terms"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    }
+  ],
+  "scrollH": 4872
+}

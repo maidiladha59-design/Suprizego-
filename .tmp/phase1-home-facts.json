@@ -1,0 +1,1835 @@
+{
+  "title": "Proposigo · Halaman ucapan digital interaktif",
+  "lang": "id",
+  "meta": {
+    "theme-color": "#B6F22E",
+    "description": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.",
+    "og:title": "Proposigo",
+    "og:description": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.",
+    "og:url": "https://proposigo.app",
+    "og:site_name": "Proposigo",
+    "og:locale": "id_ID",
+    "og:image": "https://proposigo.app/og/home-id.png?v=3",
+    "og:image:width": "1200",
+    "og:image:height": "630",
+    "og:image:alt": "Proposigo",
+    "og:locale:alternate": "en_US",
+    "og:type": "website",
+    "twitter:card": "summary_large_image",
+    "twitter:title": "Proposigo",
+    "twitter:description": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif dalam 5 menit, kirim satu link.",
+    "twitter:image": "https://proposigo.app/og/home-id.png?v=3"
+  },
+  "favicons": [
+    "/favicon.ico?favicon.2nki4q5dqvxok.ico",
+    "/icon.png?icon.2nhz4ah9o7udf.png",
+    "/apple-icon.png?apple-icon.0h0bmzwwdr0ln.png"
+  ],
+  "canonical": "https://proposigo.app/",
+  "header": {
+    "tag": "header",
+    "text": "Momen Cara kerja Harga Ide Papan Abadi Masuk BIKIN SEKARANG",
+    "href": null,
+    "rect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 72
+    },
+    "bg": "lab(96.6656 1.39618 11.0618 / 0.95)",
+    "color": "rgb(17, 17, 17)",
+    "radius": "0px",
+    "border": "0px solid rgb(17, 17, 17)",
+    "shadow": "none",
+    "family": "\"Space Mono\"",
+    "size": "16px",
+    "weight": "400",
+    "transform": "none",
+    "position": "sticky"
+  },
+  "headerLinks": [
+    {
+      "tag": "a",
+      "text": "",
+      "href": "/",
+      "rect": {
+        "x": 160,
+        "y": 12,
+        "w": 189,
+        "h": 44
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Momen",
+      "href": "/#momen",
+      "rect": {
+        "x": 507,
+        "y": 24,
+        "w": 43,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Cara kerja",
+      "href": "/#cara-kerja",
+      "rect": {
+        "x": 573,
+        "y": 24,
+        "w": 86,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Harga",
+      "href": "/#harga",
+      "rect": {
+        "x": 683,
+        "y": 24,
+        "w": 43,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Ide",
+      "href": "/ide",
+      "rect": {
+        "x": 750,
+        "y": 24,
+        "w": 26,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Papan Abadi",
+      "href": "/papan",
+      "rect": {
+        "x": 800,
+        "y": 24,
+        "w": 94,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Masuk",
+      "href": "/masuk",
+      "rect": {
+        "x": 1052,
+        "y": 24,
+        "w": 43,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "BIKIN SEKARANG",
+      "href": "/buat",
+      "rect": {
+        "x": 1106,
+        "y": 13,
+        "w": 174,
+        "h": 42
+      },
+      "bg": "rgb(182, 242, 46)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "12px",
+      "border": "3px solid rgb(17, 17, 17)",
+      "shadow": "rgb(17, 17, 17) 4px 4px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "13.6px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    }
+  ],
+  "h1": [
+    {
+      "tag": "h1",
+      "text": "BERANI BILANG. KAMI YANG BIKIN MOMENNYA.",
+      "href": null,
+      "rect": {
+        "x": 160,
+        "y": 252,
+        "w": 573,
+        "h": 358
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Archivo Black\"",
+      "size": "72px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static",
+      "html": "h1"
+    }
+  ],
+  "heroSection": {
+    "text": "HALAMAN UCAPAN INTERAKTIF BERANI BILANG. KAMI YANG BIKIN MOMENNYA. Bikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu. BIKIN HALAMAN LIHAT MOMEN MULAI 5 RIBU INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… DINDA (ketuk amplopnya) PERMEN PINK CHAT MALAM ↺ ULANG YANG MASUK KE RAKA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti ya",
+    "cls": "bg-lime bg-stripes border-b-4 border-ink",
+    "html": "<section class=\"bg-lime bg-stripes border-b-4 border-ink\"><div class=\"mx-auto grid max-w-6xl items-center gap-x-12 gap-y-10 px-4 py-14 md:grid-cols-[1.15fr_1fr] md:py-20\"><div><span class=\"sticker bg-pink -rotate-2\">Halaman ucapan interaktif</span><h1 class=\"mt-5 font-display text-[2.6rem] leading-[0.95] sm:text-6xl lg:text-7xl\">BERANI<!-- --> <br>BILANG.<br><span class=\"mt-2 inline-block rotate-[-1.5deg] rounded-2xl border-4 border-ink bg-cream px-3 shadow-[6px_6px_0_#111]\">KAMI YANG BIKIN MOMENNYA.</span></h1><p class=\"mt-6 max-w-lg text-lg font-bold\">Bikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu.</p><div class=\"mt-8 flex flex-wrap gap-4\"><a class=\"nb-btn ink text-lg\" href=\"/buat\">Bikin halaman</a><a class=\"nb-btn cream text-lg\" href=\"#momen\">Lihat momen</a><span class=\"sticker self-center -rotate-3 bg-pink text-sm\">mulai 5 ribu</span></div></div><div class=\"relative md:col-start-2 md:row-span-2 md:row-start-1\"><div class=\"mx-auto w-full max-w-[340px] \"><p class=\"mb-3 text-center\"><span class=\"sticker rotate-[-2deg] bg-cream text-xs\">ini beneran bisa dimainin 👇"
+  },
+  "demoMentions": {
+    "demo": [],
+    "demoButtons": [],
+    "iframes": []
+  },
+  "sections": [
+    {
+      "id": "",
+      "cls": "bg-lime bg-stripes border-b-4 border-ink",
+      "text": "HALAMAN UCAPAN INTERAKTIF BERANI BILANG. KAMI YANG BIKIN MOMENNYA. Bikin halaman kejutan (",
+      "y": 116,
+      "h": 1065
+    },
+    {
+      "id": "momen",
+      "cls": "mx-auto max-w-6xl scroll-mt-24 px-4 py-20",
+      "text": "MOMEN APA? Lima momen, masing-masing punya kejutan interaktifnya sendiri. CONFESS → Berani",
+      "y": 1237,
+      "h": 1088
+    },
+    {
+      "id": "hari-spesial",
+      "cls": "scroll-mt-24 mx-auto max-w-6xl px-4",
+      "text": "HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang, atau paka",
+      "y": 2409,
+      "h": 744
+    },
+    {
+      "id": "cara-kerja",
+      "cls": "scroll-mt-24 border-y-4 border-ink bg-pink bg-dots py-20",
+      "text": "3 LANGKAH, SELESAI. 1 PILIH MOMEN Pilih momen dan desainnya. Pratinjau berisi contoh, jadi",
+      "y": 3233,
+      "h": 492
+    },
+    {
+      "id": "",
+      "cls": "mx-auto max-w-6xl px-4 py-20",
+      "text": "BUKAN SEKADAR LINK. DIKABARI Email masuk saat halamanmu dibuka dan saat dia menjawab. GERA",
+      "y": 3726,
+      "h": 392
+    },
+    {
+      "id": "harga",
+      "cls": "scroll-mt-24 border-y-4 border-ink bg-lime bg-stripes py-20",
+      "text": "HARGANYA RINGAN. Sekali bayar. Beda paket = beda lama aktif. DASAR Buat kejutan cepat Rp5.",
+      "y": 4118,
+      "h": 835
+    },
+    {
+      "id": "",
+      "cls": "mx-auto max-w-3xl px-4 py-20",
+      "text": "MASIH PENASARAN? Penerimanya perlu akun atau install aplikasi? Berapa lama bikinnya? Aku t",
+      "y": 4953,
+      "h": 684
+    },
+    {
+      "id": "",
+      "cls": "mx-auto max-w-5xl px-4",
+      "text": "UDAH SIAP BILANG? Pratinjaunya gratis. Bayar baru saat kamu puas. BIKIN HALAMAN",
+      "y": 5637,
+      "h": 248
+    }
+  ],
+  "links": [
+    {
+      "tag": "a",
+      "text": "",
+      "href": "/",
+      "rect": {
+        "x": 160,
+        "y": 12,
+        "w": 189,
+        "h": 44
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Momen",
+      "href": "/#momen",
+      "rect": {
+        "x": 507,
+        "y": 24,
+        "w": 43,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Cara kerja",
+      "href": "/#cara-kerja",
+      "rect": {
+        "x": 573,
+        "y": 24,
+        "w": 86,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Harga",
+      "href": "/#harga",
+      "rect": {
+        "x": 683,
+        "y": 24,
+        "w": 43,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Ide",
+      "href": "/ide",
+      "rect": {
+        "x": 750,
+        "y": 24,
+        "w": 26,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Papan Abadi",
+      "href": "/papan",
+      "rect": {
+        "x": 800,
+        "y": 24,
+        "w": 94,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Masuk",
+      "href": "/masuk",
+      "rect": {
+        "x": 1052,
+        "y": 24,
+        "w": 43,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "BIKIN SEKARANG",
+      "href": "/buat",
+      "rect": {
+        "x": 1106,
+        "y": 13,
+        "w": 174,
+        "h": 42
+      },
+      "bg": "rgb(182, 242, 46)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "12px",
+      "border": "3px solid rgb(17, 17, 17)",
+      "shadow": "rgb(17, 17, 17) 4px 4px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "13.6px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "📚 Hari Guru sebentar lagi! Bikin halaman bertema Hari Guru sekarang →",
+      "href": "/buat/rayakan?hari=hariguru",
+      "rect": {
+        "x": 0,
+        "y": 72,
+        "w": 1440,
+        "h": 44
+      },
+      "bg": "rgb(255, 201, 60)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "BIKIN HALAMAN",
+      "href": "/buat",
+      "rect": {
+        "x": 160,
+        "y": 778,
+        "w": 223,
+        "h": 63
+      },
+      "bg": "rgb(17, 17, 17)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "16px",
+      "border": "4px solid rgb(17, 17, 17)",
+      "shadow": "rgb(182, 242, 46) 6px 6px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "18px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "LIHAT MOMEN",
+      "href": "#momen",
+      "rect": {
+        "x": 399,
+        "y": 778,
+        "w": 201,
+        "h": 63
+      },
+      "bg": "rgb(255, 244, 224)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "16px",
+      "border": "4px solid rgb(17, 17, 17)",
+      "shadow": "rgb(17, 17, 17) 6px 6px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "18px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "CONFESS → Berani bilang suka, tombol Nggak-nya kabur. ✦ tombol Nggak-nya kabur P",
+      "href": "/momen/confess",
+      "rect": {
+        "x": 160,
+        "y": 1465,
+        "w": 352,
+        "h": 374
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "relative"
+    },
+    {
+      "tag": "a",
+      "text": "ULANG TAHUN → Tiup lilin virtual, kejutan ceria. ✦ lilin ditiup pakai mik",
+      "href": "/momen/ultah",
+      "rect": {
+        "x": 544,
+        "y": 1465,
+        "w": 352,
+        "h": 374
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "relative"
+    },
+    {
+      "tag": "a",
+      "text": "ANNIVERSARY → Hitung hari bareng, tahan hati sampai penuh. ✦ tahan hatinya sampa",
+      "href": "/momen/anniv",
+      "rect": {
+        "x": 928,
+        "y": 1465,
+        "w": 352,
+        "h": 374
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "relative"
+    },
+    {
+      "tag": "a",
+      "text": "MINTA MAAF → Maaf yang tulus, jawabannya langsung sampai. ✦ dijawab: dimaafkan /",
+      "href": "/momen/maaf",
+      "rect": {
+        "x": 160,
+        "y": 1871,
+        "w": 352,
+        "h": 374
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "relative"
+    },
+    {
+      "tag": "a",
+      "text": "WISUDA → Lempar toga, buka gulungan ijazah. ✦ toganya dilempar",
+      "href": "/momen/wisuda",
+      "rect": {
+        "x": 544,
+        "y": 1871,
+        "w": 352,
+        "h": 374
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "relative"
+    },
+    {
+      "tag": "a",
+      "text": "HARI GURU",
+      "href": "/hari/hari-guru",
+      "rect": {
+        "x": 184,
+        "y": 2624,
+        "w": 153,
+        "h": 32
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Archivo Black\"",
+      "size": "24px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Contoh ucapannya →",
+      "href": "/hari/hari-guru",
+      "rect": {
+        "x": 184,
+        "y": 2659,
+        "w": 309,
+        "h": 16
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "12px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "🎉 Rayakan Terima kasih, Bu/Pak Guru →",
+      "href": "/buat/rayakan?hari=hariguru",
+      "rect": {
+        "x": 184,
+        "y": 2691,
+        "w": 309,
+        "h": 58
+      },
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "16px",
+      "border": "3px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "🙏 Minta maaf Maaf dulu suka bandel di kelas →",
+      "href": "/buat/maaf?hari=hariguru",
+      "rect": {
+        "x": 184,
+        "y": 2757,
+        "w": 309,
+        "h": 58
+      },
+      "bg": "rgb(255, 255, 255)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "16px",
+      "border": "3px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "HARI IBU",
+      "href": "/hari/hari-ibu",
+      "rect": {
+        "x": 565,
+        "y": 2624,
+        "w": 122,
+        "h": 32
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Archivo Black\"",
+      "size": "24px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Contoh ucapannya →",
+      "href": "/hari/hari-ibu",
+      "rect": {
+        "x": 565,
+        "y": 2659,
+        "w": 309,
+        "h": 16
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "12px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "NATAL",
+      "href": "/hari/natal",
+      "rect": {
+        "x": 947,
+        "y": 2624,
+        "w": 87,
+        "h": 32
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Archivo Black\"",
+      "size": "24px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Contoh ucapannya →",
+      "href": "/hari/natal",
+      "rect": {
+        "x": 947,
+        "y": 2659,
+        "w": 309,
+        "h": 16
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "12px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "TAHUN BARU",
+      "href": "/hari/tahun-baru",
+      "rect": {
+        "x": 184,
+        "y": 2938,
+        "w": 178,
+        "h": 32
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Archivo Black\"",
+      "size": "24px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Contoh ucapannya →",
+      "href": "/hari/tahun-baru",
+      "rect": {
+        "x": 184,
+        "y": 2973,
+        "w": 309,
+        "h": 16
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "12px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "IMLEK",
+      "href": "/hari/imlek",
+      "rect": {
+        "x": 565,
+        "y": 2938,
+        "w": 85,
+        "h": 32
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Archivo Black\"",
+      "size": "24px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Contoh ucapannya →",
+      "href": "/hari/imlek",
+      "rect": {
+        "x": 565,
+        "y": 2973,
+        "w": 309,
+        "h": 16
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "12px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "VALENTINE",
+      "href": "/hari/valentine",
+      "rect": {
+        "x": 947,
+        "y": 2938,
+        "w": 153,
+        "h": 32
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Archivo Black\"",
+      "size": "24px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Contoh ucapannya →",
+      "href": "/hari/valentine",
+      "rect": {
+        "x": 947,
+        "y": 2973,
+        "w": 309,
+        "h": 16
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "12px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "PILIH DASAR",
+      "href": "/buat",
+      "rect": {
+        "x": 188,
+        "y": 4782,
+        "w": 296,
+        "h": 59
+      },
+      "bg": "rgb(255, 244, 224)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "16px",
+      "border": "4px solid rgb(17, 17, 17)",
+      "shadow": "rgb(17, 17, 17) 6px 6px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "PILIH PLUS",
+      "href": "/buat",
+      "rect": {
+        "x": 572,
+        "y": 4766,
+        "w": 296,
+        "h": 59
+      },
+      "bg": "rgb(182, 242, 46)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "16px",
+      "border": "4px solid rgb(17, 17, 17)",
+      "shadow": "rgb(17, 17, 17) 6px 6px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "PILIH ABADI",
+      "href": "/buat",
+      "rect": {
+        "x": 956,
+        "y": 4782,
+        "w": 296,
+        "h": 59
+      },
+      "bg": "rgb(255, 244, 224)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "16px",
+      "border": "4px solid rgb(17, 17, 17)",
+      "shadow": "rgb(17, 17, 17) 6px 6px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "BIKIN HALAMAN",
+      "href": "/buat",
+      "rect": {
+        "x": 452,
+        "y": 5777,
+        "w": 205,
+        "h": 59
+      },
+      "bg": "rgb(17, 17, 17)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "16px",
+      "border": "4px solid rgb(17, 17, 17)",
+      "shadow": "rgb(182, 242, 46) 6px 6px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Confess",
+      "href": "/momen/confess",
+      "rect": {
+        "x": 547,
+        "y": 6072,
+        "w": 60,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Ulang Tahun",
+      "href": "/momen/ultah",
+      "rect": {
+        "x": 547,
+        "y": 6100,
+        "w": 94,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Anniversary",
+      "href": "/momen/anniv",
+      "rect": {
+        "x": 547,
+        "y": 6128,
+        "w": 94,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Minta Maaf",
+      "href": "/momen/maaf",
+      "rect": {
+        "x": 547,
+        "y": 6156,
+        "w": 86,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Wisuda",
+      "href": "/momen/wisuda",
+      "rect": {
+        "x": 547,
+        "y": 6184,
+        "w": 51,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Hari Spesial",
+      "href": "/hari",
+      "rect": {
+        "x": 547,
+        "y": 6212,
+        "w": 103,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Bikin halaman",
+      "href": "/buat",
+      "rect": {
+        "x": 933,
+        "y": 6072,
+        "w": 111,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Harga",
+      "href": "/#harga",
+      "rect": {
+        "x": 933,
+        "y": 6100,
+        "w": 43,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Ide kata-kata & kejutan",
+      "href": "/ide",
+      "rect": {
+        "x": 933,
+        "y": 6128,
+        "w": 197,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Papan Abadi",
+      "href": "/papan",
+      "rect": {
+        "x": 933,
+        "y": 6156,
+        "w": 94,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Dasbor",
+      "href": "/dasbor",
+      "rect": {
+        "x": 933,
+        "y": 6184,
+        "w": 51,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Syarat & Ketentuan",
+      "href": "/terms",
+      "rect": {
+        "x": 933,
+        "y": 6212,
+        "w": 154,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "a",
+      "text": "Kebijakan Privasi",
+      "href": "/privacy",
+      "rect": {
+        "x": 933,
+        "y": 6240,
+        "w": 146,
+        "h": 21
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    }
+  ],
+  "buttons": [
+    {
+      "tag": "button",
+      "text": "",
+      "href": null,
+      "rect": {
+        "x": 887,
+        "y": 562,
+        "w": 288,
+        "h": 197
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "16px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "button",
+      "text": "PERMEN PINK",
+      "href": null,
+      "rect": {
+        "x": 883,
+        "y": 950,
+        "w": 146,
+        "h": 42
+      },
+      "bg": "rgb(182, 242, 46)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "12px",
+      "border": "3px solid rgb(17, 17, 17)",
+      "shadow": "rgb(17, 17, 17) 4px 4px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "13.6px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "button",
+      "text": "CHAT MALAM",
+      "href": null,
+      "rect": {
+        "x": 1037,
+        "y": 950,
+        "w": 141,
+        "h": 42
+      },
+      "bg": "rgb(255, 244, 224)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "12px",
+      "border": "3px solid rgb(17, 17, 17)",
+      "shadow": "rgb(17, 17, 17) 4px 4px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "13.6px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "button",
+      "text": "↺ ULANG",
+      "href": null,
+      "rect": {
+        "x": 977,
+        "y": 1001,
+        "w": 108,
+        "h": 42
+      },
+      "bg": "rgb(255, 244, 224)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "12px",
+      "border": "3px solid rgb(17, 17, 17)",
+      "shadow": "rgb(17, 17, 17) 4px 4px 0px 0px",
+      "family": "\"Archivo Black\"",
+      "size": "13.6px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "button",
+      "text": "Pengaturan cookie",
+      "href": null,
+      "rect": {
+        "x": 933,
+        "y": 6269,
+        "w": 146,
+        "h": 20
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "14px",
+      "weight": "400",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "button",
+      "text": "Bahasa Indonesia",
+      "href": null,
+      "rect": {
+        "x": 1061,
+        "y": 6357,
+        "w": 142,
+        "h": 28
+      },
+      "bg": "rgb(255, 244, 224)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "0px",
+      "border": "0px solid rgb(17, 17, 17)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "12px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "button",
+      "text": "English",
+      "href": null,
+      "rect": {
+        "x": 1203,
+        "y": 6357,
+        "w": 75,
+        "h": 28
+      },
+      "bg": "rgba(0, 0, 0, 0)",
+      "color": "rgb(255, 244, 224)",
+      "radius": "0px",
+      "border": "0px solid rgb(255, 244, 224)",
+      "shadow": "none",
+      "family": "\"Space Mono\"",
+      "size": "12px",
+      "weight": "700",
+      "transform": "none",
+      "position": "static"
+    },
+    {
+      "tag": "button",
+      "text": "💬",
+      "href": null,
+      "rect": {
+        "x": 1360,
+        "y": 920,
+        "w": 56,
+        "h": 56
+      },
+      "bg": "rgb(182, 242, 46)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "3.35544e+07px",
+      "border": "3px solid rgb(17, 17, 17)",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 3px 3px 0px 0px",
+      "family": "\"Space Mono\"",
+      "size": "20px",
+      "weight": "400",
+      "transform": "none",
+      "position": "fixed"
+    }
+  ],
+  "footer": {
+    "text": "Berani bilang, kami yang bikin momennya. Halaman ucapan digital interaktif. MOMEN Confess Ulang Tahun Anniversary Minta Maaf Wisuda Hari Spesial PROPOSIGO Bikin halaman Harga Ide kata-kata & kejutan Papan Abadi Dasbor Syarat & Ketentuan Kebijakan Privasi Pengaturan cookie © 2026 Proposigo · dibuat dengan deg-degan Bahasa Indonesia English",
+    "links": [
+      {
+        "tag": "a",
+        "text": "Confess",
+        "href": "/momen/confess",
+        "rect": {
+          "x": 547,
+          "y": 6072,
+          "w": 60,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Ulang Tahun",
+        "href": "/momen/ultah",
+        "rect": {
+          "x": 547,
+          "y": 6100,
+          "w": 94,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Anniversary",
+        "href": "/momen/anniv",
+        "rect": {
+          "x": 547,
+          "y": 6128,
+          "w": 94,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Minta Maaf",
+        "href": "/momen/maaf",
+        "rect": {
+          "x": 547,
+          "y": 6156,
+          "w": 86,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Wisuda",
+        "href": "/momen/wisuda",
+        "rect": {
+          "x": 547,
+          "y": 6184,
+          "w": 51,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Hari Spesial",
+        "href": "/hari",
+        "rect": {
+          "x": 547,
+          "y": 6212,
+          "w": 103,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Bikin halaman",
+        "href": "/buat",
+        "rect": {
+          "x": 933,
+          "y": 6072,
+          "w": 111,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Harga",
+        "href": "/#harga",
+        "rect": {
+          "x": 933,
+          "y": 6100,
+          "w": 43,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Ide kata-kata & kejutan",
+        "href": "/ide",
+        "rect": {
+          "x": 933,
+          "y": 6128,
+          "w": 197,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Papan Abadi",
+        "href": "/papan",
+        "rect": {
+          "x": 933,
+          "y": 6156,
+          "w": 94,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Dasbor",
+        "href": "/dasbor",
+        "rect": {
+          "x": 933,
+          "y": 6184,
+          "w": 51,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Syarat & Ketentuan",
+        "href": "/terms",
+        "rect": {
+          "x": 933,
+          "y": 6212,
+          "w": 154,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "a",
+        "text": "Kebijakan Privasi",
+        "href": "/privacy",
+        "rect": {
+          "x": 933,
+          "y": 6240,
+          "w": 146,
+          "h": 21
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "button",
+        "text": "Pengaturan cookie",
+        "href": null,
+        "rect": {
+          "x": 933,
+          "y": 6269,
+          "w": 146,
+          "h": 20
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "14px",
+        "weight": "400",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "button",
+        "text": "Bahasa Indonesia",
+        "href": null,
+        "rect": {
+          "x": 1061,
+          "y": 6357,
+          "w": 142,
+          "h": 28
+        },
+        "bg": "rgb(255, 244, 224)",
+        "color": "rgb(17, 17, 17)",
+        "radius": "0px",
+        "border": "0px solid rgb(17, 17, 17)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "12px",
+        "weight": "700",
+        "transform": "none",
+        "position": "static"
+      },
+      {
+        "tag": "button",
+        "text": "English",
+        "href": null,
+        "rect": {
+          "x": 1203,
+          "y": 6357,
+          "w": 75,
+          "h": 28
+        },
+        "bg": "rgba(0, 0, 0, 0)",
+        "color": "rgb(255, 244, 224)",
+        "radius": "0px",
+        "border": "0px solid rgb(255, 244, 224)",
+        "shadow": "none",
+        "family": "\"Space Mono\"",
+        "size": "12px",
+        "weight": "700",
+        "transform": "none",
+        "position": "static"
+      }
+    ]
+  },
+  "chatCandidates": [
+    {
+      "tag": "button",
+      "text": "💬",
+      "href": null,
+      "rect": {
+        "x": 1360,
+        "y": 920,
+        "w": 56,
+        "h": 56
+      },
+      "bg": "rgb(182, 242, 46)",
+      "color": "rgb(17, 17, 17)",
+      "radius": "3.35544e+07px",
+      "border": "3px solid rgb(17, 17, 17)",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 3px 3px 0px 0px",
+      "family": "\"Space Mono\"",
+      "size": "20px",
+      "weight": "400",
+      "transform": "none",
+      "position": "fixed"
+    }
+  ]
+}

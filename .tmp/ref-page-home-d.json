@@ -1,0 +1,335 @@
+{
+  "url": "https://proposigo.app/",
+  "title": "Proposigo · Halaman ucapan digital interaktif",
+  "desc": "Berani bilang, kami yang bikin momennya. Bikin halaman kejutan interaktif (cerita, foto, musik, suara) dalam 5 menit, kirim satu link.",
+  "robots": null,
+  "canonical": "https://proposigo.app/",
+  "og": {
+    "image": "https://proposigo.app/og/home-id.png?v=3",
+    "title": "Proposigo",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "id",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "BERANI BILANG. KAMI YANG BIKIN MOMENNYA.",
+      "cls": "mt-5 font-display text-[2.6rem] leading-[0.95] sm:text-6xl lg:text-7xl",
+      "size": "72px",
+      "lh": "68.4px",
+      "family": "\"Archivo Black\""
+    }
+  ],
+  "h2": [
+    "MOMEN APA?",
+    "HARI SPESIAL",
+    "3 LANGKAH, SELESAI.",
+    "BUKAN SEKADAR LINK.",
+    "HARGANYA RINGAN.",
+    "MASIH PENASARAN?",
+    "UDAH SIAP BILANG?"
+  ],
+  "h3": [
+    "CONFESS →",
+    "ULANG TAHUN →",
+    "ANNIVERSARY →",
+    "MINTA MAAF →",
+    "WISUDA →",
+    "HARI GURU",
+    "HARI IBU",
+    "NATAL",
+    "TAHUN BARU",
+    "IMLEK",
+    "VALENTINE",
+    "PILIH MOMEN",
+    "ISI CERITAMU",
+    "BAYAR & KIRIM",
+    "DIKABARI",
+    "GERAK SEMUA",
+    "SIMPAN GAMBAR",
+    "TANPA RIBET",
+    "DASAR",
+    "PLUS",
+    "ABADI",
+    "MOMEN",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "a",
+      "id": null,
+      "cls": "block border-b-4 border-ink px-4 py-2.5 text-center text-sm font-bold",
+      "h": 44,
+      "text": "📚 Hari Guru sebentar lagi! Bikin halaman bertema Hari Guru sekarang →"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "bg-lime bg-stripes border-b-4 border-ink",
+      "h": 1065,
+      "text": "HALAMAN UCAPAN INTERAKTIF BERANI BILANG. KAMI YANG BIKIN MOMENNYA. Bikin halaman"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "overflow-hidden border-b-4 border-ink bg-ink py-3 text-lime",
+      "h": 56,
+      "text": "CONFESS ✦ ULANG TAHUN ✦ ANNIVERSARY ✦ MINTA MAAF ✦ WISUDA ✦ CONFESS ✦ ULANG TAHU"
+    },
+    {
+      "tag": "section",
+      "id": "momen",
+      "cls": "mx-auto max-w-6xl scroll-mt-24 px-4 py-20",
+      "h": 1088,
+      "text": "MOMEN APA? Lima momen, masing-masing punya kejutan interaktifnya sendiri. CONFES"
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "border-t-4 border-ink bg-cream bg-grid py-20",
+      "h": 908,
+      "text": "HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang,"
+    },
+    {
+      "tag": "section",
+      "id": "cara-kerja",
+      "cls": "scroll-mt-24 border-y-4 border-ink bg-pink bg-dots py-20",
+      "h": 492,
+      "text": "3 LANGKAH, SELESAI. 1 PILIH MOMEN Pilih momen dan desainnya. Pratinjau berisi co"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mx-auto max-w-6xl px-4 py-20",
+      "h": 392,
+      "text": "BUKAN SEKADAR LINK. DIKABARI Email masuk saat halamanmu dibuka dan saat dia menj"
+    },
+    {
+      "tag": "section",
+      "id": "harga",
+      "cls": "scroll-mt-24 border-y-4 border-ink bg-lime bg-stripes py-20",
+      "h": 835,
+      "text": "HARGANYA RINGAN. Sekali bayar. Beda paket = beda lama aktif. DASAR Buat kejutan "
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mx-auto max-w-3xl px-4 py-20",
+      "h": 684,
+      "text": "MASIH PENASARAN? Penerimanya perlu akun atau install aplikasi? Berapa lama bikin"
+    },
+    {
+      "tag": "section",
+      "id": null,
+      "cls": "mx-auto max-w-5xl px-4",
+      "h": 248,
+      "text": "UDAH SIAP BILANG? Pratinjaunya gratis. Bayar baru saat kamu puas. BIKIN HALAMAN"
+    }
+  ],
+  "text": "📚 Hari Guru sebentar lagi! Bikin halaman bertema Hari Guru sekarang → HALAMAN UCAPAN INTERAKTIF BERANI BILANG. KAMI YANG BIKIN MOMENNYA. Bikin halaman kejutan (cerita, foto, musik, suara) dalam 5 menit, lalu kirim satu link. Penerima cukup ketuk amplopnya, dan semua yang dia lakukan dikabarkan ke kamu. BIKIN HALAMAN LIHAT MOMEN MULAI 5 RIBU INI BENERAN BISA DIMAININ 👇 ADA TITIPAN BUAT… DINDA (ketuk amplopnya) PERMEN PINK CHAT MALAM ↺ ULANG YANG MASUK KE RAKA PENGIRIM Mainkan halaman contohnya. Tiap hal yang Dinda lakukan langsung muncul di sini, persis seperti yang nanti kamu terima. CONFESS ✦ ULANG TAHUN ✦ ANNIVERSARY ✦ MINTA MAAF ✦ WISUDA ✦ CONFESS ✦ ULANG TAHUN ✦ ANNIVERSARY ✦ MINTA MAAF ✦ WISUDA ✦ MOMEN APA? Lima momen, masing-masing punya kejutan interaktifnya sendiri. CONFESS → Berani bilang suka, tombol Nggak-nya kabur. ✦ tombol Nggak-nya kabur PALING DICARI ULANG TAHUN → Tiup lilin virtual, kejutan ceria. ✦ lilin ditiup pakai mik ANNIVERSARY → Hitung hari bareng, tahan hati sampai penuh. ✦ tahan hatinya sampai penuh MINTA MAAF → Maaf yang tulus, jawabannya langsung sampai. ✦ dijawab: dimaafkan / belum WISUDA → Lempar toga, buka gulungan ijazah. ✦ toganya dilempar HARI SPESIAL Hari nasional & perayaan Indonesia. Rayakan bareng orang tersayang, atau pakai momennya buat minta maaf. 📚 ●hari ini! HARI GURU Contoh ucapannya → 🎉 Rayakan Terima kasih, Bu/Pak Guru → 🙏 Minta maaf Maaf dulu suka bandel di kelas → 🔒 22 Des · dibuka 1 Des HARI IBU Contoh ucapannya → 🎉 Rayakan Terima kasih buat Ibu 🙏 Minta maaf Maaf sering bikin Ibu khawatir 🔒 25 Des · dibuka 4 Des NATAL Contoh ucapannya → 🎉 Rayakan Ucapan Natal yang hangat 🙏 Minta maaf Damai di hari Natal 🔒 1 Jan · dibuka 11 Des TAHUN BARU Contoh ucapannya → 🎉 Rayakan Rayakan setahun bareng 🙏 Minta maaf Tutup tahun tanpa utang maaf 🔒 6 Feb · dibuka 16 Jan IMLEK Contoh ucapannya → 🎉 Rayakan Kirim angpao ucapan 🙏 Minta maaf Mulai tahun baru tanpa ganjalan 🔒 14 Feb · dibuka 24 Jan VALENTINE Contoh ucapannya → 🎉 Rayakan Bilang sayang di hari kasih sayang 🙏 Minta maaf Baikan sebelum Valentine 3 LANGKAH, SELESAI. 1 PILIH MOMEN Pilih momen dan desainnya. Pratinjau berisi contoh, jadi kamu langsung kebayang. 2 ISI CERITAMU Tulis cerita pendek, unggah foto, pilih musik, tambah surat. Ada contoh yang tinggal diedit. 3 BAYAR & KIRIM Bayar pakai QRIS atau e-wallet, lalu kirim satu link ke dia. Kamu dikabari saat dibuka. BUKAN SEKADAR LINK. DIKABARI Email masuk saat halamanmu dibuka dan saat dia menjawab. GERAK SEMUA Kartu muncul satu-satu, polaroid bisa digeser, tombol Nggak kabur. SIMPAN GAMBAR Penerima bisa simpan jadi gambar buat story. TANPA RIBET Tanpa akun, tanpa install. Buka dari WA atau IG. HARGANYA RINGAN. Sekali bayar. Beda paket = beda lama aktif. DASAR Buat kejutan cepat Rp5.000 aktif 3 hari ✦ Semua desain ✦ Musik bawaan ✦ Main Berdua (1 permainan) ✦ Kartu QR ✦ Simpan jadi gambar ✦ Ucapan bareng (10 teman) ✦ Kapsul waktu (≤ 30 hari) ✦ Aktif 3 hari PILIH DASAR PALING LARIS PLUS Paling laris Rp10.000 aktif 14 hari ✦ Semua isi Dasar ✦ Main Berdua (2 permainan) ✦ Bisa diedit lagi ✦ Voice note ≤ 1 menit ✦ Lagu pilihan (Spotify) ✦ Link custom ✦ Ucapan bareng (50 teman) ✦ Kapsul waktu (≤ 90 hari) ✦ Aktif 14 hari PILIH PLUS ABADI Kenangan selamanya Rp20.000 Rp15.000 HEMAT 25% aktif selamanya ✦ Semua isi Plus ✦ Aktif selamanya ✦ Main Berdua (3 permainan) ✦ Tampil di Papan Abadi (opsional) ✦ Desain eksklusif bertanda khusus ✦ Ucapan bareng (100 teman) ✦ Kapsul waktu sampai 10 tahun PILIH ABADI MASIH PENASARAN? Penerimanya perlu akun atau install aplikasi? Berapa lama bikinnya? Aku tahu kalau dia sudah buka halamannya? Foto-fotoku aman? Bayarnya pakai apa? UDAH SIAP BILANG? Pratinjaunya gratis. Bayar baru saat kamu puas. BIKIN HALAMAN",
+  "buttons": [
+    "PERMEN PINK",
+    "CHAT MALAM",
+    "↺ ULANG",
+    "Pengaturan cookie",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/"
+    },
+    {
+      "t": "Momen",
+      "h": "/#momen"
+    },
+    {
+      "t": "Cara kerja",
+      "h": "/#cara-kerja"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Masuk",
+      "h": "/masuk"
+    },
+    {
+      "t": "BIKIN SEKARANG",
+      "h": "/buat"
+    },
+    {
+      "t": "📚 Hari Guru sebentar lagi! Bikin halaman bertema Hari Guru ",
+      "h": "/buat/rayakan?hari=hariguru"
+    },
+    {
+      "t": "BIKIN HALAMAN",
+      "h": "/buat"
+    },
+    {
+      "t": "LIHAT MOMEN",
+      "h": "#momen"
+    },
+    {
+      "t": "CONFESS → Berani bilang suka, tombol Nggak-nya kabur. ✦ tomb",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "ULANG TAHUN → Tiup lilin virtual, kejutan ceria. ✦ lilin dit",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "ANNIVERSARY → Hitung hari bareng, tahan hati sampai penuh. ✦",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "MINTA MAAF → Maaf yang tulus, jawabannya langsung sampai. ✦ ",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "WISUDA → Lempar toga, buka gulungan ijazah. ✦ toganya dilemp",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "HARI GURU",
+      "h": "/hari/hari-guru"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/hari-guru"
+    },
+    {
+      "t": "🎉 Rayakan Terima kasih, Bu/Pak Guru →",
+      "h": "/buat/rayakan?hari=hariguru"
+    },
+    {
+      "t": "🙏 Minta maaf Maaf dulu suka bandel di kelas →",
+      "h": "/buat/maaf?hari=hariguru"
+    },
+    {
+      "t": "HARI IBU",
+      "h": "/hari/hari-ibu"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/hari-ibu"
+    },
+    {
+      "t": "NATAL",
+      "h": "/hari/natal"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/natal"
+    },
+    {
+      "t": "TAHUN BARU",
+      "h": "/hari/tahun-baru"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/tahun-baru"
+    },
+    {
+      "t": "IMLEK",
+      "h": "/hari/imlek"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/imlek"
+    },
+    {
+      "t": "VALENTINE",
+      "h": "/hari/valentine"
+    },
+    {
+      "t": "Contoh ucapannya →",
+      "h": "/hari/valentine"
+    },
+    {
+      "t": "PILIH DASAR",
+      "h": "/buat"
+    },
+    {
+      "t": "PILIH PLUS",
+      "h": "/buat"
+    },
+    {
+      "t": "PILIH ABADI",
+      "h": "/buat"
+    },
+    {
+      "t": "BIKIN HALAMAN",
+      "h": "/buat"
+    },
+    {
+      "t": "Confess",
+      "h": "/momen/confess"
+    },
+    {
+      "t": "Ulang Tahun",
+      "h": "/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/momen/anniv"
+    },
+    {
+      "t": "Minta Maaf",
+      "h": "/momen/maaf"
+    },
+    {
+      "t": "Wisuda",
+      "h": "/momen/wisuda"
+    },
+    {
+      "t": "Hari Spesial",
+      "h": "/hari"
+    },
+    {
+      "t": "Bikin halaman",
+      "h": "/buat"
+    },
+    {
+      "t": "Harga",
+      "h": "/#harga"
+    },
+    {
+      "t": "Ide kata-kata & kejutan",
+      "h": "/ide"
+    },
+    {
+      "t": "Papan Abadi",
+      "h": "/papan"
+    },
+    {
+      "t": "Dasbor",
+      "h": "/dasbor"
+    },
+    {
+      "t": "Syarat & Ketentuan",
+      "h": "/terms"
+    },
+    {
+      "t": "Kebijakan Privasi",
+      "h": "/privacy"
+    }
+  ],
+  "scrollH": 6403
+}

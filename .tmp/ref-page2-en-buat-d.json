@@ -1,0 +1,246 @@
+{
+  "url": "https://proposigo.app/en/buat",
+  "title": "Choose a moment · Proposigo",
+  "desc": "Say it bravely, we make the moment. Build an interactive surprise page (story, photos, music, voice) in 5 minutes and send one link.",
+  "robots": "noindex",
+  "canonical": "https://proposigo.app/en/buat",
+  "og": {
+    "image": "https://proposigo.app/og/buat-en.png?v=3",
+    "title": "Proposigo",
+    "desc": "Say it bravely, we make the moment. Build an interactive surprise page in 5 minutes and send one link.",
+    "type": "website"
+  },
+  "theme": "#B6F22E",
+  "lang": "en",
+  "body": {
+    "bg": "rgb(255, 244, 224)",
+    "color": "rgb(17, 17, 17)",
+    "font": "\"Space Mono\""
+  },
+  "h1": [
+    {
+      "text": "WHAT'S THE MOMENT?",
+      "size": "48px",
+      "lh": "48px"
+    }
+  ],
+  "h2": [
+    "CONFESSION →",
+    "BIRTHDAY →",
+    "ANNIVERSARY →",
+    "APOLOGY →",
+    "GRADUATION →",
+    "SPECIAL DAYS"
+  ],
+  "h3": [
+    "TEACHERS' DAY",
+    "MOTHER'S DAY",
+    "CHRISTMAS",
+    "NEW YEAR",
+    "LUNAR NEW YEAR",
+    "VALENTINE'S DAY",
+    "MOMENTS",
+    "PROPOSIGO"
+  ],
+  "sections": [
+    {
+      "tag": "h1",
+      "id": null,
+      "cls": "font-display text-4xl sm:text-5xl",
+      "h": 48,
+      "text": "WHAT'S THE MOMENT?"
+    },
+    {
+      "tag": "p",
+      "id": null,
+      "cls": "mt-3 font-bold",
+      "h": 24,
+      "text": "Pick one. Previews and drafts are free, you only pay at the end."
+    },
+    {
+      "tag": "div",
+      "id": null,
+      "cls": "mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3",
+      "h": 796,
+      "text": "CONFESSION → Say you like them. The “No” button runs away. ✦ the No button runs away MOST "
+    },
+    {
+      "tag": "section",
+      "id": "hari-spesial",
+      "cls": "scroll-mt-24 mt-20",
+      "h": 760,
+      "text": "SPECIAL DAYS Indonesian national days & celebrations. Celebrate someone you love, or use t"
+    }
+  ],
+  "text": "WHAT'S THE MOMENT? Pick one. Previews and drafts are free, you only pay at the end. CONFESSION → Say you like them. The “No” button runs away. ✦ the No button runs away MOST LOVED BIRTHDAY → Blow out virtual candles, a cheerful surprise. ✦ blow out candles with your mic ANNIVERSARY → Count your days together, hold the heart until it's full. ✦ hold the heart until it fills APOLOGY → A sincere apology, the answer arrives instantly. ✦ answered: forgiven / not yet GRADUATION → Toss the cap, unroll the diploma. ✦ toss the graduation cap SPECIAL DAYS Indonesian national days & celebrations. Celebrate someone you love, or use the day to say sorry. 📚 ●today! TEACHERS' DAY Sample messages → 🎉 Celebrate Thank you, teacher → 🙏 Say sorry Sorry for being a handful in class → 🔒 22 Dec · opens 1 Dec MOTHER'S DAY Sample messages → 🎉 Celebrate Thank you, Mom 🙏 Say sorry Sorry for making Mom worry 🔒 25 Dec · opens 4 Dec CHRISTMAS Sample messages → 🎉 Celebrate A warm Christmas greeting 🙏 Say sorry Make peace this Christmas 🔒 1 Jan · opens 11 Dec NEW YEAR Sample messages → 🎉 Celebrate Celebrate a year together 🙏 Say sorry Close the year with no grudges 🔒 6 Feb · opens 16 Jan LUNAR NEW YEAR Sample messages → 🎉 Celebrate Send a lucky greeting 🙏 Say sorry Start the new year clean 🔒 14 Feb · opens 24 Jan VALENTINE'S DAY Sample messages → 🎉 Celebrate Say you care on Valentine's 🙏 Say sorry Make up before Valentine's",
+  "buttons": [
+    "Cookie settings",
+    "Bahasa Indonesia",
+    "English",
+    "💬"
+  ],
+  "links": [
+    {
+      "t": "",
+      "h": "/en"
+    },
+    {
+      "t": "Moments",
+      "h": "/en#momen"
+    },
+    {
+      "t": "How it works",
+      "h": "/en#cara-kerja"
+    },
+    {
+      "t": "Pricing",
+      "h": "/en#harga"
+    },
+    {
+      "t": "Ideas",
+      "h": "/en/ide"
+    },
+    {
+      "t": "Forever Wall",
+      "h": "/en/papan"
+    },
+    {
+      "t": "Sign in",
+      "h": "/en/masuk"
+    },
+    {
+      "t": "CREATE NOW",
+      "h": "/en/buat"
+    },
+    {
+      "t": "CONFESSION → Say you like them. The “No” button runs away. ✦",
+      "h": "/en/buat/confess"
+    },
+    {
+      "t": "BIRTHDAY → Blow out virtual candles, a cheerful surprise. ✦ ",
+      "h": "/en/buat/ultah"
+    },
+    {
+      "t": "ANNIVERSARY → Count your days together, hold the heart until",
+      "h": "/en/buat/anniv"
+    },
+    {
+      "t": "APOLOGY → A sincere apology, the answer arrives instantly. ✦",
+      "h": "/en/buat/maaf"
+    },
+    {
+      "t": "GRADUATION → Toss the cap, unroll the diploma. ✦ toss the gr",
+      "h": "/en/buat/wisuda"
+    },
+    {
+      "t": "TEACHERS' DAY",
+      "h": "/en/hari/hari-guru"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/hari-guru"
+    },
+    {
+      "t": "🎉 Celebrate Thank you, teacher →",
+      "h": "/en/buat/rayakan?hari=hariguru"
+    },
+    {
+      "t": "🙏 Say sorry Sorry for being a handful in class →",
+      "h": "/en/buat/maaf?hari=hariguru"
+    },
+    {
+      "t": "MOTHER'S DAY",
+      "h": "/en/hari/hari-ibu"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/hari-ibu"
+    },
+    {
+      "t": "CHRISTMAS",
+      "h": "/en/hari/natal"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/natal"
+    },
+    {
+      "t": "NEW YEAR",
+      "h": "/en/hari/tahun-baru"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/tahun-baru"
+    },
+    {
+      "t": "LUNAR NEW YEAR",
+      "h": "/en/hari/imlek"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/imlek"
+    },
+    {
+      "t": "VALENTINE'S DAY",
+      "h": "/en/hari/valentine"
+    },
+    {
+      "t": "Sample messages →",
+      "h": "/en/hari/valentine"
+    },
+    {
+      "t": "Confession",
+      "h": "/en/momen/confess"
+    },
+    {
+      "t": "Birthday",
+      "h": "/en/momen/ultah"
+    },
+    {
+      "t": "Anniversary",
+      "h": "/en/momen/anniv"
+    },
+    {
+      "t": "Apology",
+      "h": "/en/momen/maaf"
+    },
+    {
+      "t": "Graduation",
+      "h": "/en/momen/wisuda"
+    },
+    {
+      "t": "Special days",
+      "h": "/en/hari"
+    },
+    {
+      "t": "Create a page",
+      "h": "/en/buat"
+    },
+    {
+      "t": "Pricing",
+      "h": "/en#harga"
+    },
+    {
+      "t": "Message & surprise ideas",
+      "h": "/en/ide"
+    },
+    {
+      "t": "Forever Wall",
+      "h": "/en/papan"
+    },
+    {
+      "t": "Dashboard",
+      "h": "/en/dasbor"
+    },
+    {
+      "t": "Terms of Service",
+      "h": "/en/terms"
+    },
+    {
+      "t": "Privacy Policy",
+      "h": "/en/privacy"
+    }
+  ],
+  "jsonld": [],
+  "scrollH": 2462
+}
