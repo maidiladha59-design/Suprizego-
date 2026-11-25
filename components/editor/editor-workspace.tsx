@@ -73,6 +73,7 @@ function PreviewPhone({
   dateLabel,
   games,
   voice,
+  resetKey,
 }: {
   moment: Moment;
   designId: string;
@@ -85,6 +86,7 @@ function PreviewPhone({
   dateLabel: string;
   games: Game[];
   voice: VoiceNote | null;
+  resetKey: number;
 }) {
   const story = stories.map((item) => item.trim()).filter(Boolean).join("\n\n");
   const page: SurprisePage = {
@@ -107,7 +109,7 @@ function PreviewPhone({
 
   return (
     <div className="mx-auto w-[340px] max-w-full" aria-label="Pratinjau halaman kejutan">
-      <SurpriseReader page={page} embedded />
+      <SurpriseReader key={resetKey} page={page} embedded />
     </div>
   );
 }
@@ -131,6 +133,7 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
   const [draft, setDraft] = useState<Draft>(baseDraft);
   const [photos, setPhotos] = useState<EditorPhoto[]>([]);
   const [voice, setVoice] = useState<VoiceNote | null>(null);
+  const [previewResetKey, setPreviewResetKey] = useState(0);
   const [notices, setNotices] = useState<string[]>([]);
   const photosLoaded = useRef(false);
   const hydrated = useRef(false);
@@ -426,6 +429,7 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
     setVoice(null);
     setNotices([]);
     setDraft(baseDraft);
+    setPreviewResetKey((value) => value + 1);
   }
 
   const resetButton = (
@@ -688,6 +692,7 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
               dateLabel={draft.dt}
               games={draft.games}
               voice={voice}
+              resetKey={previewResetKey}
             />
             {resetButton}
           </div>
@@ -712,6 +717,7 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
               dateLabel={draft.dt}
               games={draft.games}
               voice={voice}
+              resetKey={previewResetKey}
             />
           </div>
           {resetButton}

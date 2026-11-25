@@ -43,13 +43,9 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const moment = getMoment(page.moment);
   const theme = getReaderTheme(page);
-  const activeStep = steps[activeIndex] ?? steps[0]!;
+  const activeStep = steps[Math.min(activeIndex, steps.length - 1)] ?? steps[0]!;
   const recipient = page.recipientName.trim() || "Kamu";
   const sender = page.senderName?.trim() || "Pembuat halaman";
-
-  useEffect(() => {
-    if (activeIndex > steps.length - 1) setActiveIndex(Math.max(0, steps.length - 1));
-  }, [activeIndex, steps.length]);
 
   useEffect(() => {
     const audio = audioRef.current;
@@ -57,7 +53,10 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
   }, []);
 
   function goNext() {
-    setActiveIndex((current) => Math.min(current + 1, steps.length - 1));
+    setActiveIndex((current) => {
+      const bounded = Math.min(current, steps.length - 1);
+      return Math.min(bounded + 1, steps.length - 1);
+    });
   }
 
   function restart() {
@@ -100,6 +99,8 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
       style={{ "--reader-screen": theme.screen } as CSSProperties}
     >
       <div
+        data-reader-screen
+        data-reader-step={activeStep.id}
         className="flex h-full flex-col overflow-hidden rounded-[28px] bg-[var(--reader-screen)] text-ink"
         style={{ backgroundColor: theme.screen, color: theme.text }}
       >
@@ -120,7 +121,7 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
               <span
                 key={index}
                 aria-hidden="true"
-                className={`size-2.5 rounded-full border-2 border-ink transition-colors ${
+                className={`size-3 rounded-full border-2 border-ink transition-colors ${
                   index < activeStep.order ? "bg-ink" : "bg-transparent"
                 }`}
               />
@@ -145,14 +146,14 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
           {activeStep.id === "envelope" ? (
             <div className="flex flex-1 flex-col items-center justify-center text-center">
               <span className="sticker -rotate-2 bg-lime px-3 py-1.5 text-[11px]">Ada titipan buat…</span>
-              <h1 className="mt-5 max-w-full break-words font-display text-[2.6rem] uppercase leading-[0.95] tracking-[-0.03em]">
+              <h1 className="mt-5 max-w-full break-words font-display text-5xl uppercase leading-[0.95] tracking-[-0.03em]">
                 {recipient}
               </h1>
               <button
                 type="button"
                 onClick={openEnvelope}
                 aria-label="Ketuk amplop untuk membuka"
-                className="group mt-7 w-full max-w-[270px] rounded-2xl focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-ink"
+                className="group mt-7 w-full max-w-[288px] rounded-2xl focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-ink"
               >
                 <span className="block animate-float-soft transition-transform duration-200 group-hover:-rotate-2 group-hover:scale-[1.03]">
                   <EnvelopeArt />
@@ -167,9 +168,15 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
 
           {activeStep.id === "greeting" ? (
             <div className="flex flex-1 flex-col items-center justify-center">
+              <div
+                aria-hidden="true"
+                className="mb-7 grid size-24 -rotate-3 place-items-center rounded-2xl border-4 border-ink bg-lime shadow-[5px_5px_0_0_#111]"
+              >
+                <MomentIcon moment={page.moment} className="size-12" />
+              </div>
               <GreetingCard moment={page.moment} recipient={recipient} sender={sender} dateLabel={getReaderDateLabel(page)} />
               <div className="mt-7 flex justify-center">
-                <button type="button" onClick={goNext} className={`${actionClass} max-w-[150px]`}>
+                <button type="button" onClick={goNext} className={`${actionClass} max-w-[133px]`}>
                   Buka <ArrowRightIcon className="size-4" />
                 </button>
               </div>
@@ -186,7 +193,7 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
           ) : null}
 
           {activeStep.id === "memories" ? (
-            <div className="flex min-h-0 flex-1 flex-col justify-center overflow-y-auto py-2">
+            <div className="no-scrollbar flex min-h-0 flex-1 flex-col justify-center overflow-y-auto py-2">
               <PhotoReader
                 photos={page.photoUrls.map((url, index) => ({
                   id: `${url}-${index}`,
@@ -269,7 +276,7 @@ function GreetingCard({
   dateLabel: string | null;
 }) {
   return (
-    <div className="relative w-full rounded-2xl border-4 border-ink bg-paper px-5 py-6 text-center text-ink shadow-[6px_6px_0_0_#111]">
+    <div className="relative w-full max-w-[250px] rounded-2xl border-4 border-ink bg-paper px-5 py-6 text-center text-ink shadow-[6px_6px_0_0_#111]">
       <span className="sticker absolute -top-5 left-1/2 -translate-x-1/2 -rotate-3 bg-candy px-3 py-1.5 text-[10px]">
         <MomentIcon moment={moment} className="size-4" />
         Buat kamu
@@ -301,7 +308,7 @@ function StoryStep({
   onComplete: () => void;
 }) {
   const bubbles = useMemo(() => splitIntoBubbles(text), [text]);
-  const [visible, setVisible] = useState(1);
+  const [visible, setVisible] = useState(() => Math.min(2, bubbles.length));
   const scrollRef = useRef<HTMLDivElement | null>(null);
   const latestRef = useRef<HTMLDivElement | null>(null);
   const last = visible >= bubbles.length;
@@ -328,15 +335,16 @@ function StoryStep({
       </h2>
       <div
         ref={scrollRef}
-        className="no-scrollbar min-h-0 flex-1 space-y-3 overflow-y-auto overscroll-contain pb-3 pr-1"
+        className="no-scrollbar min-h-[300px] max-h-[360px] space-y-3 overflow-y-auto overscroll-contain pb-3 pr-1"
         aria-live="polite"
       >
         {bubbles.slice(0, visible).map((bubble, index) => (
           <div
             key={`${index}-${bubble}`}
             ref={index === visible - 1 ? latestRef : undefined}
+            data-story-bubble
             tabIndex={-1}
-            className={`animate-pop-in rounded-2xl border-[3px] border-ink px-3.5 py-3 text-[13px] font-bold leading-[1.55] text-ink shadow-[3px_3px_0_0_#111] focus:outline-none ${
+            className={`animate-pop-in break-words rounded-2xl border-4 border-ink px-3.5 py-3 text-[13px] font-bold leading-[1.55] text-ink shadow-[5px_5px_0_0_#111] focus:outline-none ${
               index % 2 === 0 ? "mr-7 bg-paper" : "ml-7 bg-lime"
             }`}
           >
@@ -345,7 +353,7 @@ function StoryStep({
         ))}
       </div>
       <div className="shrink-0 pt-3 text-center">
-        <button type="button" onClick={readNext} className={actionClass}>
+        <button type="button" onClick={readNext} className={`${actionClass} max-w-[214px]`}>
           {last ? "Selesai baca" : "Lanjut baca"}
           <ArrowRightIcon className="size-4" />
         </button>
@@ -383,7 +391,8 @@ function LetterStep({
         {bubbles.map((bubble, index) => (
           <div
             key={`${index}-${bubble}`}
-            className={`rounded-2xl border-[3px] border-ink px-3.5 py-3 text-[12px] font-bold leading-[1.55] text-ink shadow-[3px_3px_0_0_#111] ${
+            data-letter-bubble
+            className={`break-words rounded-2xl border-4 border-ink px-3.5 py-3 text-[12px] font-bold leading-[1.55] text-ink shadow-[5px_5px_0_0_#111] ${
               index % 2 === 0 ? "mr-5 bg-paper" : "ml-5 bg-lime"
             }`}
           >
@@ -459,7 +468,7 @@ function ClosingStep({
         <SparkleIcon className="absolute -right-5 -top-2 size-7 text-sun" />
         <SparkleIcon className="absolute -left-6 bottom-2 size-5 text-paper" />
       </div>
-      <h2 className="mt-7 font-display text-[2rem] uppercase leading-[0.98] tracking-[-0.03em]">
+      <h2 className="mt-7 break-words font-display text-[2rem] uppercase leading-[0.98] tracking-[-0.03em]">
         Sampai jumpa, {recipient}!
       </h2>
       <p className="mt-4 max-w-[240px] text-[13px] font-bold leading-5">

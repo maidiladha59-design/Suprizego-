@@ -46,9 +46,9 @@ export function PhotoReader({
 
   return (
     <div className="w-full text-center">
-      <p className="mb-4 font-display text-2xl leading-8">Kenangan</p>
+      <p className="mb-4 font-display text-[2rem] leading-8">Kenangan</p>
 
-      <div className="relative mx-auto aspect-[9/11] w-full max-w-[288px]">
+      <div className="relative mx-auto aspect-[9/11] w-full max-w-[264px]">
         {stack.map((photo, index) => {
           const isTop = index === 0;
           const transform = isTop
