@@ -4,15 +4,17 @@ import { useEffect, useRef, useState } from "react";
 import { LetterSection, MAX_LETTER_LENGTH } from "@/components/editor/letter-section";
 import { MainBerduaSection } from "@/components/editor/main-berdua-section";
 import { MusicSection } from "@/components/editor/music-section";
-import { PhotoReader, type PreviewPhoto } from "@/components/editor/photo-reader";
 import { PhotoSection, type EditorPhoto } from "@/components/editor/photo-section";
+import type { PreviewPhoto } from "@/components/editor/photo-reader";
+import { SurpriseReader } from "@/components/surprise/surprise-reader";
 import { VoiceNoteEditor, type VoiceNote } from "@/components/editor/voice-note-editor";
 import { ArrowRightIcon, SparkleIcon } from "@/components/ui/icons";
 import { audioStore } from "@/lib/audio-store";
 import { compressPhoto } from "@/lib/compress-photo";
-import { EDITOR_CONFIG, type EditorDesign } from "@/lib/editor";
+import { EDITOR_CONFIG } from "@/lib/editor";
 import { normalizeGames, type Game } from "@/lib/games";
 import type { Moment } from "@/lib/moments";
+import type { SurprisePage } from "@/lib/types";
 import { normalizeMusicMood, stopMusicPreview, type MusicMood } from "@/lib/music";
 import { MAX_PHOTOS, MAX_PHOTO_BYTES, isHeicPhoto, isSupportedPhoto } from "@/lib/photo-rules";
 import { photoStore } from "@/lib/photo-store";
@@ -60,75 +62,52 @@ const labelClass =
   "block text-[0.85rem] font-bold uppercase leading-5 tracking-[0.01em] text-ink";
 
 function PreviewPhone({
-  design,
+  moment,
+  designId,
   recipient,
   sender,
   stories,
   photos,
+  letter,
+  question,
+  dateLabel,
+  games,
+  voice,
 }: {
-  design: EditorDesign;
+  moment: Moment;
+  designId: string;
   recipient: string;
   sender: string;
   stories: string[];
   photos: PreviewPhoto[];
+  letter: string;
+  question: string;
+  dateLabel: string;
+  games: Game[];
+  voice: VoiceNote | null;
 }) {
-  const name = recipient.trim() || "Nama penerima";
+  const story = stories.map((item) => item.trim()).filter(Boolean).join("\n\n");
+  const page: SurprisePage = {
+    slug: "preview",
+    moment: moment.id,
+    recipientName: recipient.trim() || "Nama penerima",
+    senderName: sender.trim() || null,
+    story: story || null,
+    letter: letter.trim() || null,
+    photoUrls: photos.map((photo) => photo.url),
+    games,
+    musicUrl: null,
+    question: question.trim() || null,
+    dateLabel: dateLabel.trim() || null,
+    designId,
+    voiceUrl: voice?.url ?? null,
+    activeUntil: null,
+    isExample: false,
+  };
 
   return (
-    <div className="mx-auto w-[300px] max-w-full sm:w-[340px]">
-      <div className="rounded-[38px] border-4 border-ink bg-ink p-3 shadow-hard-lg">
-        <div
-          className="relative flex h-[664px] flex-col items-center gap-3 overflow-hidden rounded-[26px] px-5 pb-9 pt-8 text-center"
-          style={{ backgroundColor: design.screen, color: design.text }}
-        >
-          <span className="absolute left-1/2 top-0 h-5 w-24 -translate-x-1/2 rounded-b-xl bg-ink" />
-
-          {photos.length > 0 ? (
-            <div className="flex w-full flex-1 flex-col justify-center">
-              <PhotoReader photos={photos} />
-            </div>
-          ) : (
-            <>
-              <span
-                className="sticker -rotate-2 px-3 py-1 text-sm"
-                style={{ backgroundColor: design.chip, color: design.chipText }}
-              >
-                Ada kejutan buat
-              </span>
-
-              <p className="max-w-full break-words font-display text-[2rem] uppercase leading-9">
-                {name}
-              </p>
-
-              <div className="flex w-full flex-1 flex-col gap-2.5 overflow-y-auto pb-1 text-left [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
-                {stories.map((story, index) =>
-                  story.trim() ? (
-                    <p
-                      key={index}
-                      className="rounded-2xl border-[3px] border-ink bg-paper px-3 py-2 text-[13px] font-bold leading-[18px] text-ink shadow-[3px_3px_0_0_#111]"
-                    >
-                      {story.trim()}
-                    </p>
-                  ) : (
-                    <p
-                      key={index}
-                      className="rounded-2xl border-[3px] border-dashed border-current px-3 py-2 text-[13px] font-bold leading-[18px] opacity-40"
-                    >
-                      Kartu {index + 1} masih kosong...
-                    </p>
-                  ),
-                )}
-              </div>
-
-              <p className="text-[11px] font-bold opacity-60">
-                dari {sender.trim() || "kamu"}
-              </p>
-            </>
-          )}
-
-          <span className="absolute bottom-3 h-1 w-24 rounded-full bg-current opacity-25" />
-        </div>
-      </div>
+    <div className="mx-auto w-[340px] max-w-full" aria-label="Pratinjau halaman kejutan">
+      <SurpriseReader page={page} embedded />
     </div>
   );
 }
@@ -698,11 +677,17 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
           </summary>
           <div className="mt-6">
             <PreviewPhone
-              design={design}
+              moment={moment}
+              designId={design.id}
               recipient={draft.rn}
               sender={draft.sn}
               stories={draft.story}
               photos={previewPhotos}
+              letter={draft.letter}
+              question={draft.q}
+              dateLabel={draft.dt}
+              games={draft.games}
+              voice={voice}
             />
             {resetButton}
           </div>
@@ -716,11 +701,17 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
           </p>
           <div className="mt-4">
             <PreviewPhone
-              design={design}
+              moment={moment}
+              designId={design.id}
               recipient={draft.rn}
               sender={draft.sn}
               stories={draft.story}
               photos={previewPhotos}
+              letter={draft.letter}
+              question={draft.q}
+              dateLabel={draft.dt}
+              games={draft.games}
+              voice={voice}
             />
           </div>
           {resetButton}

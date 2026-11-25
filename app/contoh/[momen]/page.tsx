@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SurpriseView } from "@/components/surprise/surprise-view";
+import { CONTACT_EMAIL } from "@/lib/contact";
 import { getExample } from "@/lib/examples";
 import { MOMENTS, getMoment } from "@/lib/moments";
 
@@ -39,5 +40,5 @@ export default async function ExamplePage({ params }: PageProps) {
     notFound();
   }
 
-  return <SurpriseView page={example} />;
+  return <SurpriseView page={example} contactEmail={CONTACT_EMAIL} />;
 }

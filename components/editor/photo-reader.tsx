@@ -13,7 +13,13 @@ const TILTS = [0, -5, 6];
 const buttonClass =
   "h-[42px] whitespace-nowrap rounded-xl border-[3px] border-ink px-3 font-display text-[0.85rem] uppercase tracking-[0.01em] shadow-[4px_4px_0_0_#111] transition-transform hover:-translate-x-0.5 hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink";
 
-export function PhotoReader({ photos }: { photos: PreviewPhoto[] }) {
+export function PhotoReader({
+  photos,
+  onContinue,
+}: {
+  photos: PreviewPhoto[];
+  onContinue: () => void;
+}) {
   const [offset, setOffset] = useState(0);
   const [swiping, setSwiping] = useState(false);
   const timer = useRef<number | null>(null);
@@ -84,7 +90,7 @@ export function PhotoReader({ photos }: { photos: PreviewPhoto[] }) {
             Foto lain
           </button>
         )}
-        <button type="button" className={`${buttonClass} bg-ink text-paper`}>
+        <button type="button" onClick={onContinue} className={`${buttonClass} bg-ink text-paper`}>
           Lanjut →
         </button>
       </div>

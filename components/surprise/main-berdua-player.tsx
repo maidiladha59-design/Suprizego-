@@ -18,6 +18,8 @@ type MainBerduaPlayerProps = {
   photoUrls: string[];
   recipientName: string;
   senderName: string | null;
+  onComplete?: () => void;
+  embedded?: boolean;
 };
 
 type GameViewProps = {
@@ -28,6 +30,7 @@ type GameViewProps = {
   isLast: boolean;
   onAdvance: () => void;
   onSkip: () => void;
+  embedded?: boolean;
 };
 
 function senderLabel(senderName: string | null) {
@@ -43,6 +46,8 @@ export function MainBerduaPlayer({
   photoUrls,
   recipientName,
   senderName,
+  onComplete,
+  embedded = false,
 }: MainBerduaPlayerProps) {
   const playable = useMemo(
     () => getPlayableGames(games, photoUrls.length),
@@ -62,6 +67,10 @@ export function MainBerduaPlayer({
   }
 
   function continueReading() {
+    if (onComplete) {
+      onComplete();
+      return;
+    }
     document.getElementById("surat-untukmu")?.scrollIntoView({
       behavior: "smooth",
       block: "start",
@@ -72,7 +81,11 @@ export function MainBerduaPlayer({
     return (
       <div
         id="main-berdua"
-        className="relative overflow-hidden rounded-[26px] border-4 border-ink bg-candy px-5 py-7 text-center text-ink shadow-hard-lg"
+        className={`relative overflow-hidden text-center text-ink ${
+          embedded
+            ? "px-1 py-5"
+            : "rounded-[26px] border-4 border-ink bg-candy px-5 py-7 shadow-hard-lg"
+        }`}
       >
         <Confetti />
         <span className="sticker inline-block bg-tangerine px-3 py-1 text-[10px] uppercase leading-4">
@@ -89,7 +102,7 @@ export function MainBerduaPlayer({
           onClick={continueReading}
           className="mt-5 h-14 w-full rounded-xl border-[3px] border-ink bg-ink px-4 font-display text-sm uppercase text-cream shadow-[4px_4px_0_0_#B6F22E] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-lime active:translate-y-1 active:shadow-none"
         >
-          Lanjut baca ↓
+          {onComplete ? "Lanjut →" : "Lanjut baca ↓"}
         </button>
       </div>
     );
@@ -105,6 +118,7 @@ export function MainBerduaPlayer({
     isLast: index === playable.length - 1,
     onAdvance: advance,
     onSkip: advance,
+    embedded,
   };
 
   return (
@@ -135,6 +149,7 @@ function GameShell({
   children,
   onSkip,
   showSkip = true,
+  embedded = false,
 }: {
   gameNumber: number;
   totalGames: number;
@@ -143,9 +158,16 @@ function GameShell({
   children: ReactNode;
   onSkip: () => void;
   showSkip?: boolean;
+  embedded?: boolean;
 }) {
   return (
-    <div className="rounded-[26px] border-4 border-ink bg-candy p-5 text-ink shadow-hard-lg sm:p-6">
+    <div
+      className={
+        embedded
+          ? "text-ink"
+          : "rounded-[26px] border-4 border-ink bg-candy p-5 text-ink shadow-hard-lg sm:p-6"
+      }
+    >
       <div className="text-center">
         <span className="sticker inline-block bg-tangerine px-3 py-1 text-[10px] uppercase leading-4">
           Main Berdua · {gameNumber}/{totalGames}

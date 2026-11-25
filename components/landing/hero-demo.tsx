@@ -2,6 +2,7 @@
 
 import { useEffect, useState, type ReactNode } from "react";
 import Link from "next/link";
+import { EnvelopeArt } from "@/components/ui/envelope-art";
 import {
   ArrowRightIcon,
   EnvelopeIcon,
@@ -220,29 +221,5 @@ function DemoCard({
       </p>
       <div className="mt-1.5 text-ink">{children}</div>
     </div>
-  );
-}
-
-function EnvelopeArt() {
-  return (
-    <svg
-      viewBox="0 0 280 180"
-      aria-hidden="true"
-      className="h-auto w-full drop-shadow-[6px_6px_0_#111]"
-    >
-      <rect x="16" y="36" width="248" height="132" rx="12" fill="#FF6B3A" stroke="#111" strokeWidth="5" />
-      <path
-        d="M20 46 140 126 260 46"
-        fill="#B6F22E"
-        stroke="#111"
-        strokeWidth="5"
-        strokeLinejoin="round"
-      />
-      <path d="M20 161 105 103M260 161 175 103" stroke="#111" strokeWidth="4" strokeLinecap="round" />
-      <circle cx="140" cy="126" r="24" fill="#FFF6E4" stroke="#111" strokeWidth="4" />
-      <g transform="translate(128 114)" fill="#111">
-        <path d="M12 2.2l2 5.9a2.4 2.4 0 0 0 1.5 1.5l5.9 2-5.9 2a2.4 2.4 0 0 0-1.5 1.5l-2 5.9-2-5.9a2.4 2.4 0 0 0-1.5-1.5l-5.9-2 5.9-2a2.4 2.4 0 0 0 1.5-1.5l2-5.9z" />
-      </g>
-    </svg>
   );
 }

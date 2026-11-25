@@ -11,6 +11,10 @@ export type SurprisePage = {
   photoUrls: string[];
   games?: Game[];
   musicUrl: string | null;
+  question?: string | null;
+  dateLabel?: string | null;
+  designId?: string | null;
+  voiceUrl?: string | null;
   activeUntil: string | null;
   isExample: boolean;
 };

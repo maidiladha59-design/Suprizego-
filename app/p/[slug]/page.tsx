@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { SurpriseExpired } from "@/components/surprise/surprise-expired";
 import { SurpriseView } from "@/components/surprise/surprise-view";
+import { CONTACT_EMAIL } from "@/lib/contact";
 import { getSurprisePage, isExpired } from "@/lib/surprise-pages";
 
 export const dynamic = "force-dynamic";
@@ -51,5 +52,5 @@ export default async function PublicSurprisePage({ params }: PageProps) {
     return <SurpriseExpired />;
   }
 
-  return <SurpriseView page={page} />;
+  return <SurpriseView page={page} contactEmail={CONTACT_EMAIL} />;
 }
