@@ -1,0 +1,576 @@
+{
+  "viewport": {
+    "width": 1440,
+    "height": 1000,
+    "mobile": false
+  },
+  "steps": [
+    {
+      "name": "00-amplop",
+      "rect": {
+        "x": 869,
+        "y": 168,
+        "width": 340,
+        "height": 640
+      },
+      "border": "6px solid rgb(17, 17, 17)",
+      "radius": "38.4px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 10px 10px 0px 0px",
+      "background": "rgb(17, 17, 17)",
+      "screen": {
+        "rect": {
+          "x": 875,
+          "y": 174,
+          "width": 328,
+          "height": 628
+        },
+        "background": "rgb(255, 143, 184)",
+        "color": "rgb(17, 17, 17)",
+        "radius": "0px"
+      },
+      "text": "ADA TITIPAN BUAT… MAYA (ketuk amplopnya)",
+      "buttons": [
+        {
+          "text": "",
+          "ariaLabel": "Ketuk amplop untuk membuka",
+          "rect": {
+            "x": 895,
+            "y": 440,
+            "width": 288,
+            "height": 197
+          },
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 17)",
+          "border": "0px solid rgb(17, 17, 17)",
+          "radius": "0px",
+          "shadow": "none"
+        }
+      ]
+    },
+    {
+      "name": "01-sapaan",
+      "rect": {
+        "x": 869,
+        "y": 168,
+        "width": 340,
+        "height": 640
+      },
+      "border": "6px solid rgb(17, 17, 17)",
+      "radius": "38.4px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 10px 10px 0px 0px",
+      "background": "rgb(17, 17, 17)",
+      "screen": {
+        "rect": {
+          "x": 875,
+          "y": 174,
+          "width": 328,
+          "height": 628
+        },
+        "background": "rgb(255, 143, 184)",
+        "color": "rgb(17, 17, 17)",
+        "radius": "0px"
+      },
+      "text": "♪NYALA HAI, MAYA! Sudah 1.015 hari kalian bareng. BUKA →",
+      "buttons": [
+        {
+          "text": "♪NYALA",
+          "ariaLabel": null,
+          "rect": {
+            "x": 1113,
+            "y": 194,
+            "width": 74,
+            "height": 31
+          },
+          "background": "rgb(255, 244, 224)",
+          "color": "rgb(17, 17, 17)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 3px 3px 0px 0px"
+        },
+        {
+          "text": "BUKA →",
+          "ariaLabel": null,
+          "rect": {
+            "x": 972,
+            "y": 651,
+            "width": 133,
+            "height": 59
+          },
+          "background": "rgb(17, 17, 17)",
+          "color": "rgb(255, 244, 224)",
+          "border": "4px solid rgb(17, 17, 17)",
+          "radius": "16px",
+          "shadow": "rgb(182, 242, 46) 6px 6px 0px 0px"
+        }
+      ]
+    },
+    {
+      "name": "02-story-1",
+      "rect": {
+        "x": 869,
+        "y": 98,
+        "width": 340,
+        "height": 640
+      },
+      "border": "6px solid rgb(17, 17, 17)",
+      "radius": "38.4px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 10px 10px 0px 0px",
+      "background": "rgb(17, 17, 17)",
+      "screen": {
+        "rect": {
+          "x": 875,
+          "y": 104,
+          "width": 328,
+          "height": 628
+        },
+        "background": "rgb(255, 143, 184)",
+        "color": "rgb(17, 17, 17)",
+        "radius": "0px"
+      },
+      "text": "♪NYALA CERITA DARI ALDI Kita sudah sejauh ini, ya. Dari makan bakso pinggir jalan sampai nonton hujan dari jendela. LANJUT BACA →",
+      "buttons": [
+        {
+          "text": "♪NYALA",
+          "ariaLabel": null,
+          "rect": {
+            "x": 1113,
+            "y": 124,
+            "width": 74,
+            "height": 31
+          },
+          "background": "rgb(255, 244, 224)",
+          "color": "rgb(17, 17, 17)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 3px 3px 0px 0px"
+        },
+        {
+          "text": "LANJUT BACA →",
+          "ariaLabel": null,
+          "rect": {
+            "x": 934,
+            "y": 536,
+            "width": 210,
+            "height": 59
+          },
+          "background": "rgb(17, 17, 17)",
+          "color": "rgb(255, 244, 224)",
+          "border": "4px solid rgb(17, 17, 17)",
+          "radius": "16px",
+          "shadow": "rgb(182, 242, 46) 6px 6px 0px 0px"
+        }
+      ]
+    },
+    {
+      "name": "02-story-2",
+      "rect": {
+        "x": 869,
+        "y": 32,
+        "width": 340,
+        "height": 640
+      },
+      "border": "6px solid rgb(17, 17, 17)",
+      "radius": "38.4px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 10px 10px 0px 0px",
+      "background": "rgb(17, 17, 17)",
+      "screen": {
+        "rect": {
+          "x": 875,
+          "y": 38,
+          "width": 328,
+          "height": 628
+        },
+        "background": "rgb(255, 143, 184)",
+        "color": "rgb(17, 17, 17)",
+        "radius": "0px"
+      },
+      "text": "♪NYALA CERITA DARI ALDI Kita sudah sejauh ini, ya. Dari makan bakso pinggir jalan sampai nonton hujan dari jendela. Semua hari biasa jadi spesial karena ada kamu. SELESAI BACA →",
+      "buttons": [
+        {
+          "text": "♪NYALA",
+          "ariaLabel": null,
+          "rect": {
+            "x": 1113,
+            "y": 58,
+            "width": 74,
+            "height": 31
+          },
+          "background": "rgb(255, 244, 224)",
+          "color": "rgb(17, 17, 17)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 3px 3px 0px 0px"
+        },
+        {
+          "text": "SELESAI BACA →",
+          "ariaLabel": null,
+          "rect": {
+            "x": 932,
+            "y": 525,
+            "width": 214,
+            "height": 59
+          },
+          "background": "rgb(17, 17, 17)",
+          "color": "rgb(255, 244, 224)",
+          "border": "4px solid rgb(17, 17, 17)",
+          "radius": "16px",
+          "shadow": "rgb(182, 242, 46) 6px 6px 0px 0px"
+        }
+      ]
+    },
+    {
+      "name": "02-story-3",
+      "rect": {
+        "x": 869,
+        "y": 90,
+        "width": 340,
+        "height": 640
+      },
+      "border": "6px solid rgb(17, 17, 17)",
+      "radius": "38.4px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 10px 10px 0px 0px",
+      "background": "rgb(17, 17, 17)",
+      "screen": {
+        "rect": {
+          "x": 875,
+          "y": 96,
+          "width": 328,
+          "height": 628
+        },
+        "background": "rgb(255, 143, 184)",
+        "color": "rgb(17, 17, 17)",
+        "radius": "0px"
+      },
+      "text": "♪NYALA KENANGAN Sore itu di bukit Bakso langganan FOTO LAIN LANJUT → ketuk foto untuk menggeser",
+      "buttons": [
+        {
+          "text": "♪NYALA",
+          "ariaLabel": null,
+          "rect": {
+            "x": 1113,
+            "y": 116,
+            "width": 74,
+            "height": 31
+          },
+          "background": "rgb(255, 244, 224)",
+          "color": "rgb(17, 17, 17)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 3px 3px 0px 0px"
+        },
+        {
+          "text": "FOTO LAIN",
+          "ariaLabel": null,
+          "rect": {
+            "x": 915,
+            "y": 600,
+            "width": 113,
+            "height": 42
+          },
+          "background": "rgb(255, 244, 224)",
+          "color": "rgb(17, 17, 17)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 4px 4px 0px 0px"
+        },
+        {
+          "text": "LANJUT →",
+          "ariaLabel": null,
+          "rect": {
+            "x": 1040,
+            "y": 600,
+            "width": 122,
+            "height": 42
+          },
+          "background": "rgb(17, 17, 17)",
+          "color": "rgb(255, 244, 224)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 4px 4px 0px 0px"
+        }
+      ]
+    },
+    {
+      "name": "03-kenangan",
+      "rect": {
+        "x": 869,
+        "y": 90,
+        "width": 340,
+        "height": 640
+      },
+      "border": "6px solid rgb(17, 17, 17)",
+      "radius": "38.4px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 10px 10px 0px 0px",
+      "background": "rgb(17, 17, 17)",
+      "screen": {
+        "rect": {
+          "x": 875,
+          "y": 96,
+          "width": 328,
+          "height": 628
+        },
+        "background": "rgb(255, 143, 184)",
+        "color": "rgb(17, 17, 17)",
+        "radius": "0px"
+      },
+      "text": "♪NYALA KENANGAN Sore itu di bukit Bakso langganan FOTO LAIN LANJUT → ketuk foto untuk menggeser",
+      "buttons": [
+        {
+          "text": "♪NYALA",
+          "ariaLabel": null,
+          "rect": {
+            "x": 1113,
+            "y": 116,
+            "width": 74,
+            "height": 31
+          },
+          "background": "rgb(255, 244, 224)",
+          "color": "rgb(17, 17, 17)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 3px 3px 0px 0px"
+        },
+        {
+          "text": "FOTO LAIN",
+          "ariaLabel": null,
+          "rect": {
+            "x": 915,
+            "y": 600,
+            "width": 113,
+            "height": 42
+          },
+          "background": "rgb(255, 244, 224)",
+          "color": "rgb(17, 17, 17)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 4px 4px 0px 0px"
+        },
+        {
+          "text": "LANJUT →",
+          "ariaLabel": null,
+          "rect": {
+            "x": 1040,
+            "y": 600,
+            "width": 122,
+            "height": 42
+          },
+          "background": "rgb(17, 17, 17)",
+          "color": "rgb(255, 244, 224)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 4px 4px 0px 0px"
+        }
+      ]
+    },
+    {
+      "name": "04-game-1",
+      "rect": {
+        "x": 869,
+        "y": -32,
+        "width": 340,
+        "height": 640
+      },
+      "border": "6px solid rgb(17, 17, 17)",
+      "radius": "38.4px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 10px 10px 0px 0px",
+      "background": "rgb(17, 17, 17)",
+      "screen": {
+        "rect": {
+          "x": 891,
+          "y": 175,
+          "width": 296,
+          "height": 346
+        },
+        "background": "rgb(255, 244, 224)",
+        "color": "rgb(17, 17, 17)",
+        "radius": "16px"
+      },
+      "text": "♪NYALA MAIN BERDUA · 1/2 KUIS KENAL AKU Seberapa kenal kamu sama Aldi? · 1/2 Makanan di kencan pertama kita? Bakso Sate Mie ayam lewati permainan ini",
+      "buttons": [
+        {
+          "text": "♪NYALA",
+          "ariaLabel": null,
+          "rect": {
+            "x": 1113,
+            "y": -6,
+            "width": 74,
+            "height": 31
+          },
+          "background": "rgb(255, 244, 224)",
+          "color": "rgb(17, 17, 17)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 3px 3px 0px 0px"
+        },
+        {
+          "text": "Bakso",
+          "ariaLabel": null,
+          "rect": {
+            "x": 915,
+            "y": 305,
+            "width": 248,
+            "height": 56
+          },
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(17, 17, 17)",
+          "border": "4px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "none"
+        },
+        {
+          "text": "Sate",
+          "ariaLabel": null,
+          "rect": {
+            "x": 915,
+            "y": 373,
+            "width": 248,
+            "height": 56
+          },
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(17, 17, 17)",
+          "border": "4px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "none"
+        },
+        {
+          "text": "Mie ayam",
+          "ariaLabel": null,
+          "rect": {
+            "x": 915,
+            "y": 441,
+            "width": 248,
+            "height": 56
+          },
+          "background": "rgb(255, 255, 255)",
+          "color": "rgb(17, 17, 17)",
+          "border": "4px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "none"
+        },
+        {
+          "text": "lewati permainan ini",
+          "ariaLabel": null,
+          "rect": {
+            "x": 965,
+            "y": 551,
+            "width": 147,
+            "height": 16
+          },
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 17)",
+          "border": "0px solid rgb(17, 17, 17)",
+          "radius": "0px",
+          "shadow": "none"
+        }
+      ]
+    },
+    {
+      "name": "05-game-2",
+      "rect": {
+        "x": 869,
+        "y": -84,
+        "width": 340,
+        "height": 640
+      },
+      "border": "6px solid rgb(17, 17, 17)",
+      "radius": "38.4px",
+      "shadow": "rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgba(0, 0, 0, 0) 0px 0px 0px 0px, rgb(17, 17, 17) 10px 10px 0px 0px",
+      "background": "rgb(17, 17, 17)",
+      "screen": {
+        "rect": {
+          "x": 891,
+          "y": 153,
+          "width": 296,
+          "height": 380
+        },
+        "background": "rgb(255, 244, 224)",
+        "color": "rgb(17, 17, 17)",
+        "radius": "16px"
+      },
+      "text": "♪NYALA MAIN BERDUA · 2/2 RENCANA BARENG Pilih satu. Pilihanmu jadi tiket janji dari Aldi. Rayain anniversary kita dengan: MAKAN DI TEMPAT PERTAMA STAYCATION PIKNIK SORE lewati permainan ini",
+      "buttons": [
+        {
+          "text": "♪NYALA",
+          "ariaLabel": null,
+          "rect": {
+            "x": 1113,
+            "y": -58,
+            "width": 74,
+            "height": 31
+          },
+          "background": "rgb(255, 244, 224)",
+          "color": "rgb(17, 17, 17)",
+          "border": "3px solid rgb(17, 17, 17)",
+          "radius": "12px",
+          "shadow": "rgb(17, 17, 17) 3px 3px 0px 0px"
+        },
+        {
+          "text": "MAKAN DI TEMPAT PERTAMA",
+          "ariaLabel": null,
+          "rect": {
+            "x": 915,
+            "y": 283,
+            "width": 248,
+            "height": 83
+          },
+          "background": "rgb(255, 106, 61)",
+          "color": "rgb(17, 17, 17)",
+          "border": "4px solid rgb(17, 17, 17)",
+          "radius": "16px",
+          "shadow": "rgb(17, 17, 17) 6px 6px 0px 0px"
+        },
+        {
+          "text": "STAYCATION",
+          "ariaLabel": null,
+          "rect": {
+            "x": 915,
+            "y": 378,
+            "width": 248,
+            "height": 59
+          },
+          "background": "rgb(182, 242, 46)",
+          "color": "rgb(17, 17, 17)",
+          "border": "4px solid rgb(17, 17, 17)",
+          "radius": "16px",
+          "shadow": "rgb(17, 17, 17) 6px 6px 0px 0px"
+        },
+        {
+          "text": "PIKNIK SORE",
+          "ariaLabel": null,
+          "rect": {
+            "x": 915,
+            "y": 450,
+            "width": 248,
+            "height": 59
+          },
+          "background": "rgb(255, 106, 61)",
+          "color": "rgb(17, 17, 17)",
+          "border": "4px solid rgb(17, 17, 17)",
+          "radius": "16px",
+          "shadow": "rgb(17, 17, 17) 6px 6px 0px 0px"
+        },
+        {
+          "text": "lewati permainan ini",
+          "ariaLabel": null,
+          "rect": {
+            "x": 965,
+            "y": 563,
+            "width": 147,
+            "height": 16
+          },
+          "background": "rgba(0, 0, 0, 0)",
+          "color": "rgb(17, 17, 17)",
+          "border": "0px solid rgb(17, 17, 17)",
+          "radius": "0px",
+          "shadow": "none"
+        }
+      ]
+    },
+    {
+      "name": "06-heart"
+    },
+    {
+      "name": "07-after-heart"
+    }
+  ]
+}
