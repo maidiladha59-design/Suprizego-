@@ -137,6 +137,7 @@ export function MainBerduaSection({
             return (
               <article
                 key={game.id}
+                data-game-card
                 className="rounded-2xl border-4 border-ink bg-paper p-4 shadow-[4px_4px_0_0_#111]"
               >
                 <div className="flex items-start justify-between gap-3">

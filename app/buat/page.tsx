@@ -5,6 +5,7 @@ import { SiteFooter } from "@/components/site/site-footer";
 import { SiteHeader } from "@/components/site/site-header";
 import { ArrowRightIcon } from "@/components/ui/icons";
 import { MOMENTS, type MomentId } from "@/lib/moments";
+import { formatRupiah, getPlan, isPlanId } from "@/lib/plans";
 
 export const metadata: Metadata = {
   title: "Pilih momen kejutan",
@@ -48,7 +49,16 @@ const CARD_THEMES: Record<
   },
 };
 
-export default function CreatePage() {
+type PageProps = {
+  searchParams: Promise<{ paket?: string | string[] }>;
+};
+
+export default async function CreatePage({ searchParams }: PageProps) {
+  const planParam = (await searchParams).paket;
+  const requestedPlan = Array.isArray(planParam) ? planParam[0] : planParam;
+  const selectedPlan = isPlanId(requestedPlan) ? getPlan(requestedPlan) : null;
+  const planQuery = selectedPlan ? `?paket=${selectedPlan.id}` : "";
+
   return (
     <>
       <SiteHeader />
@@ -59,6 +69,15 @@ export default function CreatePage() {
         <p className="mt-3 max-w-2xl text-base font-bold leading-6">
           Pilih momennya dulu. Pratinjau gratis, tanpa akun.
         </p>
+        {selectedPlan ? (
+          <p
+            data-selected-plan={selectedPlan.id}
+            className="mt-5 inline-flex flex-wrap items-center gap-2 rounded-xl border-[3px] border-ink bg-lime px-3 py-2 text-xs font-bold leading-4"
+          >
+            Paket {selectedPlan.name} · {formatRupiah(selectedPlan.price)} ·{" "}
+            {selectedPlan.activeLabel}
+          </p>
+        ) : null}
 
         <div className="mt-10 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {MOMENTS.map((moment) => {
@@ -67,7 +86,7 @@ export default function CreatePage() {
             return (
               <Link
                 key={moment.id}
-                href={`/buat/${moment.id}`}
+                href={`/buat/${moment.id}${planQuery}`}
                 className="group relative block h-full rounded-card focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-ink"
               >
                 {moment.id === "pengakuan" && (

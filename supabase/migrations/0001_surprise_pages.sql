@@ -22,7 +22,7 @@ create table public.surprise_pages (
 );
 
 comment on column public.surprise_pages.active_until is
-  'NULL berarti aktif selamanya (paket Forever).';
+  'NULL berarti aktif selamanya (paket Abadi).';
 
 alter table public.surprise_pages enable row level security;
 

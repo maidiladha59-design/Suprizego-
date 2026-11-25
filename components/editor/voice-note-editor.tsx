@@ -11,6 +11,7 @@ import {
   pickRecorderMime,
   readAudioDuration,
 } from "@/lib/audio-rules";
+import { PLANS, type Plan } from "@/lib/plans";
 
 export type VoiceNote = {
   url: string;
@@ -20,7 +21,7 @@ export type VoiceNote = {
 
 type VoiceNoteEditorProps = {
   value: VoiceNote | null;
-  planName: string | null;
+  plan: Plan;
   onSave: (blob: Blob, duration: number, name: string) => Promise<void>;
   onRemove: () => Promise<void>;
 };
@@ -47,7 +48,11 @@ function permissionMessage(error: unknown) {
   return "Rekaman gagal dimulai. Coba lagi, ya.";
 }
 
-export function VoiceNoteEditor({ value, planName, onSave, onRemove }: VoiceNoteEditorProps) {
+export function VoiceNoteEditor({ value, plan, onSave, onRemove }: VoiceNoteEditorProps) {
+  const enabled = plan.voiceNote;
+  const eligiblePlanNames = PLANS.filter((item) => item.voiceNote)
+    .map((item) => item.name)
+    .join(" / ");
   const [phase, setPhase] = useState<Phase>("idle");
   const [elapsed, setElapsed] = useState(0);
   const [playing, setPlaying] = useState(false);
@@ -96,7 +101,6 @@ export function VoiceNoteEditor({ value, planName, onSave, onRemove }: VoiceNote
 
   const audioUrl = value?.url ?? null;
   useEffect(() => {
-    setPlaying(false);
     if (!audioUrl) return;
     const audio = new Audio(audioUrl);
     audioRef.current = audio;
@@ -164,7 +168,7 @@ export function VoiceNoteEditor({ value, planName, onSave, onRemove }: VoiceNote
   }
 
   async function startRecording() {
-    if (phase !== "idle") return;
+    if (!enabled || phase !== "idle") return;
     setNotice(null);
 
     if (
@@ -260,7 +264,7 @@ export function VoiceNoteEditor({ value, planName, onSave, onRemove }: VoiceNote
 
   async function handleUpload(file: File | undefined, input: HTMLInputElement) {
     input.value = "";
-    if (!file) return;
+    if (!enabled || !file) return;
     setNotice(null);
 
     if (!isSupportedAudio(file)) {
@@ -328,26 +332,34 @@ export function VoiceNoteEditor({ value, planName, onSave, onRemove }: VoiceNote
     <div>
       <p className="flex flex-wrap items-center gap-2 text-[0.85rem] font-bold uppercase leading-5 tracking-[0.01em]">
         Pesan suara (maks 1 menit)
-        {planName && (
-          <span className="sticker bg-candy px-2 py-0.5 text-[10px] uppercase leading-4">
-            {planName}
-          </span>
-        )}
+        <span className="sticker bg-candy px-2 py-0.5 text-[10px] uppercase leading-4">
+          {eligiblePlanNames}
+        </span>
       </p>
 
-      <input
-        ref={fileRef}
-        type="file"
-        accept={AUDIO_ACCEPT}
-        className="sr-only"
-        aria-label="Unggah audio"
-        onChange={(event) => {
-          const input = event.currentTarget;
-          void handleUpload(event.target.files?.[0], input);
-        }}
-      />
+      {!enabled ? (
+        <p
+          data-voice-locked
+          className="mt-2 rounded-xl border-[3px] border-dashed border-ink/30 bg-paper px-3 py-2 text-xs font-bold leading-4"
+        >
+          Pesan suara tersedia di paket {eligiblePlanNames}. Pilih paket tersebut untuk
+          merekam atau mengunggah audio.
+        </p>
+      ) : (
+        <>
+          <input
+            ref={fileRef}
+            type="file"
+            accept={AUDIO_ACCEPT}
+            className="sr-only"
+            aria-label="Unggah audio"
+            onChange={(event) => {
+              const input = event.currentTarget;
+              void handleUpload(event.target.files?.[0], input);
+            }}
+          />
 
-      {phase === "recording" ? (
+          {phase === "recording" ? (
         <div className="mt-2">
           <div className="flex flex-wrap items-center gap-2">
             <span className="grid size-10 shrink-0 place-items-center rounded-xl border-[3px] border-ink bg-white shadow-[3px_3px_0_0_#111]">
@@ -433,6 +445,8 @@ export function VoiceNoteEditor({ value, planName, onSave, onRemove }: VoiceNote
             Unggah audio
           </button>
         </div>
+          )}
+        </>
       )}
 
       {notice && (

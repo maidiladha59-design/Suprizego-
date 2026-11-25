@@ -71,7 +71,7 @@ export function PricingSection() {
 
               <div className="mt-auto pt-6">
                 <Link
-                  href="/buat"
+                  href={`/buat?paket=${plan.id}`}
                   className={`nb-btn w-full px-6 py-[0.85rem] text-base text-ink shadow-[6px_6px_0_0_#111] ${
                     plan.highlight ? "bg-lime" : "bg-cream"
                   }`}

@@ -9,10 +9,12 @@ import {
   subscribeMusicPreview,
   toggleMusicPreview,
 } from "@/lib/music";
+import { PLANS, type Plan } from "@/lib/plans";
 
 type MusicSectionProps = {
   mood: MusicMood;
   spotify: string;
+  plan: Plan;
   onMoodChange: (mood: MusicMood) => void;
   onSpotifyChange: (value: string) => void;
 };
@@ -23,9 +25,14 @@ const playButtonClass =
 export function MusicSection({
   mood,
   spotify,
+  plan,
   onMoodChange,
   onSpotifyChange,
 }: MusicSectionProps) {
+  const spotifyEnabled = plan.spotify;
+  const spotifyPlanNames = PLANS.filter((item) => item.spotify)
+    .map((item) => item.name)
+    .join(" / ");
   const [playing, setPlaying] = useState<MusicMood | null>(null);
   const [busy, setBusy] = useState<MusicMood | null>(null);
   const [pasteNote, setPasteNote] = useState("");
@@ -57,6 +64,7 @@ export function MusicSection({
   }
 
   async function pasteLink() {
+    if (!spotifyEnabled) return;
     setPasteNote("");
     try {
       const text = (await navigator.clipboard.readText()).trim();
@@ -134,14 +142,14 @@ export function MusicSection({
         })}
       </div>
 
-      <div className="mt-5">
+      <div className="mt-5" data-spotify-locked={!spotifyEnabled}>
         <label
           htmlFor="lagu-pilihan"
           className="block text-[0.85rem] font-bold uppercase leading-5 tracking-[0.01em] text-ink"
         >
           Lagu pilihan (Spotify){" "}
           <span className="sticker ml-1 inline-block bg-candy px-2 py-0.5 align-middle text-[10px] leading-4">
-            Plus
+            {spotifyPlanNames}
           </span>
         </label>
         <div className="mt-1.5 flex gap-2">
@@ -152,13 +160,19 @@ export function MusicSection({
             onChange={(event) => onSpotifyChange(event.target.value)}
             maxLength={200}
             autoComplete="off"
-            placeholder="Cari lagu atau tempel tautannya"
-            className="h-14 min-w-0 flex-1 rounded-[14px] border-4 border-ink bg-white px-4 text-base font-normal leading-6 text-ink placeholder:text-ink/40 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink"
+            disabled={!spotifyEnabled}
+            placeholder={
+              spotifyEnabled
+                ? "Cari lagu atau tempel tautannya"
+                : `Tersedia di paket ${spotifyPlanNames}`
+            }
+            className="h-14 min-w-0 flex-1 rounded-[14px] border-4 border-ink bg-white px-4 text-base font-normal leading-6 text-ink placeholder:text-ink/40 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink disabled:cursor-not-allowed disabled:bg-paper disabled:opacity-60"
           />
           <button
             type="button"
             onClick={() => void pasteLink()}
-            className="h-14 shrink-0 rounded-xl border-[3px] border-ink bg-paper px-4 font-display text-xs uppercase tracking-[0.01em] text-ink shadow-[3px_3px_0_0_#111] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink active:translate-x-[3px] active:translate-y-[3px] active:shadow-none"
+            disabled={!spotifyEnabled}
+            className="h-14 shrink-0 rounded-xl border-[3px] border-ink bg-paper px-4 font-display text-xs uppercase tracking-[0.01em] text-ink shadow-[3px_3px_0_0_#111] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink active:translate-x-[3px] active:translate-y-[3px] active:shadow-none disabled:cursor-not-allowed disabled:opacity-40 disabled:shadow-none disabled:hover:translate-y-0"
           >
             Tempel
           </button>

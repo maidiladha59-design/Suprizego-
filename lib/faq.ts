@@ -1,3 +1,5 @@
+import { PLANS } from "./plans";
+
 export type FaqItem = {
   question: string;
   answer: string;
@@ -17,7 +19,7 @@ export const FAQ_ITEMS: readonly FaqItem[] = [
   {
     question: "Berapa lama halaman kejutan aktif?",
     answer:
-      "Tergantung paket yang dipilih: Dasar aktif 3 hari, Plus aktif 14 hari, dan Abadi tidak memiliki tanggal kedaluwarsa. Setelah masa aktif berakhir, halaman tidak bisa dibuka lagi.",
+      `Tergantung paket yang dipilih: ${PLANS.map((plan) => `${plan.name} ${plan.activeLabel}`).join(", ")}. Setelah masa aktif berakhir, halaman tidak bisa dibuka lagi.`,
   },
   {
     question: "Apakah halaman saya bisa ditemukan di Google?",

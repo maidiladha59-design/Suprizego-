@@ -1,6 +1,7 @@
 import { EDITOR_CONFIG, type EditorDesign } from "./editor";
-import { getPlayableGames } from "./games";
+import { MAX_GAMES, getPlayableGames } from "./games";
 import type { MomentId } from "./moments";
+import { getPlan } from "./plans";
 import type { SurprisePage } from "./types";
 
 export const READER_STEP_IDS = [
@@ -78,7 +79,12 @@ export function getReaderSteps(page: SurprisePage): ReaderStep[] {
     greeting: true,
     story: splitIntoBubbles(page.story).length > 0,
     memories: page.photoUrls.length > 0,
-    games: getPlayableGames(page.games ?? [], page.photoUrls.length).length > 0,
+    games:
+      getPlayableGames(
+        page.games ?? [],
+        page.photoUrls.length,
+        page.planId ? getPlan(page.planId).gameLimit : MAX_GAMES,
+      ).length > 0,
     letter: Boolean(page.letter?.trim()),
     question: true,
     closing: true,

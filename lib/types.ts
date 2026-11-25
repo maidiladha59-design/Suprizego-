@@ -1,5 +1,6 @@
 import type { Game } from "./games";
 import type { MomentId } from "./moments";
+import type { PlanId } from "./plans";
 
 export type SurprisePage = {
   slug: string;
@@ -15,6 +16,7 @@ export type SurprisePage = {
   dateLabel?: string | null;
   designId?: string | null;
   voiceUrl?: string | null;
+  planId?: PlanId;
   activeUntil: string | null;
   isExample: boolean;
 };

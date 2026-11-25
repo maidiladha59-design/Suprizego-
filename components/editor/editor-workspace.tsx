@@ -5,6 +5,7 @@ import { LetterSection, MAX_LETTER_LENGTH } from "@/components/editor/letter-sec
 import { MainBerduaSection } from "@/components/editor/main-berdua-section";
 import { MusicSection } from "@/components/editor/music-section";
 import { PhotoSection, type EditorPhoto } from "@/components/editor/photo-section";
+import { PlanSection } from "@/components/editor/plan-section";
 import type { PreviewPhoto } from "@/components/editor/photo-reader";
 import { SurpriseReader } from "@/components/surprise/surprise-reader";
 import { VoiceNoteEditor, type VoiceNote } from "@/components/editor/voice-note-editor";
@@ -16,14 +17,9 @@ import { normalizeGames, type Game } from "@/lib/games";
 import type { Moment } from "@/lib/moments";
 import type { SurprisePage } from "@/lib/types";
 import { normalizeMusicMood, stopMusicPreview, type MusicMood } from "@/lib/music";
-import { MAX_PHOTOS, MAX_PHOTO_BYTES, isHeicPhoto, isSupportedPhoto } from "@/lib/photo-rules";
+import { MAX_PHOTO_BYTES, isHeicPhoto, isSupportedPhoto } from "@/lib/photo-rules";
 import { photoStore } from "@/lib/photo-store";
-import {
-  firstPlanWithVoiceNote,
-  getPlan,
-  isPlanId,
-  type PlanId,
-} from "@/lib/plans";
+import { formatRupiah, getPlan, isPlanId, type PlanId } from "@/lib/plans";
 
 type Draft = {
   design: string;
@@ -73,6 +69,7 @@ function PreviewPhone({
   dateLabel,
   games,
   voice,
+  planId,
   resetKey,
 }: {
   moment: Moment;
@@ -86,8 +83,10 @@ function PreviewPhone({
   dateLabel: string;
   games: Game[];
   voice: VoiceNote | null;
+  planId: PlanId;
   resetKey: number;
 }) {
+  const plan = getPlan(planId);
   const story = stories.map((item) => item.trim()).filter(Boolean).join("\n\n");
   const page: SurprisePage = {
     slug: "preview",
@@ -96,13 +95,14 @@ function PreviewPhone({
     senderName: sender.trim() || null,
     story: story || null,
     letter: letter.trim() || null,
-    photoUrls: photos.map((photo) => photo.url),
+    photoUrls: photos.slice(0, plan.photoLimit).map((photo) => photo.url),
     games,
     musicUrl: null,
     question: question.trim() || null,
     dateLabel: dateLabel.trim() || null,
     designId,
     voiceUrl: voice?.url ?? null,
+    planId,
     activeUntil: null,
     isExample: false,
   };
@@ -114,7 +114,13 @@ function PreviewPhone({
   );
 }
 
-export function EditorWorkspace({ moment }: { moment: Moment }) {
+export function EditorWorkspace({
+  moment,
+  initialPlanId,
+}: {
+  moment: Moment;
+  initialPlanId: PlanId | null;
+}) {
   const config = EDITOR_CONFIG[moment.id];
   const baseDraft: Draft = {
     design: config.designs[0].id,
@@ -126,7 +132,7 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
     song: "manis",
     sp: "",
     letter: "",
-    planId: "plus",
+    planId: initialPlanId ?? "plus",
     games: [],
   };
 
@@ -144,6 +150,8 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
       const raw = localStorage.getItem(storageKey);
       if (raw) {
         const stored = JSON.parse(raw) as Partial<Draft>;
+        const storedPlanId = isPlanId(stored.planId) ? stored.planId : baseDraft.planId;
+        const planId = initialPlanId ?? storedPlanId;
         setDraft({
           design: config.designs.some((design) => design.id === stored.design)
             ? String(stored.design)
@@ -159,8 +167,8 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
             typeof stored.letter === "string"
               ? stored.letter.slice(0, MAX_LETTER_LENGTH)
               : "",
-          planId: isPlanId(stored.planId) ? stored.planId : baseDraft.planId,
-          games: normalizeGames(stored.games),
+          planId,
+          games: normalizeGames(stored.games, getPlan(planId).gameLimit),
         });
       }
     } catch {
@@ -248,6 +256,36 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
     setDraft((current) => ({ ...current, [field]: value }));
   }
 
+  function selectPlan(planId: PlanId) {
+    if (planId === draft.planId) return;
+    const nextPlan = getPlan(planId);
+    const removedGames = Math.max(0, draft.games.length - nextPlan.gameLimit);
+    const removedPhotos = photos.slice(nextPlan.photoLimit);
+    const messages: string[] = [];
+
+    setDraft((current) => ({
+      ...current,
+      planId,
+      games: current.games.slice(0, nextPlan.gameLimit),
+    }));
+
+    if (removedPhotos.length > 0) {
+      setPhotos(photos.slice(0, nextPlan.photoLimit));
+      for (const photo of removedPhotos) {
+        void photoStore.remove(moment.id, photo.id);
+      }
+      messages.push(
+        `${removedPhotos.length} foto dilepas karena paket ${nextPlan.name} maksimal ${nextPlan.photoLimit} foto.`,
+      );
+    }
+    if (removedGames > 0) {
+      messages.push(
+        `${removedGames} permainan dilepas karena paket ${nextPlan.name} maksimal ${nextPlan.gameLimit} permainan.`,
+      );
+    }
+    if (messages.length > 0) addNotices(...messages);
+  }
+
   function updateStory(index: number, value: string) {
     setDraft((current) => ({
       ...current,
@@ -291,7 +329,7 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
   function startCompressing(file: File) {
     const id = crypto.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(36).slice(2)}`;
     setPhotos((current) =>
-      current.length >= MAX_PHOTOS
+      current.length >= plan.photoLimit
         ? current
         : [
             ...current,
@@ -339,9 +377,9 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
 
   function handleFiles(list: FileList | null) {
     if (!list || list.length === 0) return;
-    const slots = MAX_PHOTOS - photos.length;
+    const slots = plan.photoLimit - photos.length;
     if (slots <= 0) {
-      addNotices("Maksimal 8 foto. Hapus satu dulu buat ganti, ya.");
+      addNotices(`Maksimal ${plan.photoLimit} foto. Hapus satu dulu buat ganti, ya.`);
       return;
     }
 
@@ -349,7 +387,7 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
     const considered = files.slice(0, slots);
     const messages: string[] = [];
     if (files.length > slots) {
-      messages.push(`Maksimal 8 foto. ${files.length - slots} file nggak ikut.`);
+      messages.push(`Maksimal ${plan.photoLimit} foto. ${files.length - slots} file nggak ikut.`);
     }
 
     const accepted: File[] = [];
@@ -396,6 +434,7 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
   }
 
   async function saveVoice(blob: Blob, duration: number, name: string) {
+    if (!plan.voiceNote) return;
     const id = crypto.randomUUID?.() ?? `${Date.now()}-${Math.random().toString(36).slice(2)}`;
     const record = {
       id,
@@ -465,6 +504,13 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
               </p>
             </div>
           </div>
+          <p
+            data-plan-summary={plan.id}
+            aria-live="polite"
+            className="mt-5 inline-flex flex-wrap items-center gap-2 rounded-xl border-[3px] border-ink bg-lime px-3 py-2 text-xs font-bold leading-4"
+          >
+            Paket {plan.name} · {formatRupiah(plan.price)} · {plan.activeLabel}
+          </p>
         </div>
 
         <div className="mt-6 space-y-6 sm:mt-9">
@@ -639,6 +685,7 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
 
           <PhotoSection
             photos={photos}
+            maxPhotos={plan.photoLimit}
             notices={notices}
             onFiles={handleFiles}
             onCaption={updatePhotoCaption}
@@ -656,9 +703,12 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
 
           <MusicSection
             mood={draft.song}
-            spotify={draft.sp}
+            spotify={plan.spotify ? draft.sp : ""}
+            plan={plan}
             onMoodChange={(song) => update("song", song)}
-            onSpotifyChange={(sp) => update("sp", sp)}
+            onSpotifyChange={(sp) => {
+              if (plan.spotify) update("sp", sp);
+            }}
           />
 
           <LetterSection
@@ -666,12 +716,15 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
             onChange={(letter) => update("letter", letter)}
           >
             <VoiceNoteEditor
-              value={voice}
-              planName={firstPlanWithVoiceNote()?.name ?? null}
+              key={plan.id}
+              value={plan.voiceNote ? voice : null}
+              plan={plan}
               onSave={saveVoice}
               onRemove={removeVoice}
             />
           </LetterSection>
+
+          <PlanSection plan={plan} onSelect={selectPlan} />
         </div>
 
         <details className="mt-8 px-6 sm:px-7 lg:hidden">
@@ -691,7 +744,8 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
               question={draft.q}
               dateLabel={draft.dt}
               games={draft.games}
-              voice={voice}
+              voice={plan.voiceNote ? voice : null}
+              planId={plan.id}
               resetKey={previewResetKey}
             />
             {resetButton}
@@ -716,7 +770,8 @@ export function EditorWorkspace({ moment }: { moment: Moment }) {
               question={draft.q}
               dateLabel={draft.dt}
               games={draft.games}
-              voice={voice}
+              voice={plan.voiceNote ? voice : null}
+              planId={plan.id}
               resetKey={previewResetKey}
             />
           </div>

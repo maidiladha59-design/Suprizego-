@@ -20,6 +20,7 @@ type MainBerduaPlayerProps = {
   senderName: string | null;
   onComplete?: () => void;
   embedded?: boolean;
+  gameLimit?: number;
 };
 
 type GameViewProps = {
@@ -48,22 +49,24 @@ export function MainBerduaPlayer({
   senderName,
   onComplete,
   embedded = false,
+  gameLimit,
 }: MainBerduaPlayerProps) {
   const playable = useMemo(
-    () => getPlayableGames(games, photoUrls.length),
-    [games, photoUrls.length],
+    () => getPlayableGames(games, photoUrls.length, gameLimit),
+    [games, photoUrls.length, gameLimit],
   );
   const [index, setIndex] = useState(0);
   const [finished, setFinished] = useState(false);
 
   if (playable.length === 0) return null;
+  const activeIndex = Math.min(index, playable.length - 1);
 
   function advance() {
-    if (index >= playable.length - 1) {
+    if (activeIndex >= playable.length - 1) {
       setFinished(true);
       return;
     }
-    setIndex((current) => current + 1);
+    setIndex((current) => Math.min(current + 1, playable.length - 1));
   }
 
   function continueReading() {
@@ -108,14 +111,14 @@ export function MainBerduaPlayer({
     );
   }
 
-  const game = playable[index];
+  const game = playable[activeIndex];
   if (!game) return null;
   const shared: GameViewProps = {
-    gameNumber: index + 1,
+    gameNumber: activeIndex + 1,
     totalGames: playable.length,
     recipientName,
     senderName,
-    isLast: index === playable.length - 1,
+    isLast: activeIndex === playable.length - 1,
     onAdvance: advance,
     onSkip: advance,
     embedded,

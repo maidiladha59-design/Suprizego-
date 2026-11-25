@@ -4,9 +4,11 @@ import { notFound } from "next/navigation";
 import { Brand } from "@/components/brand";
 import { EditorWorkspace } from "@/components/editor/editor-workspace";
 import { MOMENT_IDS, getMoment, isMomentId } from "@/lib/moments";
+import { isPlanId, type PlanId } from "@/lib/plans";
 
 type PageProps = {
   params: Promise<{ momen: string }>;
+  searchParams: Promise<{ paket?: string | string[] }>;
 };
 
 export function generateStaticParams() {
@@ -28,12 +30,16 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
   };
 }
 
-export default async function EditorPage({ params }: PageProps) {
+export default async function EditorPage({ params, searchParams }: PageProps) {
   const { momen } = await params;
 
   if (!isMomentId(momen)) {
     notFound();
   }
+
+  const planParam = (await searchParams).paket;
+  const requestedPlan = Array.isArray(planParam) ? planParam[0] : planParam;
+  const initialPlanId: PlanId | null = isPlanId(requestedPlan) ? requestedPlan : null;
 
   return (
     <div className="min-h-screen bg-paper bg-dots-soft">
@@ -50,7 +56,7 @@ export default async function EditorPage({ params }: PageProps) {
       </header>
 
       <main>
-        <EditorWorkspace moment={getMoment(momen)} />
+        <EditorWorkspace moment={getMoment(momen)} initialPlanId={initialPlanId} />
       </main>
     </div>
   );

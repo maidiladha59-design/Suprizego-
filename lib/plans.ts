@@ -52,7 +52,7 @@ export const PLANS: readonly Plan[] = [
     gameLimit: 2,
     voiceNote: true,
     spotify: true,
-    tagline: "Paling laris",
+    tagline: "Pilihan fleksibel",
     features: [
       "Semua isi Dasar",
       "Main Berdua (2 permainan)",
@@ -65,7 +65,7 @@ export const PLANS: readonly Plan[] = [
       "Aktif 14 hari",
     ],
     highlight: true,
-    badge: "Paling laris",
+    badge: "Pilihan fleksibel",
   },
   {
     id: "abadi",
@@ -107,10 +107,6 @@ export function getPlan(id: PlanId): Plan {
 
 export function isPlanId(value: unknown): value is PlanId {
   return typeof value === "string" && PLAN_IDS.includes(value as PlanId);
-}
-
-export function firstPlanWithVoiceNote(): Plan | null {
-  return PLANS.find((plan) => plan.voiceNote) ?? null;
 }
 
 export function formatRupiah(value: number): string {

@@ -15,6 +15,7 @@ import {
   SparkleIcon,
 } from "@/components/ui/icons";
 import { getMoment } from "@/lib/moments";
+import { getPlan } from "@/lib/plans";
 import {
   getReaderDateLabel,
   getReaderQuestion,
@@ -214,6 +215,7 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
                 senderName={page.senderName}
                 onComplete={goNext}
                 embedded
+                gameLimit={page.planId ? getPlan(page.planId).gameLimit : undefined}
               />
             </div>
           ) : null}

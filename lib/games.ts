@@ -226,8 +226,10 @@ function normalizePlan(value: Record<string, unknown>): PlanGame {
   };
 }
 
-export function normalizeGames(value: unknown): Game[] {
+export function normalizeGames(value: unknown, gameLimit = MAX_GAMES): Game[] {
   if (!Array.isArray(value)) return [];
+  const maxGames = Math.max(0, Math.min(MAX_GAMES, Math.floor(gameLimit)));
+  if (maxGames === 0) return [];
 
   const games: Game[] = [];
   const seen = new Set<GameType>();
@@ -249,7 +251,7 @@ export function normalizeGames(value: unknown): Game[] {
               ? { id: readId(source.id), type: "susun" as const }
               : normalizePlan(source);
       games.push(game);
-      if (games.length >= MAX_GAMES) break;
+      if (games.length >= maxGames) break;
     }
   }
 
@@ -299,6 +301,13 @@ export function isPlayableGame(game: Game, photoCount: number) {
   }
 }
 
-export function getPlayableGames(games: Game[], photoCount: number): Game[] {
-  return games.filter((game) => isPlayableGame(game, photoCount)).slice(0, MAX_GAMES);
+export function getPlayableGames(
+  games: Game[],
+  photoCount: number,
+  gameLimit = MAX_GAMES,
+): Game[] {
+  const maxGames = Math.max(0, Math.min(MAX_GAMES, Math.floor(gameLimit)));
+  return games
+    .filter((game) => isPlayableGame(game, photoCount))
+    .slice(0, maxGames);
 }

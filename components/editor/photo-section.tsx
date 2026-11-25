@@ -1,6 +1,6 @@
 "use client";
 
-import { MAX_PHOTOS, PHOTO_ACCEPT } from "@/lib/photo-rules";
+import { PHOTO_ACCEPT } from "@/lib/photo-rules";
 
 export type EditorPhoto = {
   id: string;
@@ -14,6 +14,7 @@ export type EditorPhoto = {
 
 type PhotoSectionProps = {
   photos: EditorPhoto[];
+  maxPhotos: number;
   notices: string[];
   onFiles: (files: FileList | null) => void;
   onCaption: (id: string, caption: string) => void;
@@ -30,6 +31,7 @@ const arrowClass =
 
 export function PhotoSection({
   photos,
+  maxPhotos,
   notices,
   onFiles,
   onCaption,
@@ -37,10 +39,13 @@ export function PhotoSection({
   onMove,
   onDismissNotices,
 }: PhotoSectionProps) {
-  const full = photos.length >= MAX_PHOTOS;
+  const full = photos.length >= maxPhotos;
 
   return (
-    <section className="rounded-card border-4 border-ink bg-white p-6 shadow-hard-lg sm:p-7">
+    <section
+      data-photo-limit={maxPhotos}
+      className="rounded-card border-4 border-ink bg-white p-6 shadow-hard-lg sm:p-7"
+    >
       <div className="flex items-center gap-3">
         <span className="grid size-9 shrink-0 place-items-center rounded-full border-[3px] border-ink bg-lime font-display text-lg">
           4
@@ -48,7 +53,7 @@ export function PhotoSection({
         <h2 className="font-display text-2xl uppercase leading-8">Foto</h2>
       </div>
       <p className="mt-1 text-sm font-bold leading-5 text-ink/70">
-        Maksimal 8 foto, otomatis dikecilin. {photos.length}/8
+        Maksimal {maxPhotos} foto, otomatis dikecilin. {photos.length}/{maxPhotos}
       </p>
 
       {notices.length > 0 && (
@@ -172,7 +177,7 @@ export function PhotoSection({
 
         {full && (
           <div className="grid aspect-square place-items-center rounded-xl border-4 border-dashed border-ink bg-paper p-3 text-center text-xs font-bold leading-5 text-ink/70">
-            Penuh, 8/8. Hapus satu buat ganti.
+            Penuh, {maxPhotos}/{maxPhotos}. Hapus satu buat ganti.
           </div>
         )}
       </div>
