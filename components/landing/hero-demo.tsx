@@ -169,7 +169,7 @@ export function HeroDemo({ contactEmail }: { contactEmail: string }) {
 
   return (
     <>
-      <div className="animate-rise-late relative mx-auto w-full max-w-[340px] justify-self-center pt-11 md:col-start-2 md:row-span-2 md:row-start-1 md:self-center md:pt-0">
+      <div className="animate-rise-late relative mx-auto w-full max-w-[340px] justify-self-center md:col-start-2 md:row-span-2 md:row-start-1 md:self-center">
         <div className="mb-3 text-center">
           <span
             className="sticker rotate-2 bg-white px-[11.2px] py-[3.2px] text-xs"
@@ -200,7 +200,11 @@ export function HeroDemo({ contactEmail }: { contactEmail: string }) {
               onPause={() => setMusicOn(false)}
             />
 
-            <div className="flex h-[58px] shrink-0 items-center justify-between gap-3 px-5 pr-4">
+            <div
+              className={`flex shrink-0 items-center justify-between gap-3 px-5 pr-4 ${
+                stage === "cover" ? "mb-4 mt-5 h-3" : "h-[58px]"
+              }`}
+            >
               <div
                 className="flex items-center gap-1.5"
                 aria-label={`Langkah demo ${progress} dari 8`}
@@ -231,7 +235,10 @@ export function HeroDemo({ contactEmail }: { contactEmail: string }) {
               )}
             </div>
 
-            <div key={`${runId}-${stage}`} className="flex min-h-0 flex-1 flex-col">
+            <div
+              key={`${runId}-${stage}`}
+              className={`flex min-h-0 flex-1 flex-col ${stage === "cover" ? "pb-10" : ""}`}
+            >
               {renderScreen()}
             </div>
 

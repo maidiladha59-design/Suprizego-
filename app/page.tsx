@@ -10,6 +10,7 @@ import { FaqSection } from "@/components/landing/faq-section";
 import { CtaBand } from "@/components/landing/cta-band";
 import { SiteHeader } from "@/components/site/site-header";
 import { SiteFooter } from "@/components/site/site-footer";
+import { getSpecialDayOccurrences } from "@/lib/special-days";
 
 export default function HomePage() {
   return (
@@ -20,7 +21,7 @@ export default function HomePage() {
         <Hero />
         <MarqueeBand />
         <MomentsSection />
-        <SpecialDaysSection />
+        <SpecialDaysSection initialOccurrences={getSpecialDayOccurrences()} />
         <StepsSection />
         <FeaturesSection />
         <PricingSection />

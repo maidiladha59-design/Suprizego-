@@ -14,32 +14,32 @@ const CARD_THEMES: Record<MomentId, { art: string; footer: string }> = {
 export function MomentsSection() {
   return (
     <section id="momen" aria-labelledby="momen-title" className="scroll-mt-24 bg-paper">
-      <div className="mx-auto w-full max-w-6xl px-4 py-16 md:py-24">
+      <div className="mx-auto w-full max-w-6xl px-4 py-20 md:py-24">
         <div className="max-w-2xl">
           <h2
             id="momen-title"
-            className="font-display text-[2.15rem] font-extrabold uppercase leading-[0.95] tracking-[-0.035em] text-ink sm:text-5xl"
+            className="font-display text-4xl uppercase leading-10 text-ink sm:text-5xl sm:leading-none"
           >
             Momen apa?
           </h2>
-          <p className="mt-4 max-w-xl text-[15px] font-semibold leading-7 text-ink/75 sm:text-base">
-            Lima momen, masing-masing punya kejutannya sendiri. Pilih yang paling dekat dengan
-            ceritamu, lalu bentuk halamannya sesukamu.
+          <p className="mt-4 max-w-xl text-base font-bold leading-6 text-ink">
+            Lima momen, lima kejutan. Pilih yang paling dekat dengan ceritamu.
           </p>
         </div>
 
-        <div className="mt-10 grid gap-7 sm:grid-cols-2 lg:grid-cols-3 lg:gap-8">
+        <div className="mt-9 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
           {MOMENTS.map((moment, index) => {
             const theme = CARD_THEMES[moment.id];
+            const taglineHeight = index === 1 || index === 4 ? "min-h-6" : "min-h-12";
 
             return (
               <div key={moment.id} className="relative">
                 <Link
                   href={`/contoh/${moment.id}`}
-                  className="group flex h-full flex-col overflow-hidden rounded-2xl border-4 border-ink bg-paper shadow-[6px_6px_0_#111] transition-[transform,box-shadow] duration-200 hover:-translate-y-1 hover:shadow-[9px_9px_0_#111] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ink/25"
+                  className="group flex h-full flex-col overflow-hidden rounded-[1.25rem] border-4 border-ink bg-paper shadow-[8px_8px_0_#111] transition-[transform,box-shadow] duration-200 hover:-translate-y-1 hover:shadow-[11px_11px_0_#111] focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ink/25"
                 >
                   <div
-                    className={`flex h-44 items-center justify-center border-b-4 border-ink p-4 sm:h-48 ${theme.art}`}
+                    className={`flex h-[199px] items-center justify-center p-4 sm:h-56 ${theme.art}`}
                   >
                     <MomentArt
                       moment={moment.id}
@@ -55,11 +55,11 @@ export function MomentsSection() {
                       <ArrowRightIcon className="mt-0.5 size-6 shrink-0 text-ink transition-transform duration-200 group-hover:translate-x-1" />
                     </div>
 
-                    <p className="mt-2 text-sm font-semibold leading-6 text-ink/80">
+                    <p className={`mt-2 text-sm font-bold leading-6 text-ink ${taglineHeight}`}>
                       {moment.tagline}
                     </p>
 
-                    <div className="mt-auto pt-4">
+                    <div className="mt-auto pt-3">
                       <span className="inline-flex items-center gap-1.5 rounded-full border-2 border-ink bg-paper px-3 py-1.5 font-display text-[11px] font-extrabold uppercase tracking-[0.04em] text-ink shadow-[2px_2px_0_#111]">
                         <span aria-hidden="true">✦</span>
                         {moment.badge}

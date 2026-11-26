@@ -7,7 +7,7 @@ function MarqueeGroup() {
     <div className="flex shrink-0 items-center gap-8 pr-8 sm:gap-12 sm:pr-12">
       {[...LABELS, ...LABELS].map((label, index) => (
         <div key={`${label}-${index}`} className="flex shrink-0 items-center gap-8 sm:gap-12">
-          <span className="font-display text-[1.3rem] font-extrabold uppercase leading-none tracking-[0.01em] text-lime sm:text-[1.85rem]">
+          <span className="font-display text-[1.5rem] font-extrabold uppercase leading-7 tracking-[0.01em] text-lime sm:text-[1.85rem]">
             {label}
           </span>
           <span className="text-[0.85em] leading-none text-lime">✦</span>
@@ -19,7 +19,7 @@ function MarqueeGroup() {
 
 export function MarqueeBand() {
   return (
-    <section className="overflow-hidden bg-ink py-4 text-lime">
+    <section className="overflow-hidden border-b-4 border-ink bg-ink py-3 text-lime">
       <h2 className="sr-only">
         Lima momen: {LABELS.join(", ")}
       </h2>

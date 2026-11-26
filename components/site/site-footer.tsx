@@ -5,6 +5,7 @@ import { Brand } from "@/components/brand";
 import { useLanguage } from "@/components/i18n/language-provider";
 import { CHROME_COPY } from "@/lib/i18n";
 import { MOMENTS } from "@/lib/moments";
+import { CONTACT_EMAIL } from "@/lib/contact";
 
 export function SiteFooter() {
   const { lang, setLang } = useLanguage();
@@ -14,8 +15,10 @@ export function SiteFooter() {
     <footer className="mt-24 border-t-4 border-ink bg-ink text-cream">
       <div className="mx-auto grid w-full max-w-6xl gap-10 px-4 py-12 md:grid-cols-3">
         <div>
-          <Brand tone="cream" size="lg" />
-          <p className="mt-4 max-w-xs text-sm leading-[1.5] opacity-80">{copy.tagline}</p>
+          <div className="flex">
+            <Brand tone="cream" size="lg" />
+          </div>
+          <p className="mt-4 max-w-xs text-sm leading-5 opacity-80">{copy.tagline}</p>
         </div>
 
         <nav aria-label={copy.momentsNavLabel}>
@@ -61,6 +64,54 @@ export function SiteFooter() {
                 {copy.pricing}
               </Link>
             </li>
+            <li>
+              <Link
+                href="/#cara-kerja"
+                className="transition-colors hover:text-lime focus-visible:text-lime focus-visible:outline-none"
+              >
+                {copy.howItWorks}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#fitur"
+                className="transition-colors hover:text-lime focus-visible:text-lime focus-visible:outline-none"
+              >
+                {copy.features}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#faq"
+                className="transition-colors hover:text-lime focus-visible:text-lime focus-visible:outline-none"
+              >
+                {copy.faq}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#hari-spesial"
+                className="transition-colors hover:text-lime focus-visible:text-lime focus-visible:outline-none"
+              >
+                {copy.specialDays}
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/#momen"
+                className="transition-colors hover:text-lime focus-visible:text-lime focus-visible:outline-none"
+              >
+                {copy.momentsHeading}
+              </Link>
+            </li>
+            <li>
+              <a
+                href={`mailto:${CONTACT_EMAIL}`}
+                className="transition-colors hover:text-lime focus-visible:text-lime focus-visible:outline-none"
+              >
+                {copy.contact}
+              </a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -78,7 +129,7 @@ export function SiteFooter() {
               type="button"
               onClick={() => setLang("id")}
               aria-pressed={lang === "id"}
-              className={`min-h-10 px-3 py-1.5 text-xs font-bold transition-colors ${
+              className={`px-3 py-1.5 text-xs font-bold transition-colors ${
                 lang === "id" ? "bg-cream text-ink" : "text-cream hover:text-lime"
               }`}
             >
@@ -88,7 +139,7 @@ export function SiteFooter() {
               type="button"
               onClick={() => setLang("en")}
               aria-pressed={lang === "en"}
-              className={`min-h-10 px-3 py-1.5 text-xs font-bold transition-colors ${
+              className={`px-3 py-1.5 text-xs font-bold transition-colors ${
                 lang === "en" ? "bg-cream text-ink" : "text-cream hover:text-lime"
               }`}
             >

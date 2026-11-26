@@ -14,6 +14,10 @@ type ChromeCopy = {
   specialDays: string;
   buildPage: string;
   pricing: string;
+  howItWorks: string;
+  features: string;
+  faq: string;
+  contact: string;
   copyright: string;
   languageLabel: string;
   momentLabels: Record<MomentId, string>;
@@ -31,6 +35,10 @@ export const CHROME_COPY: Record<Language, ChromeCopy> = {
     specialDays: "Hari Spesial",
     buildPage: "Bikin halaman",
     pricing: "Harga",
+    howItWorks: "Cara kerja",
+    features: "Fitur",
+    faq: "FAQ",
+    contact: "Hubungi kami",
     copyright: "© 2026 SuprizeGo · dibuat dengan sepenuh hati",
     languageLabel: "Pilihan bahasa",
     momentLabels: {
@@ -52,6 +60,10 @@ export const CHROME_COPY: Record<Language, ChromeCopy> = {
     specialDays: "Special Days",
     buildPage: "Create a page",
     pricing: "Pricing",
+    howItWorks: "How it works",
+    features: "Features",
+    faq: "FAQ",
+    contact: "Contact us",
     copyright: "© 2026 SuprizeGo · made with all our heart",
     languageLabel: "Language",
     momentLabels: {

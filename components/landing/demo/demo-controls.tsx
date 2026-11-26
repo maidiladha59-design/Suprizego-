@@ -57,7 +57,7 @@ export function DemoThemeControls({
   onReset: () => void;
 }) {
   return (
-    <div className="mt-4 flex flex-col items-center gap-3" aria-label="Kontrol demo">
+    <div className="mt-5 flex flex-col items-center gap-2" aria-label="Kontrol demo">
       <div className="flex items-center justify-center gap-3">
         {DEMO_THEMES.map((item) => (
           <DemoButton
