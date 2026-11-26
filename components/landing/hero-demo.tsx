@@ -1,30 +1,34 @@
 "use client";
 
-import { useEffect, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import Link from "next/link";
-import { EnvelopeArt } from "@/components/ui/envelope-art";
+import { DemoPhotoScreen } from "./demo-photo-screen";
 import {
   ArrowRightIcon,
   EnvelopeIcon,
   HeartIcon,
+  MusicIcon,
+  PauseIcon,
   SparkleIcon,
 } from "@/components/ui/icons";
 
 type Stage = 0 | 1 | 2 | 3;
 
 const EVENTS = [
-  { icon: EnvelopeIcon, text: "Nadia membuka kejutannya" },
-  { icon: SparkleIcon, text: "Nadia membaca ceritamu" },
-  { icon: HeartIcon, text: "Nadia sampai di surat terakhir" },
+  { icon: EnvelopeIcon, text: "Sekar membuka potongan hari" },
+  { icon: SparkleIcon, text: "Sekar selesai membaca cerita" },
+  { icon: HeartIcon, text: "Sekar memilih jawaban terakhir" },
 ] as const;
 
 export function HeroDemo() {
   const [stage, setStage] = useState<Stage>(0);
+  const [musicOn, setMusicOn] = useState(false);
+  const [musicNotice, setMusicNotice] = useState(false);
+  const audioRef = useRef<HTMLAudioElement | null>(null);
+  const progress = stage === 0 ? 1 : stage + 1;
 
   useEffect(() => {
-    if (stage === 0 || stage === 3) {
-      return;
-    }
+    if (stage === 0 || stage === 3) return;
 
     const timer = window.setTimeout(() => {
       setStage((current) => (current < 3 ? ((current + 1) as Stage) : current));
@@ -33,109 +37,143 @@ export function HeroDemo() {
     return () => window.clearTimeout(timer);
   }, [stage]);
 
+  useEffect(
+    () => () => {
+      audioRef.current?.pause();
+    },
+    [],
+  );
+
+  async function playMusic() {
+    const audio = audioRef.current;
+    if (!audio) return;
+
+    try {
+      await audio.play();
+      setMusicOn(true);
+      setMusicNotice(false);
+    } catch {
+      setMusicOn(false);
+      setMusicNotice(true);
+    }
+  }
+
+  function toggleMusic() {
+    const audio = audioRef.current;
+    if (!audio) return;
+    if (audio.paused) void playMusic();
+    else {
+      audio.pause();
+      setMusicOn(false);
+    }
+  }
+
+  function restart() {
+    setStage(0);
+    setMusicOn(false);
+    setMusicNotice(false);
+    audioRef.current?.pause();
+  }
+
   return (
     <>
-      <div className="animate-rise-late relative mx-auto w-full max-w-[21.5rem] md:col-start-2 md:row-span-2 md:row-start-1 md:self-center">
-        <p className="mb-4 flex justify-center">
-          <span className="inline-flex -rotate-1 items-center rounded-full border-[3px] border-ink bg-paper px-3 py-1.5 text-center font-display text-[10px] font-extrabold uppercase leading-tight tracking-[0.06em] text-ink shadow-[3px_3px_0_#111]">
-            Ini demo — coba langsung, gratis
-          </span>
-        </p>
+      <div className="animate-rise-late relative mx-auto w-full max-w-[340px] justify-self-center md:col-start-2 md:row-span-2 md:row-start-1 md:self-center">
+        <div
+          data-demo-phone
+          className="relative h-[640px] w-full rounded-[38.4px] border-[6px] border-ink bg-ink shadow-[10px_10px_0_0_#111]"
+        >
+          <div className="flex h-full flex-col overflow-hidden rounded-[28px] bg-candy">
+            <audio
+              ref={audioRef}
+              src="/audio/demo-senja.wav"
+              loop
+              preload="none"
+              onPlay={() => setMusicOn(true)}
+              onPause={() => setMusicOn(false)}
+            />
 
-        <div className="relative h-[40rem] rounded-[2.6rem] border-[6px] border-ink bg-ink shadow-[10px_10px_0_#111]">
-          <div className="flex h-full flex-col overflow-hidden rounded-[2.02rem] bg-candy p-4">
-            <div className="flex items-center justify-between gap-4">
-              <span className="rounded-md border-2 border-ink bg-paper px-1.5 py-0.5 font-display text-[9px] font-extrabold uppercase tracking-[0.12em] text-ink">
-                Demo
-              </span>
-              <div className="flex items-center gap-1.5" aria-hidden="true">
-                {[1, 2, 3].map((step) => (
+            <div className="flex h-[58px] shrink-0 items-center justify-between gap-3 px-5 pr-4">
+              <div
+                className="flex items-center gap-1.5"
+                aria-label={`Langkah demo ${progress} dari 8`}
+              >
+                {Array.from({ length: 8 }, (_, index) => (
                   <span
-                    key={step}
-                    className={`size-2.5 rounded-full border-2 border-ink ${
-                      stage >= step ? "bg-ink" : "bg-transparent"
+                    key={index}
+                    aria-hidden="true"
+                    className={`size-3 rounded-full border-2 border-ink transition-colors ${
+                      index < progress ? "bg-ink" : "bg-transparent"
                     }`}
                   />
                 ))}
               </div>
+              <button
+                type="button"
+                onClick={toggleMusic}
+                aria-pressed={musicOn}
+                aria-label={musicOn ? "Matikan musik demo" : "Nyalakan musik demo"}
+                className="mt-[12.8px] inline-flex h-[30.5px] shrink-0 items-center gap-1 rounded-xl border-[3px] border-ink bg-paper px-2.5 font-display text-[11px] uppercase leading-[1.5] text-ink shadow-[3px_3px_0_0_#111] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink"
+              >
+                {musicOn ? <PauseIcon className="size-3" /> : <MusicIcon className="size-3" />}
+                {musicOn ? "Nyala" : "Mati"}
+              </button>
             </div>
 
-            {stage === 0 ? (
-              <div className="flex flex-1 flex-col items-center justify-center pb-1 text-center">
-                <span className="sticker -rotate-2 bg-tangerine px-3 py-1.5 text-[11px]">
-                  Kejutan kecil buat…
-                </span>
-                <p className="mt-5 font-display text-[3.3rem] font-extrabold uppercase leading-none tracking-[-0.04em] text-ink">
-                  Nadia
-                </p>
-                <button
-                  type="button"
-                  onClick={() => setStage(1)}
-                  aria-label="Buka amplop untuk memulai demo"
-                  className="group mt-8 w-full max-w-[16rem] rounded-2xl focus-visible:outline-none focus-visible:ring-4 focus-visible:ring-ink/30"
-                >
-                  <span className="block animate-float-soft transition-transform duration-200 group-hover:-rotate-2 group-hover:scale-[1.03]">
-                    <EnvelopeArt />
-                  </span>
-                </button>
-                <p className="mt-5 inline-flex items-center gap-1.5 text-[10px] font-bold uppercase tracking-[0.16em] text-ink">
-                  Tekan untuk buka
-                  <ArrowRightIcon className="size-3 rotate-90" />
-                </p>
-                <p className="mt-auto pt-6 text-[10px] font-semibold uppercase tracking-[0.12em] text-ink/60">
-                  Dari Raka · Pengakuan
-                </p>
-              </div>
-            ) : (
-              <div className="mt-4 flex flex-1 flex-col overflow-hidden">
-                <div className="text-center">
-                  <p className="text-[9px] font-bold uppercase tracking-[0.18em] text-ink/60">
-                    Kejutan dari Raka
-                  </p>
-                  <p className="mt-1 font-display text-[1.8rem] font-extrabold uppercase leading-none tracking-[-0.03em] text-ink">
-                    Hai, Nadia!
-                  </p>
-                </div>
-
-                <div className="no-scrollbar mt-3 flex flex-1 flex-col gap-2.5 overflow-y-auto pr-0.5">
-                  <DemoCard label="Pesan pertama">
-                    <p className="text-[12px] leading-5">
-                      Raka menulis sesuatu yang sudah lama dia simpan. Baca pelan-pelan, ya.
+            <div key={stage} className="animate-pop-in flex min-h-0 flex-1 flex-col">
+              {stage === 0 ? (
+                <DemoPhotoScreen onContinue={() => setStage(1)} />
+              ) : (
+                <div className="mt-4 flex flex-1 flex-col overflow-hidden px-4 pb-4">
+                  <div className="text-center">
+                    <p className="text-[12px] font-bold uppercase leading-4 tracking-[0.02em] text-ink/60">
+                      Cerita dari Bima
                     </p>
-                  </DemoCard>
+                    <p className="mt-1 font-display text-[1.8rem] font-extrabold uppercase leading-none tracking-[-0.03em] text-ink">
+                      Hai, Sekar!
+                    </p>
+                  </div>
 
-                  {stage >= 2 ? (
-                    <DemoCard label="Pengakuan">
+                  <div className="no-scrollbar mt-3 flex flex-1 flex-col gap-2.5 overflow-y-auto pr-0.5">
+                    <DemoCard label="Pesan pertama">
                       <p className="text-[12px] leading-5">
-                        “Dua tahun aku menyimpan ini rapat-rapat. Aku tidak sedang mencari panggung —
-                        aku hanya ingin akhirnya jujur.”
+                        Bima menyimpan tiga potongan hari yang dia ingin kamu lihat lagi. Baca
+                        pelan-pelan, ya.
                       </p>
                     </DemoCard>
-                  ) : null}
 
-                  {stage >= 3 ? (
-                    <DemoCard label="Satu lagi" tone="lime">
-                      <p className="text-[12px] leading-5">
-                        Masih ada surat kecil di bagian akhir. Kalau sudah siap, buka versi
-                        lengkapnya.
-                      </p>
-                      <Link
-                        href="/contoh/pengakuan"
-                        className="mt-2 inline-flex items-center gap-1 font-display text-[11px] font-extrabold uppercase underline decoration-2 underline-offset-2"
-                      >
-                        Buka halaman penuh
-                        <ArrowRightIcon className="size-3.5" />
-                      </Link>
-                    </DemoCard>
-                  ) : null}
-                </div>
+                    {stage >= 2 ? (
+                      <DemoCard label="Pengakuan">
+                        <p className="text-[12px] leading-5">
+                          “Ada hal-hal kecil yang terasa biasa waktu itu. Ternyata jadi bagian
+                          yang paling aku rindukan.”
+                        </p>
+                      </DemoCard>
+                    ) : null}
 
-                <div className="mt-2 flex items-center justify-between border-t-2 border-ink/20 pt-2 text-[9px] font-bold uppercase tracking-[0.1em] text-ink/60">
-                  <span>Untuk Nadia</span>
-                  <span>{stage} / 3 kebuka</span>
+                    {stage >= 3 ? (
+                      <DemoCard label="Satu lagi" tone="lime">
+                        <p className="text-[12px] leading-5">
+                          Masih ada pertanyaan kecil di bagian akhir. Kalau sudah siap, buka
+                          versi lengkapnya.
+                        </p>
+                        <Link
+                          href="/contoh/pengakuan"
+                          className="mt-2 inline-flex items-center gap-1 font-display text-[11px] font-extrabold uppercase underline decoration-2 underline-offset-2"
+                        >
+                          Buka halaman penuh
+                          <ArrowRightIcon className="size-3.5" />
+                        </Link>
+                      </DemoCard>
+                    ) : null}
+                  </div>
+
+                  <div className="mt-2 flex items-center justify-between border-t-2 border-ink/20 pt-2 text-[9px] font-bold uppercase tracking-[0.1em] text-ink/60">
+                    <span>Untuk Sekar</span>
+                    <span>{stage} / 3 kebuka</span>
+                  </div>
                 </div>
-              </div>
-            )}
+              )}
+            </div>
           </div>
         </div>
 
@@ -147,7 +185,7 @@ export function HeroDemo() {
           ) : (
             <button
               type="button"
-              onClick={() => setStage(0)}
+              onClick={restart}
               className="inline-flex items-center gap-1.5 rounded-xl border-[3px] border-ink bg-paper px-3.5 py-2 font-display text-[11px] font-extrabold uppercase text-ink shadow-[3px_3px_0_#111] transition-transform hover:-translate-x-0.5 hover:-translate-y-0.5"
             >
               <span aria-hidden="true">↺</span>
@@ -155,13 +193,19 @@ export function HeroDemo() {
             </button>
           )}
         </div>
+
+        {musicNotice ? (
+          <p role="status" className="mt-2 text-center text-[10px] font-bold leading-4">
+            Musik belum bisa diputar di browser ini.
+          </p>
+        ) : null}
       </div>
 
       <div className="animate-rise w-full max-w-md justify-self-start self-start rounded-[1.35rem] border-4 border-ink bg-white p-4 shadow-[8px_8px_0_#111] md:col-start-1 md:row-start-2 md:rotate-[0.6deg]">
         <div className="flex items-start justify-between gap-3">
           <div>
             <p className="font-display text-base font-extrabold uppercase leading-tight text-ink sm:text-lg">
-              Yang Raka terima
+              Yang Bima terima
             </p>
             <p className="mt-1 text-[9px] font-bold uppercase tracking-[0.13em] text-ink/50">
               Simulasi notifikasi pengirim
@@ -178,7 +222,7 @@ export function HeroDemo() {
         >
           {stage === 0 ? (
             <p className="text-[12px] font-semibold leading-5 text-ink/65">
-              Buka amplop di layar. Kabar dari Nadia akan muncul di sini, satu per satu.
+              Buka foto di layar. Kabar dari Sekar akan muncul di sini, satu per satu.
             </p>
           ) : (
             <ol className="space-y-2">

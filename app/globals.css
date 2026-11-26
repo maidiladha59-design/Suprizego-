@@ -257,6 +257,26 @@
   animation: float-soft 5s ease-in-out infinite;
 }
 
+.demo-polaroid {
+  transform-origin: center;
+  transition:
+    transform 300ms cubic-bezier(0.2, 0.8, 0.2, 1),
+    opacity 220ms ease;
+}
+
+.demo-polaroid__rising {
+  animation: polaroid-rise 360ms cubic-bezier(0.2, 0.8, 0.2, 1) both;
+}
+
+@keyframes polaroid-rise {
+  from {
+    transform: translateY(24px) rotate(-7deg) scale(0.96);
+  }
+  to {
+    transform: translateY(0) rotate(0deg) scale(1);
+  }
+}
+
 @keyframes marquee {
   from {
     transform: translateX(0);
@@ -284,6 +304,7 @@
   .animate-pop-in,
   .animate-float-soft,
   .animate-marquee,
+  .demo-polaroid__rising,
   .brand-mark__mascot,
   .brand-mark__eye-blink {
     animation: none;
