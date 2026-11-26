@@ -10,6 +10,7 @@ export type SurprisePageRow = {
   games?: unknown;
   music_path: string | null;
   theme: string;
+  special_day: string | null;
   active_until: string | null;
   created_at: string;
 };
@@ -30,6 +31,7 @@ export type Database = {
           photo_paths?: string[];
           music_path?: string | null;
           theme?: string;
+          special_day?: string | null;
           active_until?: string | null;
           created_at?: string;
         };

@@ -6,10 +6,12 @@ import { MainBerduaSection } from "@/components/editor/main-berdua-section";
 import { MusicSection } from "@/components/editor/music-section";
 import { PhotoSection, type EditorPhoto } from "@/components/editor/photo-section";
 import { PlanSection } from "@/components/editor/plan-section";
+import { SpecialDaySection } from "@/components/editor/special-day-section";
 import type { PreviewPhoto } from "@/components/editor/photo-reader";
 import { SurpriseReader } from "@/components/surprise/surprise-reader";
 import { VoiceNoteEditor, type VoiceNote } from "@/components/editor/voice-note-editor";
-import { ArrowRightIcon, SparkleIcon } from "@/components/ui/icons";
+import { Logo } from "@/components/Logo";
+import { ArrowRightIcon } from "@/components/ui/icons";
 import { audioStore } from "@/lib/audio-store";
 import { compressPhoto } from "@/lib/compress-photo";
 import { EDITOR_CONFIG } from "@/lib/editor";
@@ -20,9 +22,15 @@ import { normalizeMusicMood, stopMusicPreview, type MusicMood } from "@/lib/musi
 import { MAX_PHOTO_BYTES, isHeicPhoto, isSupportedPhoto } from "@/lib/photo-rules";
 import { photoStore } from "@/lib/photo-store";
 import { formatRupiah, getPlan, isPlanId, type PlanId } from "@/lib/plans";
+import {
+  isSpecialDayId,
+  type SpecialDayId,
+  type SpecialDayOccurrence,
+} from "@/lib/special-days";
 
 type Draft = {
   design: string;
+  specialDay: SpecialDayId | null;
   sn: string;
   rn: string;
   dt: string;
@@ -60,6 +68,7 @@ const labelClass =
 function PreviewPhone({
   moment,
   designId,
+  specialDay,
   recipient,
   sender,
   stories,
@@ -74,6 +83,7 @@ function PreviewPhone({
 }: {
   moment: Moment;
   designId: string;
+  specialDay: SpecialDayId | null;
   recipient: string;
   sender: string;
   stories: string[];
@@ -101,6 +111,7 @@ function PreviewPhone({
     question: question.trim() || null,
     dateLabel: dateLabel.trim() || null,
     designId,
+    specialDay,
     voiceUrl: voice?.url ?? null,
     planId,
     activeUntil: null,
@@ -117,13 +128,16 @@ function PreviewPhone({
 export function EditorWorkspace({
   moment,
   initialPlanId,
+  specialDays,
 }: {
   moment: Moment;
   initialPlanId: PlanId | null;
+  specialDays: SpecialDayOccurrence[];
 }) {
   const config = EDITOR_CONFIG[moment.id];
   const baseDraft: Draft = {
     design: config.designs[0].id,
+    specialDay: null,
     sn: "",
     rn: "",
     dt: "",
@@ -144,6 +158,7 @@ export function EditorWorkspace({
   const photosLoaded = useRef(false);
   const hydrated = useRef(false);
   const storageKey = `suprizego:draft:${moment.id}`;
+  const activeSpecialDay = specialDays.find((item) => item.status === "musim") ?? null;
 
   useEffect(() => {
     try {
@@ -156,6 +171,10 @@ export function EditorWorkspace({
           design: config.designs.some((design) => design.id === stored.design)
             ? String(stored.design)
             : baseDraft.design,
+          specialDay:
+            isSpecialDayId(stored.specialDay) && stored.specialDay === activeSpecialDay?.day.id
+              ? stored.specialDay
+              : null,
           sn: typeof stored.sn === "string" ? stored.sn : "",
           rn: typeof stored.rn === "string" ? stored.rn : "",
           dt: typeof stored.dt === "string" ? stored.dt : "",
@@ -492,9 +511,7 @@ export function EditorWorkspace({
       <div className="min-w-0">
         <div className="px-6 sm:px-7">
           <div className="flex items-start gap-6">
-            <span className="grid size-12 shrink-0 -rotate-3 place-items-center rounded-xl border-[3px] border-ink bg-lime shadow-[4px_4px_0_0_#111]">
-              <SparkleIcon className="size-6" />
-            </span>
+            <Logo size="lg" />
             <div className="min-w-0">
               <h1 className="font-display text-3xl uppercase leading-9 sm:text-4xl sm:leading-10">
                 Halaman {moment.label}
@@ -567,6 +584,12 @@ export function EditorWorkspace({
               })}
             </div>
           </section>
+
+          <SpecialDaySection
+            occurrences={specialDays}
+            value={draft.specialDay}
+            onChange={(specialDay) => update("specialDay", specialDay)}
+          />
 
           <section className="rounded-card border-4 border-ink bg-white p-6 shadow-hard-lg sm:p-7">
             <div className="flex items-center gap-3">
@@ -736,6 +759,7 @@ export function EditorWorkspace({
             <PreviewPhone
               moment={moment}
               designId={design.id}
+              specialDay={draft.specialDay}
               recipient={draft.rn}
               sender={draft.sn}
               stories={draft.story}
@@ -762,6 +786,7 @@ export function EditorWorkspace({
             <PreviewPhone
               moment={moment}
               designId={design.id}
+              specialDay={draft.specialDay}
               recipient={draft.rn}
               sender={draft.sn}
               stories={draft.story}

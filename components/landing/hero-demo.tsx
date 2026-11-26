@@ -77,7 +77,16 @@ export function HeroDemo() {
 
   return (
     <>
-      <div className="animate-rise-late relative mx-auto w-full max-w-[340px] justify-self-center md:col-start-2 md:row-span-2 md:row-start-1 md:self-center">
+      <div className="animate-rise-late relative mx-auto w-full max-w-[340px] justify-self-center pt-11 md:col-start-2 md:row-span-2 md:row-start-1 md:self-center md:pt-0">
+        <div className="mb-3 text-center">
+          <span
+            className="sticker rotate-2 bg-white px-[11.2px] py-[3.2px] text-xs"
+            style={{ display: "inline-block", fontWeight: 400, letterSpacing: "normal", lineHeight: "16px" }}
+          >
+            Ini beneran bisa dimainin 👇
+          </span>
+        </div>
+
         <div
           data-demo-phone
           className="relative h-[640px] w-full rounded-[38.4px] border-[6px] border-ink bg-ink shadow-[10px_10px_0_0_#111]"

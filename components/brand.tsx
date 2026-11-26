@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { BrandMark } from "@/components/brand-mark";
+import { Logo } from "@/components/Logo";
 
 type BrandProps = {
   tone?: "ink" | "cream";
@@ -13,7 +13,7 @@ export function Brand({ tone = "ink", size = "md", className = "" }: BrandProps)
 
   return (
     <div className={`brand-lockup inline-flex items-center gap-1.5 sm:gap-2 ${className}`}>
-      <BrandMark size={size} />
+      <Logo size={size} />
       <Link
         href="/"
         className={`font-display ${wordSize} whitespace-nowrap uppercase leading-none tracking-[-0.045em] ${wordColor}`}

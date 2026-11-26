@@ -2,6 +2,7 @@ import { cache } from "react";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { normalizeGames } from "./games";
 import { isMomentId } from "./moments";
+import { isSpecialDayId } from "./special-days";
 import type { SurprisePage } from "./types";
 import { MEDIA_BUCKET, getSupabaseAdmin } from "./supabase/server";
 import type { Database } from "./supabase/database.types";
@@ -57,6 +58,7 @@ export const getSurprisePage = cache(async (slug: string): Promise<SurprisePage 
     photoUrls: photoUrls.filter((url): url is string => url !== null),
     games: normalizeGames(data.games),
     musicUrl,
+    specialDay: isSpecialDayId(data.special_day) ? data.special_day : null,
     activeUntil: data.active_until,
     isExample: false,
   };

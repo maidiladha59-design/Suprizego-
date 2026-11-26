@@ -5,6 +5,7 @@ import { Brand } from "@/components/brand";
 import { EditorWorkspace } from "@/components/editor/editor-workspace";
 import { MOMENT_IDS, getMoment, isMomentId } from "@/lib/moments";
 import { isPlanId, type PlanId } from "@/lib/plans";
+import { getSpecialDayOccurrences } from "@/lib/special-days";
 
 type PageProps = {
   params: Promise<{ momen: string }>;
@@ -40,6 +41,7 @@ export default async function EditorPage({ params, searchParams }: PageProps) {
   const planParam = (await searchParams).paket;
   const requestedPlan = Array.isArray(planParam) ? planParam[0] : planParam;
   const initialPlanId: PlanId | null = isPlanId(requestedPlan) ? requestedPlan : null;
+  const specialDays = getSpecialDayOccurrences();
 
   return (
     <div className="min-h-screen bg-paper bg-dots-soft">
@@ -56,7 +58,11 @@ export default async function EditorPage({ params, searchParams }: PageProps) {
       </header>
 
       <main>
-        <EditorWorkspace moment={getMoment(momen)} initialPlanId={initialPlanId} />
+        <EditorWorkspace
+          moment={getMoment(momen)}
+          initialPlanId={initialPlanId}
+          specialDays={specialDays}
+        />
       </main>
     </div>
   );

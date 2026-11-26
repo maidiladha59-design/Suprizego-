@@ -138,69 +138,229 @@
   display: none;
 }
 
-.brand-mark {
+.sg-logo {
   -webkit-tap-highlight-color: transparent;
 }
 
-.brand-mark__mascot {
-  animation: brand-bob 4s ease-in-out infinite;
+.sg-logo__mascot,
+.sg-logo__expression {
+  transform-box: fill-box;
+  transform-origin: center;
 }
 
-.brand-mark__flap {
+.sg-logo__flap {
   transform-box: view-box;
   transform-origin: 24px 20px;
   transition: transform 220ms cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
-.brand-mark__eye-blink {
-  transform-box: fill-box;
-  transform-origin: center;
-  animation: brand-blink 4s ease-in-out infinite;
+.sg-logo--animated .sg-logo__mascot {
+  animation: sg-logo-hop 12.5s linear infinite;
 }
 
-.brand-mark__eye {
-  transform-box: fill-box;
-  transform-origin: center;
-  transition: transform 180ms ease;
+.sg-logo--animated .sg-logo__expression--smile {
+  animation: sg-logo-smile 12.5s linear infinite;
 }
 
-@media (hover: hover) {
-  .brand-lockup:hover .brand-mark__flap {
+.sg-logo--animated .sg-logo__expression--happy {
+  animation: sg-logo-happy 12.5s linear infinite;
+}
+
+.sg-logo--animated .sg-logo__expression--surprised {
+  animation: sg-logo-surprised 12.5s linear infinite;
+}
+
+.sg-logo--animated .sg-logo__expression--wink {
+  animation: sg-logo-wink 12.5s linear infinite;
+}
+
+.sg-logo--animated .sg-logo__expression--mischievous {
+  animation: sg-logo-mischievous 12.5s linear infinite;
+}
+
+.sg-logo--animated .sg-logo__flap {
+  animation: sg-logo-flap 12.5s linear infinite;
+}
+
+@keyframes sg-logo-hop {
+  0%,
+  17%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  19% {
+    transform: translateY(-2px) rotate(-3deg);
+  }
+  21%,
+  37% {
+    transform: translateY(0) rotate(0deg);
+  }
+  39% {
+    transform: translateY(-2px) rotate(2deg);
+  }
+  41%,
+  57% {
+    transform: translateY(0) rotate(0deg);
+  }
+  59% {
+    transform: translateY(-1.5px) rotate(-2deg);
+  }
+  61%,
+  77% {
+    transform: translateY(0) rotate(0deg);
+  }
+  79% {
+    transform: translateY(-2px) rotate(3deg);
+  }
+  81%,
+  99% {
+    transform: translateY(0) rotate(0deg);
+  }
+}
+
+@keyframes sg-logo-smile {
+  0%,
+  18% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  20%,
+  38% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  40%,
+  58% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  60%,
+  78% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  80%,
+  98% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes sg-logo-happy {
+  0%,
+  18% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  20%,
+  38% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  40%,
+  100% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+@keyframes sg-logo-surprised {
+  0%,
+  38% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  40%,
+  58% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  60%,
+  100% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+@keyframes sg-logo-wink {
+  0%,
+  58% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  60%,
+  78% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  80%,
+  100% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+@keyframes sg-logo-mischievous {
+  0%,
+  78% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  80%,
+  98% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+@keyframes sg-logo-flap {
+  0%,
+  38%,
+  60%,
+  100% {
+    transform: translateY(0) rotate(0deg);
+  }
+  42%,
+  56% {
+    transform: translateY(-2px) rotate(-8deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .sg-logo--animated:hover .sg-logo__mascot,
+  .sg-logo--animated:active .sg-logo__mascot,
+  .sg-logo--animated.sg-logo--surprised .sg-logo__mascot {
+    animation-play-state: paused;
+  }
+
+  .sg-logo--animated:hover .sg-logo__expression,
+  .sg-logo--animated:active .sg-logo__expression,
+  .sg-logo--animated.sg-logo--surprised .sg-logo__expression {
+    animation: none;
+    opacity: 0;
+    transform: scale(0.96);
+  }
+
+  .sg-logo--animated:hover .sg-logo__expression--surprised,
+  .sg-logo--animated:active .sg-logo__expression--surprised,
+  .sg-logo--animated.sg-logo--surprised .sg-logo__expression--surprised {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  .sg-logo--animated:hover .sg-logo__flap,
+  .sg-logo--animated:active .sg-logo__flap,
+  .sg-logo--animated.sg-logo--surprised .sg-logo__flap {
+    animation: none;
     transform: rotate(180deg);
-  }
-
-  .brand-lockup:hover .brand-mark__eye {
-    transform: scale(1.24);
-  }
-}
-
-.brand-mark[data-open="true"] .brand-mark__flap {
-  transform: rotate(180deg);
-}
-
-.brand-mark[data-open="true"] .brand-mark__eye {
-  transform: scale(1.24);
-}
-
-@keyframes brand-bob {
-  0%,
-  100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(-1.5px);
-  }
-}
-
-@keyframes brand-blink {
-  0%,
-  90%,
-  96%,
-  100% {
-    transform: scaleY(1);
-  }
-  93% {
-    transform: scaleY(0.08);
   }
 }
 
@@ -305,9 +465,23 @@
   .animate-float-soft,
   .animate-marquee,
   .demo-polaroid__rising,
-  .brand-mark__mascot,
-  .brand-mark__eye-blink {
-    animation: none;
+  .sg-logo__mascot,
+  .sg-logo__expression,
+  .sg-logo__flap {
+    animation: none !important;
+  }
+
+  .sg-logo__expression {
+    opacity: 0 !important;
+    transform: none !important;
+  }
+
+  .sg-logo__expression--smile {
+    opacity: 1 !important;
+  }
+
+  .sg-logo__flap {
+    transform: none !important;
   }
 
   *,

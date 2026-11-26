@@ -1,9 +1,8 @@
 import Link from "next/link";
-import { ArrowRightIcon } from "@/components/ui/icons";
-import { formatRupiah, getPlan } from "@/lib/plans";
+import { getPlan } from "@/lib/plans";
 import { HeroDemo } from "./hero-demo";
 
-const startingPrice = formatRupiah(getPlan("dasar").price);
+const startingPrice = `${(getPlan("dasar").price / 1000).toLocaleString("id-ID")} ribu`;
 
 export function Hero() {
   return (
@@ -27,21 +26,23 @@ export function Hero() {
             penerima cukup membuka, tanpa akun atau aplikasi.
           </p>
 
-          <div className="mt-8 flex flex-wrap items-center gap-3 sm:gap-4">
+          <div className="mt-8 flex flex-col items-start gap-4 md:flex-row md:flex-wrap md:items-center">
             <Link
               href="/buat"
-              className="nb-btn bg-ink px-5 py-3.5 text-[15px] text-paper shadow-[6px_6px_0_#B6F22E] hover:shadow-[8px_8px_0_#B6F22E] sm:px-6 sm:py-4 sm:text-[17px]"
+              className="nb-btn bg-ink px-6 py-[13.6px] text-lg leading-7 text-paper shadow-[6px_6px_0_#B6F22E] hover:shadow-[8px_8px_0_#B6F22E]"
             >
-              Buat Halaman
-              <ArrowRightIcon className="size-4 sm:size-5" />
+              Bikin Halaman
             </Link>
             <Link
               href="#momen"
-              className="nb-btn bg-paper px-5 py-3.5 text-[15px] text-ink shadow-[6px_6px_0_#111] hover:shadow-[8px_8px_0_#111] sm:px-6 sm:py-4 sm:text-[17px]"
+              className="nb-btn bg-paper px-6 py-[13.6px] text-lg leading-7 text-ink shadow-[6px_6px_0_#111] hover:shadow-[8px_8px_0_#111]"
             >
               Lihat Momen
             </Link>
-            <span className="sticker -rotate-3 bg-candy px-3 py-1.5 text-[12px] shadow-[3px_3px_0_#111] sm:text-sm">
+            <span
+              className="sticker -rotate-3 bg-candy px-[11.2px] py-[3.2px] text-sm"
+              style={{ display: "inline-block", fontWeight: 400, letterSpacing: "normal", lineHeight: "20px" }}
+            >
               Mulai {startingPrice}
             </span>
           </div>
