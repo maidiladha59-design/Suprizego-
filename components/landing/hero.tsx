@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { CONTACT_EMAIL } from "@/lib/contact";
 import { getPlan } from "@/lib/plans";
 import { HeroDemo } from "./hero-demo";
 
@@ -48,7 +49,7 @@ export function Hero() {
           </div>
         </div>
 
-        <HeroDemo />
+        <HeroDemo contactEmail={CONTACT_EMAIL} />
       </div>
     </section>
   );
