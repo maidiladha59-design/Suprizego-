@@ -56,6 +56,6 @@ Status menggambarkan perilaku nyata pada Tahap 6, bukan hanya copy pemasaran. Fi
 - Harga client yang dimanipulasi diabaikan; Plus tetap Rp10.000 dari `lib/pricing.ts`.
 - Signature salah, nominal salah, magic bytes palsu, voice di paket Dasar, kelebihan foto, hari di luar musim, Spotify host asing, desain asing, dan cerita kurang dari tiga kartu ditolak.
 - Settlement mengaktifkan Plus selama 14 hari; webhook duplikat tidak memperpanjang masa aktif; kegagalan lanjutan tidak menurunkan order sukses; Abadi memiliki `active_until` null.
-- Browser 390×844 melewati alur editor → Snap mock → pending → settlement → hasil aktif dengan QR, salin tautan, WhatsApp, dan tanpa horizontal overflow.
+- Browser 390×844 melewati alur editor → Snap mock → pending → settlement → hasil aktif dengan QR, salin tautan, WhatsApp, dan tanpa horizontal overflow. Halaman publik kemudian dibuka sampai layar surat; kontrol voice note hadir dengan caption “Pesan suara” dan signed URL privat.
 - Artefak: `.tmp/phase6-verification.json`, `.tmp/phase6-pending-390.png`, dan `.tmp/phase6-success-390.png`.
 - Uji transaksi Midtrans nyata dan migrasi SQL nyata tetap menjadi tindakan pengguna karena kredensial tidak tersedia di workspace.

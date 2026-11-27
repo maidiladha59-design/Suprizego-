@@ -103,3 +103,22 @@
 - Tautan Spotify divalidasi dan disimpan tetapi belum diputar, sehingga fitur tetap ditandai **Segera hadir**.
 - Durasi voice note divalidasi dari metadata recorder dan ukuran/format berkas, bukan decoding audio independen di server.
 - Halaman hasil hanya membaca status database dan tidak pernah menjadi jalur aktivasi pembayaran.
+
+### Tahap 7 — Audit akhir, keamanan, dan dokumentasi
+
+- Audit Chrome CDP 390×844 mencakup 32 rute: beranda, halaman buat, lima editor momen, lima contoh momen, 17 contoh Hari Spesial, halaman publik tidak ditemukan, hasil order tidak valid, dan robots.txt.
+- Sebanyak 27 tautan internal unik diperiksa dan semuanya merespons sukses. Tidak ada horizontal overflow, simbol rusak, teks placeholder, tombol/tautan tanpa nama, gambar tanpa alt, teks di bawah 9px, atau error runtime.
+- Lima reader momen diuji sampai layar surat. Hari Guru diuji sampai penutup untuk memastikan pertanyaan netral, tombol jawaban, dan label footer/kartu sesuai hari.
+- Audit visual menemukan label fallback “Anniversary” pada contoh Hari Spesial. Footer dan kartu penutup sekarang memakai nama Hari Spesial, sedangkan pertanyaan default memakai copy netral “Bagian mana dari cerita ini yang paling kamu ingat?” dengan pilihan “Aku ingat”/“Simpan dulu”.
+- Pemindaian source terlacak dan tidak terlacak tidak menemukan server key, service role key, private key, atau token pembayaran nyata. Hanya `.env.example` yang terlacak; `.env`, `.env.local`, dan `.env.production` terverifikasi diabaikan Git.
+- `README.md` memuat menjalankan lokal, variabel lingkungan, urutan migrasi, perintah verifikasi, endpoint Midtrans, deploy Vercel, keamanan, dan batasan fitur.
+- Verifikasi akhir: `npm run lint`, `npm run typecheck`, `npm run build`, `git diff --check`, harness Tahap 6, dan harness Tahap 7 lulus.
+- Artefak Tahap 7: `.tmp/phase7-verification.json`, `.tmp/phase7-home-390.png`, `.tmp/phase7-contoh-hari-guru-390.png`, dan `.tmp/phase7-hari-guru-closing-390.png`.
+
+### Batasan dan tindakan pengguna
+
+- Tidak ada kredensial Midtrans/Supabase nyata di workspace. Migrasi SQL dan transaksi sandbox nyata belum dapat dijalankan terhadap layanan eksternal.
+- Pengguna perlu mengisi environment variables, menerapkan migrasi `0001`–`0003`, memastikan bucket `surprise-media` privat, mengisi notification URL Midtrans, lalu melakukan transaksi sandbox nyata sebelum produksi.
+- Fitur Main Berdua tetap lokal; hasil permainan belum disimpan atau dikirim ke pengirim.
+- Lagu Spotify, Kapsul waktu, Ucapan bareng, Link custom, Papan Abadi, Desain eksklusif, dan edit terautentikasi setelah pembayaran masih **Segera hadir**.
+- Aplikasi belum menambahkan rate limiting khusus API atau notifikasi email order; proteksi tambahan dapat ditentukan berdasarkan kebutuhan operasional dan platform deployment.
