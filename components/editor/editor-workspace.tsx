@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import { LetterSection, MAX_LETTER_LENGTH } from "@/components/editor/letter-section";
 import { MainBerduaSection } from "@/components/editor/main-berdua-section";
 import { MusicSection } from "@/components/editor/music-section";
@@ -13,10 +14,12 @@ import { VoiceNoteEditor, type VoiceNote } from "@/components/editor/voice-note-
 import { Logo } from "@/components/Logo";
 import { ArrowRightIcon } from "@/components/ui/icons";
 import { audioStore } from "@/lib/audio-store";
+import type { CheckoutPayload, CheckoutResponse } from "@/lib/checkout";
 import { compressPhoto } from "@/lib/compress-photo";
 import { EDITOR_CONFIG } from "@/lib/editor";
 import { normalizeGames, type Game } from "@/lib/games";
 import type { Moment } from "@/lib/moments";
+import { openSnap } from "@/lib/midtrans/snap-client";
 import type { SurprisePage } from "@/lib/types";
 import { normalizeMusicMood, stopMusicPreview, type MusicMood } from "@/lib/music";
 import { MAX_PHOTO_BYTES, isHeicPhoto, isSupportedPhoto } from "@/lib/photo-rules";
@@ -78,6 +81,7 @@ function PreviewPhone({
   dateLabel,
   games,
   voice,
+  musicMood,
   planId,
   resetKey,
 }: {
@@ -93,6 +97,7 @@ function PreviewPhone({
   dateLabel: string;
   games: Game[];
   voice: VoiceNote | null;
+  musicMood: MusicMood;
   planId: PlanId;
   resetKey: number;
 }) {
@@ -106,8 +111,10 @@ function PreviewPhone({
     story: story || null,
     letter: letter.trim() || null,
     photoUrls: photos.slice(0, plan.photoLimit).map((photo) => photo.url),
+    photoCaptions: photos.slice(0, plan.photoLimit).map((photo) => photo.caption),
     games,
     musicUrl: null,
+    musicMood,
     question: question.trim() || null,
     dateLabel: dateLabel.trim() || null,
     designId,
@@ -134,6 +141,7 @@ export function EditorWorkspace({
   initialPlanId: PlanId | null;
   specialDays: SpecialDayOccurrence[];
 }) {
+  const router = useRouter();
   const config = EDITOR_CONFIG[moment.id];
   const baseDraft: Draft = {
     design: config.designs[0].id,
@@ -155,6 +163,8 @@ export function EditorWorkspace({
   const [voice, setVoice] = useState<VoiceNote | null>(null);
   const [previewResetKey, setPreviewResetKey] = useState(0);
   const [notices, setNotices] = useState<string[]>([]);
+  const [checkoutBusy, setCheckoutBusy] = useState(false);
+  const [checkoutError, setCheckoutError] = useState<string | null>(null);
   const photosLoaded = useRef(false);
   const hydrated = useRef(false);
   const storageKey = `suprizego:draft:${moment.id}`;
@@ -220,6 +230,7 @@ export function EditorWorkspace({
         if (cancelled || !record) return;
         setVoice({
           url: audioStore.getUrl(record),
+          blob: record.blob,
           duration: record.duration,
           name: record.name,
         });
@@ -468,12 +479,98 @@ export function EditorWorkspace({
       createdAt: Date.now(),
     };
     await audioStore.add(moment.id, record);
-    setVoice({ url: audioStore.getUrl(record), duration, name });
+    setVoice({ url: audioStore.getUrl(record), blob, duration, name });
   }
 
   async function removeVoice() {
     await audioStore.remove(moment.id);
     setVoice(null);
+  }
+
+  async function checkout() {
+    if (checkoutBusy) return;
+    setCheckoutError(null);
+    if (!draft.rn.trim() || !draft.sn.trim()) {
+      setCheckoutError("Isi nama penerima dan namamu dulu, ya.");
+      return;
+    }
+    if (draft.story.every((item) => !item.trim())) {
+      setCheckoutError("Tulis minimal satu kartu cerita sebelum membayar.");
+      return;
+    }
+    if (photos.some((photo) => photo.status !== "ready" || !photo.blob)) {
+      setCheckoutError("Tunggu semua foto selesai diolah atau hapus foto yang gagal.");
+      return;
+    }
+
+    setCheckoutBusy(true);
+    try {
+      const readyPhotos = photos.slice(0, plan.photoLimit);
+      const payload: CheckoutPayload = {
+        moment: moment.id,
+        recipientName: draft.rn.trim(),
+        senderName: draft.sn.trim(),
+        dateLabel: draft.dt || null,
+        question: draft.q.trim() || null,
+        story: draft.story,
+        designId: design.id,
+        specialDay: draft.specialDay,
+        planId: plan.id,
+        musicMood: draft.song,
+        spotifyUrl: plan.spotify ? draft.sp.trim() || null : null,
+        letter: draft.letter.trim() || null,
+        games: draft.games,
+        photoCaptions: readyPhotos.map((photo) => photo.caption),
+        voiceDuration: plan.voiceNote ? voice?.duration ?? null : null,
+      };
+      const form = new FormData();
+      form.set("payload", JSON.stringify(payload));
+      for (const photo of readyPhotos) {
+        if (!photo.blob) continue;
+        const extension =
+          photo.blob.type === "image/png" ? "png" : photo.blob.type === "image/jpeg" ? "jpg" : "webp";
+        form.append("photos", photo.blob, `${photo.id}.${extension}`);
+      }
+      if (plan.voiceNote && voice) {
+        form.append("voice", voice.blob, voice.name);
+      }
+
+      const response = await fetch("/api/checkout", { method: "POST", body: form });
+      const result: unknown = await response.json();
+      if (!response.ok) {
+        const message =
+          result && typeof result === "object" && "error" in result && typeof result.error === "string"
+            ? result.error
+            : "Checkout belum berhasil. Coba lagi, ya.";
+        throw new Error(message);
+      }
+      const checkoutResult = result as CheckoutResponse;
+      if (
+        typeof checkoutResult.snapToken !== "string" ||
+        typeof checkoutResult.clientKey !== "string" ||
+        typeof checkoutResult.snapUrl !== "string" ||
+        typeof checkoutResult.orderId !== "string"
+      ) {
+        throw new Error("Data pembayaran tidak lengkap. Coba lagi, ya.");
+      }
+
+      const destination = `/selesai?order=${encodeURIComponent(checkoutResult.orderId)}`;
+      await openSnap(checkoutResult.snapUrl, checkoutResult.clientKey, checkoutResult.snapToken, {
+        onSuccess: () => router.push(destination),
+        onPending: () => router.push(destination),
+        onError: () => {
+          setCheckoutBusy(false);
+          setCheckoutError("Pembayaran belum selesai. Kamu bisa mencoba lagi.");
+        },
+        onClose: () => {
+          setCheckoutBusy(false);
+          setCheckoutError("Jendela pembayaran ditutup. Klik Bayar & kirim untuk melanjutkan.");
+        },
+      });
+    } catch (error) {
+      setCheckoutBusy(false);
+      setCheckoutError(error instanceof Error ? error.message : "Checkout belum berhasil. Coba lagi, ya.");
+    }
   }
 
   async function resetDraft() {
@@ -750,7 +847,13 @@ export function EditorWorkspace({
             />
           </LetterSection>
 
-          <PlanSection plan={plan} onSelect={selectPlan} />
+          <PlanSection
+            plan={plan}
+            onSelect={selectPlan}
+            onCheckout={() => void checkout()}
+            checkoutBusy={checkoutBusy}
+            checkoutError={checkoutError}
+          />
         </div>
 
         <details className="mt-8 px-6 sm:px-7 lg:hidden">
@@ -772,6 +875,7 @@ export function EditorWorkspace({
               dateLabel={draft.dt}
               games={draft.games}
               voice={plan.voiceNote ? voice : null}
+              musicMood={draft.song}
               planId={plan.id}
               resetKey={previewResetKey}
             />
@@ -799,6 +903,7 @@ export function EditorWorkspace({
               dateLabel={draft.dt}
               games={draft.games}
               voice={plan.voiceNote ? voice : null}
+              musicMood={draft.song}
               planId={plan.id}
               resetKey={previewResetKey}
             />

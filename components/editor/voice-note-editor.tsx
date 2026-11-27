@@ -15,6 +15,7 @@ import { PLANS, type Plan } from "@/lib/plans";
 
 export type VoiceNote = {
   url: string;
+  blob: Blob;
   duration: number;
   name: string;
 };

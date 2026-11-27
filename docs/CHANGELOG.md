@@ -64,3 +64,42 @@
 - Contoh Hari Spesial dapat dibuka sepanjang tahun dengan temanya; editor hanya mengizinkan satu hari yang sedang musim, sesuai aturan produk sebelumnya.
 - Setiap hari memakai tiga ikon dari pustaka SVG orisinal SuprizeGo agar dekorasi konsisten tanpa menyalin aset referensi.
 - Tema tidak mengubah warna hitam wajib pada layar surat/chat; aksen tema tetap muncul pada bubble, tombol, dan ilustrasi di sekitarnya.
+
+### Tahap 5 — Audit dan implementasi fitur paket
+
+- `docs/feature-audit.md` mencatat status nyata 11 fitur paket, batasan implementasi, dan asumsi penyimpanan/publikasi.
+- `lib/plans.ts` memakai status fitur `ready`/`soon`; harga, nama paket, durasi, batas foto, dan batas game tidak berubah. Pricing menampilkan label kecil **Segera hadir** pada 13 baris fitur yang belum siap.
+- Musik bawaan kini dapat diputar dari reader/pratinjau melalui pilihan draf, muncul di kontrol header, berhenti saat reset/unmount, dan hilang saat pengguna memilih “Tanpa Musik”.
+- Layar penutup menambahkan **Simpan jadi gambar**: kartu PNG orisinal 1080×1350 dengan nama penerima/pengirim, momen, palet tema, dan tautan halaman. Kartu tidak memakai foto eksternal agar bebas masalah CORS.
+- Copy Main Berdua dan editor Spotify diperbaiki agar tidak mengklaim pengiriman hasil, pencarian lagu, atau pemutaran Spotify yang belum tersedia.
+- Verifikasi Tahap 5: `npm run typecheck`, `npm run lint`, dan `npm run build` lulus tanpa warning. Audit Chrome CDP 390×844 memastikan 13 label “Segera hadir”, tanpa overflow, unduhan PNG valid 111.229 byte, musik bawaan nyala/mati/pilihan tanpa musik, serta tidak ada error runtime.
+- Artefak verifikasi: `.tmp/phase5-verification.json`, `.tmp/phase5-pricing-390.png`, `.tmp/phase5-closing-390.png`, `.tmp/phase5-editor-music-390.png`, dan `.tmp/phase5-downloads/kartu-bima.png`.
+
+### Asumsi Tahap 5
+
+- “Simpan jadi gambar” berarti kartu kenangan dari layar penutup, bukan tangkapan seluruh halaman atau galeri foto.
+- Voice note masih ditandai **Segera hadir** di pricing karena unggahan permanen belum diaktifkan, meskipun recorder dan IndexedDB sudah berfungsi.
+- Main Berdua tetap berfungsi sebagai permainan lokal; tidak ada klaim hasil terkirim sampai API jawaban tersedia.
+- Fitur yang bergantung pada halaman publik akan dinilai ulang setelah checkout, unggahan media, dan aktivasi webhook Tahap 6 selesai.
+
+### Tahap 6 — Checkout dan webhook Midtrans sandbox
+
+- `lib/pricing.ts` menjadi satu sumber harga server: Dasar Rp5.000/3 hari, Plus Rp10.000/14 hari, Abadi Rp15.000/selamanya dengan harga coret Rp20.000.
+- Migrasi `0003_midtrans_pages_orders.sql` menambahkan tabel `pages` dan `orders`, RLS tanpa policy publik, indeks, serta RPC aktivasi/kegagalan yang atomik dan idempoten.
+- `POST /api/checkout` memvalidasi payload dan magic bytes foto/voice, menghitung harga di server, membuat slug acak 40 karakter, menyimpan halaman/order pending, mengunggah media privat, lalu meminta Snap token.
+- Editor **Bayar & kirim** membuka Snap dan menangani success, pending, error, serta close/cancel tanpa mengaktifkan halaman dari client.
+- Webhook memverifikasi SHA512 signature, nominal, currency, konsistensi paket/halaman, lalu mengaktifkan atau mencatat kegagalan melalui RPC.
+- `/p/[slug]` hanya menampilkan konten untuk halaman aktif, sudah dibayar, dan belum kedaluwarsa; status lain mendapat halaman ramah `noindex`.
+- `/selesai` menyediakan status pending dengan polling, tautan yang dapat disalin, WhatsApp, QR server-side beserta unduhan, ringkasan paket, dan retry untuk pembayaran gagal.
+- Voice note dan foto/caption kini tersimpan permanen di Supabase Storage privat dan dipulihkan lewat signed URL. Voice note dan Kartu QR berubah menjadi fitur siap; label **Segera hadir** berkurang dari 13 menjadi 11.
+- `docs/MIDTRANS.md`, `README.md`, dan `docs/feature-audit.md` diperbarui dengan konfigurasi, endpoint, pengujian, batasan, dan checklist deploy.
+- Harness `.tmp/verify-phase6.mjs` lulus tanpa kunci nyata: manipulasi harga client ditolak, signature/nominal/magic bytes/entitlement/validasi draf diuji, settlement Plus 14 hari dan Abadi selamanya benar, webhook duplikat idempoten, kegagalan tidak menurunkan order sukses, serta browser 390×844 melewati Snap mock → pending → aktif dengan QR/salin/WhatsApp tanpa error runtime.
+- Artefak Tahap 6: `.tmp/phase6-verification.json`, `.tmp/phase6-pending-390.png`, dan `.tmp/phase6-success-390.png`.
+
+### Asumsi Tahap 6
+
+- Kredensial Midtrans dan Supabase nyata tidak tersedia di workspace; integrasi diuji dengan mock, sedangkan transaksi sandbox nyata dan penerapan migrasi menjadi tindakan pengguna.
+- Masa aktif dihitung dari `settlement_time` Midtrans (fallback `transaction_time`, lalu waktu server) dalam interpretasi WIB untuk format timestamp Midtrans tanpa zona.
+- Tautan Spotify divalidasi dan disimpan tetapi belum diputar, sehingga fitur tetap ditandai **Segera hadir**.
+- Durasi voice note divalidasi dari metadata recorder dan ukuran/format berkas, bukan decoding audio independen di server.
+- Halaman hasil hanya membaca status database dan tidak pernah menjadi jalur aktivasi pembayaran.

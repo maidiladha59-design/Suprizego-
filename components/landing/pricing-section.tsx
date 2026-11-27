@@ -59,9 +59,16 @@ export function PricingSection() {
 
               <ul className="mt-5 flex-1 space-y-2 text-sm font-bold leading-5">
                 {plan.features.map((feature) => (
-                  <li key={feature} className="flex items-start gap-2">
+                  <li key={feature.label} className="flex items-start gap-2">
                     <span aria-hidden="true">+</span>
-                    <span>{feature}</span>
+                    <span className="min-w-0">
+                      {feature.label}
+                      {feature.availability === "soon" ? (
+                        <span className="ml-2 inline-block rounded-full border border-ink bg-white px-2 py-0.5 align-middle text-[9px] font-extrabold uppercase leading-3 tracking-[0.02em] text-ink">
+                          Segera hadir
+                        </span>
+                      ) : null}
+                    </span>
                   </li>
                 ))}
               </ul>

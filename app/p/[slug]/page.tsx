@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { SurpriseExpired } from "@/components/surprise/surprise-expired";
+import { SurpriseUnavailable } from "@/components/surprise/surprise-unavailable";
 import { SurpriseView } from "@/components/surprise/surprise-view";
 import { CONTACT_EMAIL } from "@/lib/contact";
-import { getSurprisePage, isExpired } from "@/lib/surprise-pages";
+import { getSurprisePageState } from "@/lib/surprise-pages";
 
 export const dynamic = "force-dynamic";
 
@@ -13,16 +13,16 @@ type PageProps = {
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { slug } = await params;
-  const page = await getSurprisePage(slug);
+  const state = await getSurprisePageState(slug);
 
-  if (!page) {
+  if (state.status !== "active") {
     return {
-      title: "Kejutan tidak ditemukan",
+      title: "Kejutan tidak tersedia",
       robots: { index: false, follow: false },
     };
   }
 
-  const title = `Kejutan untuk ${page.recipientName}`;
+  const title = `Kejutan untuk ${state.page.recipientName}`;
 
   return {
     title,
@@ -42,15 +42,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
 export default async function PublicSurprisePage({ params }: PageProps) {
   const { slug } = await params;
-  const page = await getSurprisePage(slug);
+  const state = await getSurprisePageState(slug);
 
-  if (!page) {
-    notFound();
-  }
+  if (state.status === "not-found") notFound();
+  if (state.status !== "active") return <SurpriseUnavailable status={state.status} />;
 
-  if (isExpired(page.activeUntil)) {
-    return <SurpriseExpired />;
-  }
-
-  return <SurpriseView page={page} contactEmail={CONTACT_EMAIL} />;
+  return <SurpriseView page={state.page} contactEmail={CONTACT_EMAIL} />;
 }

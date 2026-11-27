@@ -5,9 +5,18 @@ import { PLANS, formatRupiah, type Plan, type PlanId } from "@/lib/plans";
 type PlanSectionProps = {
   plan: Plan;
   onSelect: (planId: PlanId) => void;
+  onCheckout: () => void;
+  checkoutBusy: boolean;
+  checkoutError: string | null;
 };
 
-export function PlanSection({ plan, onSelect }: PlanSectionProps) {
+export function PlanSection({
+  plan,
+  onSelect,
+  onCheckout,
+  checkoutBusy,
+  checkoutError,
+}: PlanSectionProps) {
   return (
     <section className="rounded-card border-4 border-ink bg-white p-6 shadow-hard-lg sm:p-7">
       <div className="flex items-center gap-3">
@@ -57,16 +66,44 @@ export function PlanSection({ plan, onSelect }: PlanSectionProps) {
                 <span>{option.photoLimit} foto</span>
                 <span>{option.gameLimit} permainan</span>
                 <span>{option.voiceNote ? "Pesan suara tersedia" : "Tanpa pesan suara"}</span>
-                <span>{option.spotify ? "Lagu Spotify tersedia" : "Musik bawaan saja"}</span>
+                <span>{option.spotify ? "Lagu Spotify segera hadir" : "Musik bawaan saja"}</span>
               </span>
             </button>
           );
         })}
       </div>
 
-      <p className="mt-4 rounded-xl border-[3px] border-dashed border-ink/30 bg-paper px-3 py-2 text-[11px] font-bold leading-4">
-        Pembayaran belum tersedia. Pilihan paket saat ini mengatur draf dan pratinjau.
-      </p>
+      <div className="mt-5 rounded-xl border-[3px] border-ink bg-paper p-4">
+        <div className="flex flex-wrap items-center justify-between gap-2">
+          <div>
+            <p className="text-[11px] font-bold uppercase leading-4 tracking-[0.04em]">Total bayar</p>
+            <p className="mt-1 font-display text-2xl leading-7">{formatRupiah(plan.price)}</p>
+          </div>
+          <span className="rounded-full border-2 border-ink bg-white px-3 py-1 text-[11px] font-bold leading-4">
+            {plan.activeLabel}
+          </span>
+        </div>
+        <p className="mt-3 text-[11px] font-bold leading-4">
+          Pembayaran diproses Midtrans. Harga dihitung ulang di server dan halaman aktif setelah pembayaran terverifikasi.
+        </p>
+        <p className="mt-2 text-[10px] font-bold leading-4">
+          QRIS, GoPay, ShopeePay, DANA, dan VA bank tersedia sesuai konfigurasi akun Midtrans.
+        </p>
+        <button
+          type="button"
+          onClick={onCheckout}
+          disabled={checkoutBusy}
+          aria-busy={checkoutBusy}
+          className="mt-4 flex h-14 w-full items-center justify-center rounded-xl border-4 border-ink bg-lime px-4 font-display text-base uppercase tracking-[0.01em] text-ink shadow-[5px_5px_0_0_#111] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-ink active:translate-x-1 active:translate-y-1 active:shadow-none disabled:cursor-wait disabled:opacity-60 disabled:shadow-none"
+        >
+          {checkoutBusy ? "Menyiapkan pembayaran..." : "Bayar & kirim"}
+        </button>
+        {checkoutError ? (
+          <p role="alert" className="mt-3 rounded-lg border-2 border-ink bg-tangerine px-3 py-2 text-xs font-bold leading-4 text-ink">
+            {checkoutError}
+          </p>
+        ) : null}
+      </div>
     </section>
   );
 }

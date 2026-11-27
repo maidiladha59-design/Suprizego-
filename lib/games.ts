@@ -60,7 +60,7 @@ export const GAME_META: Record<
 > = {
   kuis: {
     label: "Kuis Kenal Aku",
-    description: "Kamu yang nulis pertanyaan soal dirimu. Dia yang nebak, skornya balik ke kamu.",
+    description: "Kamu yang nulis pertanyaan soal dirimu. Dia yang nebak, skornya muncul untuknya.",
     addDescription: "Pertanyaan receh soal kamu, dia yang jawab.",
   },
   jujur: {

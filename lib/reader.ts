@@ -43,7 +43,9 @@ export function splitIntoBubbles(text: string | null | undefined, maxLength = 22
 }
 
 export function getReaderQuestion(page: SurprisePage) {
-  return page.question?.trim() || DEFAULT_QUESTIONS[page.moment];
+  if (page.question?.trim()) return page.question.trim();
+  if (page.specialDay) return "Bagian mana dari cerita ini yang paling kamu ingat?";
+  return DEFAULT_QUESTIONS[page.moment];
 }
 
 export function getReaderTheme(page: SurprisePage): EditorDesign {

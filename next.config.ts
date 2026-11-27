@@ -12,6 +12,7 @@ const nextConfig: NextConfig = {
     return [
       { source: "/p/:path*", headers: privateHeaders },
       { source: "/contoh/:path*", headers: privateHeaders },
+      { source: "/selesai", headers: privateHeaders },
     ];
   },
 };

@@ -104,7 +104,7 @@ export function MainBerduaPlayer({
           Permainan selesai!
         </h2>
         <p className="mx-auto mt-2 max-w-xs text-sm font-bold leading-5">
-          Skor dan pilihanmu siap dikirim ke pembuatnya. Lanjut baca, ya.
+          Skor dan pilihanmu muncul di halaman ini. Lanjut baca, ya.
         </p>
         <button
           type="button"
@@ -302,7 +302,7 @@ function QuizGameView({
             {rank}
           </p>
           <p className="relative mt-2 text-[12px] font-bold leading-5 text-ink-soft">
-            Skor ini bakal dikirim ke {sender}. Waktunya pamer.
+            Skor ini muncul untukmu. Waktunya pamer.
           </p>
           <NextButton onClick={onAdvance} dark>
             {isLast ? "Lanjut" : "Game berikutnya"}
@@ -499,7 +499,7 @@ function PlanGameView({
             Nggak bisa dibatalkan, tapi bebas dijadwalkan.
           </p>
           <p className="mt-1 text-[11px] font-bold leading-4 text-ink">
-            {sender} bakal dapat kabar pilihanmu. Tinggal ditaguh.
+            Pilihanmu tersimpan di halaman ini. Tinggal ditaguh.
           </p>
           <NextButton onClick={onAdvance} dark>
             {isLast ? "Lanjut" : "Game berikutnya"}

@@ -1,13 +1,11 @@
 import Link from "next/link";
 import { SparkleIcon } from "@/components/ui/icons";
 
-export function SurpriseExpired() {
+export function SurpriseUnavailable({ status }: { status: "inactive" | "expired" }) {
+  const expired = status === "expired";
   return (
     <main className="relative flex min-h-svh flex-col items-center justify-center overflow-hidden bg-plum-deep px-6 py-16 text-center text-cream">
-      <div
-        aria-hidden="true"
-        className="bg-dots-dark pointer-events-none absolute inset-0 opacity-40"
-      />
+      <div aria-hidden="true" className="bg-dots-dark pointer-events-none absolute inset-0 opacity-40" />
       <div
         aria-hidden="true"
         className="pointer-events-none absolute -top-24 left-1/2 size-80 -translate-x-1/2 rounded-full bg-rose/15 blur-3xl"
@@ -18,18 +16,19 @@ export function SurpriseExpired() {
           <SparkleIcon className="size-5 text-cream" />
         </span>
         <p className="mt-8 text-[11px] uppercase tracking-[0.3em] text-cream">
-          Kejutan ini telah berakhir
+          {expired ? "Masa aktif kejutan selesai" : "Kejutan belum dibagikan"}
         </p>
         <h1 className="mt-4 font-display text-4xl tracking-tight sm:text-5xl">
-          Halaman sudah tidak aktif.
+          {expired ? "Halaman sudah tidak aktif." : "Halaman ini belum aktif."}
         </h1>
         <p className="mt-4 text-sm leading-relaxed text-cream">
-          Halaman kejutan hanya bisa dibuka selama masa aktif paket yang dipilih pengirim.
-          Hubungi pengirim bila kamu masih ingin membukanya.
+          {expired
+            ? "Masa aktif paketnya sudah habis. Hubungi pengirim bila kamu masih ingin membukanya."
+            : "Pengirimnya belum menyelesaikan pembayaran. Coba lagi nanti atau hubungi pengirim."}
         </p>
         <Link
           href="/"
-          className="mt-9 inline-flex rounded-full bg-cream px-6 py-3.5 text-sm font-semibold text-plum-deep transition-colors hover:bg-white"
+          className="mt-9 inline-flex rounded-full bg-cream px-6 py-3.5 text-sm font-semibold text-plum-deep transition-colors hover:bg-white focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-cream"
         >
           Kunjungi SuprizeGo
         </Link>

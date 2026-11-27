@@ -114,8 +114,8 @@ export function MainBerduaSection({
         <h2 className="font-display text-2xl uppercase leading-8">Main Berdua</h2>
       </div>
       <p className="mt-1 text-sm font-bold leading-5">
-        Nggak wajib. Bikin permainan receh buat kalian berdua — hasilnya balik ke
-        kamu. {planLimits} permainan.
+        Nggak wajib. Bikin permainan receh buat kalian berdua — hasilnya muncul di
+        halaman. {planLimits} permainan.
       </p>
 
       {overLimit && (

@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import {
+  useCallback,
   useEffect,
   useMemo,
   useRef,
@@ -13,6 +14,7 @@ import { PhotoReader } from "@/components/editor/photo-reader";
 import { EnvelopeArt } from "@/components/ui/envelope-art";
 import {
   ArrowRightIcon,
+  DownloadIcon,
   HeartIcon,
   MusicIcon,
   PlayIcon,
@@ -22,7 +24,13 @@ import {
 import { getAvoidPosition, getNegativeLabel } from "@/lib/demo-flow";
 import { FLOW_PROGRESS, FLOW_STEP_IDS } from "@/lib/flow";
 import { MAX_GAMES, getPlayableGames } from "@/lib/games";
+import { saveMemoryCard, type MemoryCardInput } from "@/lib/memory-card";
 import { getMoment } from "@/lib/moments";
+import {
+  stopMusicPreview,
+  subscribeMusicPreview,
+  toggleMusicPreview,
+} from "@/lib/music";
 import { getPlan } from "@/lib/plans";
 import {
   getReaderDateLabel,
@@ -30,6 +38,7 @@ import {
   getReaderTheme,
   splitIntoBubbles,
 } from "@/lib/reader";
+import { getSpecialDay } from "@/lib/special-days";
 import { getSpecialDayTheme } from "@/lib/special-day-themes";
 import type { SurprisePage } from "@/lib/types";
 import { FlowMusicButton, FlowProgress } from "./flow-progress";
@@ -58,9 +67,15 @@ export function SurpriseReader({
   const [musicOn, setMusicOn] = useState(false);
   const [musicNotice, setMusicNotice] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
+  const setAudioRef = useCallback((audio: HTMLAudioElement | null) => {
+    if (!audio) audioRef.current?.pause();
+    audioRef.current = audio;
+  }, []);
   const moment = getMoment(page.moment);
   const theme = getReaderTheme(page);
+  const specialDay = page.specialDay ? getSpecialDay(page.specialDay) : null;
   const specialTheme = page.specialDay ? getSpecialDayTheme(page.specialDay) : null;
+  const readerLabel = specialDay?.nama ?? moment.label;
   const specialDayStyle = specialTheme
     ? ({
         "--special-shell": specialTheme.shell,
@@ -85,11 +100,21 @@ export function SurpriseReader({
     [page.games, page.photoUrls.length, page.planId],
   );
   const hasGames = playableGames.length > 0;
+  const builtInMusic = page.musicMood ?? "tanpa";
+  const hasBuiltInMusic = !page.musicUrl && builtInMusic !== "tanpa";
+  const hasMusic = Boolean(page.musicUrl) || hasBuiltInMusic;
 
   useEffect(() => {
-    const audio = audioRef.current;
-    return () => audio?.pause();
-  }, []);
+    const unsubscribe = subscribeMusicPreview((active) => {
+      if (!page.musicUrl) {
+        setMusicOn(active === builtInMusic && builtInMusic !== "tanpa");
+      }
+    });
+    return () => {
+      unsubscribe();
+      stopMusicPreview();
+    };
+  }, [builtInMusic, page.musicUrl]);
 
   async function playMusic() {
     const audio = audioRef.current;
@@ -104,19 +129,36 @@ export function SurpriseReader({
     }
   }
 
-  function toggleMusic() {
-    const audio = audioRef.current;
-    if (!audio) return;
-    if (audio.paused) void playMusic();
-    else {
-      audio.pause();
+  async function playBuiltInMusic() {
+    if (!hasBuiltInMusic) return;
+    try {
+      const active = await toggleMusicPreview(builtInMusic);
+      setMusicOn(active !== null);
+      setMusicNotice(false);
+    } catch {
       setMusicOn(false);
+      setMusicNotice(true);
     }
+  }
+
+  function toggleMusic() {
+    if (page.musicUrl) {
+      const audio = audioRef.current;
+      if (!audio) return;
+      if (audio.paused) void playMusic();
+      else {
+        audio.pause();
+        setMusicOn(false);
+      }
+      return;
+    }
+    void playBuiltInMusic();
   }
 
   function openEnvelope() {
     goTo("photo");
     if (page.musicUrl) void playMusic();
+    else if (hasBuiltInMusic) void playBuiltInMusic();
   }
 
   function continueFromPhotos() {
@@ -136,6 +178,7 @@ export function SurpriseReader({
     setMusicOn(false);
     setMusicNotice(false);
     audioRef.current?.pause();
+    stopMusicPreview();
   }
 
   const isDarkLetter = activeStep === "letter";
@@ -164,7 +207,7 @@ export function SurpriseReader({
       >
         {page.musicUrl ? (
           <audio
-            ref={audioRef}
+            ref={setAudioRef}
             src={page.musicUrl}
             loop
             preload="none"
@@ -179,7 +222,7 @@ export function SurpriseReader({
           }`}
         >
           <FlowProgress progress={progress} />
-          {page.musicUrl && activeStep !== "envelope" ? (
+          {hasMusic && activeStep !== "envelope" ? (
             <FlowMusicButton musicOn={musicOn} onToggle={toggleMusic} />
           ) : (
             <span className="w-[74px]" aria-hidden="true" />
@@ -278,7 +321,7 @@ export function SurpriseReader({
                   photos={page.photoUrls.map((url, index) => ({
                     id: `${url}-${index}`,
                     url,
-                    caption: `Kenangan ${index + 1}`,
+                    caption: page.photoCaptions?.[index] || `Kenangan ${index + 1}`,
                   }))}
                   onContinue={continueFromPhotos}
                   continueLabel={hasGames && !gamesCompleted ? "Main Berdua" : "Lanjut"}
@@ -306,6 +349,7 @@ export function SurpriseReader({
           {activeStep === "question" ? (
             <QuestionStep
               moment={page.moment}
+              specialDay={Boolean(specialDay)}
               question={getReaderQuestion(page)}
               dateLabel={getReaderDateLabel(page)}
               onAnswer={next}
@@ -316,6 +360,13 @@ export function SurpriseReader({
             <ClosingStep
               recipient={recipient}
               sender={sender}
+              momentLabel={readerLabel}
+              cardColors={{
+                background: specialTheme?.screen ?? theme.screen,
+                accent: specialTheme?.accent ?? theme.chip,
+                accentSoft: specialTheme?.accentSoft ?? theme.dots[1],
+                surface: specialTheme?.surface ?? "#FFF4E0",
+              }}
               isExample={page.isExample}
               onRestart={restartReader}
             />
@@ -354,7 +405,7 @@ export function SurpriseReader({
           className="pb-24 text-center text-[10px] font-bold uppercase tracking-[0.12em]"
           style={{ color: specialTheme?.text }}
         >
-          {moment.label} · dibuat dengan SuprizeGo
+          {readerLabel} · dibuat dengan SuprizeGo
         </p>
       </div>
       {contactEmail ? <ReaderContact contactEmail={contactEmail} /> : null}
@@ -522,11 +573,13 @@ const SECONDARY: Record<SurprisePage["moment"], string> = {
 
 function QuestionStep({
   moment,
+  specialDay,
   question,
   dateLabel,
   onAnswer,
 }: {
   moment: SurprisePage["moment"];
+  specialDay: boolean;
   question: string;
   dateLabel: string | null;
   onAnswer: () => void;
@@ -571,7 +624,7 @@ function QuestionStep({
             className={`${actionClass} max-w-none bg-lime text-ink shadow-[6px_6px_0_0_#111]`}
           >
             <HeartIcon className="size-4" />
-            {AFFIRMATIVE[moment]}
+            {specialDay ? "Aku ingat" : AFFIRMATIVE[moment]}
           </button>
           <button
             type="button"
@@ -594,7 +647,11 @@ function QuestionStep({
                 : undefined
             }
           >
-            {moment === "pengakuan" ? getNegativeLabel(attempts) : SECONDARY[moment]}
+            {specialDay
+              ? "Simpan dulu"
+              : moment === "pengakuan"
+                ? getNegativeLabel(attempts)
+                : SECONDARY[moment]}
           </button>
         </div>
       </div>
@@ -646,16 +703,44 @@ function BirthdayCandles() {
 function ClosingStep({
   recipient,
   sender,
+  momentLabel,
+  cardColors,
   isExample,
   onRestart,
 }: {
   recipient: string;
   sender: string;
+  momentLabel: string;
+  cardColors: Pick<
+    MemoryCardInput,
+    "background" | "accent" | "accentSoft" | "surface"
+  >;
   isExample: boolean;
   onRestart: () => void;
 }) {
+  const [cardState, setCardState] = useState<
+    "idle" | "saving" | "saved" | "error"
+  >("idle");
+
+  async function saveCard() {
+    if (cardState === "saving") return;
+    setCardState("saving");
+    try {
+      await saveMemoryCard({
+        recipientName: recipient,
+        senderName: sender,
+        momentLabel,
+        pageUrl: window.location.href,
+        ...cardColors,
+      });
+      setCardState("saved");
+    } catch {
+      setCardState("error");
+    }
+  }
+
   return (
-    <div className="flex flex-1 flex-col items-center justify-center text-center">
+    <div className="no-scrollbar flex min-h-0 flex-1 flex-col items-center justify-center overflow-y-auto py-2 text-center">
       <div className="relative grid size-24 place-items-center rounded-full border-4 border-ink bg-candy shadow-[6px_6px_0_0_#111]">
         <HeartIcon className="size-12" />
         <SparkleIcon className="absolute -right-5 -top-2 size-7 text-sun" />
@@ -676,6 +761,28 @@ function ClosingStep({
           {isExample ? "Bikin versimu" : "Bikin kejutanmu"}
           <ArrowRightIcon className="size-4" />
         </Link>
+        <button
+          type="button"
+          onClick={() => void saveCard()}
+          disabled={cardState === "saving"}
+          aria-busy={cardState === "saving"}
+          className="inline-flex min-h-11 w-full items-center justify-center gap-2 rounded-xl border-[3px] border-ink bg-paper px-4 font-display text-[11px] uppercase text-ink shadow-[3px_3px_0_0_#111] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink active:translate-x-1 active:translate-y-1 active:shadow-none disabled:cursor-wait disabled:translate-y-0 disabled:shadow-none"
+        >
+          <DownloadIcon className="size-4" />
+          {cardState === "saving"
+            ? "Menyiapkan kartu"
+            : cardState === "saved"
+              ? "Simpan kartu lagi"
+              : "Simpan jadi gambar"}
+        </button>
+        {cardState === "error" ? (
+          <p role="alert" className="text-[11px] font-bold leading-4">
+            Kartu belum bisa disimpan. Coba browser terbaru, ya.
+          </p>
+        ) : null}
+        <span role="status" className="sr-only">
+          {cardState === "saved" ? "Kartu PNG berhasil disiapkan untuk diunduh." : ""}
+        </span>
         <button
           type="button"
           onClick={onRestart}

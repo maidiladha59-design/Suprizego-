@@ -152,6 +152,11 @@ export function MusicSection({
             {spotifyPlanNames}
           </span>
         </label>
+        {spotifyEnabled ? (
+          <p className="mt-1 text-[11px] font-bold leading-4 text-ink-soft">
+            Integrasi Spotify segera hadir. Tautan disimpan di draf, tetapi belum diputar di halaman.
+          </p>
+        ) : null}
         <div className="mt-1.5 flex gap-2">
           <input
             id="lagu-pilihan"
@@ -163,7 +168,7 @@ export function MusicSection({
             disabled={!spotifyEnabled}
             placeholder={
               spotifyEnabled
-                ? "Cari lagu atau tempel tautannya"
+                ? "Tempel tautan lagu dari Spotify"
                 : `Tersedia di paket ${spotifyPlanNames}`
             }
             className="h-14 min-w-0 flex-1 rounded-[14px] border-4 border-ink bg-white px-4 text-base font-normal leading-6 text-ink placeholder:text-ink-soft focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink disabled:cursor-not-allowed disabled:bg-paper disabled:opacity-60"
