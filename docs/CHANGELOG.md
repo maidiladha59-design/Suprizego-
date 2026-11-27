@@ -49,3 +49,18 @@
 - Delapan dot dipertahankan sebagai bahasa visual bersama. Pemetaan adalah amplop 1, galeri 4, surat 6, pertanyaan 7, penutup 8; dot 2–3 dan 5 mewakili subprogres galeri/game dan pembacaan surat.
 - Main Berdua tidak dihapus dari produk. Fitur tersebut dipindahkan menjadi tab opsional di layar galeri agar target demo tetap ringkas.
 - Layar surat/chat selalu hitam. Pilihan Chat Malam hanya mengaktifkan pola grid pada layar tersebut, sedangkan Permen Pink memakai hitam polos.
+
+### Tahap 4 — Logo tunggal dan tema Hari Spesial
+
+- Komponen `Logo` tetap menjadi satu sumber artwork untuk header, editor, footer, favicon, dan Open Graph. Animasi lima ekspresi berjalan pada siklus 12,5 detik (masing-masing 2,5 detik), hover/tap menampilkan ekspresi terkejut, timer dibersihkan saat unmount, dan reduced-motion mempertahankan senyum statis.
+- Tema visual untuk seluruh 17 Hari Spesial ditambahkan di `lib/special-day-themes.ts`: palet shell/layar/permukaan/aksen, sepuluh pola latar, tiga ikon SVG orisinal per hari, serta kicker dan opening copy orisinal.
+- Reader menerapkan tema melalui `data-theme`, `data-pattern`, dan CSS custom properties. Amplop, galeri, pertanyaan, penutup, ilustrasi kenangan, dan latar halaman mengikuti tema; layar surat/chat tetap hitam agar alur Tahap 3 tidak berubah.
+- Pemilihan Hari Spesial di editor langsung memperbarui pratinjau. Musim tetap dihitung server-side dari H−21 sampai H+3 dengan tanggal Asia/Jakarta.
+- Verifikasi Tahap 4: `npm run lint`, `npm run typecheck`, dan `npm run build` lulus. Audit Chrome CDP 390×844 mencakup seluruh 17 contoh, kontras teks layar minimum 10,88:1, tiga ikon per tema, tanpa konten terpotong/overflow/error runtime, alur lengkap dan reset untuk tema terang serta gelap, serta pemilihan Hari Guru di editor.
+- Artefak verifikasi: `.tmp/phase4-verification.json`, `.tmp/phase4-*-390.png`, dan `.tmp/logo-verification.json`.
+
+### Asumsi Tahap 4
+
+- Contoh Hari Spesial dapat dibuka sepanjang tahun dengan temanya; editor hanya mengizinkan satu hari yang sedang musim, sesuai aturan produk sebelumnya.
+- Setiap hari memakai tiga ikon dari pustaka SVG orisinal SuprizeGo agar dekorasi konsisten tanpa menyalin aset referensi.
+- Tema tidak mengubah warna hitam wajib pada layar surat/chat; aksen tema tetap muncul pada bubble, tombol, dan ilustrasi di sekitarnya.

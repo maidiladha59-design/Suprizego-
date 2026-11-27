@@ -17,6 +17,7 @@ import {
   MusicIcon,
   PlayIcon,
   SparkleIcon,
+  SpecialDayIcon,
 } from "@/components/ui/icons";
 import { getAvoidPosition, getNegativeLabel } from "@/lib/demo-flow";
 import { FLOW_PROGRESS, FLOW_STEP_IDS } from "@/lib/flow";
@@ -29,6 +30,7 @@ import {
   getReaderTheme,
   splitIntoBubbles,
 } from "@/lib/reader";
+import { getSpecialDayTheme } from "@/lib/special-day-themes";
 import type { SurprisePage } from "@/lib/types";
 import { FlowMusicButton, FlowProgress } from "./flow-progress";
 import { MainBerduaPlayer } from "./main-berdua-player";
@@ -42,7 +44,7 @@ type SurpriseReaderProps = {
 };
 
 const actionClass =
-  "inline-flex h-[59px] w-full max-w-[230px] items-center justify-center gap-2 rounded-2xl border-4 border-ink bg-ink px-4 font-display text-[13px] uppercase leading-5 tracking-[0.01em] text-paper shadow-[6px_6px_0_0_#B6F22E] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-lime active:translate-x-1 active:translate-y-1 active:shadow-none";
+  "inline-flex h-[59px] w-full max-w-[230px] items-center justify-center gap-2 rounded-2xl border-4 border-ink bg-ink px-4 font-display text-[13px] uppercase leading-5 tracking-[0.01em] text-paper shadow-[6px_6px_0_0_var(--special-accent,#B6F22E)] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-lime active:translate-x-1 active:translate-y-1 active:shadow-none";
 
 export function SurpriseReader({
   page,
@@ -58,6 +60,18 @@ export function SurpriseReader({
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const moment = getMoment(page.moment);
   const theme = getReaderTheme(page);
+  const specialTheme = page.specialDay ? getSpecialDayTheme(page.specialDay) : null;
+  const specialDayStyle = specialTheme
+    ? ({
+        "--special-shell": specialTheme.shell,
+        "--special-screen": specialTheme.screen,
+        "--special-surface": specialTheme.surface,
+        "--special-accent": specialTheme.accent,
+        "--special-accent-soft": specialTheme.accentSoft,
+        "--special-text": specialTheme.text,
+        "--special-pattern-line": specialTheme.patternLine,
+      } as CSSProperties)
+    : undefined;
   const progress = FLOW_PROGRESS[activeStep];
   const recipient = page.recipientName.trim() || "Kamu";
   const sender = page.senderName?.trim() || "Pembuat halaman";
@@ -127,21 +141,26 @@ export function SurpriseReader({
   const isDarkLetter = activeStep === "letter";
   const screenBackground = isDarkLetter
     ? "#111111"
-    : activeStep === "photo"
-      ? "#FF8FB8"
-      : theme.screen;
-  const screenText = isDarkLetter ? "#FFF4E0" : theme.text;
+    : specialTheme?.screen ?? (activeStep === "photo" ? "#FF8FB8" : theme.screen);
+  const screenText = isDarkLetter ? "#FFF4E0" : specialTheme?.text ?? theme.text;
 
   const screen = (
     <div
-      className="relative h-[640px] w-[340px] max-w-[calc(100vw-1.5rem)] overflow-hidden rounded-[38px] border-[6px] border-ink bg-ink shadow-[10px_10px_0_0_#111]"
-      style={{ "--reader-screen": screenBackground } as CSSProperties}
+      className={`relative h-[640px] w-[340px] max-w-[calc(100vw-1.5rem)] overflow-hidden rounded-[38px] border-[6px] border-ink bg-ink shadow-[10px_10px_0_0_#111] ${specialTheme ? "special-day-theme" : ""}`}
+      data-theme={page.specialDay ?? undefined}
+      style={specialDayStyle}
     >
       <div
         data-reader-screen
         data-reader-step={activeStep}
-        className="flex h-full flex-col overflow-hidden rounded-[28px] text-ink transition-colors duration-500"
-        style={{ backgroundColor: screenBackground, color: screenText }}
+        className={`flex h-full flex-col overflow-hidden rounded-[28px] text-ink transition-colors duration-500 ${specialTheme ? "special-day-pattern" : ""}`}
+        data-pattern={specialTheme?.pattern}
+        style={{
+          "--reader-screen": screenBackground,
+          ...specialDayStyle,
+          backgroundColor: screenBackground,
+          color: screenText,
+        } as CSSProperties}
       >
         {page.musicUrl ? (
           <audio
@@ -173,23 +192,44 @@ export function SurpriseReader({
         >
           {activeStep === "envelope" ? (
             <div className="flex flex-1 flex-col items-center justify-center text-center">
-              <span className="sticker -rotate-2 bg-lime px-3 py-1.5 text-[11px]">
-                Ada titipan buat…
+              <span className="sticker -rotate-2 bg-lime px-3 py-1.5 text-[11px] text-ink">
+                {specialTheme?.openingKicker ?? "Ada titipan buat…"}
               </span>
               <h1 className="mt-5 max-w-full break-words font-display text-5xl uppercase leading-[0.95] tracking-[-0.03em]">
                 {recipient}
               </h1>
+              {specialTheme ? (
+                <>
+                  <div
+                    className="mt-4 flex items-center justify-center gap-3"
+                    data-special-day-icons
+                    aria-hidden="true"
+                  >
+                    {specialTheme.icons.map((icon) => (
+                      <span
+                        key={icon}
+                        className="grid size-8 place-items-center rounded-full border-[3px] border-current bg-paper text-ink shadow-[3px_3px_0_0_#111]"
+                      >
+                        <SpecialDayIcon icon={icon} className="size-4" />
+                      </span>
+                    ))}
+                  </div>
+                  <p className="mt-3 max-w-[270px] text-[12px] font-bold leading-[1.45]">
+                    {specialTheme.openingCopy}
+                  </p>
+                </>
+              ) : null}
               <button
                 type="button"
                 onClick={openEnvelope}
                 aria-label="Ketuk amplop untuk membuka"
-                className="group mt-7 w-full max-w-[288px] rounded-2xl focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-ink"
+                className={`group w-full max-w-[288px] rounded-2xl focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-ink ${specialTheme ? "mt-5" : "mt-7"}`}
               >
                 <span className="block animate-float-soft transition-transform duration-200 group-hover:-rotate-2 group-hover:scale-[1.03]">
                   <EnvelopeArt />
                 </span>
               </button>
-              <p className="mt-6 inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.08em]">
+              <p className={`${specialTheme ? "mt-4" : "mt-6"} inline-flex items-center gap-2 text-[11px] font-bold uppercase tracking-[0.08em]`}>
                 Ketuk amplopnya
                 <ArrowRightIcon className="size-3.5 rotate-90" />
               </p>
@@ -294,14 +334,26 @@ export function SurpriseReader({
   if (embedded) return screen;
 
   return (
-    <div className="relative min-h-svh overflow-x-hidden bg-lime text-ink">
-      <div aria-hidden="true" className="bg-stripes pointer-events-none fixed inset-0" />
+    <div
+      className={`relative min-h-svh overflow-x-hidden text-ink ${specialTheme ? "special-day-shell special-day-pattern" : "bg-lime"}`}
+      data-theme={page.specialDay ?? undefined}
+      data-pattern={specialTheme?.pattern}
+      style={specialDayStyle}
+    >
+      <div
+        aria-hidden="true"
+        className={`pointer-events-none fixed inset-0 ${specialTheme ? "special-day-pattern" : "bg-stripes"}`}
+        data-pattern={specialTheme?.pattern}
+      />
       <div className="relative">
         <SiteHeader />
         <main className="mx-auto flex w-full max-w-6xl justify-center px-3 py-5 sm:py-8">
           {screen}
         </main>
-        <p className="pb-24 text-center text-[10px] font-bold uppercase tracking-[0.12em] text-ink">
+        <p
+          className="pb-24 text-center text-[10px] font-bold uppercase tracking-[0.12em]"
+          style={{ color: specialTheme?.text }}
+        >
           {moment.label} · dibuat dengan SuprizeGo
         </p>
       </div>
@@ -325,11 +377,11 @@ function MemoryPlaceholder({
         viewBox="0 0 240 250"
         className="mt-6 w-full max-w-[240px] drop-shadow-[7px_7px_0_#111]"
       >
-        <rect x="18" y="12" width="204" height="222" rx="12" fill="#FFF4E0" stroke="#111" strokeWidth="5" />
-        <rect x="35" y="32" width="170" height="150" rx="8" fill="#FF8FB8" stroke="#111" strokeWidth="4" />
-        <path d="m57 155 53-57 39 39 27-25 31 43Z" fill="#B6F22E" stroke="#111" strokeWidth="4" strokeLinejoin="round" />
-        <circle cx="161" cy="70" r="17" fill="#FFF4E0" stroke="#111" strokeWidth="4" />
-        <path d="m120 202-9-9a6 6 0 0 1 8-9l1 1 1-1a6 6 0 0 1 8 9Z" fill="#FF6A3D" stroke="#111" strokeWidth="2.5" />
+        <rect x="18" y="12" width="204" height="222" rx="12" fill="var(--special-surface, #FFF4E0)" stroke="#111" strokeWidth="5" />
+        <rect x="35" y="32" width="170" height="150" rx="8" fill="var(--special-accent-soft, #FF8FB8)" stroke="#111" strokeWidth="4" />
+        <path d="m57 155 53-57 39 39 27-25 31 43Z" fill="var(--special-accent, #B6F22E)" stroke="#111" strokeWidth="4" strokeLinejoin="round" />
+        <circle cx="161" cy="70" r="17" fill="var(--special-surface, #FFF4E0)" stroke="#111" strokeWidth="4" />
+        <path d="m120 202-9-9a6 6 0 0 1 8-9l1 1 1-1a6 6 0 0 1 8 9Z" fill="var(--special-accent, #FF6A3D)" stroke="#111" strokeWidth="2.5" />
       </svg>
       <p className="mt-6 max-w-[240px] text-[13px] font-bold leading-5 text-ink">
         Belum ada foto. Cerita di halaman ini tetap bisa dibaca.

@@ -369,6 +369,124 @@
   background-size: 24px 24px;
 }
 
+.special-day-shell {
+  background-color: var(--special-shell);
+}
+
+.special-day-pattern {
+  --special-pattern-color: color-mix(
+    in srgb,
+    var(--special-pattern-line, #111111) 14%,
+    transparent
+  );
+  background-position: center;
+}
+
+.special-day-pattern[data-pattern="dots"] {
+  background-image: radial-gradient(var(--special-pattern-color) 1.6px, transparent 1.6px);
+  background-size: 22px 22px;
+}
+
+.special-day-pattern[data-pattern="grid"] {
+  background-image:
+    linear-gradient(var(--special-pattern-color) 1px, transparent 1px),
+    linear-gradient(90deg, var(--special-pattern-color) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+
+.special-day-pattern[data-pattern="rays"] {
+  background-image: repeating-conic-gradient(
+    from 0deg,
+    var(--special-pattern-color) 0deg 5deg,
+    transparent 5deg 30deg
+  );
+  background-size: 96px 96px;
+}
+
+.special-day-pattern[data-pattern="waves"] {
+  background-image: radial-gradient(
+    ellipse at center,
+    transparent 54%,
+    var(--special-pattern-color) 55% 58%,
+    transparent 59% 100%
+  );
+  background-size: 64px 32px;
+}
+
+.special-day-pattern[data-pattern="stars"] {
+  background-image:
+    radial-gradient(circle at 20% 25%, var(--special-pattern-color) 0 2px, transparent 2.5px),
+    radial-gradient(circle at 75% 65%, var(--special-pattern-color) 0 2.5px, transparent 3px),
+    radial-gradient(circle at 55% 15%, var(--special-pattern-color) 0 1.5px, transparent 2px);
+  background-size: 54px 54px;
+}
+
+.special-day-pattern[data-pattern="confetti"] {
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 18px,
+      var(--special-pattern-color) 18px 21px,
+      transparent 21px 42px
+    ),
+    repeating-linear-gradient(
+      -45deg,
+      transparent 0 28px,
+      var(--special-pattern-color) 28px 31px,
+      transparent 31px 56px
+    );
+  background-size: 56px 56px;
+}
+
+.special-day-pattern[data-pattern="checks"] {
+  background-image: conic-gradient(
+    from 90deg,
+    var(--special-pattern-color) 25%,
+    transparent 0 50%,
+    var(--special-pattern-color) 0 75%,
+    transparent 0
+  );
+  background-size: 28px 28px;
+}
+
+.special-day-pattern[data-pattern="arches"] {
+  background-image: repeating-radial-gradient(
+    circle at 50% 100%,
+    transparent 0 17px,
+    var(--special-pattern-color) 18px 20px,
+    transparent 21px 34px
+  );
+  background-size: 56px 34px;
+}
+
+.special-day-pattern[data-pattern="diagonal"] {
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0 16px,
+    var(--special-pattern-color) 16px 19px,
+    transparent 19px 36px
+  );
+  background-size: 36px 36px;
+}
+
+.special-day-pattern[data-pattern="rings"] {
+  background-image: repeating-radial-gradient(
+    circle at 50% 50%,
+    transparent 0 15px,
+    var(--special-pattern-color) 16px 18px,
+    transparent 19px 32px
+  );
+  background-size: 64px 64px;
+}
+
+.special-day-theme .sticker {
+  color: #111111;
+}
+
+.special-day-theme :is(.bg-lime, .bg-candy, .bg-sun) {
+  background-color: var(--special-accent);
+}
+
 @keyframes rise {
   from {
     opacity: 0;
