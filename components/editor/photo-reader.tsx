@@ -1,6 +1,8 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import Image from "next/image";
+import { ArrowRightIcon } from "@/components/ui/icons";
 
 export type PreviewPhoto = {
   id: string;
@@ -16,9 +18,11 @@ const buttonClass =
 export function PhotoReader({
   photos,
   onContinue,
+  continueLabel = "Lanjut",
 }: {
   photos: PreviewPhoto[];
   onContinue: () => void;
+  continueLabel?: string;
 }) {
   const [offset, setOffset] = useState(0);
   const [swiping, setSwiping] = useState(false);
@@ -70,9 +74,12 @@ export function PhotoReader({
                 opacity: isTop && swiping ? 0 : 1,
               }}
             >
-              <img
+              <Image
                 src={photo.url}
                 alt={photo.caption || "Foto kenangan"}
+                unoptimized
+                width={264}
+                height={300}
                 draggable={false}
                 className="h-[calc(100%-2.25rem)] w-full rounded-md border-2 border-ink object-cover"
               />
@@ -91,12 +98,12 @@ export function PhotoReader({
           </button>
         )}
         <button type="button" onClick={onContinue} className={`${buttonClass} bg-ink text-paper`}>
-          Lanjut →
+          {continueLabel} <ArrowRightIcon className="size-4" />
         </button>
       </div>
 
       {photos.length > 1 && (
-        <p className="mt-3 text-xs font-bold opacity-70">ketuk foto untuk menggeser</p>
+        <p className="mt-3 text-xs font-bold text-ink">ketuk foto untuk menggeser</p>
       )}
     </div>
   );

@@ -60,7 +60,7 @@ function normalizeStory(value: unknown) {
 }
 
 const inputClass =
-  "mt-1.5 h-14 w-full rounded-[14px] border-4 border-ink bg-white px-4 text-base font-normal leading-6 text-ink placeholder:text-ink/40 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink";
+  "mt-1.5 h-14 w-full rounded-[14px] border-4 border-ink bg-white px-4 text-base font-normal leading-6 text-ink placeholder:text-ink-soft focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink";
 
 const labelClass =
   "block text-[0.85rem] font-bold uppercase leading-5 tracking-[0.01em] text-ink";
@@ -161,39 +161,42 @@ export function EditorWorkspace({
   const activeSpecialDay = specialDays.find((item) => item.status === "musim") ?? null;
 
   useEffect(() => {
-    try {
-      const raw = localStorage.getItem(storageKey);
-      if (raw) {
-        const stored = JSON.parse(raw) as Partial<Draft>;
-        const storedPlanId = isPlanId(stored.planId) ? stored.planId : baseDraft.planId;
-        const planId = initialPlanId ?? storedPlanId;
-        setDraft({
-          design: config.designs.some((design) => design.id === stored.design)
-            ? String(stored.design)
-            : baseDraft.design,
-          specialDay:
-            isSpecialDayId(stored.specialDay) && stored.specialDay === activeSpecialDay?.day.id
-              ? stored.specialDay
-              : null,
-          sn: typeof stored.sn === "string" ? stored.sn : "",
-          rn: typeof stored.rn === "string" ? stored.rn : "",
-          dt: typeof stored.dt === "string" ? stored.dt : "",
-          q: typeof stored.q === "string" ? stored.q : "",
-          story: normalizeStory(stored.story),
-          song: normalizeMusicMood(stored.song),
-          sp: typeof stored.sp === "string" ? stored.sp.slice(0, 200) : "",
-          letter:
-            typeof stored.letter === "string"
-              ? stored.letter.slice(0, MAX_LETTER_LENGTH)
-              : "",
-          planId,
-          games: normalizeGames(stored.games, getPlan(planId).gameLimit),
-        });
+    const timer = window.setTimeout(() => {
+      try {
+        const raw = localStorage.getItem(storageKey);
+        if (raw) {
+          const stored = JSON.parse(raw) as Partial<Draft>;
+          const storedPlanId = isPlanId(stored.planId) ? stored.planId : baseDraft.planId;
+          const planId = initialPlanId ?? storedPlanId;
+          setDraft({
+            design: config.designs.some((design) => design.id === stored.design)
+              ? String(stored.design)
+              : baseDraft.design,
+            specialDay:
+              isSpecialDayId(stored.specialDay) && stored.specialDay === activeSpecialDay?.day.id
+                ? stored.specialDay
+                : null,
+            sn: typeof stored.sn === "string" ? stored.sn : "",
+            rn: typeof stored.rn === "string" ? stored.rn : "",
+            dt: typeof stored.dt === "string" ? stored.dt : "",
+            q: typeof stored.q === "string" ? stored.q : "",
+            story: normalizeStory(stored.story),
+            song: normalizeMusicMood(stored.song),
+            sp: typeof stored.sp === "string" ? stored.sp.slice(0, 200) : "",
+            letter:
+              typeof stored.letter === "string"
+                ? stored.letter.slice(0, MAX_LETTER_LENGTH)
+                : "",
+            planId,
+            games: normalizeGames(stored.games, getPlan(planId).gameLimit),
+          });
+        }
+      } catch {
+        // localStorage bisa diblokir; editor tetap jalan tanpa draf tersimpan.
       }
-    } catch {
-      // localStorage bisa diblokir; editor tetap jalan tanpa draf tersimpan.
-    }
-    hydrated.current = true;
+      hydrated.current = true;
+    }, 0);
+    return () => window.clearTimeout(timer);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [storageKey]);
 
@@ -557,7 +560,7 @@ export function EditorWorkspace({
                     className={`min-h-[120px] rounded-2xl border-4 border-ink p-4 text-left transition ${
                       selected
                         ? "-translate-y-1 shadow-[6px_6px_0_0_#111]"
-                        : "opacity-90 hover:-translate-y-0.5 hover:opacity-100"
+                        : "hover:-translate-y-0.5"
                     } focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-ink`}
                     style={{
                       backgroundColor: option.screen,
@@ -671,7 +674,7 @@ export function EditorWorkspace({
                     rows={2}
                     aria-label={`Kartu cerita ${index + 1}`}
                     placeholder={`Kartu ${index + 1}: tulis satu kalimat...`}
-                    className="h-20 w-full rounded-[14px] border-4 border-ink bg-white px-4 py-3 text-base font-normal leading-6 text-ink placeholder:text-ink/40 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink"
+                    className="h-20 w-full rounded-[14px] border-4 border-ink bg-white px-4 py-3 text-base font-normal leading-6 text-ink placeholder:text-ink-soft focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink"
                   />
                   <button
                     type="button"

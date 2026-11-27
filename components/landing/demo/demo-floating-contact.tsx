@@ -15,6 +15,8 @@ export function DemoFloatingContact({ contactEmail }: { contactEmail: string }) 
     return () => window.removeEventListener("keydown", closeOnEscape);
   }, [open]);
 
+  if (!contactEmail) return null;
+
   return (
     <>
       <button
@@ -48,7 +50,7 @@ export function DemoFloatingContact({ contactEmail }: { contactEmail: string }) 
           >
             <MailIcon className="size-4" /> Kirim email
           </a>
-          <p className="mt-3 break-all text-center text-[10px] font-bold leading-4 opacity-60">
+          <p className="mt-3 break-all text-center text-[10px] font-bold leading-4 text-ink">
             {contactEmail}
           </p>
         </section>

@@ -6,7 +6,7 @@ import {
   useContext,
   useEffect,
   useMemo,
-  useState,
+  useSyncExternalStore,
   type ReactNode,
 } from "react";
 import { LANGUAGE_STORAGE_KEY, type Language } from "@/lib/i18n";
@@ -17,22 +17,40 @@ type LanguageContextValue = {
 };
 
 const LanguageContext = createContext<LanguageContextValue | null>(null);
+const listeners = new Set<() => void>();
+
+function subscribe(listener: () => void) {
+  listeners.add(listener);
+  const onStorage = (event: StorageEvent) => {
+    if (event.key === LANGUAGE_STORAGE_KEY || event.key === null) listener();
+  };
+  window.addEventListener("storage", onStorage);
+  return () => {
+    listeners.delete(listener);
+    window.removeEventListener("storage", onStorage);
+  };
+}
+
+function getSnapshot(): Language {
+  const stored = window.localStorage.getItem(LANGUAGE_STORAGE_KEY);
+  return stored === "en" ? "en" : "id";
+}
+
+function getServerSnapshot(): Language {
+  return "id";
+}
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [lang, setLangState] = useState<Language>("id");
+  const lang = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
   useEffect(() => {
-    const stored = window.localStorage.getItem(LANGUAGE_STORAGE_KEY);
-    if (stored === "id" || stored === "en") {
-      setLangState(stored);
-      document.documentElement.lang = stored;
-    }
-  }, []);
+    document.documentElement.lang = lang;
+  }, [lang]);
 
   const setLang = useCallback((next: Language) => {
-    setLangState(next);
     window.localStorage.setItem(LANGUAGE_STORAGE_KEY, next);
     document.documentElement.lang = next;
+    for (const listener of listeners) listener();
   }, []);
 
   const value = useMemo(() => ({ lang, setLang }), [lang, setLang]);

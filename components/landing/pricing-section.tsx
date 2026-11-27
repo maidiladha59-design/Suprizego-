@@ -28,7 +28,7 @@ export function PricingSection() {
                   : "bg-cream"
               }`}
             >
-              {plan.badge ? (
+              {plan.badge && plan.badge !== plan.tagline ? (
                 <span className="sticker absolute -top-4 right-4 z-10 rotate-[-4deg] bg-candy px-3.5 py-2 text-sm text-ink">
                   {plan.badge}
                 </span>
@@ -39,7 +39,7 @@ export function PricingSection() {
 
               <p className="mt-4 flex flex-wrap items-baseline gap-x-2 font-display text-4xl leading-10">
                 {plan.priceBefore ? (
-                  <s className="text-xl opacity-50">{formatRupiah(plan.priceBefore)}</s>
+                  <s className="text-xl text-ink-soft">{formatRupiah(plan.priceBefore)}</s>
                 ) : null}
                 <span>{formatRupiah(plan.price)}</span>
                 {plan.discount ? (

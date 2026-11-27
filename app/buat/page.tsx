@@ -3,7 +3,7 @@ import Link from "next/link";
 import { MomentArt } from "@/components/landing/moment-art";
 import { SiteFooter } from "@/components/site/site-footer";
 import { SiteHeader } from "@/components/site/site-header";
-import { ArrowRightIcon } from "@/components/ui/icons";
+import { ArrowRightIcon, SparkleIcon } from "@/components/ui/icons";
 import { MOMENTS, type MomentId } from "@/lib/moments";
 import { formatRupiah, getPlan, isPlanId } from "@/lib/plans";
 
@@ -115,7 +115,7 @@ export default async function CreatePage({ searchParams }: PageProps) {
                     <p className="mt-1 text-sm font-bold leading-5 text-ink">{theme.line}</p>
                     <div className="mt-auto pt-4">
                       <span className="inline-block rounded-full border-[3px] border-ink bg-white px-3 py-1 text-xs font-bold leading-4 text-ink">
-                        <span aria-hidden="true">✦ </span>
+                        <SparkleIcon className="mr-1 inline size-3 align-[-1px]" />
                         {theme.teaser}
                       </span>
                     </div>

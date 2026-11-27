@@ -112,7 +112,7 @@ export function MusicSection({
                 <span className="block font-display text-sm uppercase leading-5">
                   {option.name}
                 </span>
-                <span className="block truncate text-[11px] font-bold leading-4 opacity-70">
+                <span className="block truncate text-[11px] font-bold leading-4 text-ink-soft">
                   {option.tagline}
                 </span>
               </button>
@@ -166,7 +166,7 @@ export function MusicSection({
                 ? "Cari lagu atau tempel tautannya"
                 : `Tersedia di paket ${spotifyPlanNames}`
             }
-            className="h-14 min-w-0 flex-1 rounded-[14px] border-4 border-ink bg-white px-4 text-base font-normal leading-6 text-ink placeholder:text-ink/40 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink disabled:cursor-not-allowed disabled:bg-paper disabled:opacity-60"
+            className="h-14 min-w-0 flex-1 rounded-[14px] border-4 border-ink bg-white px-4 text-base font-normal leading-6 text-ink placeholder:text-ink-soft focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink disabled:cursor-not-allowed disabled:bg-paper disabled:opacity-60"
           />
           <button
             type="button"

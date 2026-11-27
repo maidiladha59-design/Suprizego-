@@ -368,7 +368,7 @@ export function VoiceNoteEditor({ value, plan, onSave, onRemove }: VoiceNoteEdit
             <span className="font-display text-lg tabular-nums leading-6">
               {formatDuration(elapsed)}
             </span>
-            <span className="text-[11px] font-bold leading-4 opacity-60">
+            <span className="text-[11px] font-bold leading-4 text-ink-soft">
               sisa {formatDuration(remaining)}
             </span>
             <span className="ml-auto flex gap-2">
@@ -406,7 +406,7 @@ export function VoiceNoteEditor({ value, plan, onSave, onRemove }: VoiceNoteEdit
             </button>
             <div className="min-w-0 flex-1">
               <p className="truncate font-display text-xs uppercase leading-4">{value.name}</p>
-              <p className="text-[11px] font-bold leading-4 opacity-60">
+              <p className="text-[11px] font-bold leading-4 text-ink-soft">
                 Pesan suara · {formatDuration(value.duration)}
               </p>
             </div>

@@ -16,7 +16,7 @@ export function PlanSection({ plan, onSelect }: PlanSectionProps) {
         </span>
         <h2 className="font-display text-2xl uppercase leading-8">Pilih paket</h2>
       </div>
-      <p className="mt-1 text-sm font-bold leading-5 text-ink/70">
+      <p className="mt-1 text-sm font-bold leading-5 text-ink">
         Paket menentukan batas isi dan fitur yang tampil di pratinjau.
       </p>
 
@@ -46,7 +46,7 @@ export function PlanSection({ plan, onSelect }: PlanSectionProps) {
               </span>
               <span className="mt-3 flex flex-wrap items-baseline gap-2 font-display text-2xl leading-6">
                 {option.priceBefore ? (
-                  <s className="text-sm opacity-50">{formatRupiah(option.priceBefore)}</s>
+                  <s className="text-sm text-ink-soft">{formatRupiah(option.priceBefore)}</s>
                 ) : null}
                 {formatRupiah(option.price)}
               </span>

@@ -15,15 +15,15 @@ export function SurpriseExpired() {
 
       <div className="relative max-w-md">
         <span className="mx-auto flex size-14 items-center justify-center rounded-2xl border border-white/10 bg-white/5">
-          <SparkleIcon className="size-5 text-cream/35" />
+          <SparkleIcon className="size-5 text-cream" />
         </span>
-        <p className="mt-8 text-[11px] uppercase tracking-[0.3em] text-cream/40">
+        <p className="mt-8 text-[11px] uppercase tracking-[0.3em] text-cream">
           Kejutan ini telah berakhir
         </p>
         <h1 className="mt-4 font-display text-4xl tracking-tight sm:text-5xl">
           Halaman sudah tidak aktif.
         </h1>
-        <p className="mt-4 text-sm leading-relaxed text-cream/55">
+        <p className="mt-4 text-sm leading-relaxed text-cream">
           Halaman kejutan hanya bisa dibuka selama masa aktif paket yang dipilih pengirim.
           Hubungi pengirim bila kamu masih ingin membukanya.
         </p>

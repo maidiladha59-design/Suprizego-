@@ -18,7 +18,7 @@ export function SiteFooter() {
           <div className="flex">
             <Brand tone="cream" size="lg" />
           </div>
-          <p className="mt-4 max-w-xs text-sm leading-5 opacity-80">{copy.tagline}</p>
+          <p className="mt-4 max-w-xs text-sm leading-5 text-cream">{copy.tagline}</p>
         </div>
 
         <nav aria-label={copy.momentsNavLabel}>
@@ -104,21 +104,23 @@ export function SiteFooter() {
                 {copy.momentsHeading}
               </Link>
             </li>
-            <li>
-              <a
-                href={`mailto:${CONTACT_EMAIL}`}
-                className="transition-colors hover:text-lime focus-visible:text-lime focus-visible:outline-none"
-              >
-                {copy.contact}
-              </a>
-            </li>
+            {CONTACT_EMAIL ? (
+              <li>
+                <a
+                  href={`mailto:${CONTACT_EMAIL}`}
+                  className="transition-colors hover:text-lime focus-visible:text-lime focus-visible:outline-none"
+                >
+                  {copy.contact}
+                </a>
+              </li>
+            ) : null}
           </ul>
         </nav>
       </div>
 
       <div className="border-t-2 border-cream/20">
         <div className="mx-auto flex w-full max-w-6xl flex-col-reverse items-center gap-3 px-4 py-4 md:flex-row md:justify-between">
-          <p className="text-xs text-cream/70">{copy.copyright}</p>
+          <p className="text-xs text-cream">{copy.copyright}</p>
 
           <div
             role="group"

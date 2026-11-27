@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { ArrowRightIcon } from "@/components/ui/icons";
+import { ArrowRightIcon, SparkleIcon } from "@/components/ui/icons";
 import { MOMENTS, type MomentId } from "@/lib/moments";
 import { MomentArt } from "./moment-art";
 
@@ -61,7 +61,7 @@ export function MomentsSection() {
 
                     <div className="mt-auto pt-3">
                       <span className="inline-flex items-center gap-1.5 rounded-full border-2 border-ink bg-paper px-3 py-1.5 font-display text-[11px] font-extrabold uppercase tracking-[0.04em] text-ink shadow-[2px_2px_0_#111]">
-                        <span aria-hidden="true">✦</span>
+                        <SparkleIcon className="size-3" />
                         {moment.badge}
                       </span>
                     </div>

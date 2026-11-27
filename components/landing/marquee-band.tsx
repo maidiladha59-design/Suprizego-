@@ -1,3 +1,4 @@
+import { SparkleIcon } from "@/components/ui/icons";
 import { MOMENTS } from "@/lib/moments";
 
 const LABELS = MOMENTS.map((moment) => moment.label);
@@ -10,7 +11,7 @@ function MarqueeGroup() {
           <span className="font-display text-[1.5rem] font-extrabold uppercase leading-7 tracking-[0.01em] text-lime sm:text-[1.85rem]">
             {label}
           </span>
-          <span className="text-[0.85em] leading-none text-lime">✦</span>
+          <SparkleIcon className="size-4 text-lime" />
         </div>
       ))}
     </div>

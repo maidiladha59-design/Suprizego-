@@ -2,7 +2,7 @@ import { EnvelopeArt } from "@/components/ui/envelope-art";
 
 export function DemoCoverScreen({ onOpen }: { onOpen: () => void }) {
   return (
-    <div data-demo-screen="cover" className="demo-rise flex min-h-0 flex-1 flex-col items-center justify-center px-4 text-center">
+    <div data-demo-screen="envelope" className="demo-rise flex min-h-0 flex-1 flex-col items-center justify-center px-4 text-center">
       <span className="sticker -rotate-3 bg-tangerine px-3 py-[9px] text-xs text-ink">
         Ada titipan buat…
       </span>

@@ -25,7 +25,7 @@ export function DemoPhotoScreen({ onContinue }: { onContinue: () => void }) {
   }
 
   return (
-    <div data-demo-screen="memories" className="demo-rise flex h-full flex-col px-4 pb-6 pt-[22px] text-center">
+    <div data-demo-screen="photo" className="demo-rise flex h-full flex-col px-4 pb-6 pt-[22px] text-center">
       <h2 className="mb-4 font-display text-2xl uppercase leading-8">Kenangan</h2>
 
       <div className="relative mx-auto aspect-[9/11] w-full max-w-[288px]">
@@ -71,7 +71,7 @@ export function DemoPhotoScreen({ onContinue }: { onContinue: () => void }) {
         </DemoButton>
       </div>
 
-      <p className="mt-3 text-xs font-bold leading-4 opacity-70">ketuk foto untuk menggeser</p>
+      <p className="mt-3 text-xs font-bold leading-4 text-ink">ketuk foto untuk menggeser</p>
     </div>
   );
 }

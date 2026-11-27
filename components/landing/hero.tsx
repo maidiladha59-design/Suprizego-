@@ -15,9 +15,8 @@ export function Hero() {
           </span>
 
           <h1 className="mt-5 font-display text-[2.6rem] uppercase leading-[0.95] text-ink sm:text-6xl lg:text-7xl">
-            <span className="block">Tak perlu</span>
-            <span className="block">pidato.</span>
-            <span className="mt-2 inline-block rotate-[-1.5deg] rounded-2xl border-4 border-ink bg-paper px-3 shadow-[6px_6px_0_#111] sm:px-4">
+            <span className="block">Tak perlu pidato.</span>
+            <span className="mt-2 block rotate-[-1.5deg] rounded-2xl border-4 border-ink bg-paper px-3 py-1 shadow-[6px_6px_0_#111] sm:px-4">
               Biarkan linknya bercerita.
             </span>
           </h1>

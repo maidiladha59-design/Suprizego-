@@ -38,7 +38,7 @@ type MainBerduaSectionProps = {
 };
 
 const inputClass =
-  "h-11 min-w-0 flex-1 rounded-full border-[3px] border-ink bg-white px-3.5 text-sm font-normal leading-5 text-ink placeholder:text-ink/40 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink";
+  "h-11 min-w-0 flex-1 rounded-full border-[3px] border-ink bg-white px-3.5 text-sm font-normal leading-5 text-ink placeholder:text-ink-soft focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink";
 
 const removeButtonClass =
   "grid size-10 shrink-0 place-items-center rounded-lg border-[3px] border-ink bg-tangerine font-display text-lg leading-none text-ink shadow-[3px_3px_0_0_#111] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink disabled:cursor-not-allowed disabled:opacity-35 disabled:shadow-none disabled:hover:translate-y-0";
@@ -145,7 +145,7 @@ export function MainBerduaSection({
                     <h3 className="font-display text-base uppercase leading-5">
                       {index + 1}. {meta.label}
                     </h3>
-                    <p className="mt-0.5 text-[11px] font-bold leading-4 text-ink/75">
+                    <p className="mt-0.5 text-[11px] font-bold leading-4 text-ink-soft">
                       {meta.description}
                     </p>
                   </div>
@@ -304,7 +304,7 @@ export function MainBerduaSection({
                               <button
                                 type="button"
                                 onClick={() => removeQuestion(game.id, question.id)}
-                                className="text-[10px] font-bold uppercase leading-4 underline underline-offset-2 opacity-60 hover:opacity-100"
+                                className="text-[10px] font-bold uppercase leading-4 underline underline-offset-2 text-ink-soft hover:text-ink"
                               >
                                 Hapus soal
                               </button>
@@ -539,7 +539,7 @@ export function MainBerduaSection({
                   disabled={needsPhotos}
                   className={`rounded-xl border-[3px] border-dashed p-3 text-left transition-transform focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink ${
                     needsPhotos
-                      ? "cursor-not-allowed border-ink/25 bg-lime/20 text-ink/40"
+                      ? "cursor-not-allowed border-dashed border-ink bg-sand text-ink-soft"
                       : "border-ink bg-lime text-ink hover:-translate-y-0.5"
                   }`}
                 >

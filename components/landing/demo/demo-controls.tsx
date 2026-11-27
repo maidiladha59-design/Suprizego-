@@ -1,4 +1,5 @@
 import type { ButtonHTMLAttributes, ReactNode } from "react";
+import { ResetIcon } from "@/components/ui/icons";
 import { DEMO_THEME_LABELS, DEMO_THEMES, type DemoTheme } from "@/lib/demo-flow";
 
 type DemoButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
@@ -72,7 +73,7 @@ export function DemoThemeControls({
         ))}
       </div>
       <DemoButton onClick={onReset} className="min-w-[108px] bg-paper">
-        <span aria-hidden="true">↺</span> Ulang
+        <ResetIcon className="size-4" /> Ulang
       </DemoButton>
     </div>
   );

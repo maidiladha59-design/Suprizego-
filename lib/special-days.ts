@@ -39,10 +39,29 @@ type LunarDateRule = {
 
 export type SpecialDayDateRule = FixedDateRule | LunarDateRule;
 
+export type SpecialDayIconId =
+  | "buku"
+  | "hati"
+  | "lentera"
+  | "bulan"
+  | "labu"
+  | "pohon"
+  | "pesta"
+  | "kemeja"
+  | "bunga"
+  | "layangan"
+  | "kembang"
+  | "pensil"
+  | "bendera"
+  | "benang"
+  | "gulungan"
+  | "lilin"
+  | "tangan";
+
 export type SpecialDay = {
   id: SpecialDayId;
   nama: string;
-  emoji: string;
+  ikon: SpecialDayIconId;
   tanggal: SpecialDayDateRule;
   tema: SpecialDayTheme;
 };
@@ -51,119 +70,119 @@ export const SPECIAL_DAYS: readonly SpecialDay[] = [
   {
     id: "hari-guru",
     nama: "Hari Guru",
-    emoji: "📚",
+    ikon: "buku",
     tanggal: { jenis: "tetap", bulan: 11, hari: 25 },
     tema: "ceria",
   },
   {
     id: "valentine",
     nama: "Valentine",
-    emoji: "💗",
+    ikon: "hati",
     tanggal: { jenis: "tetap", bulan: 2, hari: 14 },
     tema: "hangat",
   },
   {
     id: "imlek",
     nama: "Imlek",
-    emoji: "🧧",
+    ikon: "lentera",
     tanggal: { jenis: "imlek" },
     tema: "ceria",
   },
   {
     id: "lebaran",
     nama: "Lebaran",
-    emoji: "🌙",
+    ikon: "bulan",
     tanggal: { jenis: "lebaran" },
     tema: "hangat",
   },
   {
     id: "halloween",
     nama: "Halloween",
-    emoji: "🎃",
+    ikon: "labu",
     tanggal: { jenis: "tetap", bulan: 10, hari: 31 },
     tema: "gelap",
   },
   {
     id: "natal",
     nama: "Natal",
-    emoji: "🎄",
+    ikon: "pohon",
     tanggal: { jenis: "tetap", bulan: 12, hari: 25 },
     tema: "hangat",
   },
   {
     id: "tahun-baru",
     nama: "Tahun Baru",
-    emoji: "🎉",
+    ikon: "pesta",
     tanggal: { jenis: "tetap", bulan: 1, hari: 1 },
     tema: "ceria",
   },
   {
     id: "hari-ayah",
     nama: "Hari Ayah",
-    emoji: "👔",
+    ikon: "kemeja",
     tanggal: { jenis: "tetap", bulan: 11, hari: 12 },
     tema: "tenang",
   },
   {
     id: "hari-ibu",
     nama: "Hari Ibu",
-    emoji: "💐",
+    ikon: "bunga",
     tanggal: { jenis: "tetap", bulan: 12, hari: 22 },
     tema: "hangat",
   },
   {
     id: "hari-anak",
     nama: "Hari Anak Nasional",
-    emoji: "🪁",
+    ikon: "layangan",
     tanggal: { jenis: "tetap", bulan: 7, hari: 23 },
     tema: "ceria",
   },
   {
     id: "kartini",
     nama: "Hari Kartini",
-    emoji: "🌺",
+    ikon: "kembang",
     tanggal: { jenis: "tetap", bulan: 4, hari: 21 },
     tema: "tenang",
   },
   {
     id: "hardiknas",
     nama: "Hari Pendidikan Nasional",
-    emoji: "✏️",
+    ikon: "pensil",
     tanggal: { jenis: "tetap", bulan: 5, hari: 2 },
     tema: "ceria",
   },
   {
     id: "kemerdekaan",
     nama: "Hari Kemerdekaan",
-    emoji: "🇮🇩",
+    ikon: "bendera",
     tanggal: { jenis: "tetap", bulan: 8, hari: 17 },
     tema: "ceria",
   },
   {
     id: "batik",
     nama: "Hari Batik",
-    emoji: "🧵",
+    ikon: "benang",
     tanggal: { jenis: "tetap", bulan: 10, hari: 2 },
     tema: "tenang",
   },
   {
     id: "sumpah-pemuda",
     nama: "Hari Sumpah Pemuda",
-    emoji: "📜",
+    ikon: "gulungan",
     tanggal: { jenis: "tetap", bulan: 10, hari: 28 },
     tema: "ceria",
   },
   {
     id: "pahlawan",
     nama: "Hari Pahlawan",
-    emoji: "🕯️",
+    ikon: "lilin",
     tanggal: { jenis: "tetap", bulan: 11, hari: 10 },
     tema: "tenang",
   },
   {
     id: "persahabatan",
     nama: "Hari Persahabatan",
-    emoji: "🤝",
+    ikon: "tangan",
     tanggal: { jenis: "tetap", bulan: 7, hari: 30 },
     tema: "ceria",
   },

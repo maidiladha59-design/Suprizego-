@@ -2,7 +2,13 @@
 
 import Link from "next/link";
 import { useEffect, useState } from "react";
-import { ArrowRightIcon, HeartIcon, LockIcon, SparkleIcon } from "@/components/ui/icons";
+import {
+  ArrowRightIcon,
+  HeartIcon,
+  LockIcon,
+  SparkleIcon,
+  SpecialDayIcon,
+} from "@/components/ui/icons";
 import {
   formatSpecialDayDate,
   getSpecialDayOccurrences,
@@ -13,28 +19,49 @@ import {
 type CardTheme = {
   background: string;
   text: string;
-  muted: string;
   surface: string;
+  surfaceText: string;
+  lockedSurface: string;
+  lockedText: string;
+  lockedBorder: string;
+};
+
+const LIGHT_CARD: Omit<CardTheme, "background"> = {
+  text: "text-ink",
+  surface: "bg-paper",
+  surfaceText: "text-ink",
+  lockedSurface: "bg-sand",
+  lockedText: "text-ink",
+  lockedBorder: "border-ink",
+};
+
+const DARK_CARD: Omit<CardTheme, "background"> = {
+  text: "text-cream",
+  surface: "bg-cream",
+  surfaceText: "text-ink",
+  lockedSurface: "bg-plum-deep",
+  lockedText: "text-cream",
+  lockedBorder: "border-cream",
 };
 
 const CARD_THEMES: Record<SpecialDayId, CardTheme> = {
-  "hari-guru": { background: "bg-sun", text: "text-ink", muted: "text-ink/70", surface: "bg-paper" },
-  valentine: { background: "bg-candy", text: "text-ink", muted: "text-ink/70", surface: "bg-paper/90" },
-  imlek: { background: "bg-tangerine", text: "text-ink", muted: "text-ink/70", surface: "bg-paper/90" },
-  lebaran: { background: "bg-plum", text: "text-cream", muted: "text-cream/70", surface: "bg-cream/95" },
-  halloween: { background: "bg-ink", text: "text-cream", muted: "text-cream/70", surface: "bg-cream/95" },
-  natal: { background: "bg-tangerine", text: "text-ink", muted: "text-ink/70", surface: "bg-paper/90" },
-  "tahun-baru": { background: "bg-plum", text: "text-cream", muted: "text-cream/70", surface: "bg-cream/95" },
-  "hari-ayah": { background: "bg-sun", text: "text-ink", muted: "text-ink/70", surface: "bg-paper" },
-  "hari-ibu": { background: "bg-candy", text: "text-ink", muted: "text-ink/70", surface: "bg-paper/90" },
-  "hari-anak": { background: "bg-lime", text: "text-ink", muted: "text-ink/70", surface: "bg-paper" },
-  kartini: { background: "bg-candy", text: "text-ink", muted: "text-ink/70", surface: "bg-paper/90" },
-  hardiknas: { background: "bg-sun", text: "text-ink", muted: "text-ink/70", surface: "bg-paper" },
-  kemerdekaan: { background: "bg-tangerine", text: "text-ink", muted: "text-ink/70", surface: "bg-paper/90" },
-  batik: { background: "bg-sun", text: "text-ink", muted: "text-ink/70", surface: "bg-paper" },
-  "sumpah-pemuda": { background: "bg-lime", text: "text-ink", muted: "text-ink/70", surface: "bg-paper" },
-  pahlawan: { background: "bg-plum", text: "text-cream", muted: "text-cream/70", surface: "bg-cream/95" },
-  persahabatan: { background: "bg-candy", text: "text-ink", muted: "text-ink/70", surface: "bg-paper/90" },
+  "hari-guru": { ...LIGHT_CARD, background: "bg-sun" },
+  valentine: { ...LIGHT_CARD, background: "bg-candy" },
+  imlek: { ...LIGHT_CARD, background: "bg-tangerine" },
+  lebaran: { ...DARK_CARD, background: "bg-plum" },
+  halloween: { ...DARK_CARD, background: "bg-ink" },
+  natal: { ...LIGHT_CARD, background: "bg-tangerine" },
+  "tahun-baru": { ...DARK_CARD, background: "bg-plum" },
+  "hari-ayah": { ...LIGHT_CARD, background: "bg-sun" },
+  "hari-ibu": { ...LIGHT_CARD, background: "bg-candy" },
+  "hari-anak": { ...LIGHT_CARD, background: "bg-lime" },
+  kartini: { ...LIGHT_CARD, background: "bg-candy" },
+  hardiknas: { ...LIGHT_CARD, background: "bg-sun" },
+  kemerdekaan: { ...LIGHT_CARD, background: "bg-tangerine" },
+  batik: { ...LIGHT_CARD, background: "bg-sun" },
+  "sumpah-pemuda": { ...LIGHT_CARD, background: "bg-lime" },
+  pahlawan: { ...DARK_CARD, background: "bg-plum" },
+  persahabatan: { ...LIGHT_CARD, background: "bg-candy" },
 };
 
 type SpecialDaysSectionProps = {
@@ -61,7 +88,7 @@ export function SpecialDaysSection({ initialOccurrences }: SpecialDaysSectionPro
       aria-labelledby="hari-spesial-title"
       className="border-t-4 border-ink bg-paper bg-grid-paper"
     >
-      <div className="mx-auto w-full max-w-6xl px-4 py-20 md:py-24">
+      <div className="mx-auto w-full max-w-6xl px-4 pb-36 pt-20 md:pb-24 md:pt-24">
         <div className="max-w-2xl">
           <h2
             id="hari-spesial-title"
@@ -92,27 +119,32 @@ export function SpecialDaysSection({ initialOccurrences }: SpecialDaysSectionPro
             return (
               <article
                 key={day.id}
-                className={`flex min-h-[278px] flex-col rounded-[1.25rem] border-4 border-ink p-5 shadow-[8px_8px_0_#111] ${theme.background} ${theme.text}`}
+                className={`flex min-h-[300px] flex-col rounded-[1.25rem] border-4 border-ink p-5 shadow-[8px_8px_0_#111] ${theme.background} ${theme.text}`}
               >
-                <div className="flex items-center justify-between gap-3">
+                <div className="flex items-start justify-between gap-3">
                   <span
-                    className={`grid size-10 shrink-0 place-items-center rounded-xl border-[3px] border-ink text-xl shadow-[3px_3px_0_#111] ${theme.surface} ${theme.text}`}
+                    className={`grid size-10 shrink-0 place-items-center rounded-xl border-[3px] border-ink shadow-[3px_3px_0_#111] ${theme.surface} ${theme.surfaceText}`}
                     aria-hidden="true"
                   >
-                    {day.emoji}
+                    <SpecialDayIcon icon={day.ikon} className="size-5" />
                   </span>
                   <span
-                    className={`inline-flex min-h-8 items-center gap-1.5 rounded-full border-2 border-ink px-2.5 py-1 text-[10px] font-bold uppercase tracking-[0.03em] ${theme.surface} ${theme.text}`}
+                    className={`inline-flex max-w-[12.5rem] min-h-8 flex-wrap items-center justify-end gap-x-1.5 gap-y-1 rounded-full border-2 border-ink px-2.5 py-1 text-left text-[10px] font-bold uppercase leading-4 tracking-[0.03em] ${theme.surface} ${theme.surfaceText}`}
                   >
-                    {locked ? <LockIcon className="size-3" /> : <span aria-hidden="true">●</span>}
-                    {locked ? `${dateLabel} · dibuka ${openLabel}` : `${statusLabel} · ${dateLabel}`}
+                    {locked ? <LockIcon className="size-3 shrink-0" /> : <SparkleIcon className="size-3 shrink-0" />}
+                    <span>{locked ? dateLabel : statusLabel}</span>
+                    {locked ? (
+                      <span className="basis-full pl-[18px]">dibuka {openLabel}</span>
+                    ) : (
+                      <span>{dateLabel}</span>
+                    )}
                   </span>
                 </div>
 
                 <h3 className="mt-3 font-display text-2xl uppercase leading-[30px]">{day.nama}</h3>
                 <Link
-                  href="/contoh/anniversary"
-                  className={`mt-1 inline-flex w-fit items-center gap-1 text-xs font-bold underline decoration-2 underline-offset-4 ${theme.muted}`}
+                  href={`/contoh/${day.id}`}
+                  className={`mt-1 inline-flex w-fit items-center gap-1 text-xs font-bold underline decoration-2 underline-offset-4 ${theme.text}`}
                 >
                   Contoh ucapannya
                   <ArrowRightIcon className="size-3.5" />
@@ -123,7 +155,7 @@ export function SpecialDaysSection({ initialOccurrences }: SpecialDaysSectionPro
                     <>
                       <div
                         aria-disabled="true"
-                        className={`flex min-h-[58px] items-center gap-3 rounded-2xl border-[3px] border-dashed border-ink/50 px-3 py-2 opacity-60 ${theme.surface} ${theme.text}`}
+                        className={`flex min-h-[58px] items-center gap-3 rounded-2xl border-[3px] border-dashed px-3 py-2 ${theme.lockedBorder} ${theme.lockedSurface} ${theme.lockedText}`}
                       >
                         <SparkleIcon className="size-5 shrink-0" />
                         <span className="min-w-0 flex-1">
@@ -134,7 +166,7 @@ export function SpecialDaysSection({ initialOccurrences }: SpecialDaysSectionPro
                       </div>
                       <div
                         aria-disabled="true"
-                        className={`flex min-h-[58px] items-center gap-3 rounded-2xl border-[3px] border-dashed border-ink/50 px-3 py-2 opacity-60 ${theme.surface} ${theme.text}`}
+                        className={`flex min-h-[58px] items-center gap-3 rounded-2xl border-[3px] border-dashed px-3 py-2 ${theme.lockedBorder} ${theme.lockedSurface} ${theme.lockedText}`}
                       >
                         <HeartIcon className="size-5 shrink-0" />
                         <span className="min-w-0 flex-1">
@@ -148,7 +180,7 @@ export function SpecialDaysSection({ initialOccurrences }: SpecialDaysSectionPro
                     <>
                       <Link
                         href="/buat"
-                        className={`flex min-h-[58px] items-center gap-3 rounded-2xl border-[3px] border-ink px-3 py-2 transition-transform hover:-translate-y-0.5 ${theme.surface} ${theme.text}`}
+                        className={`flex min-h-[58px] items-center gap-3 rounded-2xl border-[3px] border-ink px-3 py-2 transition-transform hover:-translate-y-0.5 ${theme.surface} ${theme.surfaceText}`}
                       >
                         <SparkleIcon className="size-5 shrink-0" />
                         <span className="min-w-0 flex-1">
@@ -159,7 +191,7 @@ export function SpecialDaysSection({ initialOccurrences }: SpecialDaysSectionPro
                       </Link>
                       <Link
                         href="/buat/minta-maaf"
-                        className={`flex min-h-[58px] items-center gap-3 rounded-2xl border-[3px] border-ink px-3 py-2 transition-transform hover:-translate-y-0.5 ${theme.surface} ${theme.text}`}
+                        className={`flex min-h-[58px] items-center gap-3 rounded-2xl border-[3px] border-ink px-3 py-2 transition-transform hover:-translate-y-0.5 ${theme.surface} ${theme.surfaceText}`}
                       >
                         <HeartIcon className="size-5 shrink-0" />
                         <span className="min-w-0 flex-1">

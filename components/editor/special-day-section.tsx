@@ -1,4 +1,4 @@
-import { LockIcon } from "@/components/ui/icons";
+import { LockIcon, SpecialDayIcon } from "@/components/ui/icons";
 import {
   formatSpecialDayDate,
   type SpecialDayId,
@@ -18,7 +18,7 @@ export function SpecialDaySection({ occurrences, value, onChange }: SpecialDaySe
     <section className="rounded-card border-4 border-ink bg-white p-6 shadow-hard-lg sm:p-7">
       <div>
         <h2 className="font-display text-2xl uppercase leading-8">Hari spesial</h2>
-        <p className="mt-1 text-sm font-bold leading-5 text-ink/65">
+        <p className="mt-1 text-sm font-bold leading-5 text-ink">
           (opsional, tema ikut ke semua bagian halaman)
         </p>
       </div>
@@ -49,10 +49,10 @@ export function SpecialDaySection({ occurrences, value, onChange }: SpecialDaySe
             className={`inline-flex min-h-11 flex-wrap items-center gap-2 rounded-full border-[3px] px-4 py-2 font-mono text-xs font-bold leading-4 transition focus-visible:outline-3 focus-visible:outline-offset-3 focus-visible:outline-ink ${
               value === activeDay.day.id
                 ? "-translate-y-0.5 border-4 border-ink bg-candy text-ink shadow-[4px_4px_0_#111]"
-                : "border-ink bg-candy/70 text-ink hover:-translate-y-0.5 hover:bg-candy"
+                : "border-ink bg-blush text-ink hover:-translate-y-0.5 hover:bg-candy"
             }`}
           >
-            <span aria-hidden="true">{activeDay.day.emoji}</span>
+            <SpecialDayIcon icon={activeDay.day.ikon} className="size-4 shrink-0" />
             <span>{activeDay.day.nama}</span>
             <span className="rounded-full border-2 border-ink bg-lime px-2 py-0.5 font-display text-[9px] uppercase leading-3 tracking-[0.04em]">
               lagi musim
@@ -68,7 +68,7 @@ export function SpecialDaySection({ occurrences, value, onChange }: SpecialDaySe
               type="button"
               disabled
               aria-label={`${item.day.nama} terkunci, dibuka ${formatSpecialDayDate(item.tanggalBuka)}`}
-              className="inline-flex min-h-11 cursor-not-allowed flex-wrap items-center gap-2 rounded-full border-[3px] border-ink/30 bg-ink/[0.04] px-4 py-2 font-mono text-xs font-bold leading-4 text-ink/45"
+              className="inline-flex min-h-11 cursor-not-allowed flex-wrap items-center gap-2 rounded-full border-[3px] border-dashed border-ink bg-sand px-4 py-2 font-mono text-xs font-bold leading-4 text-ink"
             >
               <LockIcon className="size-3.5 shrink-0" />
               <span>{item.day.nama}</span>

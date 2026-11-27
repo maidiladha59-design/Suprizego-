@@ -2,7 +2,7 @@
 
 import { useRef, useState } from "react";
 import { Logo } from "@/components/Logo";
-import { ArrowRightIcon } from "@/components/ui/icons";
+import { ResetIcon } from "@/components/ui/icons";
 import {
   getAvoidPosition,
   getNegativeLabel,
@@ -112,10 +112,10 @@ function DemoHeartMascot() {
   );
 }
 
-export function DemoAnswerScreen({ onContinue }: { onContinue: () => void }) {
+export function DemoAnswerScreen({ onRestart }: { onRestart: () => void }) {
   return (
     <div
-      data-demo-screen="answer"
+      data-demo-screen="closing"
       className="demo-rise relative flex min-h-0 flex-1 flex-col items-center justify-center px-4 pb-6 text-center text-current"
     >
       <DemoConfetti />
@@ -123,13 +123,13 @@ export function DemoAnswerScreen({ onContinue }: { onContinue: () => void }) {
         <DemoHeartMascot />
       </div>
       <div className="relative mt-4 w-full max-w-[296px] rounded-[20px] border-4 border-ink bg-paper p-5 text-center text-ink shadow-[5px_5px_0_0_#111]">
-        <h2 className="font-display text-3xl leading-tight">Mau jadi pacarku?</h2>
+        <h2 className="font-display text-3xl leading-tight">Jawaban Sekar masuk</h2>
         <p className="demo-pop mt-4 font-bold">
-          Bima pasti senyum-senyum sekarang.
+          Bima bisa melihatnya di panel pengirim.
         </p>
       </div>
-      <DemoButton tone="ink" size="lg" onClick={onContinue} className="demo-pop mt-6 w-[154px]">
-        Lanjut <ArrowRightIcon className="size-4" />
+      <DemoButton tone="ink" size="lg" onClick={onRestart} className="demo-pop mt-6 w-[154px]">
+        <ResetIcon className="size-4" /> Ulang
       </DemoButton>
     </div>
   );

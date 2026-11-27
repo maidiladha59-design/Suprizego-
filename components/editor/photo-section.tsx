@@ -1,5 +1,7 @@
 "use client";
 
+import Image from "next/image";
+import { ArrowLeftIcon, ArrowRightIcon } from "@/components/ui/icons";
 import { PHOTO_ACCEPT } from "@/lib/photo-rules";
 
 export type EditorPhoto = {
@@ -24,7 +26,7 @@ type PhotoSectionProps = {
 };
 
 const captionClass =
-  "mt-2 h-9 w-full rounded-lg border-2 border-ink bg-white px-2 text-xs font-normal leading-4 text-ink placeholder:text-ink/40 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink";
+  "mt-2 h-9 w-full rounded-lg border-2 border-ink bg-white px-2 text-xs font-normal leading-4 text-ink placeholder:text-ink-soft focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink";
 
 const arrowClass =
   "grid size-7 place-items-center rounded-md border-2 border-ink bg-white text-xs font-bold leading-none text-ink transition disabled:cursor-not-allowed disabled:opacity-30";
@@ -52,7 +54,7 @@ export function PhotoSection({
         </span>
         <h2 className="font-display text-2xl uppercase leading-8">Foto</h2>
       </div>
-      <p className="mt-1 text-sm font-bold leading-5 text-ink/70">
+      <p className="mt-1 text-sm font-bold leading-5 text-ink">
         Maksimal {maxPhotos} foto, otomatis dikecilin. {photos.length}/{maxPhotos}
       </p>
 
@@ -87,15 +89,18 @@ export function PhotoSection({
           >
             <div className="relative grid aspect-square w-full place-items-center overflow-hidden rounded-lg bg-white">
               {photo.status === "ready" && photo.url ? (
-                <img
+                <Image
                   src={photo.url}
                   alt={photo.caption || `Foto ${index + 1}`}
+                  unoptimized
+                  width={256}
+                  height={256}
                   className="h-full w-full object-cover"
                 />
               ) : photo.status === "loading" ? (
                 <div className="grid place-items-center gap-2 p-2 text-center">
                   <span className="size-8 animate-spin rounded-full border-4 border-ink/20 border-t-ink" />
-                  <span className="text-[11px] font-bold leading-4 text-ink/70">
+                  <span className="text-[11px] font-bold leading-4 text-ink">
                     Ngolah foto...
                   </span>
                 </div>
@@ -104,7 +109,7 @@ export function PhotoSection({
                   <span className="grid size-7 place-items-center rounded-full border-[3px] border-ink bg-candy font-display text-sm">
                     !
                   </span>
-                  <span className="text-[11px] font-bold leading-4 text-ink/80">
+                  <span className="text-[11px] font-bold leading-4 text-ink">
                     {photo.error ?? "Foto gagal diolah."}
                   </span>
                 </div>
@@ -122,7 +127,7 @@ export function PhotoSection({
                 className={captionClass}
               />
             ) : (
-              <p className="mt-2 line-clamp-2 min-h-9 text-[11px] font-bold leading-4 text-ink/60">
+              <p className="mt-2 line-clamp-2 min-h-9 text-[11px] font-bold leading-4 text-ink-soft">
                 {photo.status === "loading" ? photo.name ?? "Foto" : ""}
               </p>
             )}
@@ -135,7 +140,7 @@ export function PhotoSection({
                 aria-label={`Geser foto ${index + 1} ke kiri`}
                 className={arrowClass}
               >
-                ←
+                <ArrowLeftIcon className="size-3.5" />
               </button>
               <button
                 type="button"
@@ -144,7 +149,7 @@ export function PhotoSection({
                 aria-label={`Geser foto ${index + 1} ke kanan`}
                 className={arrowClass}
               >
-                →
+                <ArrowRightIcon className="size-3.5" />
               </button>
               <button
                 type="button"
@@ -176,14 +181,14 @@ export function PhotoSection({
         )}
 
         {full && (
-          <div className="grid aspect-square place-items-center rounded-xl border-4 border-dashed border-ink bg-paper p-3 text-center text-xs font-bold leading-5 text-ink/70">
+          <div className="grid aspect-square place-items-center rounded-xl border-4 border-dashed border-ink bg-paper p-3 text-center text-xs font-bold leading-5 text-ink">
             Penuh, {maxPhotos}/{maxPhotos}. Hapus satu buat ganti.
           </div>
         )}
       </div>
 
       {photos.length === 0 && (
-        <p className="mt-3 text-xs font-bold leading-4 text-ink/60">
+        <p className="mt-3 text-xs font-bold leading-4 text-ink-soft">
           Belum ada foto. Tambah kenangan pertamamu, ya.
         </p>
       )}

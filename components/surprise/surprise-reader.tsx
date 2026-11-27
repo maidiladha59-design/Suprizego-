@@ -1,31 +1,39 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState, type CSSProperties } from "react";
+import {
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+  type CSSProperties,
+} from "react";
 import { SiteHeader } from "@/components/site/site-header";
 import { PhotoReader } from "@/components/editor/photo-reader";
 import { EnvelopeArt } from "@/components/ui/envelope-art";
 import {
   ArrowRightIcon,
   HeartIcon,
-  MomentIcon,
   MusicIcon,
-  PauseIcon,
   PlayIcon,
   SparkleIcon,
 } from "@/components/ui/icons";
+import { getAvoidPosition, getNegativeLabel } from "@/lib/demo-flow";
+import { FLOW_PROGRESS, FLOW_STEP_IDS } from "@/lib/flow";
+import { MAX_GAMES, getPlayableGames } from "@/lib/games";
 import { getMoment } from "@/lib/moments";
 import { getPlan } from "@/lib/plans";
 import {
   getReaderDateLabel,
   getReaderQuestion,
-  getReaderSteps,
   getReaderTheme,
   splitIntoBubbles,
 } from "@/lib/reader";
 import type { SurprisePage } from "@/lib/types";
+import { FlowMusicButton, FlowProgress } from "./flow-progress";
 import { MainBerduaPlayer } from "./main-berdua-player";
 import { ReaderContact } from "./reader-contact";
+import { useFlowController } from "./use-flow-controller";
 
 type SurpriseReaderProps = {
   page: SurprisePage;
@@ -36,35 +44,38 @@ type SurpriseReaderProps = {
 const actionClass =
   "inline-flex h-[59px] w-full max-w-[230px] items-center justify-center gap-2 rounded-2xl border-4 border-ink bg-ink px-4 font-display text-[13px] uppercase leading-5 tracking-[0.01em] text-paper shadow-[6px_6px_0_0_#B6F22E] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-lime active:translate-x-1 active:translate-y-1 active:shadow-none";
 
-export function SurpriseReader({ page, contactEmail, embedded = false }: SurpriseReaderProps) {
-  const steps = useMemo(() => getReaderSteps(page), [page]);
-  const [activeIndex, setActiveIndex] = useState(0);
+export function SurpriseReader({
+  page,
+  contactEmail,
+  embedded = false,
+}: SurpriseReaderProps) {
+  const { activeId: activeStep, runId, goTo, next, restart } =
+    useFlowController(FLOW_STEP_IDS);
+  const [photoMode, setPhotoMode] = useState<"photos" | "games">("photos");
+  const [gamesCompleted, setGamesCompleted] = useState(false);
   const [musicOn, setMusicOn] = useState(false);
   const [musicNotice, setMusicNotice] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const moment = getMoment(page.moment);
   const theme = getReaderTheme(page);
-  const activeStep = steps[Math.min(activeIndex, steps.length - 1)] ?? steps[0]!;
+  const progress = FLOW_PROGRESS[activeStep];
   const recipient = page.recipientName.trim() || "Kamu";
   const sender = page.senderName?.trim() || "Pembuat halaman";
+  const playableGames = useMemo(
+    () =>
+      getPlayableGames(
+        page.games ?? [],
+        page.photoUrls.length,
+        page.planId ? getPlan(page.planId).gameLimit : MAX_GAMES,
+      ),
+    [page.games, page.photoUrls.length, page.planId],
+  );
+  const hasGames = playableGames.length > 0;
 
   useEffect(() => {
     const audio = audioRef.current;
     return () => audio?.pause();
   }, []);
-
-  function goNext() {
-    setActiveIndex((current) => {
-      const bounded = Math.min(current, steps.length - 1);
-      return Math.min(bounded + 1, steps.length - 1);
-    });
-  }
-
-  function restart() {
-    setActiveIndex(0);
-    setMusicOn(false);
-    audioRef.current?.pause();
-  }
 
   async function playMusic() {
     const audio = audioRef.current;
@@ -79,11 +90,6 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
     }
   }
 
-  function openEnvelope() {
-    goNext();
-    if (page.musicUrl) void playMusic();
-  }
-
   function toggleMusic() {
     const audio = audioRef.current;
     if (!audio) return;
@@ -94,16 +100,48 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
     }
   }
 
+  function openEnvelope() {
+    goTo("photo");
+    if (page.musicUrl) void playMusic();
+  }
+
+  function continueFromPhotos() {
+    if (hasGames && !gamesCompleted) setPhotoMode("games");
+    else next();
+  }
+
+  function completeGames() {
+    setGamesCompleted(true);
+    next();
+  }
+
+  function restartReader() {
+    restart();
+    setPhotoMode("photos");
+    setGamesCompleted(false);
+    setMusicOn(false);
+    setMusicNotice(false);
+    audioRef.current?.pause();
+  }
+
+  const isDarkLetter = activeStep === "letter";
+  const screenBackground = isDarkLetter
+    ? "#111111"
+    : activeStep === "photo"
+      ? "#FF8FB8"
+      : theme.screen;
+  const screenText = isDarkLetter ? "#FFF4E0" : theme.text;
+
   const screen = (
     <div
       className="relative h-[640px] w-[340px] max-w-[calc(100vw-1.5rem)] overflow-hidden rounded-[38px] border-[6px] border-ink bg-ink shadow-[10px_10px_0_0_#111]"
-      style={{ "--reader-screen": theme.screen } as CSSProperties}
+      style={{ "--reader-screen": screenBackground } as CSSProperties}
     >
       <div
         data-reader-screen
-        data-reader-step={activeStep.id}
-        className="flex h-full flex-col overflow-hidden rounded-[28px] bg-[var(--reader-screen)] text-ink"
-        style={{ backgroundColor: theme.screen, color: theme.text }}
+        data-reader-step={activeStep}
+        className="flex h-full flex-col overflow-hidden rounded-[28px] text-ink transition-colors duration-500"
+        style={{ backgroundColor: screenBackground, color: screenText }}
       >
         {page.musicUrl ? (
           <audio
@@ -116,37 +154,28 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
           />
         ) : null}
 
-        <div className="flex h-[58px] shrink-0 items-center justify-between gap-3 px-5">
-          <div className="flex items-center gap-1.5" aria-label={`Langkah ${activeStep.order} dari 8`}>
-            {Array.from({ length: 8 }, (_, index) => (
-              <span
-                key={index}
-                aria-hidden="true"
-                className={`size-3 rounded-full border-2 border-ink transition-colors ${
-                  index < activeStep.order ? "bg-ink" : "bg-transparent"
-                }`}
-              />
-            ))}
-          </div>
-          {page.musicUrl && activeStep.id !== "envelope" ? (
-            <button
-              type="button"
-              onClick={toggleMusic}
-              aria-pressed={musicOn}
-              className="inline-flex h-[31px] items-center gap-1 rounded-xl border-[3px] border-ink bg-paper px-2.5 font-display text-[10px] uppercase text-ink shadow-[3px_3px_0_0_#111] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink"
-            >
-              {musicOn ? <PauseIcon className="size-3" /> : <MusicIcon className="size-3" />}
-              {musicOn ? "Nyala" : "Mati"}
-            </button>
+        <div
+          className={`flex h-[58px] shrink-0 items-center justify-between gap-3 px-5 ${
+            activeStep === "envelope" ? "mt-3" : ""
+          }`}
+        >
+          <FlowProgress progress={progress} />
+          {page.musicUrl && activeStep !== "envelope" ? (
+            <FlowMusicButton musicOn={musicOn} onToggle={toggleMusic} />
           ) : (
             <span className="w-[74px]" aria-hidden="true" />
           )}
         </div>
 
-        <div key={activeStep.id} className="animate-pop-in flex min-h-0 flex-1 flex-col px-5 pb-6">
-          {activeStep.id === "envelope" ? (
+        <div
+          key={`${runId}-${activeStep}`}
+          className="animate-pop-in flex min-h-0 flex-1 flex-col px-5 pb-6"
+        >
+          {activeStep === "envelope" ? (
             <div className="flex flex-1 flex-col items-center justify-center text-center">
-              <span className="sticker -rotate-2 bg-lime px-3 py-1.5 text-[11px]">Ada titipan buat…</span>
+              <span className="sticker -rotate-2 bg-lime px-3 py-1.5 text-[11px]">
+                Ada titipan buat…
+              </span>
               <h1 className="mt-5 max-w-full break-words font-display text-5xl uppercase leading-[0.95] tracking-[-0.03em]">
                 {recipient}
               </h1>
@@ -167,73 +196,88 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
             </div>
           ) : null}
 
-          {activeStep.id === "greeting" ? (
-            <div className="flex flex-1 flex-col items-center justify-center">
-              <div
-                aria-hidden="true"
-                className="mb-7 grid size-24 -rotate-3 place-items-center rounded-2xl border-4 border-ink bg-lime shadow-[5px_5px_0_0_#111]"
-              >
-                <MomentIcon moment={page.moment} className="size-12" />
-              </div>
-              <GreetingCard moment={page.moment} recipient={recipient} sender={sender} dateLabel={getReaderDateLabel(page)} />
-              <div className="mt-7 flex justify-center">
-                <button type="button" onClick={goNext} className={`${actionClass} max-w-[133px]`}>
-                  Buka <ArrowRightIcon className="size-4" />
-                </button>
-              </div>
+          {activeStep === "photo" ? (
+            <div className="no-scrollbar flex min-h-0 flex-1 flex-col overflow-y-auto py-2">
+              {hasGames ? (
+                <div className="mb-3 flex shrink-0 justify-center gap-2" aria-label="Isi kenangan">
+                  <button
+                    type="button"
+                    onClick={() => setPhotoMode("photos")}
+                    aria-pressed={photoMode === "photos"}
+                    className={`min-h-9 rounded-xl border-[3px] border-ink px-3 font-display text-[11px] uppercase shadow-[3px_3px_0_0_#111] ${
+                      photoMode === "photos" ? "bg-lime text-ink" : "bg-paper text-ink"
+                    }`}
+                  >
+                    Foto
+                  </button>
+                  <button
+                    type="button"
+                    onClick={() => setPhotoMode("games")}
+                    aria-pressed={photoMode === "games"}
+                    className={`min-h-9 rounded-xl border-[3px] border-ink px-3 font-display text-[11px] uppercase shadow-[3px_3px_0_0_#111] ${
+                      photoMode === "games" ? "bg-lime text-ink" : "bg-paper text-ink"
+                    }`}
+                  >
+                    Main Berdua
+                  </button>
+                </div>
+              ) : null}
+
+              {photoMode === "games" && hasGames ? (
+                <MainBerduaPlayer
+                  games={playableGames}
+                  photoUrls={page.photoUrls}
+                  recipientName={recipient}
+                  senderName={page.senderName}
+                  onComplete={completeGames}
+                  embedded
+                  gameLimit={page.planId ? getPlan(page.planId).gameLimit : undefined}
+                />
+              ) : page.photoUrls.length > 0 ? (
+                <PhotoReader
+                  photos={page.photoUrls.map((url, index) => ({
+                    id: `${url}-${index}`,
+                    url,
+                    caption: `Kenangan ${index + 1}`,
+                  }))}
+                  onContinue={continueFromPhotos}
+                  continueLabel={hasGames && !gamesCompleted ? "Main Berdua" : "Lanjut"}
+                />
+              ) : (
+                <MemoryPlaceholder
+                  onContinue={continueFromPhotos}
+                  continueLabel={hasGames && !gamesCompleted ? "Main Berdua" : "Lanjut ke surat"}
+                />
+              )}
             </div>
           ) : null}
 
-          {activeStep.id === "story" ? (
-            <StoryStep
-              key={page.story ?? "story"}
-              text={page.story}
+          {activeStep === "letter" ? (
+            <ReaderLetterStep
+              story={page.story}
+              letter={page.letter}
+              recipient={recipient}
               sender={sender}
-              onComplete={goNext}
+              voiceUrl={page.voiceUrl ?? null}
+              onContinue={next}
             />
           ) : null}
 
-          {activeStep.id === "memories" ? (
-            <div className="no-scrollbar flex min-h-0 flex-1 flex-col justify-center overflow-y-auto py-2">
-              <PhotoReader
-                photos={page.photoUrls.map((url, index) => ({
-                  id: `${url}-${index}`,
-                  url,
-                  caption: `Kenangan ${index + 1}`,
-                }))}
-                onContinue={goNext}
-              />
-            </div>
+          {activeStep === "question" ? (
+            <QuestionStep
+              moment={page.moment}
+              question={getReaderQuestion(page)}
+              dateLabel={getReaderDateLabel(page)}
+              onAnswer={next}
+            />
           ) : null}
 
-          {activeStep.id === "games" ? (
-            <div className="min-h-0 flex-1 overflow-y-auto py-2">
-              <MainBerduaPlayer
-                games={page.games ?? []}
-                photoUrls={page.photoUrls}
-                recipientName={recipient}
-                senderName={page.senderName}
-                onComplete={goNext}
-                embedded
-                gameLimit={page.planId ? getPlan(page.planId).gameLimit : undefined}
-              />
-            </div>
-          ) : null}
-
-          {activeStep.id === "letter" ? (
-            <LetterStep text={page.letter ?? ""} voiceUrl={page.voiceUrl ?? null} onContinue={goNext} />
-          ) : null}
-
-          {activeStep.id === "question" ? (
-            <QuestionStep moment={page.moment} question={getReaderQuestion(page)} onAnswer={goNext} />
-          ) : null}
-
-          {activeStep.id === "closing" ? (
+          {activeStep === "closing" ? (
             <ClosingStep
               recipient={recipient}
               sender={sender}
               isExample={page.isExample}
-              onRestart={restart}
+              onRestart={restartReader}
             />
           ) : null}
 
@@ -257,7 +301,7 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
         <main className="mx-auto flex w-full max-w-6xl justify-center px-3 py-5 sm:py-8">
           {screen}
         </main>
-        <p className="pb-24 text-center text-[10px] font-bold uppercase tracking-[0.12em] text-ink/60">
+        <p className="pb-24 text-center text-[10px] font-bold uppercase tracking-[0.12em] text-ink">
           {moment.label} · dibuat dengan SuprizeGo
         </p>
       </div>
@@ -266,145 +310,142 @@ export function SurpriseReader({ page, contactEmail, embedded = false }: Surpris
   );
 }
 
-function GreetingCard({
-  moment,
+function MemoryPlaceholder({
+  onContinue,
+  continueLabel,
+}: {
+  onContinue: () => void;
+  continueLabel: string;
+}) {
+  return (
+    <div className="flex flex-1 flex-col items-center justify-center text-center">
+      <span className="sticker -rotate-2 bg-lime px-3 py-1.5 text-[11px]">Ruang kenangan</span>
+      <svg
+        aria-hidden="true"
+        viewBox="0 0 240 250"
+        className="mt-6 w-full max-w-[240px] drop-shadow-[7px_7px_0_#111]"
+      >
+        <rect x="18" y="12" width="204" height="222" rx="12" fill="#FFF4E0" stroke="#111" strokeWidth="5" />
+        <rect x="35" y="32" width="170" height="150" rx="8" fill="#FF8FB8" stroke="#111" strokeWidth="4" />
+        <path d="m57 155 53-57 39 39 27-25 31 43Z" fill="#B6F22E" stroke="#111" strokeWidth="4" strokeLinejoin="round" />
+        <circle cx="161" cy="70" r="17" fill="#FFF4E0" stroke="#111" strokeWidth="4" />
+        <path d="m120 202-9-9a6 6 0 0 1 8-9l1 1 1-1a6 6 0 0 1 8 9Z" fill="#FF6A3D" stroke="#111" strokeWidth="2.5" />
+      </svg>
+      <p className="mt-6 max-w-[240px] text-[13px] font-bold leading-5 text-ink">
+        Belum ada foto. Cerita di halaman ini tetap bisa dibaca.
+      </p>
+      <button type="button" onClick={onContinue} className={`${actionClass} mt-6`}>
+        {continueLabel} <ArrowRightIcon className="size-4" />
+      </button>
+    </div>
+  );
+}
+
+function ReaderLetterStep({
+  story,
+  letter,
   recipient,
   sender,
-  dateLabel,
-}: {
-  moment: SurprisePage["moment"];
-  recipient: string;
-  sender: string;
-  dateLabel: string | null;
-}) {
-  return (
-    <div className="relative w-full max-w-[250px] rounded-2xl border-4 border-ink bg-paper px-5 py-6 text-center text-ink shadow-[6px_6px_0_0_#111]">
-      <span className="sticker absolute -top-5 left-1/2 -translate-x-1/2 -rotate-3 bg-candy px-3 py-1.5 text-[10px]">
-        <MomentIcon moment={moment} className="size-4" />
-        Buat kamu
-      </span>
-      <SparkleIcon className="absolute left-3 top-3 size-4 text-tangerine" />
-      <SparkleIcon className="absolute right-3 top-4 size-3 text-candy" />
-      <h1 className="mt-3 break-words font-display text-[2rem] uppercase leading-none tracking-[-0.03em]">
-        Hai, {recipient}!
-      </h1>
-      <p className="mx-auto mt-4 max-w-[220px] text-[13px] font-bold leading-5">
-        {sender} punya sesuatu buat kamu.
-      </p>
-      {dateLabel ? (
-        <p className="mt-4 border-t-2 border-dashed border-ink/25 pt-3 text-[11px] font-bold leading-4 opacity-65">
-          {dateLabel}
-        </p>
-      ) : null}
-    </div>
-  );
-}
-
-function StoryStep({
-  text,
-  sender,
-  onComplete,
-}: {
-  text: string | null;
-  sender: string;
-  onComplete: () => void;
-}) {
-  const bubbles = useMemo(() => splitIntoBubbles(text), [text]);
-  const [visible, setVisible] = useState(() => Math.min(2, bubbles.length));
-  const scrollRef = useRef<HTMLDivElement | null>(null);
-  const latestRef = useRef<HTMLDivElement | null>(null);
-  const last = visible >= bubbles.length;
-
-  useEffect(() => {
-    if (visible <= 1) return;
-    const container = scrollRef.current;
-    if (!container) return;
-    window.requestAnimationFrame(() => {
-      container.scrollTo({ top: container.scrollHeight, behavior: "smooth" });
-      latestRef.current?.focus({ preventScroll: true });
-    });
-  }, [visible]);
-
-  function readNext() {
-    if (last) onComplete();
-    else setVisible((current) => Math.min(current + 1, bubbles.length));
-  }
-
-  return (
-    <div className="flex min-h-0 flex-1 flex-col">
-      <h2 className="shrink-0 pb-3 font-display text-lg uppercase leading-6 tracking-[-0.01em]">
-        Cerita dari {sender}
-      </h2>
-      <div
-        ref={scrollRef}
-        className="no-scrollbar min-h-[300px] max-h-[360px] space-y-3 overflow-y-auto overscroll-contain pb-3 pr-1"
-        aria-live="polite"
-      >
-        {bubbles.slice(0, visible).map((bubble, index) => (
-          <div
-            key={`${index}-${bubble}`}
-            ref={index === visible - 1 ? latestRef : undefined}
-            data-story-bubble
-            tabIndex={-1}
-            className={`animate-pop-in break-words rounded-2xl border-4 border-ink px-3.5 py-3 text-[13px] font-bold leading-[1.55] text-ink shadow-[5px_5px_0_0_#111] focus:outline-none ${
-              index % 2 === 0 ? "mr-7 bg-paper" : "ml-7 bg-lime"
-            }`}
-          >
-            {bubble}
-          </div>
-        ))}
-      </div>
-      <div className="shrink-0 pt-3 text-center">
-        <button type="button" onClick={readNext} className={`${actionClass} max-w-[214px]`}>
-          {last ? "Selesai baca" : "Lanjut baca"}
-          <ArrowRightIcon className="size-4" />
-        </button>
-      </div>
-    </div>
-  );
-}
-
-function LetterStep({
-  text,
   voiceUrl,
   onContinue,
 }: {
-  text: string;
+  story: string | null;
+  letter: string | null;
+  recipient: string;
+  sender: string;
   voiceUrl: string | null;
   onContinue: () => void;
 }) {
-  const bubbles = useMemo(() => splitIntoBubbles(text), [text]);
+  const storyBubbles = useMemo(() => splitIntoBubbles(story), [story]);
+  const fallbackLetter = `${recipient}, terima kasih sudah menjadi bagian dari cerita ini. Semoga setiap langkah berikutnya terasa lebih ringan. — ${sender}`;
+  const letterBubbles = useMemo(
+    () => splitIntoBubbles(letter?.trim() ? letter : fallbackLetter),
+    [letter, fallbackLetter],
+  );
+  const [visible, setVisible] = useState(() => Math.min(2, storyBubbles.length));
+  const [showLetter, setShowLetter] = useState(storyBubbles.length === 0);
+  const scrollRef = useRef<HTMLDivElement | null>(null);
+  const readingStory = storyBubbles.length > 0 && !showLetter;
+  const lastStory = visible >= storyBubbles.length;
+
+  useEffect(() => {
+    const container = scrollRef.current;
+    if (!container) return;
+    const frame = window.requestAnimationFrame(() => {
+      container.scrollTo({ top: container.scrollHeight, behavior: "smooth" });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [visible, showLetter]);
+
+  function readNext() {
+    if (!readingStory) {
+      onContinue();
+      return;
+    }
+    if (lastStory) setShowLetter(true);
+    else setVisible((current) => Math.min(current + 1, storyBubbles.length));
+  }
 
   return (
-    <div className="flex min-h-0 flex-1 flex-col">
+    <div className="flex min-h-0 flex-1 flex-col text-cream">
       <div className="shrink-0 text-center">
-        <span className="sticker -rotate-2 bg-candy px-3 py-1 text-[10px]">Surat untukmu</span>
-        <h2 className="mt-3 font-display text-2xl uppercase leading-7">Baca pelan-pelan, ya</h2>
+        <span className="sticker -rotate-2 bg-candy px-3 py-1 text-[10px] text-ink">
+          {readingStory ? "Cerita" : "Surat untukmu"}
+        </span>
+        <h2 className="mt-3 font-display text-2xl uppercase leading-7">
+          {readingStory ? `Dari ${sender}` : `Untuk ${recipient}`}
+        </h2>
       </div>
-      <div className="no-scrollbar mt-4 min-h-0 flex-1 space-y-2.5 overflow-y-auto overscroll-contain pb-3 pr-1">
-        {voiceUrl ? (
-          <div className="rounded-2xl border-[3px] border-ink bg-lime p-3 shadow-[3px_3px_0_0_#111]">
-            <p className="flex items-center gap-2 font-display text-[11px] uppercase">
-              <MusicIcon className="size-4" /> Pesan suara
-            </p>
-            <audio src={voiceUrl} controls preload="none" className="mt-2 h-10 w-full" />
-          </div>
+      <div
+        ref={scrollRef}
+        className="no-scrollbar mt-4 min-h-0 flex-1 space-y-2.5 overflow-y-auto overscroll-contain pb-3 pr-1"
+        aria-live="polite"
+      >
+        {readingStory
+          ? storyBubbles.slice(0, visible).map((bubble, index) => (
+              <div
+                key={`${index}-${bubble}`}
+                data-letter-bubble
+                className={`animate-pop-in break-words rounded-2xl border-4 border-ink px-3.5 py-3 text-[12px] font-bold leading-[1.55] text-ink shadow-[5px_5px_0_0_#FF8FB8] ${
+                  index % 2 === 0 ? "mr-5 bg-paper" : "ml-5 bg-lime"
+                }`}
+              >
+                {bubble}
+              </div>
+            ))
+          : null}
+        {showLetter ? (
+          <>
+            {voiceUrl ? (
+              <div className="rounded-2xl border-[3px] border-cream bg-paper p-3 text-ink shadow-[3px_3px_0_0_#FF8FB8]">
+                <p className="flex items-center gap-2 font-display text-[11px] uppercase">
+                  <MusicIcon className="size-4" /> Pesan suara
+                </p>
+                <audio src={voiceUrl} controls preload="none" className="mt-2 h-10 w-full" />
+              </div>
+            ) : null}
+            {letterBubbles.map((bubble, index) => (
+              <div
+                key={`${index}-${bubble}`}
+                data-letter-bubble
+                className={`animate-pop-in break-words rounded-2xl border-4 border-ink px-3.5 py-3 text-[12px] font-bold leading-[1.55] text-ink shadow-[5px_5px_0_0_#FF8FB8] ${
+                  index % 2 === 0 ? "mr-5 bg-paper" : "ml-5 bg-candy"
+                }`}
+              >
+                {bubble}
+              </div>
+            ))}
+          </>
         ) : null}
-        {bubbles.map((bubble, index) => (
-          <div
-            key={`${index}-${bubble}`}
-            data-letter-bubble
-            className={`break-words rounded-2xl border-4 border-ink px-3.5 py-3 text-[12px] font-bold leading-[1.55] text-ink shadow-[5px_5px_0_0_#111] ${
-              index % 2 === 0 ? "mr-5 bg-paper" : "ml-5 bg-lime"
-            }`}
-          >
-            {bubble}
-          </div>
-        ))}
       </div>
       <div className="shrink-0 pt-3 text-center">
-        <button type="button" onClick={onContinue} className={actionClass}>
-          Lanjut <ArrowRightIcon className="size-4" />
+        <button
+          type="button"
+          onClick={readNext}
+          className={`${actionClass} bg-lime text-ink shadow-[6px_6px_0_0_#FF8FB8]`}
+        >
+          {readingStory ? (lastStory ? "Buka surat" : "Lanjut baca") : "Lanjut"}
+          <ArrowRightIcon className="size-4" />
         </button>
       </div>
     </div>
@@ -419,35 +460,133 @@ const AFFIRMATIVE: Record<SurprisePage["moment"], string> = {
   wisuda: "Bangga banget!",
 };
 
+const SECONDARY: Record<SurprisePage["moment"], string> = {
+  pengakuan: "Butuh waktu",
+  "ulang-tahun": "Simpan doanya",
+  anniversary: "Butuh waktu",
+  "minta-maaf": "Butuh waktu",
+  wisuda: "Peluk aku",
+};
+
 function QuestionStep({
   moment,
   question,
+  dateLabel,
   onAnswer,
 }: {
   moment: SurprisePage["moment"];
   question: string;
+  dateLabel: string | null;
   onAnswer: () => void;
 }) {
+  const containerRef = useRef<HTMLDivElement | null>(null);
+  const [attempts, setAttempts] = useState(0);
+  const [position, setPosition] = useState({ x: 130, y: 0 });
+
+  function avoid() {
+    setAttempts((current) => current + 1);
+    const container = containerRef.current;
+    if (!container) return;
+    const nextPosition = getAvoidPosition(container.clientWidth);
+    setPosition({
+      x: Math.min(nextPosition.x, Math.max(0, container.clientWidth - 131)),
+      y: nextPosition.y,
+    });
+  }
+
   return (
-    <div className="flex flex-1 flex-col items-center justify-center text-center">
-      <span className="sticker -rotate-2 bg-sun px-3 py-1.5 text-[10px]">Satu pertanyaan</span>
-      <HeartIcon className="mt-7 size-14 text-tangerine" />
-      <h2 className="mt-5 break-words font-display text-[1.9rem] uppercase leading-[1.05] tracking-[-0.02em]">
-        {question}
-      </h2>
-      <div className="mt-8 w-full space-y-4">
-        <button type="button" onClick={onAnswer} className={`${actionClass} max-w-none bg-lime text-ink shadow-[6px_6px_0_0_#111]`}>
-          <HeartIcon className="size-4" />
-          {AFFIRMATIVE[moment]}
-        </button>
-        <button
-          type="button"
-          onClick={onAnswer}
-          className="flex min-h-11 w-full items-center justify-center rounded-xl border-[3px] border-ink bg-paper px-4 font-display text-xs uppercase text-ink shadow-[3px_3px_0_0_#111] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink"
+    <div className="no-scrollbar flex min-h-0 flex-1 flex-col items-center overflow-y-auto py-2 text-center">
+      <span className="sticker -rotate-2 bg-sun px-3 py-1.5 text-[10px] text-ink">
+        Satu pertanyaan
+      </span>
+      {moment === "ulang-tahun" ? <BirthdayCandles /> : <HeartIcon className="mt-6 size-12 text-tangerine" />}
+      <div className="mt-4 w-full rounded-2xl border-4 border-ink bg-paper px-4 py-5 text-center text-ink shadow-[6px_6px_0_0_#111]">
+        <h2 className="break-words font-display text-[1.7rem] uppercase leading-[1.05] tracking-[-0.02em]">
+          {question}
+        </h2>
+        {dateLabel ? (
+          <p className="mt-3 border-t-2 border-dashed border-ink pt-3 text-[11px] font-bold leading-4">
+            {dateLabel}
+          </p>
+        ) : null}
+        <div
+          ref={containerRef}
+          className={`relative mt-5 w-full ${moment === "pengakuan" ? "h-[144px]" : "space-y-3"}`}
         >
-          Butuh waktu
-        </button>
+          <button
+            type="button"
+            onClick={onAnswer}
+            className={`${actionClass} max-w-none bg-lime text-ink shadow-[6px_6px_0_0_#111]`}
+          >
+            <HeartIcon className="size-4" />
+            {AFFIRMATIVE[moment]}
+          </button>
+          <button
+            type="button"
+            onClick={moment === "pengakuan" ? avoid : onAnswer}
+            onPointerEnter={(event) => {
+              if (moment === "pengakuan" && event.pointerType !== "touch") avoid();
+            }}
+            onPointerDown={moment === "pengakuan" ? avoid : undefined}
+            onPointerUp={(event) => {
+              if (moment === "pengakuan" && event.pointerType === "touch") avoid();
+            }}
+            className={`flex min-h-11 w-full items-center justify-center rounded-xl border-[3px] border-ink bg-paper px-4 font-display text-xs uppercase text-ink shadow-[3px_3px_0_0_#111] focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink ${
+              moment === "pengakuan"
+                ? "absolute left-0 top-0 touch-none transition-all duration-200"
+                : ""
+            }`}
+            style={
+              moment === "pengakuan"
+                ? { left: position.x, top: position.y, touchAction: "none" }
+                : undefined
+            }
+          >
+            {moment === "pengakuan" ? getNegativeLabel(attempts) : SECONDARY[moment]}
+          </button>
+        </div>
       </div>
+    </div>
+  );
+}
+
+function BirthdayCandles() {
+  const [blown, setBlown] = useState(false);
+
+  return (
+    <div className="mt-5 text-center">
+      <svg aria-hidden="true" viewBox="0 0 180 120" className="mx-auto h-[104px] w-[180px]">
+        <path d="M28 85h124v25H28z" fill="#FF8FB8" stroke="#111" strokeWidth="4" />
+        <path d="M28 85c14-18 32-18 46 0 18-22 38-22 54 0 10-12 20-12 24 0" fill="#FFF4E0" stroke="#111" strokeWidth="4" />
+        <path d="M40 110h100" stroke="#111" strokeWidth="4" strokeLinecap="round" />
+        {[62, 90, 118].map((x) => (
+          <g key={x}>
+            <rect x={x - 5} y="48" width="10" height="35" rx="2" fill="#B6F22E" stroke="#111" strokeWidth="3" />
+            {blown ? (
+              <path d={`M${x} 43c-9-8 7-11 0-20`} fill="none" stroke="#FFF4E0" strokeWidth="3" strokeLinecap="round" />
+            ) : (
+              <path
+                d={`M${x} 46c-10-9 2-17 0-25 9 8 12 15 0 25Z`}
+                fill="#FF6A3D"
+                stroke="#111"
+                strokeWidth="2.5"
+                className="animate-float-soft"
+              />
+            )}
+          </g>
+        ))}
+      </svg>
+      <button
+        type="button"
+        onClick={() => setBlown(true)}
+        disabled={blown}
+        className="mt-2 min-h-9 rounded-xl border-[3px] border-ink bg-lime px-4 font-display text-[11px] uppercase text-ink shadow-[3px_3px_0_0_#111] disabled:cursor-default disabled:bg-paper"
+      >
+        {blown ? "Lilin sudah padam" : "Tiup lilin"}
+      </button>
+      <span className="sr-only" aria-live="polite">
+        {blown ? "Lilin berhasil dipadamkan." : ""}
+      </span>
     </div>
   );
 }
@@ -465,19 +604,19 @@ function ClosingStep({
 }) {
   return (
     <div className="flex flex-1 flex-col items-center justify-center text-center">
-      <div className="relative grid size-28 place-items-center rounded-full border-4 border-ink bg-candy shadow-[6px_6px_0_0_#111]">
-        <HeartIcon className="size-14" />
+      <div className="relative grid size-24 place-items-center rounded-full border-4 border-ink bg-candy shadow-[6px_6px_0_0_#111]">
+        <HeartIcon className="size-12" />
         <SparkleIcon className="absolute -right-5 -top-2 size-7 text-sun" />
         <SparkleIcon className="absolute -left-6 bottom-2 size-5 text-paper" />
       </div>
-      <h2 className="mt-7 break-words font-display text-[2rem] uppercase leading-[0.98] tracking-[-0.03em]">
+      <h2 className="mt-6 break-words font-display text-[1.8rem] uppercase leading-[0.98] tracking-[-0.03em]">
         Sampai jumpa, {recipient}!
       </h2>
       <p className="mt-4 max-w-[240px] text-[13px] font-bold leading-5">
         Terima kasih sudah baca sampai sini. Ada banyak hal baik yang masih menunggu kalian.
       </p>
-      <p className="mt-5 font-display text-sm uppercase">— {sender}</p>
-      <div className="mt-7 w-full max-w-[230px] space-y-3">
+      <p className="mt-4 font-display text-sm uppercase">— {sender}</p>
+      <div className="mt-6 w-full max-w-[230px] space-y-3">
         <Link
           href={isExample ? "/buat" : "/"}
           className={`${actionClass} max-w-none bg-lime text-ink shadow-[6px_6px_0_0_#111]`}

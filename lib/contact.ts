@@ -1,2 +1,1 @@
-export const CONTACT_EMAIL =
-  process.env.CONTACT_EMAIL?.trim() || "maidiladha59@gmail.com";
+export const CONTACT_EMAIL = process.env.NEXT_PUBLIC_CONTACT_EMAIL?.trim() || "";

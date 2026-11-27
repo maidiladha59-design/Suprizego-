@@ -1,11 +1,14 @@
+import { EyeIcon, HeartIcon } from "@/components/ui/icons";
 import type { DemoActivity, DemoActivityKind } from "@/lib/demo-flow";
 
-const EMOJIS: Record<DemoActivityKind, string> = {
-  open: "👀",
-  quiz: "🎮",
-  date: "🎮",
-  yes: "💚",
-};
+function ActivityIcon({ kind }: { kind: DemoActivityKind }) {
+  switch (kind) {
+    case "open":
+      return <EyeIcon className="size-5 shrink-0" />;
+    case "yes":
+      return <HeartIcon className="size-5 shrink-0" />;
+  }
+}
 
 export function DemoSenderPanel({ activities }: { activities: DemoActivity[] }) {
   return (
@@ -19,7 +22,7 @@ export function DemoSenderPanel({ activities }: { activities: DemoActivity[] }) 
 
       <div aria-live="polite">
         {activities.length === 0 ? (
-          <p className="mt-3 rounded-xl border-2 border-dashed border-ink/40 px-3 py-3 text-sm font-bold opacity-70">
+          <p className="mt-3 rounded-xl border-2 border-dashed border-ink px-3 py-3 text-sm font-bold text-ink">
             Mainkan halaman contohnya. Tiap hal yang Sekar lakukan langsung muncul di sini
             dan bisa kamu pantau.
           </p>
@@ -30,7 +33,7 @@ export function DemoSenderPanel({ activities }: { activities: DemoActivity[] }) 
                 key={activity.id}
                 className="demo-rise flex items-start gap-2 rounded-xl border-[3px] border-ink bg-paper px-3 py-2 text-sm font-bold shadow-[3px_3px_0_#111]"
               >
-                <span aria-hidden="true">{EMOJIS[activity.kind]}</span>
+                <ActivityIcon kind={activity.kind} />
                 <span className="min-w-0 break-words">{activity.text}</span>
               </li>
             ))}

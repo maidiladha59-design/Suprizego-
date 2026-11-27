@@ -10,5 +10,5 @@ export function SurpriseView({
   page: SurprisePage;
   contactEmail: string;
 }) {
-  return <SurpriseReader page={page} contactEmail={contactEmail} />;
+  return <SurpriseReader key={page.slug} page={page} contactEmail={contactEmail} />;
 }

@@ -1,37 +1,6 @@
 import { EDITOR_CONFIG, type EditorDesign } from "./editor";
-import { MAX_GAMES, getPlayableGames } from "./games";
 import type { MomentId } from "./moments";
-import { getPlan } from "./plans";
 import type { SurprisePage } from "./types";
-
-export const READER_STEP_IDS = [
-  "envelope",
-  "greeting",
-  "story",
-  "memories",
-  "games",
-  "letter",
-  "question",
-  "closing",
-] as const;
-
-export type ReaderStepId = (typeof READER_STEP_IDS)[number];
-
-export type ReaderStep = {
-  id: ReaderStepId;
-  order: number;
-};
-
-const STEP_ORDER: Record<ReaderStepId, number> = {
-  envelope: 1,
-  greeting: 2,
-  story: 3,
-  memories: 4,
-  games: 5,
-  letter: 6,
-  question: 7,
-  closing: 8,
-};
 
 const DEFAULT_QUESTIONS: Record<MomentId, string> = {
   pengakuan: "Mau jadi pacarku?",
@@ -71,29 +40,6 @@ export function splitIntoBubbles(text: string | null | undefined, maxLength = 22
       return trimmed.length > maxLength ? chunkText(trimmed, maxLength) : [trimmed];
     })
     .filter(Boolean);
-}
-
-export function getReaderSteps(page: SurprisePage): ReaderStep[] {
-  const available: Record<ReaderStepId, boolean> = {
-    envelope: true,
-    greeting: true,
-    story: splitIntoBubbles(page.story).length > 0,
-    memories: page.photoUrls.length > 0,
-    games:
-      getPlayableGames(
-        page.games ?? [],
-        page.photoUrls.length,
-        page.planId ? getPlan(page.planId).gameLimit : MAX_GAMES,
-      ).length > 0,
-    letter: Boolean(page.letter?.trim()),
-    question: true,
-    closing: true,
-  };
-
-  return READER_STEP_IDS.filter((id) => available[id]).map((id) => ({
-    id,
-    order: STEP_ORDER[id],
-  }));
 }
 
 export function getReaderQuestion(page: SurprisePage) {

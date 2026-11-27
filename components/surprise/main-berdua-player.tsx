@@ -2,6 +2,12 @@
 
 import { useMemo, useState, type ReactNode } from "react";
 import {
+  ArrowDownIcon,
+  ArrowRightIcon,
+  CheckIcon,
+  CloseIcon,
+} from "@/components/ui/icons";
+import {
   MAX_GAME_PHOTOS,
   getPlanChoices,
   getPlayableGames,
@@ -105,7 +111,11 @@ export function MainBerduaPlayer({
           onClick={continueReading}
           className="mt-5 h-14 w-full rounded-xl border-[3px] border-ink bg-ink px-4 font-display text-sm uppercase text-cream shadow-[4px_4px_0_0_#B6F22E] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-4 focus-visible:outline-lime active:translate-y-1 active:shadow-none"
         >
-          {onComplete ? "Lanjut →" : "Lanjut baca ↓"}
+          {onComplete ? (
+            <>Lanjut <ArrowRightIcon className="size-4" /></>
+          ) : (
+            <>Lanjut baca <ArrowDownIcon className="size-4" /></>
+          )}
         </button>
       </div>
     );
@@ -215,7 +225,10 @@ function NextButton({
           : "bg-lime text-ink shadow-[4px_4px_0_0_#111]"
       }`}
     >
-      {children}
+      <span className="inline-flex items-center justify-center gap-2">
+        {children}
+        <ArrowRightIcon className="size-4" />
+      </span>
     </button>
   );
 }
@@ -279,7 +292,7 @@ function QuizGameView({
       {showScore ? (
         <div className="relative overflow-hidden rounded-2xl border-[3px] border-ink bg-paper p-5 text-center shadow-[4px_4px_0_0_#111]">
           <Confetti />
-          <p className="relative text-[11px] font-bold uppercase tracking-[0.08em] text-ink/60">
+          <p className="relative text-[11px] font-bold uppercase tracking-[0.08em] text-ink-soft">
             Skor kamu
           </p>
           <p className="relative mt-2 font-display text-6xl leading-none">
@@ -288,11 +301,11 @@ function QuizGameView({
           <p className="relative mt-3 font-display text-xl uppercase leading-6">
             {rank}
           </p>
-          <p className="relative mt-2 text-[12px] font-bold leading-5 text-ink/75">
+          <p className="relative mt-2 text-[12px] font-bold leading-5 text-ink-soft">
             Skor ini bakal dikirim ke {sender}. Waktunya pamer.
           </p>
           <NextButton onClick={onAdvance} dark>
-            {isLast ? "Lanjut →" : "Game berikutnya →"}
+            {isLast ? "Lanjut" : "Game berikutnya"}
           </NextButton>
         </div>
       ) : (
@@ -302,16 +315,16 @@ function QuizGameView({
           <div className="mt-3 space-y-2">
             {question.choices.map((choice) => {
               let tone = "bg-white text-ink";
-              let mark = "";
+              let mark: ReactNode = null;
               if (selectedId) {
                 if (choice.correct) {
                   tone = "bg-lime text-ink";
-                  mark = " ✓";
+                  mark = <CheckIcon className="size-5" />;
                 } else if (choice.id === selectedId) {
                   tone = "bg-tangerine text-ink";
-                  mark = " ✕";
+                  mark = <CloseIcon className="size-5" />;
                 } else {
-                  tone = "bg-white text-ink opacity-50";
+                  tone = "border-dashed bg-sand text-ink-soft";
                 }
               }
 
@@ -324,7 +337,7 @@ function QuizGameView({
                   className={`flex min-h-[54px] w-full items-center justify-between gap-3 rounded-xl border-[3px] border-ink px-4 text-left text-sm font-bold leading-5 transition-transform focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink enabled:hover:-translate-y-0.5 disabled:cursor-default ${tone}`}
                 >
                   <span>{choice.text}</span>
-                  {mark ? <span className="shrink-0 font-display text-lg">{mark.trim()}</span> : null}
+                  {mark ? <span className="shrink-0">{mark}</span> : null}
                 </button>
               );
             })}
@@ -339,8 +352,8 @@ function QuizGameView({
               </p>
               <NextButton onClick={nextQuestion}>
                 {questionIndex >= questions.length - 1
-                  ? "Lihat skor →"
-                  : "Soal berikutnya →"}
+                  ? "Lihat skor"
+                  : "Soal berikutnya"}
               </NextButton>
             </div>
           ) : null}
@@ -389,7 +402,7 @@ function TruthGameView({
                 tone = "bg-tangerine text-ink";
                 mark = "BUKAN INI";
               } else {
-                tone = "bg-white text-ink opacity-50";
+                tone = "border-dashed bg-sand text-ink-soft";
               }
             }
 
@@ -418,7 +431,7 @@ function TruthGameView({
                 : `Hampir. Yang bohong: “${lie}”.`}
             </p>
             <NextButton onClick={onAdvance} dark>
-              {isLast ? "Lanjut →" : "Game berikutnya →"}
+              {isLast ? "Lanjut" : "Game berikutnya"}
             </NextButton>
           </div>
         ) : null}
@@ -475,21 +488,21 @@ function PlanGameView({
         </div>
       ) : (
         <div className="rounded-2xl border-[3px] border-ink bg-paper p-4 text-center shadow-[4px_4px_0_0_#111]">
-          <p className="text-[10px] font-bold uppercase tracking-[0.08em] text-ink/60">
+          <p className="text-[10px] font-bold uppercase tracking-[0.08em] text-ink-soft">
             Tiket janji · satu kali pakai
           </p>
           <div className="my-3 border-y-2 border-dashed border-ink/30 py-4">
             <p className="font-display text-2xl uppercase leading-7">{selected}</p>
             <p className="mt-2 text-sm font-bold">{recipient} + {sender}</p>
           </div>
-          <p className="text-[11px] font-bold leading-4 text-ink/70">
+          <p className="text-[11px] font-bold leading-4 text-ink">
             Nggak bisa dibatalkan, tapi bebas dijadwalkan.
           </p>
-          <p className="mt-1 text-[11px] font-bold leading-4 text-ink/70">
+          <p className="mt-1 text-[11px] font-bold leading-4 text-ink">
             {sender} bakal dapat kabar pilihanmu. Tinggal ditaguh.
           </p>
           <NextButton onClick={onAdvance} dark>
-            {isLast ? "Lanjut →" : "Game berikutnya →"}
+            {isLast ? "Lanjut" : "Game berikutnya"}
           </NextButton>
         </div>
       )}
@@ -559,11 +572,11 @@ function PhotoGameView({
       {done ? (
         <div className="rounded-2xl border-[3px] border-ink bg-paper p-5 text-center shadow-[4px_4px_0_0_#111]">
           <p className="font-display text-2xl uppercase leading-7">Urutan versimu siap.</p>
-          <p className="mt-2 text-sm font-bold leading-5 text-ink/70">
+          <p className="mt-2 text-sm font-bold leading-5 text-ink">
             Nggak ada jawaban salah di sini. Yang penting versimu.
           </p>
           <NextButton onClick={onAdvance} dark>
-            {isLast ? "Lanjut →" : "Game berikutnya →"}
+            {isLast ? "Lanjut" : "Game berikutnya"}
           </NextButton>
         </div>
       ) : (
@@ -611,7 +624,7 @@ function PhotoGameView({
               onClick={() => setDone(true)}
               className="h-12 flex-1 rounded-xl border-[3px] border-ink bg-lime px-3 font-display text-[11px] uppercase text-ink shadow-[3px_3px_0_0_#111] transition-transform hover:-translate-y-0.5 focus-visible:outline-3 focus-visible:outline-offset-2 focus-visible:outline-ink"
             >
-              Selesai →
+              Selesai <ArrowRightIcon className="size-4" />
             </button>
           </div>
         </div>
